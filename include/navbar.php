@@ -78,7 +78,7 @@
 <div class="w-full menu-nav flex flex-col items-center bg-white  justify-center   shadow-sm sticky  top-0 z-[999] ">
 
 
-    <div class="w-full bg-black flex items-center justify-between p-1  max-lg:hidden relative">
+    <!-- <div class="w-full bg-black flex items-center justify-between p-1  max-lg:hidden relative">
         <div class="flex items-center justify-between w-[95%]">
             <div>
                 <h2 class="text-gray-800 text-2xl font-bold tracking-wider"></h2>
@@ -88,13 +88,13 @@
                     <li><a href="/web-calculator" class="<?= ($page_title == "web-calculator") ? 'text-blue-200 font-normal' : 'text-white ' ?>   transition-all cursor-pointer">Website Calculator</a></li>
                     <li><a href="/packages" class=" <?= ($page_title == "packages") ? 'text-blue-200 font-normal' : 'text-white ' ?>  transition-all cursor-pointer">Packages</a></li>
                     <li><a href="/client" class=" <?= ($page_title == "client") ? 'text-blue-200 font-normal' : 'text-white ' ?>  transition-all cursor-pointer">Clients</a></li>
-                    <!-- <li><a href="/testimonial" class="text-white hover:text-blue-500 transition-all cursor-pointer">Testimonial</a></li> -->
+                    <li><a href="/testimonial" class="text-white hover:text-blue-500 transition-all cursor-pointer">Testimonial</a></li>
                     <li><a href="/getquote" class="<?= ($page_title == "getquote") ? 'text-blue-200 font-normal' : 'text-white ' ?>  transition-all cursor-pointer">Get A Quote</a></li>
                 </ul>
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <nav class="flex items-center justify-between py-2 max-lg:py-6 z-10 relative w-[90%] ">
@@ -416,11 +416,12 @@
                     class="
                     <?= ($page_title == "portfolio") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Portfolio</a>
                 <!-- <a href="#" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'brands.php') ? 'text-blue-600 hover:text-blue-500' : 'text-gray-800 hover:text-blue-600'; ?> font-medium transition-colors duration-300">Brands</a>-->
-                <a href="/media"
-                    class="<?= ($page_title == "media") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Media</a>
+                <!-- <a href="/media"
+                    class="<?= ($page_title == "media") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Media</a> -->
                 <a href="/career"
                     class="<?= ($page_title == "career") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Career</a>
 
+                <a href="/client" class=" <?= ($page_title == "client") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Clients</a>
             </div>
         </div>
 
@@ -433,7 +434,7 @@
 
                 <span class="absolute inset-0 bg-blue-600 w-0 group-hover:w-full transition-all duration-500  z-0"></span>
 
-                <span class="relative z-10">Book Oppointment</span>
+                <span class="relative z-10">Get In Touch</span>
                 <span class="relative z-10 arrow-icon">
                     <i class="fa-solid fa-arrow-right"></i>
                 </span>

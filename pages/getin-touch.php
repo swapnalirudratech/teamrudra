@@ -165,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-phone text-blue-600"></i>
-                            <p class="font-normal">+91-720 834 4434 +91-706 691 7390</p>
+                            <p class="font-normal">+91-720 834 4434 </p>
                         </div>
 
                         <div class="flex items-center gap-3">
@@ -190,7 +190,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <input type="text" name="referral" placeholder="How did you hear about us?" class="p-2 border rounded w-full col-span-2" />
                         </div>
 
-                        <div>
+                        <!-- <div>
                             <label class="block font-medium mb-1">Services*</label>
                             <div class="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-1 max-h-32 overflow-y-auto border rounded p-2 text-xs">
                                 <label><input type="checkbox" name="services[]" value="SEO" class="mr-1">SEO</label>
@@ -209,7 +209,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <label><input type="checkbox" name="services[]" value="ADA Compliance" class="mr-1">ADA Compliance</label>
                                 <label><input type="checkbox" name="services[]" value="Link Building" class="mr-1">Link Building</label>
                             </div>
+                        </div> -->
+                        <div>
+                            <label class="block font-medium mb-1">Which service do you want? *</label>
+                            <textarea
+                                name="services[]"
+                                rows="3"
+                                placeholder="e.g. SEO, PPC, Web Design"
+                                class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                required></textarea>
                         </div>
+
+
 
                         <textarea name="business_description" rows="3" placeholder="Tell us about your business" class="w-full p-2 border rounded"></textarea>
 
@@ -218,7 +229,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <label for="consent">I consent to receive notifications and promotional messages</label>
                         </div>
 
-                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2 rounded uppercase text-xs tracking-wide">Send</button>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2 rounded uppercase text-xs tracking-wide">Submit</button>
 
                         <p class="text-center text-xs mt-3">
                             In a hurry? <a href="tel:+918123456789" class="text-blue-600 font-semibold">Call us at +91-720 834 4434</a>
@@ -234,7 +245,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     <?php include "include/footer.php"; ?>
- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.querySelector('form').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -279,8 +290,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             } catch (error) {
                 Swal.close();
                 Swal.fire({
-                   
-                  
+
+
                     text: ' Please check your mobile number.',
                     confirmButtonColor: '#e11d48'
                 });
