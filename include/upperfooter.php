@@ -87,7 +87,23 @@ Our No-Code products have you coveblue
 
 
 
+<style>
+    @keyframes shimmer {
+        100% {
+            transform: translateX(100%);
+        }
+    }
 
+    .typing-cursor {
+        animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+</style>
 
 
 <div class="w-full bg-gray-800">
@@ -152,12 +168,44 @@ Our No-Code products have you coveblue
             </div>
 
             <!-- GIF Block Instead of Code -->
-            <!-- <div class="w-full md:w-2/3 p-4 sm:p-6 rounded-xl shadow-lg">
-        <img src="/asset/image/giphy.webp" alt="RudraTech API Demo" class="rounded-lg w-full h-auto object-contain" />
-    </div> -->
+            <div class="w-full md:w-2/3 p-4 sm:p-6 ">
+                <div class="relative w-full  bg-gray-900/80  border border-gray-700 px-20 py-10 transform  transition duration-700">
+                    <div class="flex items-center gap-2 mb-6 opacity-50">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="font-mono text-sm space-y-2">
+                        <p class="text-pink-400">class <span class="text-yellow-300">RudraEngine</span> extends <span class="text-yellow-300">Intelligence</span> {</p>
+                        <p class="text-gray-300 pl-4">constructor() {</p>
+                        <p class="text-blue-400 pl-8">this.efficiency = <span class="text-green-400">'100%'</span>;</p>
+                        <p class="text-blue-400 pl-8">this.security = <span class="text-green-400">'Enterprise-Grade'</span>;</p>
+                        <p class="text-gray-300 pl-4">}</p>
+                        <p class="text-purple-400 pl-4">function <span class="text-blue-300">optimizeGrowth</span>() {</p>
+                        <p class="text-gray-500 pl-8">// Executing automated scaling...</p>
+                        <p class="text-green-400 pl-8 typing-cursor">return true; |</p>
+                        <p class="text-purple-400 pl-4">}</p>
+                        <p class="text-pink-400">}</p>
+                    </div>
+
+                    <div class="absolute -right-8 top-10 bg-white text-black p-4 rounded-lg shadow-xl animate-bounce" style="animation-duration: 3s;">
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-2 rounded-full text-green-600">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-gray-500 uppercase">System Status</p>
+                                <p class="font-bold">Online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Video Block Instead of Code -->
-            <div class="w-full md:w-2/3 p-4 sm:p-6 rounded-xl max-md:p-0">
+            <!-- <div class="w-full md:w-2/3 p-4 sm:p-6 rounded-xl max-md:p-0">
                 <div class="w-full p-2 bg-gray-900 shadow-lg">
                     <video
                         src="/"
@@ -167,7 +215,7 @@ Our No-Code products have you coveblue
                         playsinline
                         class="rounded-lg w-full h-auto object-contain  "></video>
                 </div>
-            </div>
+            </div> -->
 
 
         </section>
