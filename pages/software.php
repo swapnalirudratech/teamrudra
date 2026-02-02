@@ -773,6 +773,291 @@ $page_title = "software";
     </section>
 
 
+
+    <section class="py-24 bg-white border-b border-gray-100">
+        <div class="w-[80%] mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 text-purple-600 text-xs font-bold uppercase mb-6">
+                        <i class="fas fa-code"></i> Custom Development
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+                        Build Your Own <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Exam Platform</span>
+                    </h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Just like <strong>The Constitution Study</strong>, we build high-end educational apps. Feature-rich platforms with live exams, AI proctoring, and instant certification.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 flex-shrink-0">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">AI Face Detection</h4>
+                                <p class="text-sm text-gray-500">Prevents cheating by monitoring the candidate's face via camera.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 flex-shrink-0">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Instant Results & Ranking</h4>
+                                <p class="text-sm text-gray-500">Auto-calculation of score, negative marking, and global leaderboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-purple-100 to-blue-50 rounded-full opacity-50 blur-3xl"></div>
+                    <img src="/asset/software/exam.jpg" alt="Exam App UI" class="relative z-10 rounded-2xl shadow-2xl border border-gray-100 w-full transform hover:scale-[1.02] transition duration-500">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gray-50 border-b border-gray-100">
+        <div class="w-[80%] mx-auto text-center">
+
+            <h2 class="text-3xl font-bold text-gray-900 mb-16">User Interface <span class="text-purple-600">Overview</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+
+                <div class="group relative mx-auto w-[280px] h-[550px] bg-gray-900 rounded-[2.5rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <div class="w-full h-full bg-white relative overflow-hidden">
+                        <img src="/asset/software/c1 (2).jpeg" alt="Dashboard" class="w-full h-full object-fit">
+                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <span class="text-white font-bold bg-purple-600 px-4 py-2 rounded-full">Student Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative mx-auto w-[300px] h-[600px] bg-gray-900 rounded-[3rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden z-10 transform hover:scale-105 transition duration-300">
+                    <div class="w-full h-full bg-white relative overflow-hidden">
+                        <img src="/asset/software/c1 (1).jpeg" alt="Exam Screen" class="w-full h-full object-fit">
+                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <span class="text-white font-bold bg-blue-600 px-4 py-2 rounded-full">Live Exam</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative mx-auto w-[280px] h-[550px] bg-gray-900 rounded-[2.5rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <div class="w-full h-full bg-white relative overflow-hidden">
+                        <img src="/asset/software/c1 (3).jpeg" alt="Result" class="w-full h-full object-fit">
+                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <span class="text-white font-bold bg-green-600 px-4 py-2 rounded-full">Scorecard</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="w-[80%] mx-auto">
+
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Experience the <span class="text-purple-600">Smart Exam Logic</span></h2>
+                <p class="text-gray-500 mt-2">Watch the AI automatically detect face, submit answer, and declare the result.</p>
+            </div>
+
+            <div class="relative bg-gray-900 rounded-2xl shadow-2xl border-[10px] border-gray-800 aspect-[16/9] overflow-hidden max-w-4xl mx-auto">
+
+                <div class="w-full h-full bg-gray-100 relative font-sans" id="exam-sim-screen">
+
+                    <div class="absolute top-4 right-4 w-32 h-24 bg-black rounded border-2 border-gray-400 z-50 overflow-hidden shadow-lg">
+                        <div class="w-full h-full relative bg-gray-800 flex items-end justify-center">
+                            <div class="w-16 h-16 bg-gray-600 rounded-t-full"></div>
+                            <div class="absolute top-0 w-full h-[2px] bg-green-500 shadow-[0_0_10px_#0f0] animate-[scan_2s_linear_infinite]"></div>
+                            <div class="absolute top-4 left-8 w-16 h-16 border-2 border-green-500 rounded hidden" id="face-box"></div>
+                        </div>
+                        <div class="absolute bottom-1 left-1 bg-red-600 text-white text-[8px] px-1 rounded animate-pulse">REC</div>
+                    </div>
+
+                    <div id="sim-scene-ques" class="absolute inset-0 p-10 flex flex-col justify-center transition-opacity duration-500">
+                        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 w-full max-w-2xl mx-auto">
+                            <span class="text-purple-600 font-bold text-xs uppercase mb-2 block">Question 1</span>
+                            <h3 class="text-xl font-bold text-gray-800 mb-6">
+                                When was the Constitution of India (Bhartiya Samvidhan) adopted?
+                            </h3>
+
+                            <div class="space-y-3">
+                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">A. 15 August 1947</div>
+                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white" id="correct-ans">B. 26 November 1949</div>
+                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">C. 26 January 1950</div>
+                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">D. 02 October 1948</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sim-scene-result" class="absolute inset-0 bg-white flex flex-col items-center justify-center opacity-0 transition-opacity duration-500 z-40">
+
+                        <div class="scale-0 transition-transform duration-500 delay-100" id="trophy-anim">
+                            <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                                <i class="fas fa-trophy text-5xl text-yellow-500 drop-shadow-md"></i>
+                            </div>
+                        </div>
+
+                        <h2 class="text-3xl font-extrabold text-gray-900 mb-2 translate-y-4 opacity-0 transition-all duration-500 delay-200" id="result-text">Congratulations!</h2>
+                        <p class="text-gray-500 mb-6 translate-y-4 opacity-0 transition-all duration-500 delay-300" id="result-sub">You have passed the exam.</p>
+
+                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 flex gap-8 translate-y-4 opacity-0 transition-all duration-500 delay-400" id="result-stats">
+                            <div class="text-center">
+                                <p class="text-xs text-gray-400 uppercase">Score</p>
+                                <p class="text-xl font-bold text-green-600">100%</p>
+                            </div>
+                            <div class="text-center border-l border-gray-300 pl-8">
+                                <p class="text-xs text-gray-400 uppercase">Rank</p>
+                                <p class="text-xl font-bold text-purple-600">#1</p>
+                            </div>
+                        </div>
+
+                        <div id="confetti-container" class="absolute inset-0 pointer-events-none overflow-hidden"></div>
+                    </div>
+
+                    <div id="sim-cursor" class="absolute top-0 left-0 w-6 h-6 z-50 drop-shadow-xl transition-all duration-700 ease-in-out">
+                        <svg class="w-full h-full text-black" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3.5 3.5L10 21.5L13.5 13.5L21.5 10L3.5 3.5Z" stroke="white" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cursor = document.getElementById('sim-cursor');
+            const correctAns = document.getElementById('correct-ans');
+            const faceBox = document.getElementById('face-box');
+            const sceneQues = document.getElementById('sim-scene-ques');
+            const sceneResult = document.getElementById('sim-scene-result');
+            const screen = document.getElementById('exam-sim-screen');
+
+            // Result Elements for animation
+            const trophy = document.getElementById('trophy-anim');
+            const resText = document.getElementById('result-text');
+            const resSub = document.getElementById('result-sub');
+            const resStats = document.getElementById('result-stats');
+
+            const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+            async function runExamSim() {
+                // 1. Reset
+                cursor.style.transform = `translate(10px, 10px)`;
+                sceneQues.style.opacity = '1';
+                sceneResult.style.opacity = '0';
+                sceneResult.style.zIndex = '-1';
+                faceBox.classList.add('hidden');
+                correctAns.classList.remove('bg-green-100', 'border-green-500', 'text-green-700');
+                correctAns.classList.add('bg-white', 'border-gray-200', 'text-gray-600');
+
+                // Reset Result Animations
+                trophy.classList.remove('scale-100');
+                trophy.classList.add('scale-0');
+                [resText, resSub, resStats].forEach(el => {
+                    el.classList.remove('translate-y-0', 'opacity-100');
+                    el.classList.add('translate-y-4', 'opacity-0');
+                });
+                document.getElementById('confetti-container').innerHTML = '';
+
+                await sleep(1000);
+
+                // 2. Face Detection Logic (Visual)
+                faceBox.classList.remove('hidden'); // Show green box on webcam
+                await sleep(1000);
+
+                // 3. Move Cursor to Answer
+                const rect = correctAns.getBoundingClientRect();
+                const screenRect = screen.getBoundingClientRect();
+                const x = rect.left - screenRect.left + rect.width / 2;
+                const y = rect.top - screenRect.top + rect.height / 2;
+
+                cursor.style.transform = `translate(${x}px, ${y}px)`;
+                await sleep(800);
+
+                // 4. Click Action
+                correctAns.classList.remove('bg-white', 'border-gray-200', 'text-gray-600');
+                correctAns.classList.add('bg-green-100', 'border-green-500', 'text-green-700'); // Turn Green
+                cursor.style.transform = `translate(${x-5}px, ${y+5}px)`; // Click dip
+                await sleep(200);
+                cursor.style.transform = `translate(${x}px, ${y}px)`;
+
+                await sleep(1000);
+
+                // 5. Show Result Screen
+                sceneQues.style.opacity = '0';
+                sceneResult.style.zIndex = '40';
+                sceneResult.style.opacity = '1';
+
+                // 6. Trigger Result Elements Animation
+                await sleep(200);
+                trophy.classList.remove('scale-0');
+                trophy.classList.add('scale-100');
+
+                await sleep(200);
+                resText.classList.remove('translate-y-4', 'opacity-0');
+                resText.classList.add('translate-y-0', 'opacity-100');
+
+                await sleep(100);
+                resSub.classList.remove('translate-y-4', 'opacity-0');
+                resSub.classList.add('translate-y-0', 'opacity-100');
+
+                await sleep(100);
+                resStats.classList.remove('translate-y-4', 'opacity-0');
+                resStats.classList.add('translate-y-0', 'opacity-100');
+
+                // 7. Confetti Explosion
+                createConfetti();
+
+                // 8. Loop
+                await sleep(5000);
+                runExamSim();
+            }
+
+            function createConfetti() {
+                const container = document.getElementById('confetti-container');
+                const colors = ['#a855f7', '#22c55e', '#3b82f6', '#facc15', '#ef4444'];
+
+                for (let i = 0; i < 50; i++) {
+                    const conf = document.createElement('div');
+                    conf.classList.add('absolute', 'w-2', 'h-2', 'rounded-full');
+                    conf.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    conf.style.left = Math.random() * 100 + '%';
+                    conf.style.top = '-10px';
+                    // Random fall animation
+                    conf.style.animation = `fall ${Math.random() * 2 + 1}s linear forwards`;
+                    container.appendChild(conf);
+                }
+            }
+
+            // Add Style for Confetti fall
+            const style = document.createElement('style');
+            style.innerHTML = `
+            @keyframes fall {
+                to { transform: translateY(500px) rotate(720deg); opacity: 0; }
+            }
+            @keyframes scan {
+                0%, 100% { top: 0%; }
+                50% { top: 100%; }
+            }
+        `;
+            document.head.appendChild(style);
+
+            runExamSim();
+        });
+    </script>
+
+
+
     <section class="py-20 bg-[#172010] text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Ready for the Future?</h2>
         <div class="flex justify-center gap-4">
