@@ -559,6 +559,23 @@ $page_title = "home";
         padding: 4rem 0;
         /* Add spacing */
     }
+
+    /* Custom floating animation */
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0px) translateX(0px);
+        }
+
+        50% {
+            transform: translateY(-10px) translateX(5px);
+        }
+    }
+
+    .animate-float {
+        animation: float 4s ease-in-out infinite;
+    }
 </style>
 
 
@@ -566,7 +583,77 @@ $page_title = "home";
 
     <?php include "./include/navbar.php" ?>
 
-    <section class="relative bg-white pb-10 lg:py-24 max-lg:pt-10 overflow-hidden">
+    <section class="bg-white h-[60vh] py-28 flex items-center justify-center overflow-hidden">
+
+        <div class="relative scale-75 md:scale-100">
+
+            <div class="absolute inset-0 -z-10 grid grid-cols-7 gap-4 opacity-30">
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+            </div>
+
+            <h1 class="text-[12rem] font-bold tracking-tighter text-gray-900 select-none">
+                Rudra Tech
+            </h1>
+
+            <div class="absolute -bottom-4 left-10 animate-float" style="animation-delay: 0s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=1" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Strategist
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute -top-12 left-64 animate-float" style="animation-delay: 1s;">
+                <div class="flex flex-col items-center">
+                    <div class="bg-[#B6FF69] text-black px-4 py-1 text-sm font-bold rounded mb-2 shadow-md">
+                        Manager
+                    </div>
+                    <img src="https://i.pravatar.cc/150?u=2" class="w-14 h-14 rounded-full border-4 border-[#B6FF69] shadow-xl">
+                </div>
+            </div>
+
+            <div class="absolute -bottom-10 left-[45%] animate-float" style="animation-delay: 0.5s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=3" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Designer
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute -top-10 right-80 animate-float" style="animation-delay: 1.5s;">
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm mb-2 flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Developer
+                    </div>
+                    <img src="https://i.pravatar.cc/150?u=4" class="w-12 h-12 rounded-full border-2 border-white shadow-lg">
+                </div>
+            </div>
+
+            <div class="absolute -bottom-4 right-40 animate-float" style="animation-delay: 2s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=5" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Marketer
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="relative bg-white pb-10 lg:pt-14 lg:pb-24 max-lg:pt-10 overflow-hidden">
         <div class="max-md:w-[85%] w-[80%]  mx-auto grid max-lg:grid-cols-1 grid-cols-2 items-center gap-16 max-lg:gap-0">
 
 
