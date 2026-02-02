@@ -22,6 +22,12 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/software-development.php",
     ],
+
+      [
+        "route" => "/software",
+        "method" => ["GET", "POST"],
+        "page" => "pages/software.php",
+    ],
     [
         "route" => "/portfolio",
         "method" => ["GET", "POST"],

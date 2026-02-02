@@ -1,91 +1,88 @@
 <?php
-$page_title = "client"
+$page_title = "Our Clients | RudraTech IT Service";
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
 <?php include "include/header.php"; ?>
 
-<body>
+<body class="font-sans text-gray-800 antialiased">
 
     <?php include "include/navbar.php" ?>
 
+    <section class="relative w-full h-[60vh] lg:h-[70vh] flex items-center bg-cover bg-center bg-fixed" style="background-image: url(/asset/pack-banr.jpg);">
+        <!-- <div class="absolute inset-0 bg-gray-900/60 mix-blend-multiply"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#172010]/90 to-transparent"></div> -->
 
-
-    <section class="w-full h-[85vh] max-lg:h-[30vh] bg-cover bg-center relative" style="background-image: url(/asset/pack-banr.jpg);">
-
-        <!-- Heading Content Left-Aligned -->
-        <div class="absolute inset-0 flex items-center max-lg:px-20 max-md:px-6 px-32">
-            <div class="text-left max-w-2xl">
-                <h2 class="max-md:text-xl max-lg:text-3xl max-lg:w-2/3  text-4xl lg-text-5xl xl:text-6xl font-extrabold text-white leading-tight">
-                    Welcome to Our Client Portal
-                </h2>
-                <p class="text-lg text-gray-200 mt-3 max-md:text-xs">
-                    Seamless collaboration starts here
-                </p>
-                <p class="mt-5 text-sm text-gray-300 max-w-md max-md:hidden">
-                    Access your project updates, manage your services, and communicate directly with our team.
+        <div class="relative z-10 w-[80%] mx-auto text-center md:text-left">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 drop-shadow-lg">
+                    Welcome to Our <span class="text-blue-500">Client Portal</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-200 leading-relaxed max-w-2xl drop-shadow-md">
+                    Seamless collaboration starts here. Access your project updates, manage your services, and communicate directly with our team.
                 </p>
             </div>
         </div>
     </section>
 
+    <section class="py-20 bg-white">
+        <div class="w-[80%] mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-    <section class="bg-white py-16 max-lg:py-12  w-full">
-        <div class="w-[80%] mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-12 items-center text-sm max-lg:w-[85%]">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        At <span class="text-blue-600">RudraTech IT Service</span>
+                    </h2>
+                    <div class="space-y-6 text-gray-600 text-lg leading-relaxed">
+                        <p>
+                            We take immense pride in being the trusted technology partner for a diverse range of clients. Our unwavering commitment to delivering innovative IT solutions has helped us earn the loyalty of those who believe in our expertise.
+                        </p>
+                        <div class="border-l-4 border-blue-600 pl-6 bg-blue-50 py-4 pr-4 rounded-r-lg">
+                            <p class="italic text-gray-800 font-medium">
+                                "At RudraTech, we believe that our clients' success is our success."
+                            </p>
+                        </div>
+                        <p>
+                            We’re humbled by the opportunity to collaborate with remarkable teams and organizations across industries.
+                        </p>
+                    </div>
+                </div>
 
-            <!-- Text Content -->
-            <div>
-                <h2 class="text-4xl max-md:text-2xl font-medium text-gray-800 mb-6">At RudraTech IT Service</h2>
-                <p class="text-gray-700 mb-4">
-                    We take immense pride in being the trusted technology partner for a diverse range of clients—startups, enterprises, and forward-thinking organizations. Our unwavering commitment to delivering innovative IT solutions has helped us earn the loyalty of those who believe in our expertise. Every project we take on is a reflection of our clients' bold ideas and our drive to push the boundaries of what technology can achieve.
-                </p>
-                <p class="text-gray-700 mb-6">
-                    At RudraTech, we believe that <strong class="text-black font-medium">our clients' success is our success</strong>. We thrive on building long-term partnerships founded on trust, transparency, and a passion for solving complex challenges with precision and creativity.
-                </p>
-                <h3 class="text-xl font-medium text-gray-800 mb-2">As We Move Forward</h3>
-                <p class="text-gray-700">
-                    We’re humbled by the opportunity to collaborate with remarkable teams and organizations across industries. Every project is a shared journey of innovation, where we blend strategic thinking with technical brilliance to bring bold digital visions to life—leaving a lasting impact in the tech world.
-                </p>
-            </div>
+                <div class="relative group">
+                    <div class="absolute top-4 left-4 w-full h-full border-2 border-blue-600 rounded-2xl z-0 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
 
-            <!-- Image with Creative Frame -->
-            <div class="relative group">
-                <div class="overflow-hidden rounded-2xl  transform transition duration-300 group-hover:scale-105">
-                    <img src="/asset/team2.png" alt="Team working creatively" class="w-full max-lg:h-[30vh] object-contain ">
+                    <div class="relative z-10 overflow-hidden rounded-2xl border bg-white">
+                        <img src="/asset/team2.png" alt="Team working" class="w-full h-auto object-cover transform transition duration-500 group-hover:scale-105">
+                    </div>
                 </div>
 
             </div>
-
         </div>
     </section>
 
+    <section class="py-24 bg-gray-50 relative overflow-hidden">
 
-    <!-- Client Showcase Section -->
-    <section class="py-20  bg-gradient-to-b from-gray-100 to-white relative overflow-hidden  max-lg:py-12 ">
-        <!-- Background Design Elements -->
-        <div class="absolute inset-0">
-            <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600 rounded-full opacity-10 translate-x-1/3 -translate-y-1/4 max-md:hidden"></div>
-            <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-800 rounded-full opacity-5 -translate-x-1/4 translate-y-1/4 max-md:hidden"></div>
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 translate-x-1/3 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -translate-x-1/2 translate-y-1/2"></div>
         </div>
 
-        <div class="w-[80%] mx-auto  relative z-10 max-md:w-[85%]">
+        <div class="w-[90%] mx-auto relative z-10">
 
-
-
-            <div class="text-center mb-8">
-                <h2 class="text-4xl max-md:text-2xl font-bold text-gray-800">A <span class="text-blue-600">Trusted Brand</span> in Tech Solutions</h2>
-                <div class="w-24 h-1 bg-blue-600 mx-auto my-3"></div>
-                <p class="text-gray-600 text-sm">Delivering excellence and innovation you can rely on.</p>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+                    A <span class="text-blue-600">Trusted Brand</span> in Tech Solutions
+                </h2>
+                <div class="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-500 max-w-2xl mx-auto">
+                    Delivering excellence and innovation you can rely on.
+                </p>
             </div>
 
-
             <?php
-            // Merge both your existing grid logos and carousel logos here
+            // Combined Logo Array
             $logos = [
-                // Now add the rest from your original carousel list
                 ["/asset/logos/mingyang-logo.jpg", "Mingyang"],
                 ["/asset/logos/fillit.jpg", "Fillit"],
                 ["/asset/logos/ayurlogo.jpg", "Ayur"],
@@ -132,120 +129,38 @@ $page_title = "client"
                 ["/asset/Y-cafe.png", "Y Cafe"],
                 ["/asset/Private-Court.png", "Private Court"],
                 ["/asset/Fairview.png", "Fairview"]
-
             ];
             ?>
 
-            <!-- All Clients Section -->
-            <div class="all-clients-carousel mb-16 max-md:mb-0">
-                <div class="grid max-md:grid-cols-3 grid-cols-4 gap-4 max-md:gap-2 ">
-                    <?php foreach ($logos as $logo): ?>
-                        <div class="flex items-center justify-center bg-white border border-gray-200 rounded-lg p-3 sm:p-4 h-24 sm:h-28 lg:h-32 transform transition-all duration-300 hover:shadow-md hover:shadow-blue-500/30">
-                            <img src="<?= $logo[0] ?>" alt="<?= htmlspecialchars($logo[1]) ?>"
-                                class="max-h-12 sm:max-h-14 lg:max-h-16 object-contain">
-                        </div>
-                    <?php endforeach; ?>
-                </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <?php foreach ($logos as $logo): ?>
+                    <div class="group bg-white border border-gray-100 rounded-lg p-4 flex items-center justify-center h-28 shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 relative overflow-hidden">
+
+                        <div class="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                        <img src="<?= $logo[0] ?>"
+                            alt="<?= htmlspecialchars($logo[1]) ?>"
+                            class="relative z-10 max-h-14 w-auto object-contain  transition-all duration-300 transform group-hover:scale-110">
+                    </div>
+                <?php endforeach; ?>
             </div>
+
         </div>
     </section>
 
+    <section class="py-16 bg-[#172010]">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to start your project?</h2>
+            <p class="text-gray-300 mb-8">Join our list of satisfied clients and let's build something great together.</p>
+            <a href="/getin-touch" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-md shadow-lg hover:bg-blue-700 hover:shadow-blue-900/50 transition duration-300 transform hover:-translate-y-1">
+                Contact Us Today
+            </a>
+        </div>
+    </section>
 
-    <script>
-        $(document).ready(function() {
-            // Featured Clients Carousel
-            $('.featublue-clients-carousel').owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: true,
-                dots: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplayHoverPause: true,
-                navText: [
-                    '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>',
-                    '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>'
-                ],
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 3
-                    },
-                    1200: {
-                        items: 4
-                    }
-                }
-            });
-
-
-
-
-        });
-    </script>
-
-    <!-- Add this CSS to your stylesheet -->
-    <style>
-        /* Owl Carousel Custom Navigation Styling */
-        .owl-nav button {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 44px;
-            height: 44px;
-            background-color: rgba(0, 0, 0, 0.5) !important;
-            border-radius: 50% !important;
-            display: flex !important;
-            align-items: center;
-            justify-content: center;
-            color: white !important;
-            transition: all 0.3s ease;
-        }
-
-        .owl-nav button:hover {
-            background-color: #DC2626 !important;
-            /* blue-600 */
-        }
-
-        .owl-nav button.owl-prev {
-            left: -22px;
-        }
-
-        .owl-nav button.owl-next {
-            right: -22px;
-        }
-
-        .owl-dots {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .owl-dots .owl-dot span {
-            width: 10px;
-            height: 10px;
-            margin: 5px;
-            background: rgba(255, 255, 255, 0.3);
-            display: block;
-            transition: all 0.3s ease;
-            border-radius: 30px;
-        }
-
-        .owl-dots .owl-dot.active span,
-        .owl-dots .owl-dot:hover span {
-            background: #DC2626;
-            /* blue-600 */
-        }
-    </style>
-
-
-
-   <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 
 </body>
 
