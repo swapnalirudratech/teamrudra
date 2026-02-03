@@ -1,38 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<style>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
+    /* Hide scrollbar */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
 
-        /* Hide scrollbar */
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
+    /* Smooth 'Snap' Animation Curve */
+    .snap-transition {
+        transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
 
-        /* Smooth 'Snap' Animation Curve */
-        .snap-transition {
-            transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-        }
-
-        /* Subtle Grid Background Pattern */
-        .bg-grid-pattern {
-            background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
-            background-size: 40px 40px;
-        }
-    </style>
-</head>
+    /* Subtle Grid Background Pattern */
+    .bg-grid-pattern {
+        background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+</style>
 
 <body class="bg-slate-50">
 
@@ -263,7 +251,7 @@
                 // We detect screen size via window width to set correct gap.
                 const isMobile = window.innerWidth < 1024;
                 const gap = isMobile ? 16 : 32;
-                
+
                 const scrollAmount = firstCard.offsetHeight + gap;
 
                 // 2. Slide the column up
@@ -302,5 +290,3 @@
     </script>
 
 </body>
-
-</html>

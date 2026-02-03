@@ -268,6 +268,7 @@ $page_title = "home";
     .service-item {
         animation: fadeInUp 0.6s ease forwards;
         opacity: 0;
+        overflow: hidden;
     }
 
     .service-item:nth-child(1) {
@@ -284,6 +285,7 @@ $page_title = "home";
 
     .img-container {
         transition: transform 0.3s ease;
+        overflow: hidden;
     }
 
     .service-item:hover .img-container {
@@ -895,67 +897,131 @@ $page_title = "home";
         </div>
     </section>
 
-    <section class="bg-gray-50 py-20 max-lg:py-12 relative overflow-hidden" id="feature-section">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-100 rounded-full blur-3xl opacity-50 -z-10"></div>
+    <section class="py-24 relative overflow-hidden" id="feature-section">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-blue-100/60 rounded-full blur-3xl -z-10 pointer-events-none"></div>
 
-        <div class="container w-[90%] mx-auto">
+        <div class="container w-[90%] max-w-7xl mx-auto">
 
-            <div class="text-center mb-16 max-lg:mb-6">
-                <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800 tracking-wide">
-                    Powerful <span class="text-blue-600">Billing Software</span> Features
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
+                    Powerful <span class="text-blue-600">Billing Engine</span>
                 </h2>
-                <p class="mt-3 text-gray-600 text-sm max-w-2xl mx-auto">
-                    Click on any feature below to see how our intelligent billing engine simplifies your business operations.
+                <p class="mt-4 text-gray-500 text-lg max-w-2xl mx-auto">
+                    Explore the features that automate your finance operations. Click a card to preview.
                 </p>
             </div>
 
-            <div class="relative flex items-center justify-center max-lg:flex-col gap-8 w-full">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
 
-                <div class="flex flex-col items-end space-y-4 w-[25%] max-lg:w-full max-lg:items-center">
+                <div class="flex flex-col gap-6 w-full lg:w-1/4">
 
-
-                    <button onclick="updateFeature(0)" id="btn-0" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Real-Time Reports</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Monitor revenues, expenses, and payments in real-time with visual analytics.</p>
+                    <button onclick="updateFeature(0)" id="btn-0" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
+                            <div class="flex-1 text-right lg:text-right">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Real-Time Reports</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Track revenue & cash flow instantly with visual graphs.</p>
+                            </div>
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </button>
 
-                    <button onclick="updateFeature(1)" id="btn-1" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Smart Invoicing</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Automatically send professional invoices with custom branding.</p>
+                    <button onclick="updateFeature(1)" id="btn-1" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
+                            <div class="flex-1 text-right lg:text-right">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Smart Invoicing</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Create and send professional GST invoices in seconds.</p>
+                            </div>
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </button>
 
-                    <button onclick="updateFeature(2)" id="btn-2" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Multi-User Access</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Securely manage your team with role-based access control.</p>
+                    <button onclick="updateFeature(2)" id="btn-2" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
+                            <div class="flex-1 text-right lg:text-right">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Multi-User Access</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Granular role-based permissions for your entire team.</p>
+                            </div>
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </button>
+
                 </div>
 
-                <div class="w-[50%] max-lg:w-full max-lg:max-w-md relative h-[380px] max-md:h-[180px] flex items-center justify-center">
-                    <div class="relative w-full h-full bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col transition-all duration-500 hover:scale-105">
-                        <div class="h-8 bg-gray-100 border-b flex items-center px-4 space-x-2">
+                <div class="w-full lg:w-1/2 relative h-[300px] lg:h-[400px] flex items-center justify-center z-10 border-2 border-gray-700 rounded-2xl">
+
+                    <div class="absolute -left-6 -bottom-6 lg:w-[640px] h-6 bg-gray-700 rounded-full"></div>
+                    
+
+                    <div class="relative w-full h-full bg-white rounded-2xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-200 overflow-hidden flex flex-col transform transition-transform hover:scale-[1.02] duration-500">
+                        <div class="h-10 bg-gray-50 border-b flex items-center px-4 space-x-2 shrink-0">
                             <div class="w-3 h-3 rounded-full bg-red-400"></div>
                             <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
                             <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                            <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
                         </div>
-                        <img id="feature-image" src="/asset/image/h1.png" alt="Feature Preview" class="w-full h-full object-cover transition-opacity duration-300">
+                        <img id="feature-image" src="/asset/image/hh9.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
                     </div>
+
+                    <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
+                    <!-- <div class="absolute -left-10 -top-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-20 -z-10"></div> -->
                 </div>
 
-                <div class="flex flex-col items-start space-y-4 w-[25%] max-lg:w-full max-lg:items-center">
-                    <button onclick="updateFeature(3)" id="btn-3" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Automated Reminders</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Send payment reminders to clients via Email and SMS automatically.</p>
+                <div class="flex flex-col gap-6 w-full lg:w-1/4">
+
+                    <button onclick="updateFeature(3)" id="btn-3" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4">
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Auto Reminders</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Send payment alerts via WhatsApp & Email automatically.</p>
+                            </div>
+                        </div>
                     </button>
 
-                    <button onclick="updateFeature(4)" id="btn-4" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">GST & Tax Management</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Automatically calculate taxes and generate government reports easily.</p>
+                    <button onclick="updateFeature(4)" id="btn-4" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4">
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">GST Management</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Auto-calculate taxes and generate compliant reports.</p>
+                            </div>
+                        </div>
                     </button>
 
-                    <button onclick="updateFeature(5)" id="btn-5" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
-                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Cloud Backup</h4>
-                        <p class="text-gray-500 text-xs leading-relaxed">Automatically sync and back up your data with one-click recovery.</p>
+                    <button onclick="updateFeature(5)" id="btn-5" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
+                        <div class="flex items-start gap-4">
+                            <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Cloud Backup</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Secure, encrypted cloud sync with one-click restore.</p>
+                            </div>
+                        </div>
                     </button>
+
                 </div>
 
             </div>
@@ -965,49 +1031,60 @@ $page_title = "home";
     <script>
         // Configuration Data
         const features = [{
-                title: "Smart Invoicing",
-                img: "/asset/image/h1.png"
+                title: "Real-Time Reports",
+                img: "/asset/image/hh9.png"
             },
             {
-                title: "Real-Time Reports",
-                img: "/asset/image/h3.png"
+                title: "Smart Invoicing",
+                img: "/asset/image/hh5.png"
             },
             {
                 title: "Multi-User Access",
-                img: "/asset/image/h2.png"
+                img: "/asset/image/hh2.png"
             },
             {
                 title: "Automated Reminders",
-                img: "/asset/image/h4.png"
+                img: "/asset/image/hh3.png"
             },
             {
                 title: "GST & Tax Management",
-                img: "/asset/image/h5.png"
+                img: "/asset/image/hh4.png"
             },
             {
                 title: "Cloud Backup",
-                img: "/asset/image/h6.jpg"
+                img: "/asset/image/hh1.png"
             }
         ];
 
-        let currentIndex = 0;
-        let autoRotateInterval;
-
         function updateFeature(index) {
-            currentIndex = index;
             const imgElement = document.getElementById('feature-image');
             const buttons = document.querySelectorAll('.feature-card');
+            const icons = document.querySelectorAll('.icon-box');
 
             // 1. Reset all buttons
-            buttons.forEach(btn => {
-                btn.classList.remove('bg-white', 'shadow-lg', 'border-blue-600', 'scale-105');
-                btn.classList.add('border-transparent', 'opacity-70');
+            buttons.forEach((btn, idx) => {
+                btn.classList.remove('bg-white', 'shadow-xl', 'border-blue-600', 'scale-[1.02]', 'ring-4', 'ring-blue-50');
+                btn.classList.add('bg-white/60', 'border-transparent');
+
+                // Reset icon colors inside the button
+                const icon = btn.querySelector('.icon-box');
+                if (icon) {
+                    icon.classList.remove('bg-blue-600', 'text-white');
+                    icon.classList.add('bg-gray-100', 'text-gray-500');
+                }
             });
 
             // 2. Highlight active button
             const activeBtn = document.getElementById(`btn-${index}`);
-            activeBtn.classList.remove('border-transparent', 'opacity-70');
-            activeBtn.classList.add('bg-white', 'shadow-lg', 'border-blue-600', 'scale-105');
+            activeBtn.classList.remove('bg-white/60', 'border-transparent');
+            activeBtn.classList.add('bg-white', 'shadow-xl', 'border-blue-600', 'scale-[1.02]', 'ring-4', 'ring-blue-50');
+
+            // Highlight active icon
+            const activeIcon = activeBtn.querySelector('.icon-box');
+            if (activeIcon) {
+                activeIcon.classList.remove('bg-gray-100', 'text-gray-500');
+                activeIcon.classList.add('bg-blue-600', 'text-white');
+            }
 
             // 3. Animate and change image
             imgElement.style.opacity = '0';
@@ -1018,25 +1095,11 @@ $page_title = "home";
                     imgElement.style.opacity = '1';
                 };
             }, 200);
-
-            // Reset timer if manually clicked
-            resetTimer();
         }
 
-        function nextFeature() {
-            let next = (currentIndex + 1) % features.length;
-            updateFeature(next);
-        }
-
-        function resetTimer() {
-            clearInterval(autoRotateInterval);
-            autoRotateInterval = setInterval(nextFeature, 3000); // Change every 3 seconds
-        }
-
-        // Initialize
+        // Initialize (No Auto Rotation)
         document.addEventListener('DOMContentLoaded', () => {
             updateFeature(0);
-            resetTimer();
         });
     </script>
 
@@ -1242,7 +1305,7 @@ $page_title = "home";
                 <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 max-md:gap-2">
 
                     <div class="industry-card h-80 max-lg:h-60 max-md:h-40 rounded-lg">
-                        <img src="/asset/indus1.jpg" alt="Manufacturing Industry" class="w-full h-full object-cover">
+                        <img src="/asset/image/s7.avif" alt="Manufacturing Industry" class="w-full h-full object-cover">
                         <div class="overlay"></div>
                         <div class="card-content ">
                             <div class="square-element"></div>
@@ -1285,11 +1348,11 @@ $page_title = "home";
 
 
                     <div class="industry-card h-80 max-lg:h-60 max-md:h-40 rounded-lg">
-                        <img src="/asset/hospitalityindus.jpg" alt="Hospitality Industry" class="w-full h-full object-cover">
+                        <img src="/asset/image/s8.avif" alt="Tourism Industry" class="w-full h-full object-cover">
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Hospitality</div>
+                            <div class="industry-title max-lg:text-xs">Tourism</div>
                             <div class="industry-subtitle max-lg:text-xs">Industry</div>
                         </div>
                     </div>
@@ -1479,7 +1542,7 @@ $page_title = "home";
             <div class="service-item p-4 border border-gray-200 rounded-xl">
                 <div class="flex flex-col ">
 
-                    <div class="mb-5 img-container">
+                    <div class="mb-5 img-container ">
                         <div class="  w-full h-48 flex items-center justify-center">
                             <img src="/asset/custom.jpg" alt="Rocket" class="w-full h-full object-cover rounded-xl" />
                         </div>
