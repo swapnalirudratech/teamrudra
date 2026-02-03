@@ -583,7 +583,7 @@ $page_title = "home";
 
     <?php include "./include/navbar.php" ?>
 
-    <section class="bg-white h-[60vh] py-28 flex items-center justify-center overflow-hidden">
+    <!-- <section class="bg-white h-[60vh] py-28 flex items-center justify-center overflow-hidden">
 
         <div class="relative scale-75 md:scale-100">
 
@@ -642,6 +642,76 @@ $page_title = "home";
             <div class="absolute -bottom-4 right-40 animate-float" style="animation-delay: 2s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=5" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Marketer
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <section class="bg-white h-[60vh] py-28 max-md:h-[50vh] max-md:py-16 flex items-center justify-center overflow-hidden w-full relative">
+
+        <div class="relative w-full max-w-7xl mx-auto flex justify-center items-center scale-90 md:scale-100">
+
+            <div class="absolute inset-0 -z-10 grid grid-cols-7 gap-4 opacity-30 h-full w-full pointer-events-none">
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+                <div class="border-r border-gray-300 h-full"></div>
+            </div>
+
+            <h1 class="text-6xl sm:text-8xl lg:text-[12rem] font-bold tracking-tighter text-gray-900 select-none text-center whitespace-nowrap z-10">
+                Rudra Tech
+            </h1>
+
+
+            <div class="absolute -bottom-16 left-4 lg:-bottom-4 lg:left-10 animate-float z-20" style="animation-delay: 0s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=1" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Strategist
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute -top-20 left-4 lg:-top-12 lg:left-64 animate-float z-20" style="animation-delay: 1s;">
+                <div class="flex flex-col items-center">
+                    <div class="bg-[#B6FF69] text-black px-4 py-1 text-sm font-bold rounded mb-2 shadow-md">
+                        Manager
+                    </div>
+                    <img src="https://i.pravatar.cc/150?u=2" class="w-12 h-12 lg:w-14 lg:h-14 rounded-full border-4 border-[#B6FF69] shadow-xl">
+                </div>
+            </div>
+
+            <div class="absolute -bottom-24 left-[40%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-10 lg:left-[45%] animate-float z-20" style="animation-delay: 0.5s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=3" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Designer
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute -top-14 right-4 lg:-top-10 lg:right-80 animate-float z-20" style="animation-delay: 1.5s;">
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm mb-2 flex items-center gap-1">
+                        <span class="text-[10px] text-green-500">▲</span> Developer
+                    </div>
+                    <img src="https://i.pravatar.cc/150?u=4" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg">
+                </div>
+            </div>
+
+            <div class="absolute -bottom-20 right-4 lg:-bottom-4 lg:right-40 animate-float z-20" style="animation-delay: 2s;">
+                <div class="flex flex-col items-center">
+                    <img src="https://i.pravatar.cc/150?u=5" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
                     <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Marketer
                     </div>
@@ -1112,7 +1182,7 @@ $page_title = "home";
                         <div class="order-1 md:order-1 ">
                             <h2 class=" font-normal text-gray-800 mb-6 uppercase tracking-wide"><span class="text-black uppercase font-semibold text-[3rem] max-lg:text-[2rem] aibackground">About us</span> </h2>
                             <p class="text-gray-600 mb-6   ">
-                                RudraTech IT Services, established in 2020, is a young and dynamic tech start-up driven by bright minds who are passionate about creating real impact for clients. We work hand-in-hand with businesses to power their digital transformation journey. Our developers, designers, and strategists bring creativity, innovation, and commitment to every project, ensuring solutions that inspire growth and deliver results.
+                                RudraTech IT Services, founded in 2020, is a young and vibrant tech start-up that is fueled by bright minds who are eager to make a difference. We are committed to working alongside businesses to enable their digital transformation journey. Our developers, designers, and strategists are passionate about bringing innovation and dedication to every project that we undertake.
                             </p>
                             <div class="space-y-4 max-lg:text-sm">
                                 <div class="flex items-start">
@@ -1123,7 +1193,7 @@ $page_title = "home";
                                     </div>
                                     <div class="ml-4">
                                         <h4 class="text-lg  max-lg:text-sm font-medium text-gray-800">Innovation-Driven</h4>
-                                        <p class="text-gray-600">We stay ahead of technological trends to deliver future-proof solutions.</p>
+                                        <p class="text-gray-600">We are always at the forefront of technology trends to provide future-ready solutions.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-start">
@@ -1134,7 +1204,7 @@ $page_title = "home";
                                     </div>
                                     <div class="ml-4">
                                         <h4 class="text-lg  max-lg:text-sm font-medium text-gray-800">Client-Focused</h4>
-                                        <p class="text-gray-600">Your business goals are our priority, guiding every project we undertake.</p>
+                                        <p class="text-gray-600">Your business needs are our top priority, and this drives every project that we undertake.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-start">
@@ -1145,7 +1215,7 @@ $page_title = "home";
                                     </div>
                                     <div class="ml-4">
                                         <h4 class="text-lg max-lg:text-sm font-medium text-gray-800">Quality Assurance</h4>
-                                        <p class="text-gray-600">We follow rigorous testing protocols to ensure flawless performance.</p>
+                                        <p class="text-gray-600">We conduct rigorous testing to ensure flawless performance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1514,7 +1584,7 @@ $page_title = "home";
                     </h2>
 
                     <p class="text-sm sm:text-base md:text-lg text-gray-300">
-                        We don't just build websites — we craft digital masterpieces that inspire, engage, and elevate your brand to new heights.
+                        We don’t just build websites – we create digital masterpieces that inspire, engage, and lift your brand to unprecedented levels.
                     </p>
 
 
