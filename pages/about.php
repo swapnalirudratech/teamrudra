@@ -13,7 +13,7 @@ $page_title = "about"
     <?php include "include/navbar.php" ?>
     <main>
 
-        <section class="relative min-h-[90vh] flex items-center px-6 lg:px-24 py-16 bg-white">
+        <section class="relative min-h-[90vh] flex items-center px-6 lg:px-24 pt-16 pb-28 bg-white overflow-x-hidden">
             <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[600px] h-[600px] bg-blue-50/60 rounded-full blur-3xl opacity-60"></div>
 
             <div class="container mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
@@ -99,7 +99,7 @@ $page_title = "about"
             }
         </style>
 
-        <section class="py-20 bg-[#0a0f08] my-20 text-white overflow-hidden">
+        <section class="py-20 bg-[#0a0f08] text-white overflow-hidden">
             <div class="container mx-auto px-6">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
@@ -203,11 +203,11 @@ $page_title = "about"
         </section>
 
         <section class="relative py-24 bg-white overflow-hidden font-sans">
-            <div class="absolute top-0 left-20 w-full h-full opacity-[0.03] pointer-events-none select-none">
+            <!-- <div class="absolute top-0 left-20 w-full h-full opacity-[0.03] pointer-events-none select-none">
                 <span class="text-[18rem] font-black absolute -top-20 -left-20">LEAD</span>
-            </div>
+            </div> -->
 
-            <div class="w-[80vw] mx-auto px-6">
+            <div class="w-[80vw] max-md:w-full mx-auto px-6">
                 <div class="grid lg:grid-cols-2 gap-12 items-center justify-between w-full">
 
                     <div class="relative z-10">
@@ -244,18 +244,18 @@ $page_title = "about"
                     </div>
 
                     <div class="relative">
-                        <div class="absolute inset-0 bg-slate-50 rounded-[3rem] w-[80%] -rotate-3 scale-105 z-0"></div>
+                        <div class="absolute inset-0 bg-slate-50 rounded-[3rem] w-[80%] max-md:w-full -rotate-3 scale-105 z-0"></div>
 
-                        <div class="relative z-10 w-[80%] h-[600px] lg:aspect-square rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 border-8 border-white">
+                        <div class="relative z-10 w-[80%] max-md:w-full h-[600px] max-md:h-[400px] lg:aspect-square rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 border-8 border-white">
                             <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000"
                                 alt="Manager Name"
                                 class="w-full h-full object-cover">
                         </div>
 
-                        <div class="absolute -bottom-10 -right-6 lg:-right-12 p-8 bg-white/90 backdrop-blur-2xl rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-white z-20 w-80 animate-float">
+                        <div class="absolute -bottom-24 -right-2 lg:-right-12 lg:-bottom-10 p-8 max-md:p-6 bg-white/90 backdrop-blur-2xl rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-white z-20 w-80 max-md:w-60 animate-float">
                             <div class="flex flex-col">
                                 <span class="text-blue-600 font-black text-xs uppercase tracking-widest mb-2">Project Manager</span>
-                                <h3 class="text-3xl font-black text-slate-900 tracking-tighter leading-none mb-4">Rahul Sachwani</h3>
+                                <h3 class="text-2xl max-md:text-xl font-black text-slate-900 tracking-tighter leading-none mb-4">Mr. Rahul Sachwani</h3>
                                 <p class="text-[11px] text-slate-500 leading-relaxed font-medium">
                                     Expert in PHP ecosystem and high-performance database management. Driving technical strategy since 2020.
                                 </p>
@@ -285,6 +285,104 @@ $page_title = "about"
                 animation: float 6s ease-in-out infinite;
             }
         </style>
+
+        <section class="pt-24 px-4">
+
+            <div class="max-w-3xl mx-auto text-center mb-24">
+                <h2 class="text-4xl lg:text-6xl font-bold text-slate-900 tracking-tight mb-6">
+                    Building <span class="text-blue-600">RudraTech.</span>
+                </h2>
+                <p class="text-lg text-slate-500">
+                    A chronological look at how we went from a two-person team to a leading IT partner.
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto space-y-12 pb-24">
+
+                <div class="sticky top-24 min-h-[400px] bg-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-slate-100 flex flex-col lg:flex-row gap-10 overflow-hidden group transition-transform duration-500">
+
+                    <div class="lg:w-1/3 flex flex-col justify-between">
+                        <span class="inline-block px-4 py-2 rounded-full bg-slate-100 text-slate-600 font-semibold text-sm w-fit mb-4">Chapter 01</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-slate-200 tracking-tighter group-hover:text-blue-50 transition-colors duration-500">2020</h3>
+                    </div>
+
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">The Foundation</h4>
+                        <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                            Roshan & Rahul founded <span class="font-semibold text-slate-900">RudraTech</span> in a small home office. We didn't have big servers, just big ideas and a commitment to writing clean code.
+                        </p>
+                        <div class="flex gap-3">
+                            <div class="px-4 py-2 bg-slate-50 rounded-lg text-xs font-semibold text-slate-500 border border-slate-100">Web Design</div>
+                            <div class="px-4 py-2 bg-slate-50 rounded-lg text-xs font-semibold text-slate-500 border border-slate-100">HTML/CSS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky top-32 min-h-[400px] bg-gradient-to-br from-blue-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-blue-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+
+                    <div class="lg:w-1/3 flex flex-col justify-between">
+                        <span class="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-semibold text-sm w-fit mb-4">Chapter 02</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-blue-100/80 tracking-tighter group-hover:text-blue-200 transition-colors duration-500">2021</h3>
+                    </div>
+
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">Going Custom</h4>
+                        <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                            We pivoted from simple websites to <strong>Custom Software Solutions</strong>. We onboarded our first major educational clients and built our first proprietary CRM tool.
+                        </p>
+                        <div class="flex gap-3">
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">PHP Development</div>
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">Database Mgmt</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky top-40 min-h-[400px] bg-gradient-to-br from-indigo-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-indigo-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+
+                    <div class="lg:w-1/3 flex flex-col justify-between">
+                        <span class="inline-block px-4 py-2 rounded-full bg-indigo-100 text-indigo-600 font-semibold text-sm w-fit mb-4">Chapter 03</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-indigo-100/80 tracking-tighter group-hover:text-indigo-200 transition-colors duration-500">2023</h3>
+                    </div>
+
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">Rapid Scale</h4>
+                        <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                            The team grew to 15+ developers. We mastered the MERN stack and delivered complex enterprise apps for clients like <strong>Vikas Sawants Academy</strong>.
+                        </p>
+                        <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600 font-medium">
+                            <li class="flex items-center gap-2">✓ 50+ Happy Clients</li>
+                            <li class="flex items-center gap-2">✓ New Office Space</li>
+                            <li class="flex items-center gap-2">✓ React & Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sticky top-48 min-h-[400px] bg-slate-900 rounded-[2.5rem] p-8 lg:p-12 shadow-2xl border border-slate-700 flex flex-col lg:flex-row gap-10 overflow-hidden relative">
+
+                    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600 rounded-full blur-[150px] opacity-20 pointer-events-none"></div>
+
+                    <div class="lg:w-1/3 flex flex-col justify-between relative z-10">
+                        <span class="inline-block px-4 py-2 rounded-full bg-green-500/20 text-green-400 font-semibold text-sm w-fit mb-4 animate-pulse">● Live</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-slate-800 tracking-tighter">NOW</h3>
+                    </div>
+
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-white mb-4">Market Leaders</h4>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-8">
+                            Today, RudraTech is a premier IT ecosystem. With <strong>100+ clients</strong> and products like <em>Snackita.in</em>, we aren't just coding—we are defining the digital future for businesses.
+                        </p>
+
+                        <button class="bg-white text-slate-900 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-colors w-fit flex items-center gap-2 group">
+                            Be Part of Our Future
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <section class="py-24 bg-white font-sans overflow-hidden hidden">
             <div class="container mx-auto px-6 lg:px-24">
@@ -497,7 +595,7 @@ $page_title = "about"
         <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 
         <!-- About RudraTech Banner -->
-        <section class="relative w-full h-[80vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center justify-center overflow-hidden">
+        <section class="relative w-full h-[80vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center justify-center overflow-hidden hidden">
             <!-- Background Image -->
             <div class="absolute inset-0">
                 <img
@@ -572,7 +670,7 @@ $page_title = "about"
 
 
         <!-- Welcome Section -->
-        <section class="py-20 max-lg:py-12 bg-white relative overflow-hidden">
+        <section class="py-20 max-lg:py-12 bg-white relative overflow-hidden hidden">
             <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-50 to-transparent"></div>
             <div class="w-[80%] max-lg:w-[85%] mx-auto relative z-10">
                 <div class="grid grid-cols-2 max-lg:grid-cols-1 gap-16 items-center">
