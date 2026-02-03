@@ -1,3 +1,32 @@
+<style>
+    
+    .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .marquee-content {
+        display: flex;
+        animation: marquee 30s linear infinite;
+        width: max-content;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .marquee-content:hover {
+        animation-play-state: paused;
+    }
+</style>
+
 <div id="bottomRow" class="marquee bg-gradient-to-l from-blue-500 via-blue-300 to-blue-500 text-white overflow-hidden ">
     <div class="marquee-content text-grey-700  py-2">
 

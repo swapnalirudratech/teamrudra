@@ -654,48 +654,42 @@ $page_title = "home";
 
 
     <section class="relative bg-white pb-10 lg:pt-14 lg:pb-24 max-lg:pt-10 overflow-hidden">
-        <div class="max-md:w-[85%] w-[80%]  mx-auto grid max-lg:grid-cols-1 grid-cols-2 items-center gap-16 max-lg:gap-0">
-
+        <div class="max-md:w-[85%] w-[80%] mx-auto grid max-lg:grid-cols-1 grid-cols-2 items-center gap-16 max-lg:gap-0">
 
             <div class="relative flex flex-col items-start justify-center z-10">
-
                 <div class="absolute -right-2 md:right-0 top-1/2 transform -translate-y-1/2 w-40 sm:w-56 md:w-64 opacity-80 pointer-events-none z-0">
-                    <img src="/asset/image/gif.gif" alt="Globe" class="w-full h-full object-contain" />
+                    <img src="/asset/image/gif.gif" alt="Global IT Solutions Rudra Tech" class="w-full h-full object-contain" />
                 </div>
 
-
                 <h1 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                    Powering Business with<br />
-                    <span class="text-blue-600">Smart IT Solutions</span>
+                    Transforming Ideas into<br />
+                    <span class="text-blue-600">Digital Reality</span>
                 </h1>
             </div>
 
-
             <div class="z-10">
                 <p class="text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
-                    Rudratech delivers scalable IT services to streamline operations, enhance customer engagement, and drive growth.
+                    <strong>Rudra Tech IT Services</strong> is a leading software development company that specializes in developing scalable websites, high-performance mobile applications, and custom enterprise software solutions.
                 </p>
-
 
                 <ul class="space-y-4 text-sm sm:text-base text-gray-700 mb-8">
                     <li class="flex items-start gap-3">
                         <span class="text-blue-600 mt-1">✔</span>
-                        <span><strong>Responsive</strong> Web & Mobile App Development</span>
+                        <span><strong>Custom Software Development</strong> & Digital Transformation</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <span class="text-blue-600 mt-1">✔</span>
-                        <span>Custom <strong>CRM & ERP Software</strong> tailored to your business</span>
+                        <span><strong>Responsive Web & Mobile App</strong> Design (iOS & Android)</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <span class="text-blue-600 mt-1">✔</span>
-                        <span>Seamless <strong>Cloud Integration & IT Support</strong></span>
+                        <span>Specialized <strong>CRM, ERP, & Cloud Solutions</strong> for Modern Enterprises</span>
                     </li>
                 </ul>
 
-
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-flex items-center gap-2 bg-black text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300">
-                    Build Your IT Solution
+                    Start Your Project Today
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
@@ -707,7 +701,7 @@ $page_title = "home";
 
 
 
-    <div class="border-t border-gray-200 py-20 max-lg:py-12 max-lg:w-[85%] flex items-center justify-center container mx-auto w-[80%]">
+    <div class="hidden border-t border-gray-200 py-20 max-lg:py-12 max-lg:w-[85%] flex items-center justify-center container mx-auto w-[80%]">
 
         <div class="flex flex-col lg:flex-row items-center justify-between gap-12 w-full">
 
@@ -774,6 +768,207 @@ $page_title = "home";
 
     </div>
 
+    <section class="bg-gray-100 py-20 max-lg:py-12 relative overflow-hidden hidden">
+        <div class="container w-[90%] mx-auto">
+
+
+            <div class="text-center mb-16 max-lg:mb-6">
+                <h2 class="text-4xl max-lg:text-3xl font-semibold text-gray-800 tracking-wide">
+                    Powerful <span class="text-blue-600">Billing Software</span> Features
+                </h2>
+                <p class="mt-3 text-gray-600 text-sm">
+                    Simplify your business operations with intelligent, reliable, and automated billing solutions.
+                </p>
+            </div>
+
+
+            <div class="relative flex items-center justify-center max-lg:flex-col gap-12 w-full max-lg:gap-3">
+
+                <!-- Left Features -->
+                <div class="flex flex-col items-end space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Smart Invoicing</h4>
+                        <p class="text-gray-600 text-xs">Generate and send invoices automatically with custom branding.</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Real-Time Reports</h4>
+                        <p class="text-gray-600 text-xs">Track revenue, expenses, and payments with instant analytics.</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Multi-User Access</h4>
+                        <p class="text-gray-600 text-xs">Empower your team with secure, role-based access control.</p>
+                    </div>
+                </div>
+
+                <!-- Center Image -->
+                <div class="w-1/3 max-lg:w-[80%] relative">
+                    <img src="/asset/bg.png" alt="Billing Software Dashboard" class="w-full object-contain ">
+                </div>
+
+                <!-- Right Features -->
+                <div class="flex flex-col items-start space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Automated Reminders</h4>
+                        <p class="text-gray-600 text-xs">Send payment reminders and alerts automatically to clients.</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">GST & Tax Management</h4>
+                        <p class="text-gray-600 text-xs">Auto-calculate taxes and generate compliant reports easily.</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
+                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Cloud Backup</h4>
+                        <p class="text-gray-600 text-xs">Secure your data with automated cloud sync and recovery.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-20 max-lg:py-12 relative overflow-hidden" id="feature-section">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-100 rounded-full blur-3xl opacity-50 -z-10"></div>
+
+        <div class="container w-[90%] mx-auto">
+
+            <div class="text-center mb-16 max-lg:mb-6">
+                <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800 tracking-wide">
+                    Powerful <span class="text-blue-600">Billing Software</span> Features
+                </h2>
+                <p class="mt-3 text-gray-600 text-sm max-w-2xl mx-auto">
+                    Click on any feature below to see how our intelligent billing engine simplifies your business operations.
+                </p>
+            </div>
+
+            <div class="relative flex items-center justify-center max-lg:flex-col gap-8 w-full">
+
+                <div class="flex flex-col items-end space-y-4 w-[25%] max-lg:w-full max-lg:items-center">
+
+
+                    <button onclick="updateFeature(0)" id="btn-0" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Real-Time Reports</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Monitor revenues, expenses, and payments in real-time with visual analytics.</p>
+                    </button>
+
+                    <button onclick="updateFeature(1)" id="btn-1" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Smart Invoicing</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Automatically send professional invoices with custom branding.</p>
+                    </button>
+
+                    <button onclick="updateFeature(2)" id="btn-2" class="feature-card w-72 p-5 rounded-xl text-right max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Multi-User Access</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Securely manage your team with role-based access control.</p>
+                    </button>
+                </div>
+
+                <div class="w-[50%] max-lg:w-full max-lg:max-w-md relative h-[380px] max-md:h-[180px] flex items-center justify-center">
+                    <div class="relative w-full h-full bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col transition-all duration-500 hover:scale-105">
+                        <div class="h-8 bg-gray-100 border-b flex items-center px-4 space-x-2">
+                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                        </div>
+                        <img id="feature-image" src="/asset/image/h1.png" alt="Feature Preview" class="w-full h-full object-cover transition-opacity duration-300">
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-start space-y-4 w-[25%] max-lg:w-full max-lg:items-center">
+                    <button onclick="updateFeature(3)" id="btn-3" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Automated Reminders</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Send payment reminders to clients via Email and SMS automatically.</p>
+                    </button>
+
+                    <button onclick="updateFeature(4)" id="btn-4" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">GST & Tax Management</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Automatically calculate taxes and generate government reports easily.</p>
+                    </button>
+
+                    <button onclick="updateFeature(5)" id="btn-5" class="feature-card w-72 p-5 rounded-xl text-left max-lg:text-center transition-all duration-300 border-2 border-transparent hover:bg-white hover:shadow-lg group">
+                        <h4 class="text-gray-800 font-bold text-sm mb-1 group-hover:text-blue-600 transition-colors">Cloud Backup</h4>
+                        <p class="text-gray-500 text-xs leading-relaxed">Automatically sync and back up your data with one-click recovery.</p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Configuration Data
+        const features = [{
+                title: "Smart Invoicing",
+                img: "/asset/image/h1.png"
+            },
+            {
+                title: "Real-Time Reports",
+                img: "/asset/image/h3.png"
+            },
+            {
+                title: "Multi-User Access",
+                img: "/asset/image/h2.png"
+            },
+            {
+                title: "Automated Reminders",
+                img: "/asset/image/h4.png"
+            },
+            {
+                title: "GST & Tax Management",
+                img: "/asset/image/h5.png"
+            },
+            {
+                title: "Cloud Backup",
+                img: "/asset/image/h6.jpg"
+            }
+        ];
+
+        let currentIndex = 0;
+        let autoRotateInterval;
+
+        function updateFeature(index) {
+            currentIndex = index;
+            const imgElement = document.getElementById('feature-image');
+            const buttons = document.querySelectorAll('.feature-card');
+
+            // 1. Reset all buttons
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-white', 'shadow-lg', 'border-blue-600', 'scale-105');
+                btn.classList.add('border-transparent', 'opacity-70');
+            });
+
+            // 2. Highlight active button
+            const activeBtn = document.getElementById(`btn-${index}`);
+            activeBtn.classList.remove('border-transparent', 'opacity-70');
+            activeBtn.classList.add('bg-white', 'shadow-lg', 'border-blue-600', 'scale-105');
+
+            // 3. Animate and change image
+            imgElement.style.opacity = '0';
+
+            setTimeout(() => {
+                imgElement.src = features[index].img;
+                imgElement.onload = () => {
+                    imgElement.style.opacity = '1';
+                };
+            }, 200);
+
+            // Reset timer if manually clicked
+            resetTimer();
+        }
+
+        function nextFeature() {
+            let next = (currentIndex + 1) % features.length;
+            updateFeature(next);
+        }
+
+        function resetTimer() {
+            clearInterval(autoRotateInterval);
+            autoRotateInterval = setInterval(nextFeature, 3000); // Change every 3 seconds
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateFeature(0);
+            resetTimer();
+        });
+    </script>
 
 
     <!-- <div id="projectForm" class="fixed top-[20%] right-0 max-lg:right-2 w-[95%] max-w-sm bg-white shadow-2xl rounded-l-xl p-6 z-50 border border-gray-200 transition-all duration-500">
@@ -1474,158 +1669,105 @@ $page_title = "home";
         </div>
     </section>
 
-    <div class="container  w-[80%] mx-auto py-20 bg-white border-t border-gray-200 max-lg:py-12 max-lg:w-[85%] overflow-hidden">
+    <section class="w-full bg-white">
+        <div class="w-[80%] mx-auto py-20 bg-white border-t max-lg:py-12 overflow-hidden">
 
-        <div class=" mb-12 flex justify-between max-lg:flex-col max-lg:text-center">
-            <div class="inline-block relative">
-                <h2 class="text-4xl max-lg:text-3xl font-normal text-gray-800 relative z-10">
-                    Our Digital Masterpieces
-                </h2>
+            <div class=" mb-12 flex justify-between max-lg:flex-col max-lg:text-center">
+                <div class="inline-block relative">
+                    <h2 class="text-4xl max-lg:text-3xl font-normal text-gray-800 relative z-10">
+                        Our Digital Masterpieces
+                    </h2>
 
-            </div>
-            <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full ">
-                A showcase of transformative digital experiences we've crafted for businesses across various industries.
-            </p>
-        </div>
-
-        <div class="owl-carousel website-carousel owl-theme">
-            <div class="item bg-yellow-100 py-8 max-lg:p-2  rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-
-                <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                    <div class="text-left flex flex-col justify-center max-lg:text-center">
-                        <h3 class="text-4xl max-lg:text-2xl font-semibold text-orange-900 ">KESARBAUG</h3>
-                        <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">The Taste of Nature 🌿</p>
-                        <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
-                    </div>
-                    <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                        <img src="/asset/image/s (2).jpg" alt="Kesarbag Website" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                    </div>
-                    <div class="absolute top-2 right-2 bg-orange-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                 </div>
-            </div>
-
-
-            <div class="item bg-pink-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                    <div class="text-left flex flex-col justify-center max-lg:text-center">
-                        <h3 class="text-4xl max-lg:text-2xl font-semibold text-pink-900">RB A PURE SKIN CARE</h3>
-                        <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Leading the Beauty Industry with Purity 🛀</p>
-                        <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
-                    </div>
-                    <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                        <img src="/asset/image/s (1).jpg" alt="RB A PURE SKIN CARE" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                    </div>
-                    <div class="absolute top-2 right-2 bg-pink-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                </div>
-            </div>
-
-
-
-            <div class="item bg-black py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                    <div class="text-left flex flex-col justify-center max-md:text-center">
-                        <h3 class="text-4xl max-lg:text-2xl font-semibold text-white">DATADEFEND TECHNOLOGIES</h3>
-                        <p class="text-gray-300 mt-2 italic text-xl max-md:text-sm ">Shielding Your Digital Future, Today</p>
-                        <p class="text-blue-500 font-semibold text-sm tracking-wider mt-2">CyberSec Project</p>
-                    </div>
-                    <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                        <img src="/asset/image/cs.jpg" alt="DATADEFEND TECHNOLOGIES" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                    </div>
-                    <div class="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                </div>
-            </div>
-
-
-
-            <div class="item bg-yellow-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
-                    <div class="text-left flex flex-col justify-center max-md:text-center">
-                        <h3 class="text-4xl max-lg:text-2xl font-semibold text-black">VR CONSULTANT</h3>
-                        <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Invest - Expand - Succeed</p>
-                        <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Real Estate Project</p>
-                    </div>
-                    <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                        <img src="/asset/image/vr.jpg" alt="VR CONSULTANT" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                    </div>
-                    <div class="absolute top-2 right-2 bg-black text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                </div>
-            </div>
-
-
-            <div class="item bg-gray-200 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
-                    <div class="text-left flex flex-col justify-center max-md:text-center">
-                        <h3 class="text-4xl max-lg:text-2xl font-semibold text-blue-700">VSA</h3>
-                        <p class="text-gray-600 mt-2 italic text-xl max-md:text-sm">Online Platform for Distance Learning</p>
-                        <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Edutech Project</p>
-                    </div>
-                    <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                        <img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" alt="VSA" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                    </div>
-                    <div class="absolute top-2 right-2 bg-blue-700 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <section class="bg-gray-100 py-20 max-lg:py-12 relative overflow-hidden">
-        <div class="container w-[90%] mx-auto">
-
-
-            <div class="text-center mb-16 max-lg:mb-6">
-                <h2 class="text-4xl max-lg:text-3xl font-semibold text-gray-800 tracking-wide">
-                    Powerful <span class="text-blue-600">Billing Software</span> Features
-                </h2>
-                <p class="mt-3 text-gray-600 text-sm">
-                    Simplify your business operations with intelligent, reliable, and automated billing solutions.
+                <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full ">
+                    A showcase of transformative digital experiences we've crafted for businesses across various industries.
                 </p>
             </div>
 
+            <div class="owl-carousel website-carousel owl-theme">
+                <div class="item bg-yellow-100 py-8 max-lg:p-2  rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
 
-            <div class="relative flex items-center justify-center max-lg:flex-col gap-12 w-full max-lg:gap-3">
-
-                <!-- Left Features -->
-                <div class="flex flex-col items-end space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Smart Invoicing</h4>
-                        <p class="text-gray-600 text-xs">Generate and send invoices automatically with custom branding.</p>
-                    </div>
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Real-Time Reports</h4>
-                        <p class="text-gray-600 text-xs">Track revenue, expenses, and payments with instant analytics.</p>
-                    </div>
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Multi-User Access</h4>
-                        <p class="text-gray-600 text-xs">Empower your team with secure, role-based access control.</p>
+                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
+                        <div class="text-left flex flex-col justify-center max-lg:text-center">
+                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-orange-900 ">KESARBAUG</h3>
+                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">The Taste of Nature 🌿</p>
+                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
+                        </div>
+                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
+                            <img src="/asset/image/s (2).jpg" alt="Kesarbag Website" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                        </div>
+                        <div class="absolute top-2 right-2 bg-orange-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
-                <!-- Center Image -->
-                <div class="w-1/3 max-lg:w-[80%] relative">
-                    <img src="/asset/bg.png" alt="Billing Software Dashboard" class="w-full object-contain ">
+
+                <div class="item bg-pink-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
+                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
+                        <div class="text-left flex flex-col justify-center max-lg:text-center">
+                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-pink-900">RB A PURE SKIN CARE</h3>
+                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Leading the Beauty Industry with Purity 🛀</p>
+                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
+                        </div>
+                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
+                            <img src="/asset/image/s (1).jpg" alt="RB A PURE SKIN CARE" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                        </div>
+                        <div class="absolute top-2 right-2 bg-pink-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                    </div>
                 </div>
 
-                <!-- Right Features -->
-                <div class="flex flex-col items-start space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Automated Reminders</h4>
-                        <p class="text-gray-600 text-xs">Send payment reminders and alerts automatically to clients.</p>
-                    </div>
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">GST & Tax Management</h4>
-                        <p class="text-gray-600 text-xs">Auto-calculate taxes and generate compliant reports easily.</p>
-                    </div>
-                    <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Cloud Backup</h4>
-                        <p class="text-gray-600 text-xs">Secure your data with automated cloud sync and recovery.</p>
+
+
+                <div class="item bg-black py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
+                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
+                        <div class="text-left flex flex-col justify-center max-md:text-center">
+                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-white">DATADEFEND TECHNOLOGIES</h3>
+                            <p class="text-gray-300 mt-2 italic text-xl max-md:text-sm ">Shielding Your Digital Future, Today</p>
+                            <p class="text-blue-500 font-semibold text-sm tracking-wider mt-2">CyberSec Project</p>
+                        </div>
+                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
+                            <img src="/asset/image/cs.jpg" alt="DATADEFEND TECHNOLOGIES" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                        </div>
+                        <div class="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
+
+
+
+                <div class="item bg-yellow-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
+                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
+                        <div class="text-left flex flex-col justify-center max-md:text-center">
+                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-black">VR CONSULTANT</h3>
+                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Invest - Expand - Succeed</p>
+                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Real Estate Project</p>
+                        </div>
+                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
+                            <img src="/asset/image/vr.jpg" alt="VR CONSULTANT" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                        </div>
+                        <div class="absolute top-2 right-2 bg-black text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                    </div>
+                </div>
+
+
+                <div class="item bg-gray-200 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
+                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
+                        <div class="text-left flex flex-col justify-center max-md:text-center">
+                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-blue-700">VSA</h3>
+                            <p class="text-gray-600 mt-2 italic text-xl max-md:text-sm">Online Platform for Distance Learning</p>
+                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Edutech Project</p>
+                        </div>
+                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
+                            <img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" alt="VSA" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                        </div>
+                        <div class="absolute top-2 right-2 bg-blue-700 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
     </section>
+
+
 
 
 

@@ -13,7 +13,7 @@ $page_title = "about"
     <?php include "include/navbar.php" ?>
     <main>
 
-        <section class="relative min-h-[90vh] flex items-center px-6 lg:px-24 py-16 overflow-hidden bg-white">
+        <section class="relative min-h-[90vh] flex items-center px-6 lg:px-24 py-16 bg-white">
             <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[600px] h-[600px] bg-blue-50/60 rounded-full blur-3xl opacity-60"></div>
 
             <div class="container mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
@@ -98,6 +98,109 @@ $page_title = "about"
                 -webkit-text-fill-color: transparent;
             }
         </style>
+
+        <section class="py-20 bg-[#0a0f08] my-20 text-white overflow-hidden">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+
+                    <div class="lg:col-span-8 relative group">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500/20 to-blue-500/20 rounded-3xl blur-2xl opacity-50"></div>
+
+                        <div class="relative bg-gradient-to-br from-[#0d150b] to-[#050804] border border-white/10 rounded-3xl p-8 md:p-12 overflow-hidden h-[450px] flex flex-col justify-between">
+
+                            <div class="absolute inset-0 opacity-30">
+                                <svg class="w-full h-full" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 100H800M0 200H800M0 300H800M200 0V400M400 0V400M600 0V400" stroke="#105cb9" stroke-width="0.5" stroke-dasharray="4 4" />
+
+                                    <circle cx="200" cy="100" r="2" fill="#105cb9" />
+                                    <circle cx="400" cy="200" r="3" fill="#105cb9" class="animate-pulse" />
+                                    <circle cx="600" cy="100" r="2" fill="#105cb9" />
+                                    <circle cx="300" cy="300" r="2" fill="#105cb9" />
+                                    <circle cx="500" cy="250" r="2" fill="#105cb9" />
+
+                                    <path d="M200 100L400 200L600 100M400 200L300 300M400 200L500 250" stroke="#105cb9" stroke-width="1" opacity="0.5" />
+
+                                    <circle cx="400" cy="200" r="10" stroke="#105cb9" stroke-width="1">
+                                        <animate attributeName="r" from="5" to="40" dur="3s" repeatCount="indefinite" />
+                                        <animate attributeName="opacity" from="0.8" to="0" dur="3s" repeatCount="indefinite" />
+                                    </circle>
+                                </svg>
+                            </div>
+
+                            <div class="relative z-10">
+                                <div class="flex items-center gap-2 mb-6">
+                                    <span class="relative flex h-3 w-3">
+                                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+                                    </span>
+                                    <h2 class="text-xl font-medium text-blue-400 tracking-[0.2em] uppercase">Global Network</h2>
+                                </div>
+
+                                <h3 class="text-4xl md:text-5xl font-bold mb-12">We've Empowered</h3>
+
+                                <div class="flex flex-wrap gap-12 md:gap-24">
+                                    <div class="group/stat">
+                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500">10,000<span class="text-blue-500 font-light">+</span></div>
+                                        <p class="text-gray-400 uppercase tracking-widest text-xs font-semibold">Active Businesses</p>
+                                    </div>
+                                    <div class="w-px h-20 bg-gradient-to-b from-transparent via-white/20 to-transparent hidden md:block"></div>
+                                    <div class="group/stat">
+                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500">150<span class="text-blue-500 font-light">+</span></div>
+                                        <p class="text-gray-400 uppercase tracking-widest text-xs font-semibold">Digital Economies</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#050804] to-transparent pointer-events-none"></div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-4 space-y-10 pl-4 lg:pl-12">
+
+                        <div class="flex items-start gap-6 group">
+                            <div class="p-3 rounded-lg bg-blue-500/10 text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-4xl font-bold">2,000<span class="text-blue-500 font-light text-2xl">+</span></div>
+                                <p class="text-gray-400 font-medium">Enterprise Solutions Delivered</p>
+                            </div>
+                        </div>
+
+                        <div class="h-px bg-white/5 w-full"></div>
+
+                        <div class="flex items-start gap-6 group">
+                            <div class="p-3 rounded-lg bg-blue-500/10 text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-4xl font-bold">6,000<span class="text-blue-500 font-light text-2xl">+</span></div>
+                                <p class="text-gray-400 font-medium">Startups Empowered</p>
+                            </div>
+                        </div>
+
+                        <div class="h-px bg-white/5 w-full"></div>
+
+                        <div class="flex items-start gap-6 group">
+                            <div class="p-3 rounded-lg bg-blue-500/10 text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-4xl font-bold">120<span class="text-blue-500 font-light text-2xl">+</span></div>
+                                <p class="text-gray-400 font-medium">Million-Funded Startups</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="relative py-24 bg-white overflow-hidden font-sans">
             <div class="absolute top-0 left-20 w-full h-full opacity-[0.03] pointer-events-none select-none">
@@ -258,9 +361,7 @@ $page_title = "about"
             </div>
         </section>
 
-
-
-        <section class="py-24 bg-slate-50">
+        <section class="py-24 bg-slate-50 hidden">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
                     <div class="max-w-xl">
@@ -272,11 +373,11 @@ $page_title = "about"
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
 
                     <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 aspect-[4/5]">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
+                            <img src="/"
                                 alt="Team"
                                 class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
 
@@ -298,8 +399,77 @@ $page_title = "about"
                     </div>
 
                     <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 aspect-[4/5]">
-                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600"
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
+                            <img src="/"
+                                alt="Team"
+                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
+
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
+                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-center lg:text-left">
+                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
+                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
+                            <img src="/"
+                                alt="Team"
+                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
+
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
+                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-center lg:text-left">
+                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
+                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
+                            <img src="/"
+                                alt="Team"
+                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
+
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
+                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-center lg:text-left">
+                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
+                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
+                            <img src="/"
                                 alt="Team"
                                 class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
 
