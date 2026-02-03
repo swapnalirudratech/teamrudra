@@ -85,7 +85,7 @@
 
                     <div class="flex gap-3 lg:gap-8 h-full overflow-hidden">
 
-                        <div id="col-1" class="w-1/2 flex flex-col gap-4 lg:gap-8 snap-transition hover:cursor-pointer pb-8" onmouseenter="pauseScroll('col-1')" onmouseleave="resumeScroll('col-1')">
+                        <div id="col-1" class="w-1/2 flex flex-col gap-4 lg:gap-8 snap-transition hover:cursor-pointer pb-8 hover:scroll-pause" onmouseenter="pauseScroll('col-1')" onmouseleave="resumeScroll('col-1')">
 
                             <div class="group relative bg-white p-5 lg:p-8 rounded-2xl lg:rounded-[2rem] shadow-sm border border-slate-100 hover:border-blue-200 transition-all duration-500">
                                 <div class="absolute top-4 right-4 lg:top-6 lg:right-8 text-6xl lg:text-9xl leading-none text-slate-50 font-serif opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-500 select-none">”</div>
@@ -164,7 +164,7 @@
                             </div>
                         </div>
 
-                        <div id="col-2" class="w-1/2 flex flex-col gap-4 lg:gap-8 mt-10 lg:mt-20 snap-transition hover:cursor-pointer pb-12" onmouseenter="pauseScroll('col-2')" onmouseleave="resumeScroll('col-2')">
+                        <div id="col-2" class="w-1/2 flex flex-col gap-4 lg:gap-8 mt-10 lg:mt-20 snap-transition hover:cursor-pointer pb-12 hover:scroll-pause" onmouseenter="pauseScroll('col-2')" onmouseleave="resumeScroll('col-2')">
 
                             <div class="group relative bg-white p-5 lg:p-8 rounded-2xl lg:rounded-[2rem] shadow-sm border border-slate-100 hover:border-blue-200 transition-all duration-500">
                                 <div class="absolute top-4 right-4 lg:top-6 lg:right-8 text-6xl lg:text-9xl leading-none text-slate-50 font-serif opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-500 select-none">”</div>
