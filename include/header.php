@@ -53,3 +53,26 @@
         overflow-x: hidden;
     }
 </style>
+<style>
+    /* Smooth scroll effect for full image reveal */
+    .scroll-hover img {
+        transition: transform 8s ease;
+        transform: translateY(0);
+    }
+
+    .scroll-hover:hover img {
+        /* Move image up by 100% of the overflow height */
+        transform: translateY(-70%);
+        /* Adjust percentage depending on image/container ratio */
+    }
+
+    @keyframes expand {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+</style>
