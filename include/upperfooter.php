@@ -167,40 +167,44 @@ Our No-Code products have you coveblue
                 </svg>
             </div>
 
-            <!-- GIF Block Instead of Code -->
-            <div class="w-full md:w-2/3 p-4 sm:p-6 ">
-                <div class="relative w-full  bg-gray-900/80  border border-gray-700 px-20 py-10 transform  transition duration-700">
-                    <div class="flex items-center gap-2 mb-6 opacity-50">
-                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                    </div>
-                    <div class="font-mono text-sm space-y-2">
-                        <p class="text-pink-400">class <span class="text-yellow-300">RudraEngine</span> extends <span class="text-yellow-300">Intelligence</span> {</p>
-                        <p class="text-gray-300 pl-4">constructor() {</p>
-                        <p class="text-blue-400 pl-8">this.efficiency = <span class="text-green-400">'100%'</span>;</p>
-                        <p class="text-blue-400 pl-8">this.security = <span class="text-green-400">'Enterprise-Grade'</span>;</p>
-                        <p class="text-gray-300 pl-4">}</p>
-                        <p class="text-purple-400 pl-4">function <span class="text-blue-300">optimizeGrowth</span>() {</p>
-                        <p class="text-gray-500 pl-8">// Executing automated scaling...</p>
-                        <p class="text-green-400 pl-8 typing-cursor">return true; |</p>
-                        <p class="text-purple-400 pl-4">}</p>
-                        <p class="text-pink-400">}</p>
+            <div class="w-full md:w-2/3">
+                <div class="relative rounded-xl overflow-hidden shadow-2xl border border-slate-300 bg-white font-mono text-sm transform hover:scale-[1.01] transition-transform duration-500">
+
+                    <div class="bg-[#f3f3f3] px-4 py-2 flex items-center justify-between border-b border-slate-200">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-[#ff5f56] border border-red-400/50"></div>
+                            <div class="w-3 h-3 rounded-full bg-[#ffbd2e] border border-yellow-400/50"></div>
+                            <div class="w-3 h-3 rounded-full bg-[#27c93f] border border-green-400/50"></div>
+                        </div>
+                        <div class="text-slate-600 text-xs flex gap-2">
+                            <span class="bg-white px-3 py-1 rounded-t border-t-2 border-blue-500 text-slate-800 shadow-sm">RudraEngine.java</span>
+                        </div>
+                        <div class="w-10"></div>
                     </div>
 
-                    <div class="absolute -right-8 top-10 bg-white text-black p-4 rounded-lg shadow-xl animate-bounce" style="animation-duration: 3s;">
-                        <div class="flex items-center gap-3">
-                            <div class="bg-green-100 p-2 rounded-full text-green-600">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="text-xs font-bold text-gray-500 uppercase">System Status</p>
-                                <p class="font-bold">Online</p>
-                            </div>
+                    <div class="p-6 relative min-h-[300px] flex bg-white">
+                        <div class="text-slate-400 text-right pr-4 select-none leading-relaxed border-r border-slate-100 mr-4" id="line-numbers">
+                            1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10
+                        </div>
+
+                        <div class="w-full relative">
+                            <div id="typewriter-code" class="text-slate-800 leading-relaxed whitespace-pre-wrap font-medium"></div>
+                            <span class="animate-pulse inline-block w-0.5 h-5 bg-black align-middle ml-1"></span>
                         </div>
                     </div>
+
+                    <div class="bg-[#007acc] text-white text-[10px] px-3 py-1 flex justify-between">
+                        <div class="flex gap-4">
+                            <span><i class="fas fa-code-branch"></i> master</span>
+                            <span><i class="fas fa-check-circle"></i> 0 errors</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <span>Ln 9, Col 24</span>
+                            <span>UTF-8</span>
+                            <span>Java</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -354,3 +358,171 @@ Our No-Code products have you coveblue
     </div>
 </section>
  -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const codeContainer = document.getElementById('typewriter-code');
+
+        // VS CODE LIGHT THEME COLORS
+        const codeSegments = [{
+                text: "package ",
+                class: "text-[#0000ff]"
+            }, // keyword (blue)
+            {
+                text: "com.rudra.core;\n\n",
+                class: "text-[#333333]"
+            }, // default text
+
+            {
+                text: "public class ",
+                class: "text-[#0000ff]"
+            },
+            {
+                text: "RudraEngine ",
+                class: "text-[#267f99]"
+            }, // class (teal)
+            {
+                text: "{\n",
+                class: "text-[#333333]"
+            },
+
+            {
+                text: "    public static void ",
+                class: "text-[#0000ff]"
+            },
+            {
+                text: "main",
+                class: "text-[#795e26]"
+            }, // method (brown/gold)
+            {
+                text: "(",
+                class: "text-[#333333]"
+            },
+            {
+                text: "String",
+                class: "text-[#267f99]"
+            }, // Type (teal)
+            {
+                text: "[] args) {\n",
+                class: "text-[#333333]"
+            },
+
+            {
+                text: "        // Initialize Cloud API\n",
+                class: "text-[#008000]"
+            }, // Comment (green)
+            {
+                text: "        RudraCloud ",
+                class: "text-[#267f99]"
+            },
+            {
+                text: "api = ",
+                class: "text-[#333333]"
+            },
+            {
+                text: "new ",
+                class: "text-[#0000ff]"
+            },
+            {
+                text: "RudraCloud",
+                class: "text-[#267f99]"
+            },
+            {
+                text: "(",
+                class: "text-[#333333]"
+            },
+            {
+                text: "\"API_KEY_V3\"",
+                class: "text-[#a31515]"
+            }, // String (red)
+            {
+                text: ");\n\n",
+                class: "text-[#333333]"
+            },
+
+            {
+                text: "        api.connect()\n",
+                class: "text-[#333333]"
+            },
+            {
+                text: "           .deploy(",
+                class: "text-[#333333]"
+            },
+            {
+                text: "Instance",
+                class: "text-[#267f99]"
+            },
+            {
+                text: ".HIGH_PERF)",
+                class: "text-[#001080]"
+            }, // Constant (dark blue)
+            {
+                text: "\n           .scale(",
+                class: "text-[#333333]"
+            },
+            {
+                text: "1000",
+                class: "text-[#098658]"
+            }, // Number (emerald)
+            {
+                text: ");\n",
+                class: "text-[#333333]"
+            },
+
+            {
+                text: "        System.out.println(",
+                class: "text-[#333333]"
+            },
+            {
+                text: "\"🚀 System Online\"",
+                class: "text-[#a31515]"
+            }, // String (red)
+            {
+                text: ");\n",
+                class: "text-[#333333]"
+            },
+
+            {
+                text: "    }\n",
+                class: "text-[#333333]"
+            },
+            {
+                text: "}",
+                class: "text-[#333333]"
+            }
+        ];
+
+        // ... (The rest of your typing logic remains exactly the same) ...
+        let segmentIndex = 0;
+        let charIndex = 0;
+        let currentElement = null;
+
+        function type() {
+            if (segmentIndex < codeSegments.length) {
+                const segment = codeSegments[segmentIndex];
+                if (charIndex === 0) {
+                    currentElement = document.createElement('span');
+                    currentElement.className = segment.class;
+                    codeContainer.appendChild(currentElement);
+                }
+                currentElement.textContent += segment.text.charAt(charIndex);
+                charIndex++;
+                if (charIndex >= segment.text.length) {
+                    segmentIndex++;
+                    charIndex = 0;
+                    setTimeout(type, 50);
+                } else {
+                    const randomDelay = Math.random() * 50 + 30;
+                    setTimeout(type, randomDelay);
+                }
+            } else {
+                setTimeout(() => {
+                    codeContainer.innerHTML = '';
+                    segmentIndex = 0;
+                    charIndex = 0;
+                    type();
+                }, 5000);
+            }
+        }
+        type();
+    });
+</script>
