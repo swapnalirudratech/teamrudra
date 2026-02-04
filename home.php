@@ -608,7 +608,7 @@ $page_title = "home";
             <div class="absolute -bottom-4 left-10 animate-float" style="animation-delay: 0s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=1" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Strategist
                     </div>
                 </div>
@@ -626,7 +626,7 @@ $page_title = "home";
             <div class="absolute -bottom-10 left-[45%] animate-float" style="animation-delay: 0.5s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=3" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Designer
                     </div>
                 </div>
@@ -634,7 +634,7 @@ $page_title = "home";
 
             <div class="absolute -top-10 right-80 animate-float" style="animation-delay: 1.5s;">
                 <div class="flex flex-col items-center">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm mb-2 flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm mb-2 flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Developer
                     </div>
                     <img src="https://i.pravatar.cc/150?u=4" class="w-12 h-12 rounded-full border-2 border-white shadow-lg">
@@ -644,7 +644,7 @@ $page_title = "home";
             <div class="absolute -bottom-4 right-40 animate-float" style="animation-delay: 2s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=5" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Marketer
                     </div>
                 </div>
@@ -678,7 +678,7 @@ $page_title = "home";
             <div class="absolute -bottom-16 left-4 lg:-bottom-4 lg:left-10 animate-float z-20" style="animation-delay: 0s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=1" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Strategist
                     </div>
                 </div>
@@ -696,7 +696,7 @@ $page_title = "home";
             <div class="absolute -bottom-24 left-[40%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-10 lg:left-[45%] animate-float z-20" style="animation-delay: 0.5s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=3" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Designer
                     </div>
                 </div>
@@ -704,7 +704,7 @@ $page_title = "home";
 
             <div class="absolute -top-14 right-4 lg:-top-10 lg:right-80 animate-float z-20" style="animation-delay: 1.5s;">
                 <div class="flex flex-col items-center">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm mb-2 flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm mb-2 flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Developer
                     </div>
                     <img src="https://i.pravatar.cc/150?u=4" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg">
@@ -714,7 +714,7 @@ $page_title = "home";
             <div class="absolute -bottom-20 right-4 lg:-bottom-4 lg:right-40 animate-float z-20" style="animation-delay: 2s;">
                 <div class="flex flex-col items-center">
                     <img src="https://i.pravatar.cc/150?u=5" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-xs font-medium rounded shadow-sm flex items-center gap-1">
+                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Marketer
                     </div>
                 </div>
@@ -813,13 +813,13 @@ $page_title = "home";
                 </div>
 
                 <div class="flex  gap-4  ">
-                    <a href="/getin-touch" class="max-lg:text-xs max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
+                    <a href="/getin-touch" class="max-lg:text-sm max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
                         Request a Demo
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="/portfolio" class="max-lg:text-xs max-lg:whitespace-nowrap border border-blue-200 bg-white hover:bg-blue-50 text-blue-600 transition-colors duration-300 py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
+                    <a href="/portfolio" class="max-lg:text-sm max-lg:whitespace-nowrap border border-blue-200 bg-white hover:bg-blue-50 text-blue-600 transition-colors duration-300 py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
                         View Portfolio
                     </a>
                 </div>
@@ -860,15 +860,15 @@ $page_title = "home";
                 <div class="flex flex-col items-end space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">Smart Invoicing</h4>
-                        <p class="text-gray-600 text-xs">Generate and send invoices automatically with custom branding.</p>
+                        <p class="text-gray-600 text-sm">Generate and send invoices automatically with custom branding.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">Real-Time Reports</h4>
-                        <p class="text-gray-600 text-xs">Track revenue, expenses, and payments with instant analytics.</p>
+                        <p class="text-gray-600 text-sm">Track revenue, expenses, and payments with instant analytics.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">Multi-User Access</h4>
-                        <p class="text-gray-600 text-xs">Empower your team with secure, role-based access control.</p>
+                        <p class="text-gray-600 text-sm">Empower your team with secure, role-based access control.</p>
                     </div>
                 </div>
 
@@ -881,15 +881,15 @@ $page_title = "home";
                 <div class="flex flex-col items-start space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">Automated Reminders</h4>
-                        <p class="text-gray-600 text-xs">Send payment reminders and alerts automatically to clients.</p>
+                        <p class="text-gray-600 text-sm">Send payment reminders and alerts automatically to clients.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">GST & Tax Management</h4>
-                        <p class="text-gray-600 text-xs">Auto-calculate taxes and generate compliant reports easily.</p>
+                        <p class="text-gray-600 text-sm">Auto-calculate taxes and generate compliant reports easily.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
                         <h4 class="text-blue-600 font-semibold text-sm mb-1">Cloud Backup</h4>
-                        <p class="text-gray-600 text-xs">Secure your data with automated cloud sync and recovery.</p>
+                        <p class="text-gray-600 text-sm">Secure your data with automated cloud sync and recovery.</p>
                     </div>
                 </div>
 
@@ -900,7 +900,7 @@ $page_title = "home";
     <section class="py-24 relative overflow-hidden" id="feature-section">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-blue-100/60 rounded-full blur-3xl -z-10 pointer-events-none"></div>
 
-        <div class="container w-[90%] max-w-7xl mx-auto">
+        <div class="container w-[90%] mx-auto">
 
             <div class="text-center mb-20">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
@@ -919,7 +919,7 @@ $page_title = "home";
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">Real-Time Reports</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Track revenue & cash flow instantly with visual graphs.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Track revenue & cash flow instantly with visual graphs.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -933,7 +933,7 @@ $page_title = "home";
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">Smart Invoicing</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Create and send professional GST invoices in seconds.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Create and send professional GST invoices in seconds.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -947,7 +947,7 @@ $page_title = "home";
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">Multi-User Access</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Granular role-based permissions for your entire team.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Granular role-based permissions for your entire team.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -959,23 +959,23 @@ $page_title = "home";
 
                 </div>
 
-                <div class="w-full lg:w-1/2 relative h-[300px] lg:h-[400px] flex items-center justify-center z-10 border-2 border-gray-700 rounded-2xl">
+                <div class="w-full lg:w-1/2 relative h-auto lg:h-auto flex items-center justify-center p-10">
+                    <div class="absolute left-0 bottom-4 w-full h-6 bg-gray-700 rounded-full"></div>
+                    <div class="w-full relative h-[300px] lg:h-[400px] flex items-center justify-center z-10 border-2 border-gray-700 rounded-2xl">
 
-                    <div class="absolute -left-6 -bottom-6 lg:w-[640px] h-6 bg-gray-700 rounded-full"></div>
-                    
-
-                    <div class="relative w-full h-full bg-white rounded-2xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-200 overflow-hidden flex flex-col transform transition-transform hover:scale-[1.02] duration-500">
-                        <div class="h-10 bg-gray-50 border-b flex items-center px-4 space-x-2 shrink-0">
-                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                            <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
+                        <div class="relative w-full h-full bg-white rounded-2xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-200 overflow-hidden flex flex-col transform transition-transform hover:scale-[1.02] duration-500">
+                            <div class="h-10 bg-gray-50 border-b flex items-center px-4 space-x-2 shrink-0">
+                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                                <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
+                            </div>
+                            <img id="feature-image" src="/asset/image/hh9.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
                         </div>
-                        <img id="feature-image" src="/asset/image/hh9.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
-                    </div>
 
-                    <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
-                    <!-- <div class="absolute -left-10 -top-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-20 -z-10"></div> -->
+                        <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
+                        <!-- <div class="absolute -left-10 -top-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-20 -z-10"></div> -->
+                    </div>
                 </div>
 
                 <div class="flex flex-col gap-6 w-full lg:w-1/4">
@@ -989,7 +989,7 @@ $page_title = "home";
                             </div>
                             <div class="flex-1">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">Auto Reminders</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Send payment alerts via WhatsApp & Email automatically.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Send payment alerts via WhatsApp & Email automatically.</p>
                             </div>
                         </div>
                     </button>
@@ -1003,7 +1003,7 @@ $page_title = "home";
                             </div>
                             <div class="flex-1">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">GST Management</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Auto-calculate taxes and generate compliant reports.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Auto-calculate taxes and generate compliant reports.</p>
                             </div>
                         </div>
                     </button>
@@ -1017,7 +1017,7 @@ $page_title = "home";
                             </div>
                             <div class="flex-1">
                                 <h4 class="text-gray-900 font-bold text-base mb-1">Cloud Backup</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Secure, encrypted cloud sync with one-click restore.</p>
+                                <p class="text-gray-500 text-sm leading-relaxed">Secure, encrypted cloud sync with one-click restore.</p>
                             </div>
                         </div>
                     </button>
@@ -1309,8 +1309,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content ">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs ">Manufacturing</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm ">Manufacturing</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
 
@@ -1319,8 +1319,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Healthcare</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm">Healthcare</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
 
@@ -1330,8 +1330,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Finance</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm">Finance</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
 
@@ -1341,8 +1341,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Education</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm">Education</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
 
@@ -1352,8 +1352,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Tourism</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm">Tourism</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
 
@@ -1363,8 +1363,8 @@ $page_title = "home";
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
-                            <div class="industry-title max-lg:text-xs">Real Estate</div>
-                            <div class="industry-subtitle max-lg:text-xs">Industry</div>
+                            <div class="industry-title max-lg:text-sm">Real Estate</div>
+                            <div class="industry-subtitle max-lg:text-sm">Industry</div>
                         </div>
                     </div>
                 </div>
@@ -1377,7 +1377,7 @@ $page_title = "home";
                         <div class="lg:w-1/2  max-lg:text-sm max-lg:w-full max-lg:text-center">
 
                             <div class="mb-6">
-                                <span class="bg-blue-100 text-blue-600 text-xs font-semibold py-1 px-3 rounded-full">OUR STACK</span>
+                                <span class="bg-blue-100 text-blue-600 text-sm font-semibold py-1 px-3 rounded-full">OUR STACK</span>
                             </div>
                             <h2 class="text-4xl max-lg:text-2xl font-bold mb-4 text-gray-900">Technologies <span class="text-gray-600 font-light">We Use</span></h2>
                             <div class="w-16 h-1 bg-white mb-6 max-lg:hidden"></div>
@@ -1635,7 +1635,7 @@ $page_title = "home";
             <div class="grid grid-cols-2 gap-12  max-lg:grid-cols-1 ">
 
                 <div class="space-y-8 max-md:space-y-4 ">
-                    <div class="bg-blue-600 px-4 py-2 max-md:text-xs inline-block text-sm font-normal rounded-full  text-white uppercase tracking-widest">
+                    <div class="bg-blue-600 px-4 py-2 max-md:text-sm inline-block text-sm font-normal rounded-full  text-white uppercase tracking-widest">
                         Your Vision, Our Passion
                     </div>
                     <h2 class="text-3xl max-md:text-xl sm:text-4xl font-extrabold md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl text-white leading-tight">
@@ -1652,10 +1652,10 @@ $page_title = "home";
 
 
                     <div class="flex space-x-4">
-                        <a href="/about" class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-xs rounded-full hover:bg-blue-700 transition">
+                        <a href="/about" class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-blue-700 transition">
                             Our Story
                         </a>
-                        <a href="/client" class="border border-white text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-xs rounded-full hover:bg-white hover:text-gray-800 transition">
+                        <a href="/client" class="border border-white text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-white hover:text-gray-800 transition">
                             Our Success Partners
                         </a>
                     </div>
@@ -1670,18 +1670,18 @@ $page_title = "home";
                                 <div class="  counter" data-target="5">0 </div>
                                 <span class=" ml-2">+</span>
                             </div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-xs">Year Track Record</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Year Track Record</div>
                         </div>
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white ">
                             <div class="flex items-center justify-center text-4xl max-lg:text-2xl">
                                 <div class=" counter" data-target="100">0 </div>
                                 <span class=" ml-2">+</span>
                             </div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-xs">Happy Customers</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Happy Customers</div>
                         </div>
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white text-4xl max-lg:text-2xl">
                             <div class=" counter" data-target="10">0</div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-xs">Expert Team</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Expert Team</div>
                         </div>
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white">
 
@@ -1690,7 +1690,7 @@ $page_title = "home";
 
                                 <span class=" ml-2">+</span>
                             </div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-xs">Total Reviews</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Total Reviews</div>
                         </div>
                     </div>
                 </div>
@@ -1829,7 +1829,7 @@ $page_title = "home";
                         <div class="overflow-hidden rounded-xl max-lg:rounded-none">
                             <img src="/asset/image/s (2).jpg" alt="Kesarbag Website" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
                         </div>
-                        <div class="absolute top-2 right-2 bg-orange-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                        <div class="absolute top-2 right-2 bg-orange-900 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
@@ -1844,7 +1844,7 @@ $page_title = "home";
                         <div class="overflow-hidden rounded-xl max-lg:rounded-none">
                             <img src="/asset/image/s (1).jpg" alt="RB A PURE SKIN CARE" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
                         </div>
-                        <div class="absolute top-2 right-2 bg-pink-900 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                        <div class="absolute top-2 right-2 bg-pink-900 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
@@ -1860,7 +1860,7 @@ $page_title = "home";
                         <div class="overflow-hidden rounded-xl max-lg:rounded-none">
                             <img src="/asset/image/cs.jpg" alt="DATADEFEND TECHNOLOGIES" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
                         </div>
-                        <div class="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                        <div class="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
@@ -1876,7 +1876,7 @@ $page_title = "home";
                         <div class="overflow-hidden rounded-xl max-lg:rounded-none">
                             <img src="/asset/image/vr.jpg" alt="VR CONSULTANT" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
                         </div>
-                        <div class="absolute top-2 right-2 bg-black text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                        <div class="absolute top-2 right-2 bg-black text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
@@ -1891,7 +1891,7 @@ $page_title = "home";
                         <div class="overflow-hidden rounded-xl max-lg:rounded-none">
                             <img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" alt="VSA" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
                         </div>
-                        <div class="absolute top-2 right-2 bg-blue-700 text-white px-3 py-1 rounded-full text-xs opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                        <div class="absolute top-2 right-2 bg-blue-700 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
                     </div>
                 </div>
 
