@@ -6,7 +6,12 @@ $page_title = "about"
 <html lang="en">
 <?php include "include/header.php" ?>
 
-
+<style>
+    /* Optional: Smooth transition for hover effects */
+    .count-up {
+        transition: all 0.3s ease-out;
+    }
+</style>
 
 <body>
 
@@ -24,7 +29,7 @@ $page_title = "about"
                         <span class="text-[11px] font-bold uppercase tracking-[0.3em] text-slate-400">Our Heritage</span>
                     </div>
 
-                    <h1 class="text-6xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05] pb-8 text-reveal">
+                    <h1 class="text-3xl lg:text-6xl font-extrabold tracking-tighter leading-[1.05] pb-8 text-reveal">
                         Building the <br />
                         <span class="italic font-light">next generation</span> <br />
                         of digital.
@@ -37,7 +42,7 @@ $page_title = "about"
                     </p>
 
                     <div class="flex flex-wrap items-center gap-6">
-                        <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-bold shadow-2xl hover:bg-blue-600 hover:text-black transition-all duration-500 transform hover:-translate-y-1">
+                        <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-bold shadow-2xl hover:bg-blue-600  transition-all duration-500 transform hover:-translate-y-1">
                             Work With Us
                         </button>
                         <div class="flex -space-x-3">
@@ -50,7 +55,7 @@ $page_title = "about"
 
                 <div class="relative flex justify-center lg:justify-end">
                     <div class="relative w-[80%] aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+                        <img src="/asset/image/ofc.avif"
                             alt="Team working"
                             class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>
@@ -99,33 +104,47 @@ $page_title = "about"
             }
         </style>
 
-        <section class="py-20 bg-[#0a0f08] text-white overflow-hidden">
+        <section id="stats-section" class="py-20 text-white overflow-hidden bg-[#0a0f08]">
             <div class="container mx-auto px-6">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
                     <div class="lg:col-span-8 relative group">
                         <div class="absolute -inset-1 bg-gradient-to-r from-blue-500/20 to-blue-500/20 rounded-3xl blur-2xl opacity-50"></div>
+                        <div class="absolute inset-0 opacity-90">
+                            <svg class="w-full h-full" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="400" cy="200" r="100" fill="url(#centerGlow)" opacity="0.2" />
+                                <defs>
+                                    <radialGradient id="centerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 200) rotate(90) scale(100)">
+                                        <stop stop-color="#105cb9" />
+                                        <stop offset="1" stop-color="#105cb9" stop-opacity="0" />
+                                    </radialGradient>
+                                </defs>
+                                <g stroke="#105cb9" stroke-width="0.5" opacity="0.4">
+                                    <path d="M400 200 L400 0" />
+                                    <path d="M400 200 L800 0" />
+                                    <path d="M400 200 L800 200" />
+                                    <path d="M400 200 L800 400" />
+                                    <path d="M400 200 L400 400" />
+                                    <path d="M400 200 L0 400" />
+                                    <path d="M400 200 L0 200" />
+                                    <path d="M400 200 L0 0" />
+                                </g>
+                                <g stroke="#105cb9" stroke-width="0.8" opacity="0.3" fill="none">
+                                    <path d="M400 160 L440 200 L400 240 L360 200 Z" />
+                                    <path d="M400 100 L550 50 L600 200 L550 350 L400 300 L250 350 L200 200 L250 50 Z" />
+                                    <path d="M400 40 L700 0 L780 200 L700 400 L400 360 L100 400 L20 200 L100 0 Z" stroke-dasharray="2 2" />
+                                </g>
+                                <circle cx="400" cy="200" r="4" fill="#3b82f6" class="animate-pulse">
+                                    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite" />
+                                    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+                                </circle>
+                                <!-- <circle r="3" fill="#60a5fa">
+                                    <animateMotion dur="4s" repeatCount="indefinite" path="M400 200 L800 0" />
+                                </circle> -->
+                            </svg>
+                        </div>
 
-                        <div class="relative bg-gradient-to-br from-[#0d150b] to-[#050804] border border-white/10 rounded-3xl p-8 md:p-12 overflow-hidden h-[450px] flex flex-col justify-between">
-
-                            <div class="absolute inset-0 opacity-30">
-                                <svg class="w-full h-full" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 100H800M0 200H800M0 300H800M200 0V400M400 0V400M600 0V400" stroke="#105cb9" stroke-width="0.5" stroke-dasharray="4 4" />
-
-                                    <circle cx="200" cy="100" r="2" fill="#105cb9" />
-                                    <circle cx="400" cy="200" r="3" fill="#105cb9" class="animate-pulse" />
-                                    <circle cx="600" cy="100" r="2" fill="#105cb9" />
-                                    <circle cx="300" cy="300" r="2" fill="#105cb9" />
-                                    <circle cx="500" cy="250" r="2" fill="#105cb9" />
-
-                                    <path d="M200 100L400 200L600 100M400 200L300 300M400 200L500 250" stroke="#105cb9" stroke-width="1" opacity="0.5" />
-
-                                    <circle cx="400" cy="200" r="10" stroke="#105cb9" stroke-width="1">
-                                        <animate attributeName="r" from="5" to="40" dur="3s" repeatCount="indefinite" />
-                                        <animate attributeName="opacity" from="0.8" to="0" dur="3s" repeatCount="indefinite" />
-                                    </circle>
-                                </svg>
-                            </div>
+                        <div class="bg-gradient-to-br from-[#0d150b] to-[#050804] border border-white/10 rounded-3xl p-8 md:p-12 overflow-hidden h-[450px] flex flex-col justify-between">
 
                             <div class="relative z-10">
                                 <div class="flex items-center gap-2 mb-6">
@@ -140,17 +159,22 @@ $page_title = "about"
 
                                 <div class="flex flex-wrap gap-12 md:gap-24">
                                     <div class="group/stat">
-                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500">10,000<span class="text-blue-500 font-light">+</span></div>
+                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500 flex">
+                                            <span class="counter" data-target="10000">0</span>
+                                            <span class="text-blue-500 font-light">+</span>
+                                        </div>
                                         <p class="text-gray-400 uppercase tracking-widest text-xs font-semibold">Active Businesses</p>
                                     </div>
                                     <div class="w-px h-20 bg-gradient-to-b from-transparent via-white/20 to-transparent hidden md:block"></div>
                                     <div class="group/stat">
-                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500">150<span class="text-blue-500 font-light">+</span></div>
+                                        <div class="text-6xl md:text-7xl font-bold mb-2 group-hover/stat:text-blue-400 transition-colors duration-500 flex">
+                                            <span class="counter" data-target="150">0</span>
+                                            <span class="text-blue-500 font-light">+</span>
+                                        </div>
                                         <p class="text-gray-400 uppercase tracking-widest text-xs font-semibold">Digital Economies</p>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#050804] to-transparent pointer-events-none"></div>
                         </div>
                     </div>
@@ -164,8 +188,11 @@ $page_title = "about"
                                 </svg>
                             </div>
                             <div>
-                                <div class="text-4xl font-bold">2,000<span class="text-blue-500 font-light text-2xl">+</span></div>
-                                <p class="text-gray-400 font-medium">Enterprise Solutions Delivered</p>
+                                <div class="text-4xl font-bold flex">
+                                    <span class="counter" data-target="2000">0</span>
+                                    <span class="text-blue-500 font-light text-2xl ml-1">+</span>
+                                </div>
+                                <p class="text-gray-400 font-medium">Enterprise Solutions</p>
                             </div>
                         </div>
 
@@ -178,7 +205,10 @@ $page_title = "about"
                                 </svg>
                             </div>
                             <div>
-                                <div class="text-4xl font-bold">6,000<span class="text-blue-500 font-light text-2xl">+</span></div>
+                                <div class="text-4xl font-bold flex">
+                                    <span class="counter" data-target="6000">0</span>
+                                    <span class="text-blue-500 font-light text-2xl ml-1">+</span>
+                                </div>
                                 <p class="text-gray-400 font-medium">Startups Empowered</p>
                             </div>
                         </div>
@@ -192,7 +222,10 @@ $page_title = "about"
                                 </svg>
                             </div>
                             <div>
-                                <div class="text-4xl font-bold">120<span class="text-blue-500 font-light text-2xl">+</span></div>
+                                <div class="text-4xl font-bold flex">
+                                    <span class="counter" data-target="120">0</span>
+                                    <span class="text-blue-500 font-light text-2xl ml-1">+</span>
+                                </div>
                                 <p class="text-gray-400 font-medium">Million-Funded Startups</p>
                             </div>
                         </div>
@@ -201,6 +234,51 @@ $page_title = "about"
                 </div>
             </div>
         </section>
+
+        <script>
+            // Configuration
+            const duration = 2000; // Animation duration in milliseconds (2 seconds)
+
+            function animateValue(obj, start, end, duration) {
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+                    // Ease-out function for smooth effect (starts fast, slows down)
+                    const easeProgress = 1 - Math.pow(1 - progress, 3);
+
+                    obj.innerHTML = Math.floor(easeProgress * (end - start) + start).toLocaleString(); // .toLocaleString() adds commas (e.g., 10,000)
+
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            // Intersection Observer to trigger animation when scrolled into view
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const counters = entry.target.querySelectorAll('.counter');
+                        counters.forEach((counter) => {
+                            const target = +counter.getAttribute('data-target');
+                            animateValue(counter, 0, target, duration);
+                        });
+                        observer.unobserve(entry.target); // Run only once
+                    }
+                });
+            }, {
+                threshold: 0.5
+            }); // Trigger when 50% of the section is visible
+
+            // Start observing the section
+            const section = document.getElementById('stats-section');
+            if (section) {
+                observer.observe(section);
+            }
+        </script>
 
         <section class="relative py-24 bg-white overflow-hidden font-sans">
             <!-- <div class="absolute top-0 left-20 w-full h-full opacity-[0.03] pointer-events-none select-none">
