@@ -5,7 +5,23 @@ $page_title = "email-website-designing"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
 
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-up {
+        animation: fadeUp 1s ease-out forwards;
+    }
+</style>
 
 <body>
 
@@ -13,7 +29,46 @@ $page_title = "email-website-designing"; ?>
     include "include/navbar.php";
     ?>
 
-    <section class="relative h-[85vh] max-lg:h-[40vh] max-md:h-[60vh]  w-full overflow-hidden bg-gradient-to-br from-blue-50 via-white to-white py-20 max-lg:py-10">
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
+
+        <div class="absolute inset-0">
+            <img src="/asset/image/lpbg.avif" alt="Landing Page Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/90"></div>
+        </div>
+
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-5xl mx-auto flex flex-col items-center animate-fade-up">
+
+            <span class="mb-4 inline-block px-4 py-1.5 text-sm font-bold tracking-[0.2em] text-gray-300 border-b border-gray-500 uppercase">
+                Conversion-First Design
+            </span>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-none drop-shadow-2xl
+                   text-3xl md:text-6xl mb-6">
+                Pages that <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">Convert</span>
+            </h1>
+
+            <h2 class="text-gray-200 text-base md:text-lg font-light mb-8 max-w-2xl mx-auto leading-relaxed max-md:hidden">
+                Stop losing leads. Launch high-performance pages designed for <b class="text-white">Speed</b> and <b class="text-white">Maximum ROI</b>.
+            </h2>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/getquote"
+                    class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-8 py-4 rounded-full 
+                       hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
+                    Boost My Sales
+                </a>
+                <a href="/portfolio"
+                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/30 rounded-full 
+                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
+                    View Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative h-auto  w-full overflow-hidden bg-gradient-to-br from-blue-50 via-white to-white py-28 max-lg:py-10">
         <div class="container mx-auto w-[85%] flex flex-col md:flex-row items-center gap-10">
 
             <div class="flex-1 text-left space-y-6">
@@ -46,7 +101,7 @@ $page_title = "email-website-designing"; ?>
         <div class="w-[80%] max-lg:w-[85%] mx-auto ">
             <div class="text-center mb-20 max-lg:mb-8">
                 <h2 class="text-5xl max-lg:text-3xl  font-bold mb-4">Landing Page Services</h2>
-                <p class=" text-gray-600">Complete solutions for impactful web presence</p>
+                <p class=" text-gray-600">Full-service solutions for effective web presence</p>
             </div>
 
             <!-- Service 1 - Left aligned -->
@@ -55,7 +110,7 @@ $page_title = "email-website-designing"; ?>
 
                     <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Custom Landing Page Design</h3>
                     <p class=" text-gray-600 mb-6 leading-relaxed">
-                        Every pixel matters. We design unique, eye-catching landing pages that reflect your brand identity and speak directly to your target audience with compelling visuals and clear messaging.
+                        Every detail counts. We create custom, attention-grabbing landing pages that showcase your brand personality and communicate with your target audience in a compelling visual language.
                     </p>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start">
@@ -79,20 +134,20 @@ $page_title = "email-website-designing"; ?>
                     </ul>
                 </div>
                 <div class="relative ">
-                    <img src="/asset/l1.avif" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
+                    <img src="/asset/image/lp1.png" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
                 </div>
             </div>
 
             <!-- Service 2 - Right aligned -->
             <div class="grid md:grid-cols-2 gap-16 items-center mb-32 max-lg:mb-12 stagger-fade max-lg:gap-8">
                 <div class="order-2 md:order-1 relative ">
-                    <img src="/asset/devteam.jpg" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
+                    <img src="/asset/l1.avif" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
                 </div>
                 <div class="order-1 md:order-2">
 
                     <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Conversion Optimization</h3>
                     <p class=" text-gray-600 mb-6 leading-relaxed">
-                        Design that drives results. We implement proven conversion strategies, compelling CTAs, and strategic content placement to maximize your visitor-to-customer conversion rate.
+                        Design that converts. We apply expert conversion design principles, persuasive CTAs, and strategic content placement to maximize your visitor-to-customer conversion rate.
                     </p>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start">
@@ -123,7 +178,7 @@ $page_title = "email-website-designing"; ?>
 
                     <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Fast & SEO-Optimized</h3>
                     <p class=" text-gray-600 mb-6 leading-relaxed">
-                        Speed meets visibility. We build lightning-fast landing pages with clean code, optimized images, and SEO best practices to ensure your page ranks well and loads instantly.
+                       Speed meets visibility. We develop super-fast landing pages with optimized code, images, and SEO best practices to ensure your page is highly visible and loads in an instant.
                     </p>
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start">
@@ -162,7 +217,7 @@ $page_title = "email-website-designing"; ?>
                     Our <span class="text-blue-600">Process</span>
                 </h2>
                 <p class="text-gray-600 text-base max-md:text-sm">
-                    From idea to launch in four clear steps
+                   From concept to launch in four easy steps
                 </p>
             </div>
 
@@ -182,8 +237,7 @@ $page_title = "email-website-designing"; ?>
                                 Consultation & Strategy
                             </h3>
                             <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                We discuss your goals, audience, and brand vision to form a
-                                strategy that ensures a high-converting website.
+                               We will discuss your objectives, target audience, and brand strategy to create a strategy that guarantees a high-converting website.
                             </p>
                         </div>
 
@@ -211,8 +265,7 @@ $page_title = "email-website-designing"; ?>
                                 Design & Prototype
                             </h3>
                             <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                Our creative team designs pixel-perfect mockups and interactive
-                                prototypes, ensuring an engaging user experience.
+                                Our design team will create pixel-perfect designs and prototypes to ensure an engaging user experience.
                             </p>
                         </div>
                     </div>
@@ -229,8 +282,7 @@ $page_title = "email-website-designing"; ?>
                                 Development & Testing
                             </h3>
                             <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                We develop responsive, optimized, and fast websites while testing
-                                thoroughly to ensure flawless performance.
+                                We will develop responsive, optimized, and fast websites while testing to ensure flawless functionality.
                             </p>
                         </div>
                         <div class="hidden md:flex w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2 items-center justify-center shadow-lg">
@@ -255,8 +307,7 @@ $page_title = "email-website-designing"; ?>
                                 Launch & Optimize
                             </h3>
                             <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                Once live, we track results, analyze user behavior, and continuously
-                                optimize to improve engagement and conversions.
+                               After launch, we will track performance, analyze user behavior, and continuously optimize to enhance engagement and conversions.
                             </p>
                         </div>
                     </div>

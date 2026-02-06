@@ -585,75 +585,6 @@ $page_title = "home";
 
     <?php include "./include/navbar.php" ?>
 
-    <!-- <section class="bg-white h-[60vh] py-28 flex items-center justify-center overflow-hidden">
-
-        <div class="relative scale-75 md:scale-100">
-
-            <div class="absolute inset-0 -z-10 grid grid-cols-7 gap-4 opacity-30">
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-                <div class="border-r border-gray-300 h-full"></div>
-            </div>
-
-            <h1 class="text-[12rem] font-bold tracking-tighter text-gray-900 select-none">
-                Rudra Tech
-            </h1>
-
-            <div class="absolute -bottom-4 left-10 animate-float" style="animation-delay: 0s;">
-                <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=1" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
-                        <span class="text-[10px] text-green-500">▲</span> Strategist
-                    </div>
-                </div>
-            </div>
-
-            <div class="absolute -top-12 left-64 animate-float" style="animation-delay: 1s;">
-                <div class="flex flex-col items-center">
-                    <div class="bg-[#B6FF69] text-black px-4 py-1 text-sm font-bold rounded mb-2 shadow-md">
-                        Manager
-                    </div>
-                    <img src="https://i.pravatar.cc/150?u=2" class="w-14 h-14 rounded-full border-4 border-[#B6FF69] shadow-xl">
-                </div>
-            </div>
-
-            <div class="absolute -bottom-10 left-[45%] animate-float" style="animation-delay: 0.5s;">
-                <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=3" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
-                        <span class="text-[10px] text-green-500">▲</span> Designer
-                    </div>
-                </div>
-            </div>
-
-            <div class="absolute -top-10 right-80 animate-float" style="animation-delay: 1.5s;">
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm mb-2 flex items-center gap-1">
-                        <span class="text-[10px] text-green-500">▲</span> Developer
-                    </div>
-                    <img src="https://i.pravatar.cc/150?u=4" class="w-12 h-12 rounded-full border-2 border-white shadow-lg">
-                </div>
-            </div>
-
-            <div class="absolute -bottom-4 right-40 animate-float" style="animation-delay: 2s;">
-                <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=5" class="w-12 h-12 rounded-full border-2 border-white shadow-lg mb-2">
-                    <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
-                        <span class="text-[10px] text-green-500">▲</span> Marketer
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section> -->
-
     <section class="bg-white h-[60vh] py-28 max-md:h-[50vh] max-md:py-16 flex items-center justify-center overflow-hidden w-full relative">
 
         <div class="relative w-full max-w-7xl mx-auto flex justify-center items-center scale-90 md:scale-100">
@@ -724,7 +655,6 @@ $page_title = "home";
 
     </section>
 
-
     <section class="relative bg-white pb-10 lg:pt-14 lg:pb-24 max-lg:pt-10 overflow-hidden">
         <div class="max-md:w-[85%] w-[80%] mx-auto grid max-lg:grid-cols-1 grid-cols-2 items-center gap-16 max-lg:gap-0">
 
@@ -770,8 +700,6 @@ $page_title = "home";
 
         </div>
     </section>
-
-
 
     <div class="hidden border-t border-gray-200 py-20 max-lg:py-12 max-lg:w-[85%] flex items-center justify-center container mx-auto w-[80%]">
 
@@ -918,8 +846,8 @@ $page_title = "home";
                     <button onclick="updateFeature(0)" id="btn-0" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Real-Time Reports</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Track revenue & cash flow instantly with visual graphs.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1"> Insightful Dashboard</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed">Create and send professional GST invoices in seconds.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -932,8 +860,8 @@ $page_title = "home";
                     <button onclick="updateFeature(1)" id="btn-1" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Smart Invoicing</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Create and send professional GST invoices in seconds.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1"> Real-Time Reports</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed"> Track revenue & cash flow instantly with visual graphs. </p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -946,8 +874,8 @@ $page_title = "home";
                     <button onclick="updateFeature(2)" id="btn-2" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-right lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Multi-User Access</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Granular role-based permissions for your entire team.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1"> Smart Invoicing</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed"> Create and send professional GST invoices in seconds.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -970,7 +898,7 @@ $page_title = "home";
                                 <div class="w-3 h-3 rounded-full bg-green-400"></div>
                                 <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
                             </div>
-                            <img id="feature-image" src="/asset/image/hh9.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
+                            <img id="feature-image" src="/asset/image/h66.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
                         </div>
 
                         <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
@@ -983,13 +911,14 @@ $page_title = "home";
                     <button onclick="updateFeature(3)" id="btn-3" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4">
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
+                                <!-- barcode icon  -->
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Auto Reminders</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Send payment alerts via WhatsApp & Email automatically.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Stock Management</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed">Track inventory levels and get low-stock alerts automatically.</p>
                             </div>
                         </div>
                     </button>
@@ -1002,8 +931,8 @@ $page_title = "home";
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">GST Management</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Auto-calculate taxes and generate compliant reports.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Payment Reminders</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed">Send automated SMS and Email alerts for overdue payments.</p>
                             </div>
                         </div>
                     </button>
@@ -1016,8 +945,8 @@ $page_title = "home";
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Cloud Backup</h4>
-                                <p class="text-gray-500 text-sm leading-relaxed">Secure, encrypted cloud sync with one-click restore.</p>
+                                <h4 class="text-gray-900 font-bold text-base mb-1">Multi-User Access</h4>
+                                <p class="text-gray-500 text-sm leading-relaxed">Secure, role-based access for teams.</p>
                             </div>
                         </div>
                     </button>
@@ -1032,27 +961,27 @@ $page_title = "home";
         // Configuration Data
         const features = [{
                 title: "Real-Time Reports",
-                img: "/asset/image/hh9.png"
+                img: "/asset/image/h66.png"
             },
             {
                 title: "Smart Invoicing",
-                img: "/asset/image/hh5.png"
+                img: "/asset/image/hh9.png"
             },
             {
                 title: "Multi-User Access",
-                img: "/asset/image/hh2.png"
+                img: "/asset/image/hh5.png"
             },
             {
                 title: "Automated Reminders",
-                img: "/asset/image/hh3.png"
+                img: "/asset/image/hh0.png"
             },
             {
                 title: "GST & Tax Management",
-                img: "/asset/image/hh4.png"
+                img: "/asset/image/hh6.jpg"
             },
             {
                 title: "Cloud Backup",
-                img: "/asset/image/hh1.png"
+                img: "/asset/image/hh3.png"
             }
         ];
 

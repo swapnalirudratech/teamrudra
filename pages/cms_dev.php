@@ -16,7 +16,7 @@ $page_title = "website-designing";
 
     <div class="relative overflow-hidden">
         <!-- Banner Section with background image and one-sided overlay -->
-        <div class="h-[90vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center relative z-10 text-white bg-cover bg-center bg-no-repeat"
+        <div class="h-[90vh] max-md:h-[70vh] h-screen flex items-center relative z-10 text-white bg-cover bg-center bg-no-repeat"
             style="background-image: url('/asset/Web-design.jpg');">
 
             <!-- One-sided gradient overlay -->
@@ -27,11 +27,11 @@ $page_title = "website-designing";
                 <div class="flex flex-col md:flex-row items-center">
                     <!-- Text -->
                     <div class="md:w-1/2">
-                        <h1 class=" text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-5xl 2xl:text-6xl  font-semibold leading-tight mb-4">
+                        <h1 class="text-3xl lg:text-6xl font-extrabold leading-tight mb-4">
                             CMS Development
                         </h1>
-                        <p class="text-sm text-indigo-100 max-w-md mb-6">
-                            Empower your team with scalable, easy-to-manage content solutions built to grow with your business.
+                        <p class="text-sm text-indigo-100 max-w-md mb-6 max-md:hidden">
+                            Empower your team with scalable and easy-to-manage content solutions that can grow with your business.
                         </p>
 
                         <a href="/getquote" class="bg-white text-blue-800 hover:bg-indigo-100 font-medium py-2 px-6 rounded-lg transition">
@@ -60,7 +60,7 @@ $page_title = "website-designing";
                         <i class="fas fa-code text-xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-blue-800">Custom CMS Solutions</h3>
-                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">We create CMS platforms from scratch, customized to your unique business workflows and content needs.</p>
+                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">We develop CMS platforms from scratch, tailored to your specific business workflows and content requirements.</p>
                 </div>
 
                 <div class="bg-white p-8 max-lg:p-4 max-md:p-6 rounded-2xl shadow-md border border-blue-100 card-hover" data-aos="fade-up" data-aos-delay="200">
@@ -68,7 +68,7 @@ $page_title = "website-designing";
                         <i class="fas fa-plug text-xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-blue-800">CMS Integration</h3>
-                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">Smooth integration with platforms like WordPress, Drupal, or headless CMS tools like Strapi and Sanity.</p>
+                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">Smooth integration with platforms such as WordPress, Drupal, or headless CMS solutions such as Strapi and Sanity.</p>
                 </div>
 
                 <div class="bg-white p-8 max-lg:p-4 max-md:p-6 rounded-2xl shadow-md border border-blue-100 card-hover" data-aos="fade-up" data-aos-delay="300">
@@ -76,7 +76,7 @@ $page_title = "website-designing";
                         <i class="fas fa-shield-alt text-xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-blue-800">Maintenance & Support</h3>
-                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">Reliable updates, monitoring, and performance tuning to keep your CMS running smoothly and securely.</p>
+                    <p class="text-gray-600 mb-6 max-lg:text-sm max-lg:mb-0">Dependable updates, monitoring, and optimization to keep your CMS platform running smoothly and securely.</p>
                 </div>
             </div>
         </div>
@@ -136,37 +136,37 @@ $page_title = "website-designing";
         <div class="w-[80%] max-lg:w-[85%] mx-auto">
             <div class="flex flex-col-reverse lg:flex-row items-center gap-12">
                 <div class="lg:w-1/2" data-aos="fade-right">
-                    <img src="/asset/bgapp.jpg" alt="Professional CMS Development Team" class="w-full h-[80vh] max-lg:h-[30vh] object-cover rounded-2xl shadow-lg" />
+                    <img src="/asset/bgapp.jpg" alt="Professional CMS Development Team" class="w-full h-[80%] max-lg:h-[30vh] object-cover rounded-2xl shadow-lg" />
                 </div>
                 <div class="lg:w-1/2">
                     <h3 class="text-3xl font-medium mb-6 text-blue-800">Why Choose RudraTech for CMS Development?</h3>
                     <p class="text-gray-600 text-lg leading-relaxed mb-6">
-                        With a focus on quality, security, and long-term scalability, we ensure every CMS we develop becomes a long-term asset for your business.
+                        At RudraTech, we believe in developing high-quality, secure, and scalable CMS solutions that will be a valuable asset to your business for years to come.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-start">
                             <div class="bg-blue-100 max-md:bg-transparent text-blue-600 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
                                 <i class="fas fa-check text-sm"></i>
                             </div>
-                            <p class="text-gray-700">Experienced team of CMS development specialists with 10+ years in the industry</p>
+                            <p class="text-gray-700">Expert team of CMS development professionals with 10+ years of experience in the industry</p>
                         </li>
                         <li class="flex items-start">
                             <div class="bg-blue-100 max-md:bg-transparent text-blue-600 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
                                 <i class="fas fa-check text-sm"></i>
                             </div>
-                            <p class="text-gray-700">Advanced security practices with regular updates and vulnerability testing</p>
+                            <p class="text-gray-700">Highly secure development processes with frequent updates and vulnerability checks</p>
                         </li>
                         <li class="flex items-start">
                             <div class="bg-blue-100 max-md:bg-transparent text-blue-600 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
                                 <i class="fas fa-check text-sm"></i>
                             </div>
-                            <p class="text-gray-700">Transparent development process with regular client communications</p>
+                            <p class="text-gray-700">Open and transparent development process with constant communication with clients</p>
                         </li>
                         <li class="flex items-start">
                             <div class="bg-blue-100 max-md:bg-transparent text-blue-600 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
                                 <i class="fas fa-check text-sm"></i>
                             </div>
-                            <p class="text-gray-700">Comprehensive support packages with 24/7 monitoring options</p>
+                            <p class="text-gray-700">Full support packages with 24/7 monitoring services</p>
                         </li>
                     </ul>
                 </div>
@@ -183,9 +183,9 @@ $page_title = "website-designing";
     <script>
         AOS.init();
     </script>
-   <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 
 </body>
 

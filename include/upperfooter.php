@@ -94,10 +94,6 @@ Our No-Code products have you coveblue
         }
     }
 
-    .typing-cursor {
-        animation: blink 1s step-end infinite;
-    }
-
     @keyframes blink {
         50% {
             opacity: 0;
@@ -155,70 +151,217 @@ Our No-Code products have you coveblue
 
 
         <!-- RudraTech Java API Integration Section -->
-        <section class="flex flex-col md:flex-row items-center gap-10 py-16 text-white animate-fade-in-up max-md:py-0">
+        <section class="flex flex-col md:flex-row items-center gap-16 py-16 text-white animate-fade-in-up">
 
-            <!-- Left Text Content -->
-            <div class="md:w-1/3 text-white text-center md:text-left space-y-4">
-                <h2 class="text-4xl font-normal max-lg:text-2xl">Custom RudraTech API</h2>
-                <p class="text-lg max-lg:text-sm opacity-90">Try our cloud infrastructure API in your Java apps with ease. Automate, deploy, and scale — instantly.</p>
+            <div class="md:w-[40%] text-white text-center md:text-left space-y-4">
+                <h2 class="text-4xl font-normal tracking-tight">Custom RudraTech API</h2>
+                <p class="text-lg opacity-80">Integrate our high-performance Java infrastructure. Automate, scale, and deploy with precision.</p>
 
                 <svg class="w-20 h-20 mx-auto md:mx-0 hidden md:block rotate-[45deg]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17 13l-5-5m0 0l-5 5m5-5v12" />
                 </svg>
             </div>
 
-            <!-- GIF Block Instead of Code -->
-            <div class="w-full md:w-2/3 p-4 sm:p-6 ">
-                <div class="relative w-full  bg-gray-900/80  border border-gray-700 px-20 py-10 transform  transition duration-700">
-                    <div class="flex items-center gap-2 mb-6 opacity-50">
-                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                    </div>
-                    <div class="font-mono text-sm space-y-2">
-                        <p class="text-pink-400">class <span class="text-yellow-300">RudraEngine</span> extends <span class="text-yellow-300">Intelligence</span> {</p>
-                        <p class="text-gray-300 pl-4">constructor() {</p>
-                        <p class="text-blue-400 pl-8">this.efficiency = <span class="text-green-400">'100%'</span>;</p>
-                        <p class="text-blue-400 pl-8">this.security = <span class="text-green-400">'Enterprise-Grade'</span>;</p>
-                        <p class="text-gray-300 pl-4">}</p>
-                        <p class="text-purple-400 pl-4">function <span class="text-blue-300">optimizeGrowth</span>() {</p>
-                        <p class="text-gray-500 pl-8">// Executing automated scaling...</p>
-                        <p class="text-green-400 pl-8 typing-cursor">return true; |</p>
-                        <p class="text-purple-400 pl-4">}</p>
-                        <p class="text-pink-400">}</p>
+            <div class="w-full md:w-[60%] p-4">
+                <div class="relative w-full bg-[#0d1117] border border-gray-800 rounded-xl overflow-hidden shadow-2xl">
+
+                    <div class="flex items-center justify-between px-5 py-3 bg-[#161b22] border-b border-gray-800">
+                        <div class="flex items-center gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500/50"></div>
+                        </div>
+                        <span class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">Rudra_API.java</span>
                     </div>
 
-                    <div class="absolute -right-8 top-10 bg-white text-black p-4 rounded-lg shadow-xl animate-bounce" style="animation-duration: 3s;">
-                        <div class="flex items-center gap-3">
-                            <div class="bg-green-100 p-2 rounded-full text-green-600">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="text-xs font-bold text-gray-500 uppercase">System Status</p>
-                                <p class="font-bold">Online</p>
-                            </div>
-                        </div>
+                    <div class="h-[350px] px-6 py-6 font-mono text-sm sm:text-base overflow-hidden relative">
+                        <div id="typewriter-terminal" class="leading-relaxed whitespace-pre-wrap"></div>
+                        <span id="cursor" class="inline-block w-2 h-5 bg-blue-500 animate-blink align-middle"></span>
                     </div>
                 </div>
             </div>
-
-            <!-- Video Block Instead of Code -->
-            <!-- <div class="w-full md:w-2/3 p-4 sm:p-6 rounded-xl max-md:p-0">
-                <div class="w-full p-2 bg-gray-900 shadow-lg">
-                    <video
-                        src="/"
-                        autoplay
-                        muted
-                        loop
-                        playsinline
-                        class="rounded-lg w-full h-auto object-contain  "></video>
-                </div>
-            </div> -->
-
-
         </section>
+
+        <style>
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+
+            .animate-blink {
+                animation: blink 1s step-end infinite;
+            }
+
+            /* Syntax Colors */
+            .keyword {
+                color: #ff79c6;
+            }
+
+            .class-name {
+                color: #f1fa8c;
+            }
+
+            .method {
+                color: #8be9fd;
+            }
+
+            .string {
+                color: #50fa7b;
+            }
+
+            .comment {
+                color: #6272a4;
+                font-style: italic;
+            }
+        </style>
+
+        <script>
+            const terminal = document.getElementById('typewriter-terminal');
+            const cursor = document.getElementById('cursor');
+
+            const codeData = [{
+                    text: 'public class ',
+                    type: 'keyword'
+                },
+                {
+                    text: 'RudraCore ',
+                    type: 'class-name'
+                },
+                {
+                    text: '{\n',
+                    type: ''
+                },
+                {
+                    text: '  // Initializing secure handshake...\n',
+                    type: 'comment'
+                },
+                {
+                    text: '  public void ',
+                    type: 'keyword'
+                },
+                {
+                    text: 'init',
+                    type: 'method'
+                },
+                {
+                    text: '() {\n',
+                    type: ''
+                },
+                {
+                    text: '    Database.',
+                    type: ''
+                },
+                {
+                    text: 'connect',
+                    type: 'method'
+                },
+                {
+                    text: '(',
+                    type: ''
+                },
+                {
+                    text: '"CLOUD_PROD_v2"',
+                    type: 'string'
+                },
+                {
+                    text: ');\n',
+                    type: ''
+                },
+                {
+                    text: '    Auth.',
+                    type: ''
+                },
+                {
+                    text: 'verifySecurityToken',
+                    type: 'method'
+                },
+                {
+                    text: '();\n',
+                    type: ''
+                },
+                {
+                    text: '    this.',
+                    type: ''
+                },
+                {
+                    text: 'loadGlobalModules',
+                    type: 'method'
+                },
+                {
+                    text: '();\n',
+                    type: ''
+                },
+                {
+                    text: '    this.',
+                    type: ''
+                },
+                {
+                    text: 'scale',
+                    type: 'method'
+                },
+                {
+                    text: '();\n',
+                    type: ''
+                },
+                {
+                    text: '    System.out.println(',
+                    type: ''
+                },
+                {
+                    text: '"BUILD SUCCESSFUL: RudraEngine Active"',
+                    type: 'string'
+                },
+                {
+                    text: ');\n',
+                    type: ''
+                },
+                {
+                    text: '  }\n',
+                    type: ''
+                },
+                {
+                    text: '}',
+                    type: ''
+                }
+            ];
+
+            let segmentIndex = 0;
+            let charIndex = 0;
+            let currentSpan = null;
+
+            function typeEffect() {
+                if (segmentIndex < codeData.length) {
+                    const segment = codeData[segmentIndex];
+
+                    if (charIndex === 0) {
+                        currentSpan = document.createElement('span');
+                        if (segment.type) currentSpan.className = segment.type;
+                        terminal.appendChild(currentSpan);
+                    }
+
+                    currentSpan.textContent += segment.text[charIndex];
+                    charIndex++;
+
+                    if (charIndex < segment.text.length) {
+                        setTimeout(typeEffect, 30);
+                    } else {
+                        charIndex = 0;
+                        segmentIndex++;
+                        setTimeout(typeEffect, 150);
+                    }
+                } else {
+                    setTimeout(() => {
+                        terminal.innerHTML = '';
+                        segmentIndex = 0;
+                        charIndex = 0;
+                        typeEffect();
+                    }, 4000);
+                }
+            }
+
+            window.onload = typeEffect;
+        </script>
 
 
 

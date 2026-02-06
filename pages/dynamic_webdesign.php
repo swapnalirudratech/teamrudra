@@ -12,33 +12,43 @@ include "include/header.php";
     <?php include "include/navbar.php"; ?>
 
 
-    <section class="relative w-full h-[90vh] max-lg:h-[40vh] max-md:h-[60vh] bg-white overflow-hidden py-20  bg-cover bg-center bg-no-repeat"
-        style="background-image: url('/asset/image/bg.jpeg');">
-        <div class="w-[90%] max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-black">
 
-            <!-- Text Content -->
-            <div class="flex-1 max-w-2xl text-center md:text-left">
-                <h1 class="text-5xl  text-5xl max-lg:text-3xl font-extrabold leading-tight text-gray-900 mb-6">
-                    Get a <span class="text-blue-600">Dynamic Website</span><br class="hidden md:block" />
-                    to Grow Your Online Business
-                </h1>
-                <p class="text-sm sm:text-base md:text-lg text-gray-700 font-bold mb-8 max-w-xl mx-auto md:mx-0">
-                    Launch a feature-rich dynamic website — absolutely free. Manage content, users, and more with ease.
-                </p>
-                <a href="/getin-touch"
-                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium shadow-lg transition duration-300">
+        <div class="absolute inset-0">
+            <img src="/asset/image/bg.jpeg" alt="Dynamic Website Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/80"></div>
+        </div>
+
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto flex flex-col items-center">
+
+            <span class="mb-4 inline-block rounded-full bg-blue-600/20 px-4 py-1.5 text-sm font-semibold text-blue-300 border border-blue-500/30 backdrop-blur-sm uppercase tracking-wider">
+                Free Beta Launch
+            </span>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
+                   text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
+                Get a <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Dynamic Website</span> <br />
+                to Grow Your Business
+            </h1>
+
+            <p class="text-gray-200 text-base sm:text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-8 max-md:hidden">
+                Launch a feature-rich dynamic website — <b>absolutely free</b>. Manage content, users, and databases with ease.
+            </p>
+
+            <div class="mt-2">
+                <a href="/getquote"
+                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
+                       text-white font-bold text-base sm:text-lg px-8 py-4 rounded-full 
+                       shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 
+                       transition-all duration-300 ease-in-out transform hover:-translate-y-1">
                     Get My Dynamic Website
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                    </svg>
                 </a>
             </div>
-
-            <!-- Image (Optional - uncomment if needed) -->
-            <!--
-    <div class="flex-1">
-      <img src="/asset/image/w1.jpg" alt="Website Development"
-        class="w-full max-w-md mx-auto md:mx-0 rounded-xl shadow-md object-contain" />
-    </div>
-    -->
-
         </div>
     </section>
 
@@ -64,9 +74,7 @@ include "include/header.php";
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 max-md:gap-0">
                 <!-- Left: Services Showcase -->
                 <div class="relative p-6 max-lg:p-0 max-md:order-2 ">
-                    <div class="absolute -top-4 -left-4 px-4 py-2 bg-blue-500 text-white font-medium rounded-lg">
-                        Our Approach
-                    </div>
+
 
                     <!-- Service Cards -->
                     <div class="grid grid-cols-1 gap-2 mt-8 sm:grid-cols-2">
@@ -78,7 +86,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Responsive Design</h3>
-                            <p class="text-xs text-gray-600">Perfect across all devices with fluid layouts and optimized visuals</p>
+                            <p class="text-xs text-gray-600">Perfect on all devices with fluid layouts and optimized graphics</p>
                         </div>
 
                         <!-- Card 2 -->
@@ -89,7 +97,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Custom UI/UX</h3>
-                            <p class="text-xs text-gray-600">Brand-aligned interfaces that enhance user engagement</p>
+                            <p class="text-xs text-gray-600">Brand-centric interfaces for maximum user engagement</p>
                         </div>
 
                         <!-- Card 3 -->
@@ -100,7 +108,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Performance</h3>
-                            <p class="text-xs text-gray-600">Lightning-fast load times with optimized code and assets</p>
+                            <p class="text-xs text-gray-600">Blazing-fast loading speeds with optimized code and assets</p>
                         </div>
 
                         <!-- Card 4 -->
@@ -111,7 +119,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Modern Frameworks</h3>
-                            <p class="text-xs text-gray-600">Built with cutting-edge technologies for scalable growth</p>
+                            <p class="text-xs text-gray-600">Developed with the latest tech for scalable growth</p>
                         </div>
                     </div>
                 </div>
@@ -120,10 +128,8 @@ include "include/header.php";
                 <div class="relative flex flex-col items-center justify-center lg:pl-8 mt-4 max-md:mb-8">
                     <div class="relative w-full overflow-hidden  max-lg:w-full">
                         <!-- Main image -->
-                        <img src="/asset/custom.jpg" alt="Professional Web Design" class="w-full h-[60vh] max-lg:h-[30vh] object-cover rounded-xl">
+                        <img src="/asset/custom.jpg" alt="Professional Web Design" class="w-full h-full max-lg:h-[30vh] object-cover rounded-xl">
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -190,9 +196,9 @@ include "include/header.php";
 
 
 
-  <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 
 </body>
 

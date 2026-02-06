@@ -11,33 +11,50 @@ include "include/header.php";
 
     <?php include "include/navbar.php"; ?>
 
-    <section class="relative w-full h-[90vh] max-lg:h-[40vh] max-md:h-[60vh]  bg-cover bg-center bg-white overflow-hidden py-20 flex items-center justify-center"
-        style="background-image: url('/asset/image/staticwebsite.jpg');">
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden">
 
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/40 md:bg-black/40 backdrop-blur-xs z-0"></div>
+        <div class="absolute inset-0">
+            <img src="/asset/image/staticwebsite.jpg" alt="Static Web Design"
+                class="w-full h-full object-cover object-center animate-[pulse_10s_ease-in-out_infinite] scale-105" />
 
-        <!-- Centered Content -->
-        <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center h-[80vh]">
-            <div class="text-center max-w-2xl">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-                    Static Websites, <br class="hidden md:block" />
-                    Fast, Secure & Stunning
-                </h1>
-                <!-- <p class="text-base sm:text-lg text-gray-600 mb-6">
-                    Empower your online presence with blazing-fast static websites built for performance, reliability, and elegance.
-                </p> -->
-                <!-- <a href="/getin-touch"
-                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium shadow-md transition">
-                    Let’s Build Yours
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/80 to-blue-900/30 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+
+        <div class="relative z-10 container mx-auto px-4 flex flex-col items-center justify-center text-center">
+
+            <div class="mb-6 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 backdrop-blur-md">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                <span class="text-xs font-semibold text-green-400 uppercase tracking-wide">100/100 Google PageSpeed</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight drop-shadow-2xl">
+                Static Websites. <br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+                    Blazing Fast.
+                </span>
+                Secure.
+            </h1>
+
+            <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed font-light max-md:hidden">
+                Stop losing customers due to slow loading speeds. Give your brand the power of a static website designed for lightning-fast speeds and maximum security.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/getquote"
+                    class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold shadow-[0_0_20px_rgba(37,99,235,0.5)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] transition-all duration-300 transform hover:-translate-y-1">
+                    Begin Your Build
+                </a>
+                <!-- <a href="#learn-more"
+                    class="px-8 py-4 rounded-full font-bold text-white border border-white/20 hover:bg-white/10 backdrop-blur-sm transition-all duration-300">
+                    How It Works
                 </a> -->
             </div>
         </div>
     </section>
-
-
-
-
 
     <!-- Modern Web Development Services Section -->
     <section class="relative py-20 max-lg:py-12  overflow-hidden bg-gradient-to-t from-white to-gray-50">
@@ -52,10 +69,10 @@ include "include/header.php";
                         Web Design
 
                     </span>
-                    <span class="text-blue-600"> tailored to Your Vision</span>
+                    <span class="text-blue-600"> that Matches Your Vision</span>
                 </h2>
                 <p class="mt-5 text-lg text-gray-600">
-                    We create stunning websites that capture your brand's essence while delivering exceptional user experiences that drive results.
+                    We design beautiful websites that reflect your brand's identity and provide an exceptional user experience that drives results.
                 </p>
             </div>
 
@@ -63,9 +80,9 @@ include "include/header.php";
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
                 <!-- Left: Services Showcase -->
                 <div class="relative p-6  max-lg:p-0">
-                    <div class="absolute -top-4 -left-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg">
+                    <!-- <div class="absolute -top-4 -left-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg">
                         Our Approach
-                    </div>
+                    </div> -->
 
                     <!-- Service Cards -->
                     <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2">
@@ -77,7 +94,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Responsive Design</h3>
-                            <p class="text-xs text-gray-600">Perfect across all devices with fluid layouts and optimized visuals</p>
+                            <p class="text-xs text-gray-600">Optimized for all devices with fluid designs and visuals</p>
                         </div>
 
                         <!-- Card 2 -->
@@ -88,7 +105,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Custom UI/UX</h3>
-                            <p class="text-xs text-gray-600">Brand-aligned interfaces that enhance user engagement</p>
+                            <p class="text-xs text-gray-600">Brand-specific designs that boost user engagement</p>
                         </div>
 
                         <!-- Card 3 -->
@@ -99,7 +116,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Performance</h3>
-                            <p class="text-xs text-gray-600">Lightning-fast load times with optimized code and assets</p>
+                            <p class="text-xs text-gray-600">Lightning-fast loading speeds with optimized code and assets</p>
                         </div>
 
                         <!-- Card 4 -->
@@ -110,7 +127,7 @@ include "include/header.php";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Modern Frameworks</h3>
-                            <p class="text-xs text-gray-600">Built with cutting-edge technologies for scalable growth</p>
+                            <p class="text-xs text-gray-600">Developed using the latest tech for scalable growth</p>
                         </div>
                     </div>
                 </div>
@@ -119,10 +136,8 @@ include "include/header.php";
                 <div class="relative flex flex-col items-center justify-center lg:pl-8 mt-4">
                     <div class="relative w-full overflow-hidden ">
                         <!-- Main image -->
-                        <img src="/asset/website1.jpg" alt="Professional Web Design" class="w-full h-[60vh] max-lg:h-[40vh]  object-cover">
+                        <img src="/asset/website1.jpg" alt="Professional Web Design" class="w-full h-full max-lg:h-[40vh] rounded-lg object-cover">
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -189,7 +204,7 @@ include "include/header.php";
 
 
 
-<?php include 'include/marquee.php' ?>
+    <?php include 'include/marquee.php' ?>
     <?php include "include/upperfooter.php"; ?>
     <?php include "./include/footer.php" ?>
 </body>

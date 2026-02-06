@@ -14,7 +14,7 @@ $page_title = "website-designing";
     ?>
 
 
-    <section class="relative bg-gradient-to-br from-white to-blue-50  h-[90vh]  max-lg:h-[40vh] max-md:h-[60vh]   overflow-hidden">
+    <section class="relative bg-gradient-to-br from-white to-blue-50  h-[90vh] max-md:h-[70vh] overflow-hidden">
 
         <!-- Background Image with Black Overlay -->
         <div class="absolute inset-0">
@@ -38,7 +38,7 @@ $page_title = "website-designing";
             <div class="mt-6">
                 <a href="/getin-touch"
                     class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-md text-sm sm:text-base font-semibold transition duration-300">
-                    🚀 Get Started
+                    <i class="fas fa-paper-plane"></i> Get Started
                 </a>
             </div>
         </div>
@@ -81,10 +81,10 @@ $page_title = "website-designing";
                     Informative Websites
                 </h2>
                 <p class="text-gray-700 mb-4 max-lg:text-sm">
-                    RudraTech IT Services specializes in building professional, responsive, and SEO-optimized informative websites that elevate your brand presence. Whether you're a startup, agency, or growing business, our sites are built for speed, clarity, and performance.
+                    RudraTech IT Services is known for developing professional, responsive, and SEO-friendly informative websites that can enhance your brand identity. Whether you are a startup, an agency, or a small business, our websites are designed for speed, clarity, and performance.
                 </p>
                 <p class="text-gray-700  max-lg:text-sm">
-                    From showcasing your services and team to integrating contact forms and Google Maps, we help you communicate effectively and convert visitors into leads — all with clean design and intuitive navigation.
+                    From featuring your services and team members to adding contact forms and Google Maps, we can help you communicate effectively and convert visitors into leads.
                 </p>
             </div>
 
@@ -102,15 +102,10 @@ $page_title = "website-designing";
                     Business <span class="text-blue-500">Essential</span>
                 </h2>
                 <p class="text-gray-800 mb-4">
-                    At RudraTech IT Services, we specialize in designing informative websites that
-                    communicate your brand, services, and values effectively. Our goal is to help
-                    businesses make a strong online impression and share detailed insights without
-                    overwhelming users.
+                    At RudraTech IT Services, we are experts in creating informative websites that convey your brand, services, and values effectively. Our aim is to assist businesses in making a great online impact and sharing in-depth information without overwhelming visitors.
                 </p>
                 <p class="text-gray-800 mb-6">
-                    Whether you're a startup or an established company, our clean, responsive, and
-                    fast-loading websites ensure your audience gets the information they need —
-                    clearly and professionally.
+                    Whether it is a startup or an existing business, our informative websites ensure that your visitors receive the information they are looking for – clearly and professionally.
                 </p>
                 <div class="flex space-x-10">
                     <div>
@@ -138,7 +133,7 @@ $page_title = "website-designing";
                     </div>
                     <div class="ml-5 text-white">
                         <h4 class="text-lg font-semibold">Content Strategy</h4>
-                        <p class="text-sm text-gray-200">Structured layout that highlights key services and core messages.</p>
+                        <p class="text-sm text-gray-200">Well-structured layout that emphasizes important services and key messages.</p>
                     </div>
                 </div>
 
@@ -153,7 +148,7 @@ $page_title = "website-designing";
                     </div>
                     <div class="ml-5 text-white">
                         <h4 class="text-lg font-semibold">User Experience</h4>
-                        <p class="text-sm text-gray-200">Optimized layout for clarity, speed, and easy navigation.</p>
+                        <p class="text-sm text-gray-200">Layout designed for ease of understanding, speed, and navigation.</p>
                     </div>
                 </div>
 
@@ -168,7 +163,7 @@ $page_title = "website-designing";
                     </div>
                     <div class="ml-5 text-white">
                         <h4 class="text-lg font-semibold">SEO Ready</h4>
-                        <p class="text-sm text-gray-200">Designed to rank well on search engines and drive traffic.</p>
+                        <p class="text-sm text-gray-200">Optimized for high search engine rankings and traffic.</p>
                     </div>
                 </div>
             </div>
@@ -179,9 +174,9 @@ $page_title = "website-designing";
 
 
 
- <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 </body>
 
 </html>

@@ -126,9 +126,9 @@ $page_title = "website-designing";
     <?php include "include/navbar.php" ?>
 
     <!-- Hero Section for CRM Development -->
-    <section class="relative h-[90vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center justify-center text-center px-4 py-20">
+    <section class="relative h-[90vh] max-md:h-[70vh] flex items-end justify-center text-center px-4 py-20">
         <!-- Background Image -->
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/asset/crmbg.jpg');"></div>
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/asset/image/crmbg.jpg');"></div>
 
         <!-- Dark Overlay -->
         <div class="absolute inset-0 bg-black/60"></div>
@@ -138,7 +138,7 @@ $page_title = "website-designing";
             <h1 class="text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-extrabold mb-6">
                 Tailored CRM Development Services
             </h1>
-            <p class="text-md text-gray-200 mb-8">
+            <p class="text-md text-gray-200 mb-8 max-md:hidden">
                 Design smarter customer relationships with scalable, intuitive, and business-ready CRM solutions.
             </p>
             <a href="/getquote" class="inline-block px-6 py-3 border border-white rounded-md text-white hover:bg-blue-600 hover:border-blue-600 transition duration-300">
@@ -233,7 +233,7 @@ $page_title = "website-designing";
             <div class="flex flex-col lg:flex-row max-lg:flex-row max-md:flex-col items-center max-md:mb-6 w-full">
                 <div class="lg:w-1/3 max-lg:w-1/2 mb-8 max-md:w-full ">
                     <div class="bg-gray-200 rounded-lg overflow-hidden">
-                        <img src="/asset/images1/crm1.jpeg" alt="Streamline Customer Management" class="w-full h-auto">
+                        <img src="/asset/image/crm1.avif" alt="Streamline Customer Management" class="w-full h-auto">
                     </div>
                 </div>
                 <div class="lg:w-1/3 max-lg:w-1/2 px-8 max-md:w-full max-md:px-0 max-md:flex max-md:gap-4 max-md:justify-center max-md:items-center">
@@ -293,7 +293,7 @@ $page_title = "website-designing";
                 <!-- Left: Image -->
                 <div class="lg:w-1/3 max-lg:w-1/2 mb-8 max-md:w-full">
                     <div class="bg-gray-200 rounded-lg overflow-hidden">
-                        <img src="/asset/images1/crm2.avif" alt="Data-Driven Insights" class="w-full h-auto">
+                        <img src="/asset/image/crm2.avif" alt="Data-Driven Insights" class="w-full h-auto">
                     </div>
                 </div>
 
@@ -353,7 +353,7 @@ $page_title = "website-designing";
                 <!-- Left: Image -->
                 <div class="lg:w-1/3 max-lg:w-1/2 mb-8 max-md:w-full">
                     <div class="bg-gray-200 rounded-lg overflow-hidden">
-                        <img src="/asset/images1/crm3.jpeg" alt="Seamless Integration" class="w-full h-auto object-cover">
+                        <img src="/asset/image/crm3.avif" alt="Seamless Integration" class="w-full h-auto object-cover">
                     </div>
                 </div>
 
@@ -415,9 +415,9 @@ $page_title = "website-designing";
 
 
 
-<?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 
 </body>
 

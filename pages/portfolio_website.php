@@ -30,21 +30,42 @@ $page_title = "website-designing";
         }
     </style>
 
-    <section
-        class="relative bg-cover bg-center  h-[90vh]  max-lg:h-[40vh] max-md:h-[60vh]   flex items-center justify-start "
-        style="background-image: url('/asset/portfolioback.jpg');">
-        <div class="absolute inset-0 bg-gradient-to-tr from-black/80 to-transparent "></div>
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
 
-        <div class="relative z-10 w-[80%] max-lg:w-[85%] mx-auto  text-white animate-fade-up">
-            <p class="text-sm uppercase tracking-widest text-gray-200 mb-4">
-                Portfolio Website Design
-            </p>
-            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-2">
-                <span class="text-black">PORTFOLIO</span>
+        <div class="absolute inset-0">
+            <img src="/asset/portfolioback.jpg" alt="Portfolio Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/90"></div>
+        </div>
+
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-5xl mx-auto flex flex-col items-center animate-fade-up">
+
+            <span class="mb-4 inline-block px-4 py-1.5 text-sm font-bold tracking-[0.2em] text-gray-300 border-b border-gray-500 uppercase">
+                Personal Branding
+            </span>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-none drop-shadow-2xl
+                   text-5xl sm:text-6xl md:text-8xl mb-6">
+                YOUR <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">PORTFOLIO</span>
             </h1>
-            <h2 class="text-2xl md:text-3xl font-semibold text-gray-200">
-                A Creative Showcase That Builds <br> Trust & Brand Identity
+
+            <h2 class="text-gray-200 text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto leading-relaxed max-md:hidden">
+                A creative showcase that builds <b class="text-white">Trust</b> and defines your <b class="text-white">Identity</b>.
             </h2>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/getin-touch"
+                    class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-8 py-4 rounded-full 
+                       hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
+                    Start Building
+                </a>
+                <a href="/portfolio"
+                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/30 rounded-full 
+                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
+                    View Examples
+                </a>
+            </div>
         </div>
     </section>
 
@@ -60,7 +81,7 @@ $page_title = "website-designing";
                     <span class="text-blue-600">Presence & Credibility</span>
                 </h2>
                 <p class="text-gray-600 mb-6">
-                    Your portfolio is your digital identity. RudraTech builds impactful, responsive, and professional portfolio websites tailored to showcase your work, style, and experience.
+                    Your portfolio is your digital identity. RudraTech builds impactful, responsive, and professional portfolio websites designed to showcase your work, style, and experience.
                 </p>
 
                 <ul class="space-y-4">
@@ -158,9 +179,9 @@ $page_title = "website-designing";
     </section>
 
 
-<?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 </body>
 
 </html>
