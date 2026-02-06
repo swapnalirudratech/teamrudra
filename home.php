@@ -898,7 +898,7 @@ $page_title = "home";
                                 <div class="w-3 h-3 rounded-full bg-green-400"></div>
                                 <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
                             </div>
-                            <img id="feature-image" src="/asset/image/h66.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
+                            <img id="feature-image" src="/asset/image/hhd.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
                         </div>
 
                         <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
@@ -961,7 +961,7 @@ $page_title = "home";
         // Configuration Data
         const features = [{
                 title: "Real-Time Reports",
-                img: "/asset/image/h66.png"
+                img: "/asset/image/hhd.png"
             },
             {
                 title: "Smart Invoicing",
@@ -1215,7 +1215,7 @@ $page_title = "home";
                         <div class="order-2 md:order-2 max-md:hidden ">
                             <div class="relative">
                                 <div class="absolute inset-0 bg-blue-600 transform translate-x-6 translate-y-6 rounded-lg"></div>
-                                <img src="/asset/team.jpg" alt="RudraTech Team" class="relative z-10 w-full h-full max-lg:h-[30vh] object-cover rounded-lg shadow-xl">
+                                <img src="/asset/image/abt.avif" alt="RudraTech Team" class="relative z-10 w-full h-full max-lg:h-[30vh] object-cover rounded-lg shadow-xl">
                             </div>
                         </div>
                     </div>
