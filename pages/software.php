@@ -1,921 +1,561 @@
 <?php
-$page_title = "software";
+$page_title = "AI Custom Software & ERP Solutions | RudraTech";
 ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <?php include "include/header.php"; ?>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
     body {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .font-mono {
         font-family: 'JetBrains Mono', monospace;
     }
 
-    /* Custom Scrollbar */
+    /* Custom Scrollbar (Blue/Black) */
     ::-webkit-scrollbar {
         width: 8px;
     }
 
     ::-webkit-scrollbar-track {
-        background: #f1f1f1;
+        background: #0f172a;
     }
 
     ::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
+        background: #1e40af;
         border-radius: 4px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8;
+        background: #3b82f6;
+    }
+
+    /* Animations */
+    @keyframes scan-vertical {
+
+        0%,
+        100% {
+            top: 5%;
+            opacity: 0;
+        }
+
+        10% {
+            opacity: 1;
+        }
+
+        90% {
+            opacity: 1;
+        }
+
+        50% {
+            top: 90%;
+        }
+    }
+
+    @keyframes fall-blue {
+        to {
+            transform: translateY(500px) rotate(720deg);
+            opacity: 0;
+        }
+    }
+
+    .glass-dark {
+        background: rgba(15, 23, 42, 0.8);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(59, 130, 246, 0.2);
+    }
+</style>
+<style>
+    /* 1. Base State: Hidden & Slightly to the right */
+    .feature-popup {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(50px);
+        /* Start 50px to the right */
+        transition: all 0.8s ease-out;
+    }
+
+    /* 2. Active State: Visible & In Position */
+    .owl-item.active .feature-popup {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        /* Slide into place */
+    }
+
+    /* 3. Custom Dots Styling */
+    .owl-theme .owl-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 30;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 30px;
+        /* Long bars instead of dots */
+        height: 4px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span {
+        background: #3b82f6;
+        /* Blue active bar */
+        width: 50px;
+        /* Grow when active */
     }
 </style>
 
-<body class="text-gray-800 antialiased bg-gray-50">
+<body class="bg-white text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
 
     <?php include "include/navbar.php" ?>
 
-    <section class="relative w-full min-h-[90vh] flex items-center bg-[#172010] overflow-hidden pt-20">
-        <div class="absolute inset-0 opacity-30">
-            <div class="absolute top-[-10%] left-[-10%] w-[20vw] h-[20vw] bg-blue-600 rounded-full mix-blend-screen filter blur-[100px] animate-pulse"></div>
-            <div class="absolute bottom-[-10%] right-[-10%] w-[20vw] h-[20vw] bg-green-600 rounded-full mix-blend-screen filter blur-[100px]"></div>
-        </div>
+    <section class="relative w-full min-h-[90vh] flex items-center bg-[#050810] overflow-hidden pt-20">
+
+        <div class="absolute inset-0 opacity-[0.1]" style="background-image: linear-gradient(#1e40af 1px, transparent 1px), linear-gradient(90deg, #1e40af 1px, transparent 1px); background-size: 50px 50px;"></div>
+
+        <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-900/20 rounded-full blur-[120px] mix-blend-screen"></div>
+        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-800/10 rounded-full blur-[100px] mix-blend-screen"></div>
 
         <div class="relative z-10 w-[85%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-            <div class="text-left space-y-6">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-500/30 bg-green-900/30 backdrop-blur-md text-green-400 text-xs font-bold tracking-widest uppercase">
-                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                    Version 3.0 Live
+            <div class="text-left space-y-8">
+                <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-blue-800 bg-blue-900/20 text-blue-400 text-xs font-bold tracking-widest uppercase">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                    </span>
+                    AI-Driven Development
                 </div>
 
                 <h1 class="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight">
-                    Billing <span class="text-gray-500">Reimagined.</span><br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400">Simple & Fast.</span>
+                    Software that <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white">Thinks Ahead.</span>
                 </h1>
 
-                <p class="text-lg text-gray-400 max-w-lg leading-relaxed border-l-2 border-gray-700 pl-6">
-                    The ultimate POS ecosystem. Manage inventory, GST compliance, and customer relationships in a single, beautiful interface.
+                <p class="text-lg text-slate-400 max-w-lg leading-relaxed border-l-2 border-blue-700 pl-6">
+                    We engineer <strong>intelligent digital ecosystems</strong>. From neural-network powered EdTech platforms to high-frequency billing engines, RudraTech builds the future of your enterprise.
                 </p>
 
                 <div class="flex flex-wrap gap-4 pt-4">
-                    <a href="#live-demo" class="px-8 py-4 bg-white text-[#172010] font-bold rounded-lg shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] transition-all transform hover:-translate-y-1">
-                        Try Live Engine
+                    <a href="#billing-engine" class="px-8 py-4 bg-blue-700 text-white font-bold rounded-none border border-blue-600 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(29,78,216,0.3)]">
+                        Launch Billing Engine
                     </a>
-                    <a href="#features" class="px-8 py-4 border border-gray-700 text-gray-300 font-bold rounded-lg hover:border-white hover:text-white transition-all backdrop-blur-sm bg-white/5">
-                        Explore Features
+                    <a href="#exam-ai" class="px-8 py-4 border border-slate-700 text-slate-300 font-bold rounded-none hover:border-white hover:text-white transition-all">
+                        Test AI Proctoring
                     </a>
                 </div>
             </div>
 
-            <div class="relative flex justify-center group perspective-1000">
-                <div class="absolute inset-0 bg-gradient-to-tr from-blue-500 to-green-500 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
-                <img src="asset/software/bill1.jpg" alt="Dashboard" class="relative z-10 rounded-xl shadow-2xl border border-gray-700/50 w-full transform rotate-y-6 group-hover:rotate-y-0 transition duration-700 ease-out">
-            </div>
-        </div>
-
-
-    </section>
-
-    <section id="features" class="py-24 bg-white relative z-20">
-        <div class="w-[85%] mx-auto">
-            <div class="text-center mb-20">
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-[#172010]">Powering Your Business</h2>
-                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">Everything you need to scale, simplified into one dashboard.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <?php
-                $features = [
-                    ['icon' => 'fa-barcode', 'color' => 'blue', 'title' => 'Barcode Scanning', 'desc' => 'Instant product lookup compatible with all scanners.'],
-                    ['icon' => 'fa-file-invoice-dollar', 'color' => 'green', 'title' => 'GST Compliant', 'desc' => 'Auto-tax calculation for GSTR-1 & 3B reports.'],
-                    ['icon' => 'fa-boxes', 'color' => 'blue', 'title' => 'Inventory Tracking', 'desc' => 'Real-time stock alerts and expiry management.'],
-                    ['icon' => 'fa-users', 'color' => 'orange', 'title' => 'Multi-User Role', 'desc' => 'Set permissions for Admins, Managers & Cashiers.'],
-                    ['icon' => 'fa-comment-dots', 'color' => 'red', 'title' => 'WhatsApp Invoicing', 'desc' => 'Share bills instantly via WhatsApp API.'],
-                    ['icon' => 'fa-chart-line', 'color' => 'teal', 'title' => 'Smart Analytics', 'desc' => 'Visualize profit, loss, and growth trends.'],
-                    ['icon' => 'fa-wifi', 'color' => 'indigo', 'title' => 'Offline Mode', 'desc' => 'Works without internet. Syncs when back online.'],
-                    ['icon' => 'fa-print', 'color' => 'pink', 'title' => 'Thermal Ready', 'desc' => 'Optimized for 2-inch and 3-inch POS printers.']
-                ];
-
-                foreach ($features as $f): ?>
-                    <div class="group p-8 rounded-2xl bg-gray-50 border border-gray-100 hover:bg-white hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="w-14 h-14 bg-<?= $f['color'] ?>-50 rounded-xl flex items-center justify-center text-<?= $f['color'] ?>-600 text-2xl mb-6 group-hover:scale-110 transition-transform">
-                            <i class="fas <?= $f['icon'] ?>"></i>
-                        </div>
-                        <h3 class="font-bold text-xl text-gray-900 mb-3"><?= $f['title'] ?></h3>
-                        <p class="text-sm text-gray-500 leading-relaxed"><?= $f['desc'] ?></p>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 bg-[#172010] relative overflow-hidden">
-
-
-        <div class="w-[85%] mx-auto relative z-10 pt-10">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-
-                <div class="relative order-2 lg:order-1">
-                    <div class="relative mx-auto bg-gray-900 rounded-t-2xl border-[8px] border-gray-700 shadow-2xl overflow-hidden group">
-                        <div class="aspect-video bg-gray-800 relative overflow-hidden">
-                            <img id="laptop-screen" src="/asset/software/bill2 (1).jpg" alt="Interface" class="w-full h-full object-fit transition-all duration-500 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent pointer-events-none"></div>
-                        </div>
-                    </div>
-                    <div class="h-4 bg-gray-800 rounded-b-xl mx-4 shadow-lg"></div>
+            <div class="relative flex justify-center">
+                <div class="relative w-full max-w-lg aspect-square bg-slate-900/50 rounded-full border border-blue-900/30 flex items-center justify-center animate-[spin_30s_linear_infinite]">
+                    <div class="absolute inset-4 border border-dashed border-blue-800/50 rounded-full"></div>
+                    <div class="absolute inset-12 border border-blue-900/30 rounded-full"></div>
                 </div>
-
-                <div class="order-1 lg:order-2">
-                    <span class="text-green-400 font-bold tracking-widest uppercase text-xs">Seamless Workflow</span>
-                    <h2 class="text-4xl md:text-5xl font-bold text-white mt-4 mb-8 leading-tight">
-                        Complete Control Over <br> Your Empire
-                    </h2>
-
-                    <div class="space-y-4">
-                        <button onclick="changeScreen('dashboard', this)" class="feature-tab active w-full text-left p-5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-green-500/50 transition-all group flex items-center gap-4">
-                            <div class="p-3 bg-blue-500/20 rounded-lg text-blue-400"><i class="fas fa-chart-pie"></i></div>
-                            <div>
-                                <h3 class="text-white font-bold">Smart Dashboard</h3>
-                                <p class="text-gray-400 text-sm">Real-time sales & cash flow tracking.</p>
-                            </div>
-                        </button>
-
-                        <button onclick="changeScreen('billing', this)" class="feature-tab w-full text-left p-5 rounded-xl bg-transparent hover:bg-white/10 border border-transparent hover:border-green-500/50 transition-all group flex items-center gap-4">
-                            <div class="p-3 bg-green-500/20 rounded-lg text-green-400"><i class="fas fa-file-invoice"></i></div>
-                            <div>
-                                <h3 class="text-white font-bold">Fast Invoicing</h3>
-                                <p class="text-gray-400 text-sm">Create bills in seconds via keyboard.</p>
-                            </div>
-                        </button>
-
-                        <button onclick="changeScreen('reports', this)" class="feature-tab w-full text-left p-5 rounded-xl bg-transparent hover:bg-white/10 border border-transparent hover:border-green-500/50 transition-all group flex items-center gap-4">
-                            <div class="p-3 bg-blue-500/20 rounded-lg text-blue-400"><i class="fas fa-chart-line"></i></div>
-                            <div>
-                                <h3 class="text-white font-bold">Deep Reports</h3>
-                                <p class="text-gray-400 text-sm">Profit/Loss, Tax, and Inventory analysis.</p>
-                            </div>
-                        </button>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="text-center">
+                        <i class="fas fa-microchip text-6xl text-blue-500 drop-shadow-[0_0_15px_rgba(59,130,246,0.8)] animate-pulse"></i>
+                        <p class="mt-4 text-blue-200 font-mono text-xs uppercase tracking-[0.3em]">Processing Logic</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-24 bg-gray-50">
+    <section class="py-24 bg-white border-b border-slate-200">
         <div class="w-[85%] mx-auto text-center">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4">Built for Every Business</h2>
-            <p class="text-gray-500 mb-12">One platform, endless possibilities.</p>
+            <h2 class="text-5xl font-bold text-slate-900 mb-4">Enterprise-Grade Solutions</h2>
+            <p class="text-slate-500 mb-16 max-w-2xl mx-auto">Scalable architecture meets intuitive design. Our core competencies drive business growth.</p>
 
-            <div class="flex flex-wrap justify-center gap-4">
-                <?php
-                $industries = [
-                    ['name' => 'Retail Shops', 'icon' => 'fa-store'],
-                    ['name' => 'Pharmacy', 'icon' => 'fa-prescription-bottle-medical'],
-                    ['name' => 'Textile', 'icon' => 'fa-tshirt'],
-                    ['name' => 'Hardware', 'icon' => 'fa-hammer'],
-                    ['name' => 'Supermarket', 'icon' => 'fa-shopping-cart'],
-                    ['name' => 'Restaurant', 'icon' => 'fa-utensils'],
-                    ['name' => 'Electronics', 'icon' => 'fa-plug'],
-                    ['name' => 'FMCG', 'icon' => 'fa-box-open']
-                ];
-
-                foreach ($industries as $ind): ?>
-                    <div class="group px-6 py-3 bg-white border border-gray-200 rounded-full shadow-sm text-gray-700 font-bold hover:bg-[#172010] hover:text-white hover:border-[#172010] transition-all cursor-default flex items-center gap-3">
-                        <i class="fas <?= $ind['icon'] ?> text-blue-500 group-hover:text-green-400 transition-colors"></i>
-                        <span><?= $ind['name'] ?></span>
-                    </div>
-                <?php endforeach; ?>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group p-8 border border-slate-200 hover:border-blue-600 hover:bg-slate-900 hover:text-white transition-all duration-300">
+                    <i class="fas fa-file-invoice text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Custom ERP & Billing</h3>
+                    <p class="text-sm text-slate-500 group-hover:text-slate-400">High-speed POS systems with GST automation and inventory tracking.</p>
+                </div>
+                <div class="group p-8 border border-slate-200 hover:border-blue-600 hover:bg-slate-900 hover:text-white transition-all duration-300">
+                    <i class="fas fa-brain text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">AI & EdTech Apps</h3>
+                    <p class="text-sm text-slate-500 group-hover:text-slate-400">Smart exam platforms with facial recognition and auto-grading logic.</p>
+                </div>
+                <div class="group p-8 border border-slate-200 hover:border-blue-600 hover:bg-slate-900 hover:text-white transition-all duration-300">
+                    <i class="fas fa-cloud text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Cloud SaaS Platforms</h3>
+                    <p class="text-sm text-slate-500 group-hover:text-slate-400">Secure, scalable web applications hosted on AWS/Azure infrastructure.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="live-demo" class="py-24 bg-white relative">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-transparent to-gray-300"></div>
+    <section id="billing-engine" class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-px h-full bg-gradient-to-b from-blue-900/0 via-blue-600/50 to-blue-900/0"></div>
 
-        <div class="w-[90%] xl:w-[85%] mx-auto">
+        <div class="w-[90%] xl:w-[85%] mx-auto relative z-10">
 
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold uppercase mb-4">
-                    <i class="fas fa-bolt"></i> Interactive Demo
-                </div>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900">Experience the Engine</h2>
-                <p class="text-gray-500 mt-4">Add multiple items on the left. Watch the invoice build itself.</p>
+                <span class="text-blue-400 font-bold tracking-widest uppercase text-xs mb-3 block">
+                    Product Showcase: Bharat Bill Book
+                </span>
+                <h2 class="text-4xl md:text-5xl font-extrabold ">
+                    Algorithmic <span class="text-blue-500">Financial Engine</span>
+                </h2>
+                <p class="text-slate-400 mt-4 max-w-xl mx-auto">
+                    Experience our lightning-fast billing logic. Add multiple items on the left and watch the invoice generate instantly.
+                </p>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-12 gap-8 items-start">
 
                 <div class="xl:col-span-4 sticky top-24 z-30">
-                    <div class="bg-[#172010] text-white p-6 rounded-3xl shadow-2xl border border-gray-800">
+                    <div class="border rounded-3xl p-6 shadow-2xl">
 
-                        <div class="flex justify-between items-center mb-6 border-b border-gray-700 pb-4">
-                            <h3 class="font-bold text-lg"><i class="fas fa-sliders-h mr-2"></i>Controls</h3>
-                            <div class="flex bg-gray-800 rounded-lg p-1">
-                                <button onclick="setPaper('A4')" id="btn-a4" class="px-3 py-1 text-xs font-bold rounded bg-green-500 text-white transition-all">A4</button>
-                                <button onclick="setPaper('thermal')" id="btn-thermal" class="px-3 py-1 text-xs font-bold rounded text-gray-400 hover:text-white transition-all">POS</button>
+                        <div class="flex justify-between items-center mb-6 border-b border-slate-700 pb-4">
+                            <h3 class="font-bold text-lg text-blue-400"><i class="fas fa-terminal mr-2"></i>Input Data</h3>
+                            <div class="flex bg-slate-800 p-1">
+                                <button onclick="setPaper('A4')" id="btn-a4" class="px-4 py-1 text-xs font-bold bg-blue-600  transition-all">A4</button>
+                                <button onclick="setPaper('thermal')" id="btn-thermal" class="px-4 py-1 text-xs font-bold text-slate-400 hover:text-white transition-all">POS</button>
                             </div>
                         </div>
 
-                        <div class="space-y-4 max-h-[65vh] overflow-y-auto pr-2 custom-scrollbar">
-
-                            <div class="space-y-3 pb-4 border-b border-gray-700">
-                                <h4 class="text-xs text-green-400 font-bold uppercase">1. Bill To</h4>
-                                <div>
-                                    <input type="text" id="inpInvNo" value="QTN-2026" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none mb-2" placeholder="Invoice No" oninput="updateHeader()">
-                                    <input type="text" id="inpName" placeholder="Client Name" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none" oninput="updateHeader()">
-                                </div>
+                        <div class="space-y-4 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                            <div class="space-y-3 pb-4 border-b border-slate-700">
+                                <label class="text-[10px] uppercase font-bold text-slate-500">Client Details</label>
+                                <input type="text" id="inpInvNo" value="QTN-2026" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm focus:border-blue-500 outline-none" placeholder="Invoice No" oninput="updateHeader()">
+                                <input type="text" id="inpName" placeholder="Client Name" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" oninput="updateHeader()">
                             </div>
 
                             <div class="space-y-3">
-                                <h4 class="text-xs text-green-400 font-bold uppercase">2. Add Products</h4>
-
-                                <div>
-                                    <label class="text-[10px] uppercase font-bold text-gray-400">Description</label>
-                                    <input type="text" id="newItemDesc" value="Web Service" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                </div>
+                                <label class="text-[10px] uppercase font-bold text-slate-500">New Item Entry</label>
+                                <input type="text" id="newItemDesc" value="Software Service" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none">
 
                                 <div class="grid grid-cols-2 gap-2">
-                                    <div>
-                                        <label class="text-[10px] uppercase font-bold text-gray-400">HSN</label>
-                                        <input type="text" id="newItemHsn" value="9983" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                    </div>
-                                    <div>
-                                        <label class="text-[10px] uppercase font-bold text-gray-400">Rate</label>
-                                        <input type="number" id="newItemRate" value="5000" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                    </div>
+                                    <input type="text" id="newItemHsn" value="9983" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" placeholder="HSN">
+                                    <input type="number" id="newItemRate" value="5000" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" placeholder="Rate">
                                 </div>
 
                                 <div class="grid grid-cols-3 gap-2">
-                                    <div>
-                                        <label class="text-[10px] uppercase font-bold text-gray-400">Qty</label>
-                                        <input type="number" id="newItemQty" value="1" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                    </div>
-                                    <div>
-                                        <label class="text-[10px] uppercase font-bold text-gray-400">GST %</label>
-                                        <input type="number" id="newItemGst" value="18" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                    </div>
-                                    <div>
-                                        <label class="text-[10px] uppercase font-bold text-gray-400">Disc %</label>
-                                        <input type="number" id="newItemDisc" value="0" class="w-full bg-gray-800 border border-gray-700 rounded p-2 text-sm text-white focus:border-green-500 outline-none">
-                                    </div>
+                                    <input type="number" id="newItemQty" value="1" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" placeholder="Qty">
+                                    <input type="number" id="newItemGst" value="18" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" placeholder="GST%">
+                                    <input type="number" id="newItemDisc" value="0" class="w-full bg-slate-50 border border-slate-700 p-3 text-sm  focus:border-blue-500 outline-none" placeholder="Disc%">
                                 </div>
 
-                                <button onclick="addItem()" class="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg transition mt-2">
-                                    <i class="fas fa-plus mr-1"></i> Add to Invoice
+                                <button onclick="addItem()" class="w-full py-3 bg-blue-700 text-white hover:bg-blue-600  text-xs font-bold uppercase tracking-wider transition mt-2 border border-blue-500">
+                                    <i class="fas fa-plus mr-1"></i> Add Record
                                 </button>
                             </div>
 
                             <div class="pt-2">
-                                <h4 class="text-xs text-gray-400 font-bold uppercase mb-2">Current Items (<span id="itemCount">0</span>)</h4>
-                                <div id="controlPanelList" class="space-y-2 max-h-[150px] overflow-y-auto">
-                                    <div class="text-xs text-gray-500 italic text-center py-2">No items added yet.</div>
+                                <h4 class="text-xs text-slate-400 font-bold uppercase mb-2">Queue (<span id="itemCount">0</span>)</h4>
+                                <div id="controlPanelList" class="space-y-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="xl:col-span-8 bg-slate-800 p-8 lg:p-12 min-h-[800px] flex justify-center items-start shadow-inner border border-slate-700">
+
+                    <div id="view-a4" class="bg-white shadow-2xl w-[210mm] min-h-[200mm] p-10 text-black text-xs font-sans leading-tight flex flex-col transform transition-transform duration-500 origin-top">
+                        <div class="text-center mb-2">
+                            <h1 class="font-bold text-xl uppercase tracking-widest text-slate-900">Tax Invoice</h1>
+                            <p class="text-[10px] text-slate-500">Original for Recipient</p>
+                        </div>
+
+                        <div class="border-2 border-slate-900 flex-grow flex flex-col">
+                            <div class="flex border-b-2 border-slate-900">
+                                <div class="w-1/2 p-4 border-r-2 border-slate-900">
+                                    <h2 class="font-bold text-lg text-blue-900">RudraTech IT Services</h2>
+                                    <p class="text-slate-600">Tech Park, Mumbai, India</p>
+                                    <p class="font-bold mt-2">GSTIN: 27AAAAA0000A1Z5</p>
+                                </div>
+                                <div class="w-1/2 p-4">
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-bold">Invoice #:</span>
+                                        <span id="outInvNo" class="font-mono">QTN-2026</span>
+                                    </div>
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-bold">Date:</span>
+                                        <span><?php echo date('d-M-Y'); ?></span>
+                                    </div>
+                                    <div class="mt-4 pt-2 border-t border-slate-300">
+                                        <p class="text-[10px] font-bold uppercase text-slate-500">Bill To:</p>
+                                        <p class="font-bold text-md outName">Client Name</p>
+                                    </div>
                                 </div>
                             </div>
 
+                            <div class="flex bg-slate-900 text-white font-bold py-2 text-center text-[11px]">
+                                <div class="w-[5%]">#</div>
+                                <div class="w-[45%] text-left pl-2">Description</div>
+                                <div class="w-[10%]">HSN</div>
+                                <div class="w-[10%]">Qty</div>
+                                <div class="w-[10%]">Rate</div>
+                                <div class="w-[10%]">GST</div>
+                                <div class="w-[10%] text-right pr-2">Total</div>
+                            </div>
+
+                            <div id="invoiceBody" class="flex-grow"></div>
+
+                            <div class="border-t-2 border-slate-900 p-4">
+                                <div class="flex justify-end space-y-1 text-right">
+                                    <div class="w-1/2">
+                                        <div class="flex justify-between text-slate-500"><span>Taxable Value:</span> <span id="outTotalTaxable">0.00</span></div>
+                                        <div class="flex justify-between text-slate-500"><span>CGST:</span> <span id="outTotalCgst">0.00</span></div>
+                                        <div class="flex justify-between text-slate-500"><span>SGST:</span> <span id="outTotalSgst">0.00</span></div>
+                                        <div class="flex justify-between text-slate-900 font-bold text-lg mt-2 pt-2 border-t border-slate-300">
+                                            <span>Grand Total:</span> <span id="outGrandTotal">0.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4 text-[10px] italic text-slate-500">
+                                    Amount in words: <span id="outWords" class="font-bold not-italic text-slate-900">Zero Only</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="view-pos" class="hidden bg-white w-[80mm] p-4 font-mono text-xs shadow-xl">
+                        <div class="text-center border-b border-dashed border-black pb-2 mb-2">
+                            <h2 class="font-bold">RUDRA POS</h2>
+                            <p>Mumbai, India</p>
+                        </div>
+                        <div class="mb-2">
+                            <p>Inv: <span id="posInv">001</span></p>
+                            <p>Client: <span class="outName">Name</span></p>
+                        </div>
+                        <div class="border-b border-black mb-1"></div>
+                        <div id="posBody"></div>
+                        <div class="border-b border-black mt-1 mb-1"></div>
+                        <div class="flex justify-between font-bold text-sm">
+                            <span>TOTAL</span>
+                            <span id="posTotal">0.00</span>
+                        </div>
+                        <div class="text-center mt-4 text-[10px]">*** THANK YOU ***</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="py-24 bg-[#0f172a]/100 relative overflow-hidden border-t border-slate-800">
+
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-blue-600/10 rounded-full blur-[120px]"></div>
+
+        <div class="w-[85%] mx-auto relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-40 max-md:gap-8  items-center ">
+
+                <div class="order-2 lg:order-1">
+                    <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-slate-700 bg-slate-800/50 text-blue-400 text-xs font-bold tracking-widest uppercase mb-6">
+                        <i class="fab fa-android"></i> <i class="fab fa-apple"></i> Cross-Platform Sync
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+                        The Constitution <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white">In Your Pocket.</span>
+                    </h2>
+                    <p class="text-slate-400 text-lg mb-8 leading-relaxed border-l-2 border-blue-700 pl-6">
+                        Seamlessly switch between Web and Mobile. Students can practice <strong>Bhartiya Samvidhan</strong> quizzes on the go. Live syncing ensures progress is never lost.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="p-4 bg-slate-800/50 border border-slate-700 rounded-xl">
+                            <p class="text-xs text-blue-400 font-bold uppercase mb-1" id="slide-label">FEATURE SPOTLIGHT</p>
+                            <h4 class="text-xl font-bold text-white transition-all duration-500" id="slide-title">Smart Dashboard</h4>
+                            <p class="text-sm text-slate-400 transition-all duration-500" id="slide-desc">Track progress and view upcoming exams instantly.</p>
                         </div>
 
-                        <div class="mt-4 pt-4 border-t border-gray-700">
-                            <button class="w-full py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-xl transition shadow-lg shadow-green-900/50 flex justify-center items-center gap-2">
-                                <i class="fas fa-print"></i> Print / Download
+                        <div class="flex gap-4 mt-8">
+                            <button class="flex items-center gap-3 px-6 py-3 bg-white text-slate-900 rounded-lg hover:bg-blue-50 transition font-bold text-sm">
+                                <i class="fab fa-google-play text-xl"></i> Get on Android
+                            </button>
+                            <button class="flex items-center gap-3 px-6 py-3 border border-slate-600 text-white rounded-lg hover:border-white transition font-bold text-sm">
+                                <i class="fab fa-apple text-xl"></i> App Store
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="xl:col-span-8 bg-gray-100 rounded-3xl border border-gray-200 p-8 lg:p-12 min-h-[800px] flex justify-center items-start overflow-hidden relative shadow-inner">
-                    <div class="absolute inset-0 opacity-[0.05]" style="background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <div class="relative order-1 lg:order-2 h-[600px] flex items-center justify-center perspective-1000">
 
-                    <div id="view-a4" class="bg-white shadow-2xl w-[210mm] min-h-[207mm] p-8 text-black text-xs font-sans leading-tight flex flex-col transform transition-transform duration-500 origin-top">
-
-                        <div class="text-center mb-1">
-                            <h1 class="font-bold text-lg uppercase underline decoration-2 underline-offset-2">Quotation Invoice (Original)</h1>
+                    <!-- <div class="absolute right-0 top-10 w-[260px] h-[520px] bg-slate-900 rounded-[2.5rem] border-[6px] border-slate-800 shadow-2xl transform rotate-y-[-15deg] translate-z-[-50px] opacity-60 z-0">
+                        <div class="w-full h-full bg-slate-800 rounded-[2.2rem] overflow-hidden relative">
+                            <img src="/asset/software/c1 (2).jpeg" alt="Background Phone" class="w-full h-full object-cover opacity-50">
                         </div>
+                    </div> -->
 
-                        <div class="border-2 border-black flex-grow flex flex-col">
+                    <div class="absolute left-10 bottom-10 w-[300px] h-[550px] bg-slate-900 rounded-[3rem] border-[8px] border-slate-800 shadow-[0_20px_50px_rgba(37,99,235,0.3)] transform rotate-y-[15deg] translate-z-[50px] transition-transform duration-500 hover:rotate-y-0 hover:scale-105 z-20 overflow-hidden">
 
-                            <div class="flex border-b border-black">
-                                <div class="w-1/2 p-2 border-r border-black">
-                                    <h2 class="font-bold text-lg">RudraTech IT Services</h2>
-                                    <p>Ambernath, Maharashtra</p>
-                                    <p class="font-bold">GSTIN/UIN: 27AAAAA0000A1Z5</p>
-                                    <p>State: Maharashtra, Code: 27</p>
-                                </div>
-                                <div class="w-1/2 flex flex-col">
-                                    <div class="flex border-b border-black h-1/2">
-                                        <div class="w-1/2 p-1 border-r border-black">
-                                            <p class="text-[10px] font-bold">Invoice No.</p>
-                                            <p class="font-bold text-sm" id="outInvNo">QTN-2026</p>
-                                        </div>
-                                        <div class="w-1/2 p-1">
-                                            <p class="text-[10px] font-bold">Dated</p>
-                                            <p class="font-bold"><?php echo date('d-M-y'); ?></p>
-                                        </div>
-                                    </div>
-                                    <div class="flex h-1/2">
-                                        <div class="w-1/2 p-1 border-r border-black">
-                                            <p class="text-[10px] font-bold">Delivery Note</p>
-                                            <p>-</p>
-                                        </div>
-                                        <div class="w-1/2 p-1">
-                                            <p class="text-[10px] font-bold">Payment Terms</p>
-                                            <p>Immediate</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="w-full h-full bg-slate-900 rounded-[1rem] overflow-hidden relative">
+
+                            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-slate-800 rounded-b-xl z-30"></div>
+
+                            <img id="app-slider-img" src="/asset/software/c1 (2).jpeg" alt="App Screen" class="w-full h-full object-cover object-top transition-opacity duration-500 opacity-100">
+
+                            <div class="absolute bottom-4 left-0 w-full flex justify-center gap-2 z-30">
+                                <div class="w-2 h-2 rounded-full bg-white transition-all duration-300 slide-dot active" data-index="0"></div>
+                                <div class="w-2 h-2 rounded-full bg-white/30 transition-all duration-300 slide-dot" data-index="1"></div>
+                                <div class="w-2 h-2 rounded-full bg-white/30 transition-all duration-300 slide-dot" data-index="2"></div>
                             </div>
 
-                            <div class="flex border-b border-black">
-                                <div class="w-1/2 p-2 border-r border-black">
-                                    <p class="text-[10px] font-bold mb-1">Consignee (Ship to)</p>
-                                    <p class="font-bold text-sm outName">Client Name</p>
-                                    <p>Ambernath, Maharashtra</p>
-                                    <p class="font-bold mt-1">GSTIN: 27AAHFA7639L1ZZ</p>
-                                </div>
-                                <div class="w-1/2 p-2">
-                                    <p class="text-[10px] font-bold mb-1">Buyer (Bill to)</p>
-                                    <p class="font-bold text-sm outName">Client Name</p>
-                                    <p>Ambernath, Maharashtra</p>
-                                    <p class="font-bold mt-1">GSTIN: 27AAHFA7639L1ZZ</p>
-                                </div>
-                            </div>
-
-                            <div class="flex border-b border-black bg-gray-100 text-center font-bold text-[11px]">
-                                <div class="w-[5%] border-r border-black p-1">SI</div>
-                                <div class="w-[40%] border-r border-black p-1 text-left">Description of Goods</div>
-                                <div class="w-[10%] border-r border-black p-1">HSN/SAC</div>
-                                <div class="w-[10%] border-r border-black p-1">Quantity</div>
-                                <div class="w-[10%] border-r border-black p-1">Rate</div>
-                                <div class="w-[10%] border-r border-black p-1">Disc %</div>
-                                <div class="w-[15%] p-1">Amount</div>
-                            </div>
-
-                            <div class="flex-grow flex flex-col relative min-h-[300px]">
-                                <div class="absolute inset-0 flex pointer-events-none">
-                                    <div class="w-[5%] border-r border-black h-full"></div>
-                                    <div class="w-[40%] border-r border-black h-full"></div>
-                                    <div class="w-[10%] border-r border-black h-full"></div>
-                                    <div class="w-[10%] border-r border-black h-full"></div>
-                                    <div class="w-[10%] border-r border-black h-full"></div>
-                                    <div class="w-[10%] border-r border-black h-full"></div>
-                                    <div class="w-[15%] h-full"></div>
-                                </div>
-
-                                <div id="invoiceBody" class="z-10 w-full"></div>
-                            </div>
-
-                            <div class="border-t border-black">
-                                <div class="flex border-b border-black">
-                                    <div class="w-[85%] border-r border-black p-1 text-right font-bold">Total Discount (-)</div>
-                                    <div class="w-[15%] p-1 text-right" id="outTotalDisc">0.00</div>
-                                </div>
-                                <div class="flex border-b border-black">
-                                    <div class="w-[85%] border-r border-black p-1 text-right text-[10px]">CGST (Total)</div>
-                                    <div class="w-[15%] p-1 text-right" id="outTotalCgst">0.00</div>
-                                </div>
-                                <div class="flex border-b border-black">
-                                    <div class="w-[85%] border-r border-black p-1 text-right text-[10px]">SGST (Total)</div>
-                                    <div class="w-[15%] p-1 text-right" id="outTotalSgst">0.00</div>
-                                </div>
-                                <div class="flex font-bold bg-gray-200">
-                                    <div class="w-[65%] border-r border-black p-2 text-right">Total</div>
-                                    <div class="w-[20%] border-r border-black p-2 text-center" id="outTotalQty">0</div>
-                                    <div class="w-[15%] p-2 text-right text-sm" id="outGrandTotal">0.00</div>
-                                </div>
-                            </div>
-
-                            <div class="border-t border-black p-2 flex justify-between items-end">
-                                <div class="w-2/3">
-                                    <p class="text-[10px]">Amount Chargeable (in words):</p>
-                                    <p class="font-bold italic" id="outWords">Zero Only</p>
-                                </div>
-                                <div class="w-1/3 text-right">
-                                    <p class="text-[10px] font-bold">for RudraTech IT Services</p>
-                                    <br><br>
-                                    <p class="text-[10px]">(Authorised Signatory)</p>
-                                </div>
-                            </div>
-
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
                         </div>
-                    </div>
-
-                    <div id="view-pos" class="hidden bg-white shadow-xl w-[80mm] p-4 font-mono text-xs text-gray-900 min-h-[100mm] flex flex-col">
-                        <div class="text-center border-b-2 border-dashed border-gray-800 pb-2 mb-2">
-                            <h2 class="font-bold text-sm">RudraTech POS</h2>
-                            <p class="text-[10px]">Date: <?php echo date('d-M'); ?></p>
-                        </div>
-                        <div class="mb-2">Customer: <span class="outName font-bold">Client</span></div>
-
-                        <div class="border-b border-gray-800 mb-2"></div>
-                        <div class="flex justify-between font-bold mb-1"><span>Item</span><span>Amt</span></div>
-
-                        <div id="posBody" class="w-full mb-2"></div>
-
-                        <div class="border-b border-gray-800 mb-2"></div>
-
-                        <div class="flex justify-between"><span>Total Tax</span><span id="posTax">0.00</span></div>
-                        <div class="flex justify-between font-bold text-sm mt-2"><span>TOTAL</span><span id="posTotal">0.00</span></div>
-
-                        <div class="text-center mt-4 text-[10px]">*** Thank You ***</div>
-                        <div class="h-8 bg-black w-3/4 mx-auto mt-2"></div>
                     </div>
 
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class="py-24 bg-[#172010] relative overflow-hidden">
-
-        <div class="absolute inset-0 opacity-20 pointer-events-none">
-            <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600 rounded-full blur-[150px]"></div>
-            <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-green-600 rounded-full blur-[150px]"></div>
-        </div>
-
-        <div class="w-[85%] mx-auto relative z-10">
-
-            <div class="text-center mb-16">
-                <span class="text-green-400 font-bold tracking-widest uppercase text-xs mb-3 block">
-                    Automated Workflow
-                </span>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-white">
-                    See It <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400">Generate Reports</span>
-                </h2>
-                <p class="text-gray-400 mt-4">
-                    Watch how fast Bharat Bill Book processes data. No manual errors. Just results.
-                </p>
-            </div>
-
-            <div class="relative max-w-4xl mx-auto">
-                <div class="relative bg-gray-900 rounded-t-2xl border-[12px] border-gray-800 shadow-2xl overflow-hidden aspect-[16/10]">
-
-                    <div class="bg-gray-100 w-full h-full relative font-sans overflow-hidden" id="sim-screen">
-
-                        <div class="bg-white border-b border-gray-200 h-12 flex items-center px-4 justify-between">
-                            <div class="flex gap-2">
-                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                            </div>
-                            <div class="text-xs font-bold text-gray-400">Bharat Bill Book v3.0</div>
-                            <div class="w-4"></div>
-                        </div>
-
-                        <div id="scene-form" class="p-8 absolute inset-0 top-12 transition-opacity duration-500 opacity-100">
-                            <h3 class="text-xl font-bold text-gray-800 mb-6">Create New Invoice</h3>
-
-                            <div class="space-y-4 max-w-md">
-                                <div>
-                                    <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Customer Name</label>
-                                    <input type="text" id="sim-input-name" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-white" placeholder="">
-                                </div>
-                                <div class="flex gap-4">
-                                    <div class="w-1/2">
-                                        <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Item</label>
-                                        <select class="w-full border border-gray-300 rounded p-2 text-sm bg-white">
-                                            <option>Consulting Service</option>
-                                        </select>
-                                    </div>
-                                    <div class="w-1/2">
-                                        <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Amount (₹)</label>
-                                        <input type="text" id="sim-input-amt" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-white" placeholder="">
-                                    </div>
-                                </div>
-                                <button id="sim-btn" class="mt-4 px-6 py-2 bg-blue-600 text-white text-sm font-bold rounded shadow-lg transform transition-transform scale-100">
-                                    Generate Invoice
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="scene-loading" class="absolute inset-0 top-12 bg-white flex flex-col items-center justify-center opacity-0 transition-opacity duration-300">
-                            <div class="w-10 h-10 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin mb-4"></div>
-                            <p class="text-sm font-bold text-gray-500">Calculating Taxes...</p>
-                        </div>
-
-                        <div id="scene-result" class="absolute inset-0 top-12 bg-gray-50 p-8 flex flex-col items-center justify-center opacity-0 transition-opacity duration-500 transform translate-y-10">
-                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 shadow-sm">
-                                <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-900">Invoice Created!</h3>
-                            <p class="text-gray-500 mb-6">#INV-2026 sent via WhatsApp</p>
-
-                            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-lg w-64 text-center">
-                                <p class="text-xs text-gray-400 uppercase">Total Amount</p>
-                                <p class="text-2xl font-bold text-blue-600">₹ 12,500</p>
-                                <div class="mt-2 w-full bg-gray-100 h-1 rounded-full overflow-hidden">
-                                    <div class="bg-green-500 h-full w-[80%]"></div>
-                                </div>
-                                <p class="text-[10px] text-gray-400 mt-1 text-right">Paid Online</p>
-                            </div>
-                        </div>
-
-                        <div id="ghost-cursor" class="absolute top-0 left-0 pointer-events-none z-50 transition-all duration-700 ease-in-out">
-                            <svg class="w-6 h-6 text-black drop-shadow-lg" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M3.5 3.5L10 21.5L13.5 13.5L21.5 10L3.5 3.5Z" stroke="white" stroke-width="2" />
-                            </svg>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="h-5 bg-gray-800 rounded-b-xl mx-12 shadow-lg flex justify-center">
-                    <div class="w-32 h-1.5 bg-gray-700 rounded-b-md"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const cursor = document.getElementById('ghost-cursor');
-            const inputName = document.getElementById('sim-input-name');
-            const inputAmt = document.getElementById('sim-input-amt');
-            const btn = document.getElementById('sim-btn');
-            const sceneForm = document.getElementById('scene-form');
-            const sceneLoad = document.getElementById('scene-loading');
-            const sceneResult = document.getElementById('scene-result');
-
-            const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-            async function typeText(element, text) {
-                element.value = "";
-                // Cursor moves to element
-                const rect = element.getBoundingClientRect();
-                const containerRect = document.getElementById('sim-screen').getBoundingClientRect();
-
-                // Calculate relative position inside the laptop screen
-                const x = rect.left - containerRect.left + 20;
-                const y = rect.top - containerRect.top + 20;
-
-                cursor.style.transform = `translate(${x}px, ${y}px)`;
-                await sleep(800); // Wait for cursor to arrive
-
-                // Focus effect
-                element.classList.add('border-blue-500', 'ring-2', 'ring-blue-200');
-
-                // Type characters
-                for (let char of text) {
-                    element.value += char;
-                    await sleep(100); // Typing speed
+            // --- MOBILE APP CAROUSEL LOGIC ---
+            const slides = [{
+                    img: '/asset/software/c1 (2).jpeg', // Replace with your image
+                    title: 'Smart Dashboard',
+                    desc: 'Track progress, view subjects, and check upcoming exams instantly.'
+                },
+                {
+                    img: '/asset/software/c1 (1).jpeg', // Replace with your image
+                    title: 'Live Exam Interface',
+                    desc: 'Distraction-free environment with timer and auto-save functionality.'
+                },
+                {
+                    img: '/asset/software/c1 (4).jpeg', // Replace with your image
+                    title: 'Instant Analytics',
+                    desc: 'Detailed scorecards, rank analysis, and performance graphs.'
                 }
+            ];
 
-                await sleep(400);
-                element.classList.remove('border-blue-500', 'ring-2', 'ring-blue-200');
+            let currentIndex = 0;
+            const imgElement = document.getElementById('app-slider-img');
+            const titleElement = document.getElementById('slide-title');
+            const descElement = document.getElementById('slide-desc');
+            const dots = document.querySelectorAll('.slide-dot');
+
+            function showSlide(index) {
+                // 1. Fade Out
+                imgElement.style.opacity = '0';
+                titleElement.style.opacity = '0';
+                descElement.style.opacity = '0';
+
+                setTimeout(() => {
+                    // 2. Change Content
+                    imgElement.src = slides[index].img;
+                    titleElement.innerText = slides[index].title;
+                    descElement.innerText = slides[index].desc;
+
+                    // 3. Update Dots
+                    dots.forEach((dot, i) => {
+                        if (i === index) {
+                            dot.classList.remove('bg-white/30');
+                            dot.classList.add('bg-white', 'w-4'); // Make active dot wider
+                        } else {
+                            dot.classList.add('bg-white/30');
+                            dot.classList.remove('bg-white', 'w-4');
+                        }
+                    });
+
+                    // 4. Fade In
+                    imgElement.style.opacity = '1';
+                    titleElement.style.opacity = '1';
+                    descElement.style.opacity = '1';
+                }, 500);
             }
 
-            async function runAnimation() {
-                // Reset State
-                inputName.value = "";
-                inputAmt.value = "";
-                sceneForm.style.opacity = "1";
-                sceneResult.style.opacity = "0";
-                sceneResult.classList.remove('translate-y-0');
-                sceneResult.classList.add('translate-y-10');
-                sceneLoad.style.opacity = "0";
-
-                await sleep(1000);
-
-                // 1. Type Name
-                await typeText(inputName, "Rohan Sharma");
-
-                // 2. Type Amount
-                await typeText(inputAmt, "12500");
-
-                // 3. Move to Button
-                const btnRect = btn.getBoundingClientRect();
-                const containerRect = document.getElementById('sim-screen').getBoundingClientRect();
-                const btnX = btnRect.left - containerRect.left + btnRect.width / 2;
-                const btnY = btnRect.top - containerRect.top + btnRect.height / 2;
-
-                cursor.style.transform = `translate(${btnX}px, ${btnY}px)`;
-                await sleep(800);
-
-                // 4. Click Effect
-                btn.classList.add('scale-95', 'bg-blue-700');
-                await sleep(150);
-                btn.classList.remove('scale-95', 'bg-blue-700');
-
-                // 5. Loading State
-                sceneForm.style.opacity = "0";
-                sceneLoad.style.opacity = "1";
-
-                // Move cursor away
-                cursor.style.transform = `translate(90%, 90%)`;
-
-                await sleep(1500); // Simulate processing time
-
-                // 6. Show Result
-                sceneLoad.style.opacity = "0";
-                sceneResult.style.opacity = "1";
-                sceneResult.classList.remove('translate-y-10');
-                sceneResult.classList.add('translate-y-0');
-
-                // 7. Loop
-                await sleep(4000); // Show result for 4 seconds
-                runAnimation();
-            }
-
-            // Start Loop
-            runAnimation();
+            // Auto Cycle every 3 seconds
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % slides.length;
+                showSlide(currentIndex);
+            }, 3000);
         });
     </script>
 
-    <section class="py-24 bg-white relative z-20">
+
+    <section id="exam-ai" class="py-24 bg-white relative overflow-hidden">
+
         <div class="w-[85%] mx-auto">
-            <div class="text-center mb-16">
-                <span class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3 block">
-                    Universal Compatibility
-                </span>
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Connects with <span class="text-blue-600">Everything</span></h2>
-                <p class="text-gray-500 max-w-2xl mx-auto">
-                    No need to buy expensive new gadgets. Bharat Bill Book works instantly with the hardware you already own.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="group relative p-8 rounded-3xl bg-gray-50 border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full blur-3xl opacity-0 group-hover:opacity-50 transition-opacity"></div>
-                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-blue-600 text-3xl mb-6">
-                        <i class="fas fa-print"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Any Printer</h3>
-                    <p class="text-sm text-gray-500 mb-4">Laser, Inkjet, or Thermal (2-inch & 3-inch). We support them all automatically.</p>
-                    <ul class="text-xs text-gray-400 space-y-2">
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Epson / Canon</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> TVS / Posiflex</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Bluetooth Thermal</li>
-                    </ul>
-                </div>
-
-                <div class="group relative p-8 rounded-3xl bg-[#172010] text-white border border-gray-800 overflow-hidden shadow-2xl transform md:-translate-y-4">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-green-500/20 rounded-full blur-3xl group-hover:opacity-100 transition-opacity"></div>
-                    <div class="w-16 h-16 bg-gray-800 rounded-2xl shadow-inner border border-gray-700 flex items-center justify-center text-green-400 text-3xl mb-6">
-                        <i class="fas fa-barcode"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Barcode Scanners</h3>
-                    <p class="text-sm text-gray-400 mb-4">Plug in your scanner and start billing. Zero configuration required.</p>
-                    <div class="w-full bg-gray-800 h-1 rounded-full overflow-hidden mb-2">
-                        <div class="bg-green-500 h-full w-[0%] animate-[width_2s_ease-in-out_infinite]"></div>
-                    </div>
-                    <p class="text-[10px] text-green-400 uppercase font-bold tracking-wider">Scan Speed: < 0.2ms</p>
-                </div>
-
-                <div class="group relative p-8 rounded-3xl bg-gray-50 border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full blur-3xl opacity-0 group-hover:opacity-50 transition-opacity"></div>
-                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-blue-600 text-3xl mb-6">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Weighing Scales</h3>
-                    <p class="text-sm text-gray-500 mb-4">Directly pull weight from digital scales. Perfect for Kirana and Sweet shops.</p>
-                    <ul class="text-xs text-gray-400 space-y-2">
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> CAS / Essae</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Cash Drawers</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Touch POS Machines</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 bg-white relative overflow-hidden">
-
-
-
-        <div class="w-[85%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
-
-            <div class="relative flex justify-center order-2 lg:order-1">
-                <div class="relative w-[300px] h-[600px] bg-gray-900 rounded-[3rem] border-[8px] border-gray-800 shadow-2xl overflow-hidden">
-                    <div class="w-full h-full bg-white relative">
-                        <div class="bg-blue-600 h-20 p-6 flex items-end justify-between text-white">
-                            <span class="font-bold">Dashboard</span>
-                            <i class="fas fa-bars"></i>
-                        </div>
-                        <div class="p-4 space-y-4">
-                            <div class="bg-blue-50 p-4 rounded-xl border border-blue-100">
-                                <p class="text-xs text-gray-500">Total Sales Today</p>
-                                <p class="text-2xl font-bold text-blue-700">₹ 24,500</p>
-                            </div>
-                            <div class="space-y-2">
-                                <div class="flex justify-between text-xs font-bold text-gray-400 uppercase">
-                                    <span>Recent Bills</span>
-                                    <span>Amt</span>
-                                </div>
-                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg text-sm">
-                                    <span>Rohan Sharma</span>
-                                    <span class="font-bold">₹ 500</span>
-                                </div>
-                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg text-sm">
-                                    <span>Amit General</span>
-                                    <span class="font-bold">₹ 1,200</span>
-                                </div>
-                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg text-sm">
-                                    <span>Cash Sale</span>
-                                    <span class="font-bold">₹ 150</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="absolute bottom-0 w-full h-16 bg-white border-t flex justify-around items-center text-gray-400">
-                            <i class="fas fa-home text-blue-600"></i>
-                            <i class="fas fa-plus-circle text-4xl text-blue-600 -mt-8 bg-white rounded-full p-1 shadow-lg"></i>
-                            <i class="fas fa-user"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="absolute top-20 -right-10 bg-white p-3 rounded-xl shadow-xl  hidden md:block">
-                    <div class="flex items-center gap-2">
-                        <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600"><i class="fas fa-check"></i></div>
-                        <div>
-                            <p class="text-[10px] text-gray-500">Sync Status</p>
-                            <p class="text-xs font-bold">Live Updated</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="order-1 lg:order-2 text-left">
-                <span class="text-green-400 font-bold tracking-widest uppercase text-xs mb-3 block">
-                    Android & iOS App
-                </span>
-                <h2 class="text-4xl md:text-5xl font-extrabold  mb-6">
-                    Your Shop in <br> Your <span class="text-blue-500">Pocket.</span>
-                </h2>
-                <p class="text-gray-400 text-lg mb-8 leading-relaxed">
-                    Not at the counter? No problem. Check live sales, stock levels, and create bills from your phone. Data syncs instantly between PC and Mobile.
-                </p>
-
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="flex items-center gap-3 px-6 py-3 border shadow-lg text-black rounded-xl hover:bg-gray-200 transition">
-                        <i class="fab fa-google-play text-2xl text-green-600"></i>
-                        <div class="text-left">
-                            <p class="text-[10px] font-bold uppercase">Get it on</p>
-                            <p class="text-sm font-bold leading-none">Google Play</p>
-                        </div>
-                    </button>
-                    <button class="flex items-center gap-3 px-6 py-3 bg-black border border-gray-600 text-white rounded-xl hover:border-white transition">
-                        <i class="fab fa-apple text-2xl"></i>
-                        <div class="text-left">
-                            <p class="text-[10px] font-bold uppercase">Download on</p>
-                            <p class="text-sm font-bold leading-none">App Store</p>
-                        </div>
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <section class="py-24 bg-white border-b border-gray-100">
-        <div class="w-[80%] mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
-                <div>
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 text-purple-600 text-xs font-bold uppercase mb-6">
-                        <i class="fas fa-code"></i> Custom Development
-                    </div>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-                        Build Your Own <br>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Exam Platform</span>
-                    </h2>
-                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                        Just like <strong>The Constitution Study</strong>, we build high-end educational apps. Feature-rich platforms with live exams, AI proctoring, and instant certification.
-                    </p>
-
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 flex-shrink-0">
-                                <i class="fas fa-camera"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900">AI Face Detection</h4>
-                                <p class="text-sm text-gray-500">Prevents cheating by monitoring the candidate's face via camera.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 flex-shrink-0">
-                                <i class="fas fa-trophy"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900">Instant Results & Ranking</h4>
-                                <p class="text-sm text-gray-500">Auto-calculation of score, negative marking, and global leaderboard.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative">
-                    <div class="absolute -inset-4 bg-gradient-to-r from-purple-100 to-blue-50 rounded-full opacity-50 blur-3xl"></div>
-                    <img src="/asset/software/exam.jpg" alt="Exam App UI" class="relative z-10 rounded-2xl shadow-2xl border border-gray-100 w-full transform hover:scale-[1.02] transition duration-500">
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 bg-gray-50 border-b border-gray-100">
-        <div class="w-[80%] mx-auto text-center">
-
-            <h2 class="text-3xl font-bold text-gray-900 mb-16">User Interface <span class="text-purple-600">Overview</span></h2>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-
-                <div class="group relative mx-auto w-[280px] h-[550px] bg-gray-900 rounded-[2.5rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                    <div class="w-full h-full bg-white relative overflow-hidden">
-                        <img src="/asset/software/c1 (2).jpeg" alt="Dashboard" class="w-full h-full object-fit">
-                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <span class="text-white font-bold bg-purple-600 px-4 py-2 rounded-full">Student Dashboard</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group relative mx-auto w-[300px] h-[600px] bg-gray-900 rounded-[3rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden z-10 transform hover:scale-105 transition duration-300">
-                    <div class="w-full h-full bg-white relative overflow-hidden">
-                        <img src="/asset/software/c1 (1).jpeg" alt="Exam Screen" class="w-full h-full object-fit">
-                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <span class="text-white font-bold bg-blue-600 px-4 py-2 rounded-full">Live Exam</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group relative mx-auto w-[280px] h-[550px] bg-gray-900 rounded-[2.5rem] border-[8px] border-gray-900 shadow-2xl overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                    <div class="w-full h-full bg-white relative overflow-hidden">
-                        <img src="/asset/software/c1 (3).jpeg" alt="Result" class="w-full h-full object-fit">
-                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <span class="text-white font-bold bg-green-600 px-4 py-2 rounded-full">Scorecard</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 bg-white overflow-hidden">
-        <div class="w-[80%] mx-auto">
-
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900">Experience the <span class="text-purple-600">Smart Exam Logic</span></h2>
-                <p class="text-gray-500 mt-2">Watch the AI automatically detect face, submit answer, and declare the result.</p>
+                <span class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3 block">
+                    Product Showcase: Constitution Study
+                </span>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900">
+                    AI-Proctored <span class="text-blue-600">Exam Platform</span>
+                </h2>
+                <p class="text-slate-500 mt-2 max-w-2xl mx-auto">
+                    Experience our secure testing environment. The simulation below demonstrates <strong>Face Detection</strong>, <strong>Real-time Validation</strong>, and <strong>Instant Result Generation</strong>.
+                </p>
             </div>
 
-            <div class="relative bg-gray-900 rounded-2xl shadow-2xl border-[10px] border-gray-800 aspect-[16/9] overflow-hidden max-w-4xl mx-auto">
+            <div class="relative bg-slate-900 rounded-xl shadow-2xl border-[12px] border-slate-800 aspect-[16/9] overflow-hidden max-w-5xl mx-auto">
 
-                <div class="w-full h-full bg-gray-100 relative font-sans" id="exam-sim-screen">
+                <div class="w-full h-full bg-slate-50 relative font-sans" id="exam-sim-screen">
 
-                    <div class="absolute top-4 right-4 w-32 h-24 bg-black rounded border-2 border-gray-400 z-50 overflow-hidden shadow-lg">
-                        <div class="w-full h-full relative bg-gray-800 flex items-end justify-center">
-                            <div class="w-16 h-16 bg-gray-600 rounded-t-full"></div>
-                            <div class="absolute top-0 w-full h-[2px] bg-green-500 shadow-[0_0_10px_#0f0] animate-[scan_2s_linear_infinite]"></div>
-                            <div class="absolute top-4 left-8 w-16 h-16 border-2 border-green-500 rounded hidden" id="face-box"></div>
+                    <div class="absolute top-4 right-4 w-40 h-28 bg-black rounded border-2 border-blue-500 z-50 overflow-hidden shadow-lg">
+                        <div class="w-full h-full relative bg-slate-800 flex items-end justify-center">
+                            <div class="w-20 h-20 bg-slate-600 rounded-t-full"></div>
+                            <div class="absolute top-0 w-full h-[2px] bg-blue-400 shadow-[0_0_15px_#3b82f6] animate-[scan-vertical_2s_linear_infinite]"></div>
+                            <div class="absolute top-6 left-10 w-20 h-16 border-2 border-blue-500 rounded hidden" id="face-box">
+                                <span class="absolute -top-3 left-0 bg-blue-500 text-black text-[6px] px-1 font-bold">MATCH 98%</span>
+                            </div>
                         </div>
-                        <div class="absolute bottom-1 left-1 bg-red-600 text-white text-[8px] px-1 rounded animate-pulse">REC</div>
+                        <div class="absolute bottom-1 left-1 flex items-center gap-1">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+                            <span class="text-white text-[8px] font-bold">PROCTORING ON</span>
+                        </div>
                     </div>
 
                     <div id="sim-scene-ques" class="absolute inset-0 p-10 flex flex-col justify-center transition-opacity duration-500">
-                        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 w-full max-w-2xl mx-auto">
-                            <span class="text-purple-600 font-bold text-xs uppercase mb-2 block">Question 1</span>
-                            <h3 class="text-xl font-bold text-gray-800 mb-6">
-                                When was the Constitution of India (Bhartiya Samvidhan) adopted?
+                        <div class="bg-white p-8 rounded-none border-l-4 border-blue-600 shadow-lg w-full max-w-3xl mx-auto">
+                            <div class="flex justify-between mb-4">
+                                <span class="text-blue-600 font-bold text-xs uppercase">Indian Constitution Quiz</span>
+                                <span class="text-slate-400 text-xs font-mono">Timer: 00:15</span>
+                            </div>
+
+                            <h3 class="text-2xl font-bold text-slate-800 mb-8 leading-snug">
+                                Which Article of the Indian Constitution ensures 'Equality before Law'?
                             </h3>
 
-                            <div class="space-y-3">
-                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">A. 15 August 1947</div>
-                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white" id="correct-ans">B. 26 November 1949</div>
-                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">C. 26 January 1950</div>
-                                <div class="sim-opt p-3 border border-gray-200 rounded-lg text-gray-600 bg-white">D. 02 October 1948</div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="sim-opt p-4 border border-slate-200 hover:bg-slate-50 cursor-pointer transition text-slate-700 font-medium">A. Article 19</div>
+                                <div class="sim-opt p-4 border border-slate-200 hover:bg-slate-50 cursor-pointer transition text-slate-700 font-medium" id="correct-ans">B. Article 14</div>
+                                <div class="sim-opt p-4 border border-slate-200 hover:bg-slate-50 cursor-pointer transition text-slate-700 font-medium">C. Article 21</div>
+                                <div class="sim-opt p-4 border border-slate-200 hover:bg-slate-50 cursor-pointer transition text-slate-700 font-medium">D. Article 32</div>
                             </div>
                         </div>
                     </div>
 
                     <div id="sim-scene-result" class="absolute inset-0 bg-white flex flex-col items-center justify-center opacity-0 transition-opacity duration-500 z-40">
-
                         <div class="scale-0 transition-transform duration-500 delay-100" id="trophy-anim">
-                            <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
-                                <i class="fas fa-trophy text-5xl text-yellow-500 drop-shadow-md"></i>
+                            <div class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6 border border-blue-100">
+                                <i class="fas fa-trophy text-5xl text-blue-600"></i>
                             </div>
                         </div>
 
-                        <h2 class="text-3xl font-extrabold text-gray-900 mb-2 translate-y-4 opacity-0 transition-all duration-500 delay-200" id="result-text">Congratulations!</h2>
-                        <p class="text-gray-500 mb-6 translate-y-4 opacity-0 transition-all duration-500 delay-300" id="result-sub">You have passed the exam.</p>
+                        <h2 class="text-4xl font-extrabold text-slate-900 mb-2 translate-y-4 opacity-0 transition-all duration-500 delay-200" id="result-text">Exam Passed</h2>
+                        <p class="text-slate-500 mb-8 translate-y-4 opacity-0 transition-all duration-500 delay-300" id="result-sub">Your knowledge of the Constitution is excellent.</p>
 
-                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 flex gap-8 translate-y-4 opacity-0 transition-all duration-500 delay-400" id="result-stats">
-                            <div class="text-center">
-                                <p class="text-xs text-gray-400 uppercase">Score</p>
-                                <p class="text-xl font-bold text-green-600">100%</p>
+                        <div class="flex gap-8 translate-y-4 opacity-0 transition-all duration-500 delay-400" id="result-stats">
+                            <div class="text-center p-4 bg-slate-50 border border-slate-200 min-w-[100px]">
+                                <p class="text-xs text-slate-400 uppercase font-bold">Score</p>
+                                <p class="text-2xl font-extrabold text-blue-600">100%</p>
                             </div>
-                            <div class="text-center border-l border-gray-300 pl-8">
-                                <p class="text-xs text-gray-400 uppercase">Rank</p>
-                                <p class="text-xl font-bold text-purple-600">#1</p>
+                            <div class="text-center p-4 bg-slate-50 border border-slate-200 min-w-[100px]">
+                                <p class="text-xs text-slate-400 uppercase font-bold">Rank</p>
+                                <p class="text-2xl font-extrabold text-blue-600">#1</p>
                             </div>
                         </div>
 
@@ -933,7 +573,471 @@ $page_title = "software";
         </div>
     </section>
 
+
+
+
+
+
+
+    <section class="py-24 bg-white border-t border-slate-100">
+        <div class="w-[85%] mx-auto">
+            <div class="text-center mb-20">
+                <span class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3 block">
+                    End-to-End Assessment Engine
+                </span>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900">
+                    Beyond Just Questions & Answers. <br>
+                    <span class="text-blue-600">A Complete Learning OS.</span>
+                </h2>
+                <p class="text-slate-500 mt-6 max-w-2xl mx-auto text-lg">
+                    Our platform isn't just an exam tool; it's an intelligent ecosystem. From <strong>question bank management</strong> to <strong>automated certification</strong>, every step is optimized by AI.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-2 p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-blue-500 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-0 group-hover:opacity-50 transition-opacity"></div>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-white rounded-2xl shadow-sm flex items-center justify-center text-blue-600 text-2xl mb-6">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">Smart Question Bank</h3>
+                        <p class="text-slate-500 mb-6 max-w-md">Upload thousands of questions via Excel/CSV in seconds. Supports <strong>Hindi (Unicode)</strong>, Math Formulas (LaTeX), and Image-based questions for biological or geographical diagrams.</p>
+                        <div class="flex gap-3">
+                            <span class="px-3 py-1 bg-white border border-slate-200 rounded text-xs font-bold text-slate-600">MCQs</span>
+                            <span class="px-3 py-1 bg-white border border-slate-200 rounded text-xs font-bold text-slate-600">Integer Type</span>
+                            <span class="px-3 py-1 bg-white border border-slate-200 rounded text-xs font-bold text-slate-600">Comprehension</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:row-span-2 p-3 rounded-3xl  text-white border border-slate-800 hover:border-blue-500 transition-all group relative overflow-hidden">
+                    <img src="/asset/software/onlineexam.webp" alt="" class="h-full w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                </div>
+
+                <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-xl hover:shadow-2xl transition-all">
+                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Auto-Certification</h3>
+                    <p class="text-sm text-slate-500">Generate and email PDF certificates instantly upon passing an exam.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-xl hover:shadow-2xl transition-all">
+                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Deep Analytics</h3>
+                    <p class="text-sm text-slate-500">Identify weak topics (e.g., "History") vs strong ones with AI performance graphs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-[#020617] relative overflow-hidden">
+        <div class="absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-transparent via-blue-900 to-transparent hidden lg:block"></div>
+
+        <div class="w-[85%] mx-auto relative z-10">
+            <div class="text-center mb-20">
+                <h2 class="text-3xl font-bold text-white">How It Works: <span class="text-blue-500">Zero Friction</span></h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="relative group">
+                    <div class="w-20 h-20 bg-slate-800 border-4 border-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6 relative z-10 group-hover:border-blue-500 transition-colors">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-lg font-bold text-white mb-2">1. Create</h4>
+                        <p class="text-slate-400 text-sm">Admin sets up the exam, uploads questions, and sets the timer.</p>
+                    </div>
+                </div>
+
+                <div class="relative group">
+                    <div class="w-20 h-20 bg-slate-800 border-4 border-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6 relative z-10 group-hover:border-blue-500 transition-colors">
+                        <i class="fas fa-user-clock"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-lg font-bold text-white mb-2">2. Attempt</h4>
+                        <p class="text-slate-400 text-sm">Students login via App/Web. AI verifies identity via Face Scan.</p>
+                    </div>
+                </div>
+
+                <div class="relative group">
+                    <div class="w-20 h-20 bg-slate-800 border-4 border-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6 relative z-10 group-hover:border-blue-500 transition-colors">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-lg font-bold text-white mb-2">3. Auto-Grade</h4>
+                        <p class="text-slate-400 text-sm">System calculates score, negative marks, and rank instantly.</p>
+                    </div>
+                </div>
+
+                <div class="relative group">
+                    <div class="w-20 h-20 bg-slate-800 border-4 border-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6 relative z-10 group-hover:border-blue-500 transition-colors">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-lg font-bold text-white mb-2">4. Result</h4>
+                        <p class="text-slate-400 text-sm">Student receives detailed scorecard and topic-wise analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="w-[85%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <div class="relative">
+
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl blur opacity-20"></div>
+
+                <div class="relative bg-slate-900 rounded-xl shadow-2xl border border-slate-800 overflow-hidden">
+
+                    <div class="bg-slate-950 px-4 py-3 flex items-center gap-2 border-b border-slate-800 z-20 relative">
+                        <div class="flex gap-1.5">
+                            <div class="w-2.5 h-2.5 rounded-full bg-red-500"></div>
+                            <div class="w-2.5 h-2.5 rounded-full bg-yellow-500"></div>
+                            <div class="w-2.5 h-2.5 rounded-full bg-blue-500"></div>
+                        </div>
+                        <div class="ml-4 flex-1 text-center">
+                            <span class="text-[10px] font-mono text-slate-500 bg-slate-900 px-3 py-1 rounded border border-slate-800">
+                                <i class="fas fa-lock text-[8px] mr-1"></i> secure-exam.rudratech.com
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="owl-carousel owl-theme" id="software-showcase">
+
+                        <div class="item relative group">
+                            <img src="/asset/software/d1.jpg" class="w-full h-auto object-cover opacity-90" alt="Dashboard">
+
+                            <div class="feature-popup absolute bottom-8 left-8 bg-slate-900/90 backdrop-blur-md border border-slate-700 p-4 rounded-xl shadow-2xl transform translate-y-10 opacity-0 transition-all duration-700 delay-300 max-w-[200px]">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs"><i class="fas fa-chart-pie"></i></div>
+                                    <span class="text-xs font-bold text-white">Live Dashboard</span>
+                                </div>
+                                <p class="text-[10px] text-slate-400 leading-tight">Real-time performance monitoring.</p>
+                            </div>
+                        </div>
+
+                        <div class="item relative group">
+                            <img src="/asset/software/d2 (1).jpg" class="w-full h-auto object-cover opacity-90" alt="Exam List">
+
+                            <div class="feature-popup absolute top-8 right-8 bg-slate-900/90 backdrop-blur-md border border-slate-700 p-4 rounded-xl shadow-2xl transform translate-y-[-10px] opacity-0 transition-all duration-700 delay-300 max-w-[200px]">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs"><i class="fas fa-list-ul"></i></div>
+                                    <span class="text-xs font-bold text-white">Exam Scheduler</span>
+                                </div>
+                                <p class="text-[10px] text-slate-400 leading-tight">Schedule and manage exams.</p>
+                            </div>
+                        </div>
+
+                        <div class="item relative group">
+                            <img src="/asset/software/d2 (2).jpg" class="w-full h-auto object-cover opacity-90" alt="Question Screen">
+
+                            <div class="feature-popup absolute bottom-8 right-8 bg-slate-900/90 backdrop-blur-md border border-slate-700 p-4 rounded-xl shadow-2xl transform translate-x-10 opacity-0 transition-all duration-700 delay-300 max-w-[220px]">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs"><i class="fas fa-user-check"></i></div>
+                                    <span class="text-xs font-bold text-white">Exam List</span>
+                                </div>
+                                <div class="h-1 w-full bg-slate-700 rounded-full overflow-hidden">
+                                    <div class="h-full bg-blue-500 w-[90%]"></div>
+                                </div>
+                                <p class="text-[8px] text-blue-400 mt-1 text-right">Completed: 90%</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-bold uppercase tracking-wider mb-6 border border-slate-200">
+                    <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span> Live Security Protocols
+                </div>
+
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 leading-tight">
+                    Ironclad Integrity with <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">Neural Surveillance</span>
+                </h2>
+
+                <p class="text-slate-500 mb-10 text-lg leading-relaxed border-l-4 border-blue-100 pl-4">
+                    Our AI doesn't just watch; it understands behavior. We utilize browser-level locking and advanced vision models to guarantee 100% exam sanctity.
+                </p>
+
+                <div class="space-y-5">
+
+                    <div class="group flex items-start gap-5 p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-blue-100 transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center text-2xl shadow-sm group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-window-maximize"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-lg mb-1 group-hover:text-blue-600 transition-colors">Window Locking Mechanism</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">The exam auto-terminates instantly if the student attempts to switch tabs, open dev tools, or minimize the browser.</p>
+                        </div>
+                    </div>
+
+                    <div class="group flex items-start gap-5 p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-blue-100 transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-lg mb-1 group-hover:text-blue-600 transition-colors">Gaze Tracking AI</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Advanced computer vision tracks iris movement to detect if the candidate is looking at notes, another screen, or away from the monitor.</p>
+                        </div>
+                    </div>
+
+                    <div class="group flex items-start gap-5 p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-blue-100 transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-random"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-lg mb-1 group-hover:text-blue-600 transition-colors">Dynamic Randomization</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Prevents collaboration. Every student receives a unique sequence of questions and randomized option ordering.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-28 bg-slate-50 relative overflow-hidden border-t border-slate-200">
+
+        <div class="absolute inset-0 opacity-[0.4]" style="background-image: radial-gradient(#cbd5e1 1px, transparent 1px); background-size: 24px 24px;"></div>
+
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+
+        <div class="w-[85%] mx-auto relative z-10">
+
+            <div class="text-center mb-20">
+                <span class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3 block">
+                    System Architecture
+                </span>
+                <h2 class="text-4xl font-extrabold text-slate-900">
+                    Engineered for <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">Scale & Speed</span>
+                </h2>
+                <p class="text-slate-500 mt-4 max-w-2xl mx-auto">
+                    Common questions regarding infrastructure, localization, and automated logic.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div class="group relative p-8 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-blue-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors">Cloud Scalability</h4>
+                            <p class="text-slate-500 text-sm leading-relaxed">
+                                Built on <strong>Node.js & AWS Lambda</strong> architecture. The system auto-scales to handle <strong>10,000+ concurrent students</strong> effortlessly, ensuring zero downtime during peak exam hours.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative p-8 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-blue-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors">Unicode Localization</h4>
+                            <p class="text-slate-500 text-sm leading-relaxed">
+                                Full support for <strong>Hindi, Marathi, & Regional Languages</strong>. Our database handles Unicode fonts perfectly, allowing complex Hindi questions and mathematical formulas without breaking.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative p-8 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-blue-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors">Low-Bandwidth Optimization</h4>
+                            <p class="text-slate-500 text-sm leading-relaxed">
+                                Engineered for rural India. Our proprietary <strong>JSON compression</strong> ensures questions load instantly even on 2G/3G networks, consuming minimal data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative p-8 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-blue-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors">Real-Time Result Logic</h4>
+                            <p class="text-slate-500 text-sm leading-relaxed">
+                                Zero manual grading. The moment a student clicks "Submit", our server processes answers, applies <strong>negative marking logic</strong>, and generates a PDF report in < 200ms.
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-900 text-white text-center">
+        <div class="w-[85%] mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Ready to digitize your business logic?</h2>
+            <p class="text-blue-200 mb-8 max-w-2xl mx-auto">From custom ERPs to AI-powered platforms, RudraTech delivers software that scales.</p>
+            <div class="flex justify-center gap-4">
+                <a href="contact.php" class="bg-white text-blue-900 font-bold py-3 px-8 hover:bg-blue-50 transition-colors shadow-lg">Start Project</a>
+            </div>
+        </div>
+    </section>
+
+    <?php include "include/footer.php" ?>
+
     <script>
+        // ==========================================
+        // 1. BILLING ENGINE LOGIC
+        // ==========================================
+        let items = [];
+        const fmt = new Intl.NumberFormat('en-IN', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+
+        function setPaper(type) {
+            const a4 = document.getElementById('view-a4');
+            const pos = document.getElementById('view-pos');
+            const btnA4 = document.getElementById('btn-a4');
+            const btnPos = document.getElementById('btn-thermal');
+
+            if (type === 'thermal') {
+                a4.classList.add('hidden');
+                pos.classList.remove('hidden');
+                btnPos.classList.replace('text-slate-400', 'text-white');
+                btnPos.classList.add('bg-blue-600');
+                btnA4.classList.remove('bg-blue-600', 'text-white');
+                btnA4.classList.add('text-slate-400');
+            } else {
+                a4.classList.remove('hidden');
+                pos.classList.add('hidden');
+                btnA4.classList.add('bg-blue-600', 'text-white');
+                btnA4.classList.remove('text-slate-400');
+                btnPos.classList.remove('bg-blue-600', 'text-white');
+                btnPos.classList.add('text-slate-400');
+            }
+        }
+
+        function addItem() {
+            const desc = document.getElementById('newItemDesc').value;
+            const hsn = document.getElementById('newItemHsn').value;
+            const rate = parseFloat(document.getElementById('newItemRate').value) || 0;
+            const qty = parseFloat(document.getElementById('newItemQty').value) || 0;
+            const gst = parseFloat(document.getElementById('newItemGst').value) || 0;
+            const disc = parseFloat(document.getElementById('newItemDisc').value) || 0;
+
+            items.push({
+                desc,
+                hsn,
+                rate,
+                qty,
+                gst,
+                disc
+            });
+            renderInvoice();
+            renderControlList();
+        }
+
+        function deleteItem(index) {
+            items.splice(index, 1);
+            renderInvoice();
+            renderControlList();
+        }
+
+        function renderControlList() {
+            const list = document.getElementById('controlPanelList');
+            document.getElementById('itemCount').innerText = items.length;
+            let html = '';
+            items.forEach((item, index) => {
+                html += `
+                    <div class="flex justify-between items-center bg-slate-700/50 p-2 border border-slate-600 mb-1">
+                        <div class="truncate w-2/3">
+                            <p class="text-xs font-bold text-white truncate">${item.desc}</p>
+                        </div>
+                        <button onclick="deleteItem(${index})" class="text-blue-400 hover:text-blue-300"><i class="fas fa-trash"></i></button>
+                    </div>`;
+            });
+            list.innerHTML = html;
+        }
+
+        function updateHeader() {
+            const inv = document.getElementById('inpInvNo').value;
+            const name = document.getElementById('inpName').value || "Client Name";
+            document.getElementById('outInvNo').innerText = inv;
+            document.getElementById('posInv').innerText = inv;
+            document.querySelectorAll('.outName').forEach(el => el.innerText = name);
+        }
+
+        function renderInvoice() {
+            const tbody = document.getElementById('invoiceBody');
+            const posBody = document.getElementById('posBody');
+            let htmlA4 = '';
+            let htmlPos = '';
+            let gTaxable = 0,
+                gTotalTax = 0,
+                gGrandTotal = 0;
+
+            items.forEach((item, i) => {
+                const base = item.rate * item.qty;
+                const discAmt = base * (item.disc / 100);
+                const taxable = base - discAmt;
+                const taxAmt = taxable * (item.gst / 100);
+                const total = taxable + taxAmt;
+
+                gTaxable += taxable;
+                gTotalTax += taxAmt;
+                gGrandTotal += total;
+
+                htmlA4 += `
+                <div class="flex text-[11px] border-b border-slate-200 py-1">
+                    <div class="w-[5%] text-center">${i + 1}</div>
+                    <div class="w-[45%] pl-2 truncate">${item.desc}</div>
+                    <div class="w-[10%]">${item.hsn}</div>
+                    <div class="w-[10%]">${item.qty}</div>
+                    <div class="w-[10%]">${fmt.format(item.rate)}</div>
+                    <div class="w-[10%]">${item.gst}%</div>
+                    <div class="w-[10%] text-right pr-2 font-bold">${fmt.format(total)}</div>
+                </div>`;
+
+                htmlPos += `
+                <div class="flex justify-between mb-1 border-b border-dashed border-gray-300 pb-1">
+                    <span class="truncate w-2/3">${item.desc}<br>x${item.qty}</span>
+                    <span class="font-bold">${Math.round(total)}</span>
+                </div>`;
+            });
+
+            tbody.innerHTML = htmlA4;
+            posBody.innerHTML = htmlPos;
+
+            document.getElementById('outTotalTaxable').innerText = fmt.format(gTaxable);
+            document.getElementById('outTotalCgst').innerText = fmt.format(gTotalTax / 2);
+            document.getElementById('outTotalSgst').innerText = fmt.format(gTotalTax / 2);
+            document.getElementById('outGrandTotal').innerText = fmt.format(gGrandTotal);
+            document.getElementById('posTotal').innerText = fmt.format(gGrandTotal);
+            document.getElementById('outWords').innerText = "INR " + Math.round(gGrandTotal) + " Only";
+        }
+
+        // ==========================================
+        // 2. EXAM SIMULATOR LOGIC
+        // ==========================================
         document.addEventListener('DOMContentLoaded', () => {
             const cursor = document.getElementById('sim-cursor');
             const correctAns = document.getElementById('correct-ans');
@@ -942,7 +1046,7 @@ $page_title = "software";
             const sceneResult = document.getElementById('sim-scene-result');
             const screen = document.getElementById('exam-sim-screen');
 
-            // Result Elements for animation
+            // Result Elements
             const trophy = document.getElementById('trophy-anim');
             const resText = document.getElementById('result-text');
             const resSub = document.getElementById('result-sub');
@@ -951,16 +1055,17 @@ $page_title = "software";
             const sleep = ms => new Promise(r => setTimeout(r, ms));
 
             async function runExamSim() {
-                // 1. Reset
-                cursor.style.transform = `translate(10px, 10px)`;
+                // Reset Visuals
+                cursor.style.transform = `translate(20px, 20px)`;
                 sceneQues.style.opacity = '1';
                 sceneResult.style.opacity = '0';
                 sceneResult.style.zIndex = '-1';
                 faceBox.classList.add('hidden');
-                correctAns.classList.remove('bg-green-100', 'border-green-500', 'text-green-700');
-                correctAns.classList.add('bg-white', 'border-gray-200', 'text-gray-600');
 
-                // Reset Result Animations
+                correctAns.classList.remove('bg-blue-100', 'border-blue-500', 'text-blue-900');
+                correctAns.classList.add('hover:bg-slate-50', 'border-slate-200');
+
+                // Reset Result Anims
                 trophy.classList.remove('scale-100');
                 trophy.classList.add('scale-0');
                 [resText, resSub, resStats].forEach(el => {
@@ -971,35 +1076,34 @@ $page_title = "software";
 
                 await sleep(1000);
 
-                // 2. Face Detection Logic (Visual)
-                faceBox.classList.remove('hidden'); // Show green box on webcam
-                await sleep(1000);
+                // 1. Face Detect
+                faceBox.classList.remove('hidden');
+                await sleep(1500);
 
-                // 3. Move Cursor to Answer
+                // 2. Move Cursor
                 const rect = correctAns.getBoundingClientRect();
                 const screenRect = screen.getBoundingClientRect();
                 const x = rect.left - screenRect.left + rect.width / 2;
                 const y = rect.top - screenRect.top + rect.height / 2;
 
                 cursor.style.transform = `translate(${x}px, ${y}px)`;
-                await sleep(800);
+                await sleep(1000);
 
-                // 4. Click Action
-                correctAns.classList.remove('bg-white', 'border-gray-200', 'text-gray-600');
-                correctAns.classList.add('bg-green-100', 'border-green-500', 'text-green-700'); // Turn Green
-                cursor.style.transform = `translate(${x-5}px, ${y+5}px)`; // Click dip
+                // 3. Click
+                correctAns.classList.remove('hover:bg-slate-50', 'border-slate-200');
+                correctAns.classList.add('bg-blue-100', 'border-blue-500', 'text-blue-900');
+                cursor.style.transform = `translate(${x-5}px, ${y+5}px)`;
                 await sleep(200);
                 cursor.style.transform = `translate(${x}px, ${y}px)`;
 
                 await sleep(1000);
 
-                // 5. Show Result Screen
+                // 4. Result Transition
                 sceneQues.style.opacity = '0';
                 sceneResult.style.zIndex = '40';
                 sceneResult.style.opacity = '1';
 
-                // 6. Trigger Result Elements Animation
-                await sleep(200);
+                await sleep(300);
                 trophy.classList.remove('scale-0');
                 trophy.classList.add('scale-100');
 
@@ -1015,245 +1119,65 @@ $page_title = "software";
                 resStats.classList.remove('translate-y-4', 'opacity-0');
                 resStats.classList.add('translate-y-0', 'opacity-100');
 
-                // 7. Confetti Explosion
+                // 5. Confetti
                 createConfetti();
 
-                // 8. Loop
-                await sleep(5000);
+                // Loop
+                await sleep(6000);
                 runExamSim();
             }
 
             function createConfetti() {
                 const container = document.getElementById('confetti-container');
-                const colors = ['#a855f7', '#22c55e', '#3b82f6', '#facc15', '#ef4444'];
-
-                for (let i = 0; i < 50; i++) {
+                const colors = ['#2563eb', '#3b82f6', '#60a5fa', '#93c5fd', '#1e40af']; // Blue Shades
+                for (let i = 0; i < 60; i++) {
                     const conf = document.createElement('div');
-                    conf.classList.add('absolute', 'w-2', 'h-2', 'rounded-full');
+                    conf.classList.add('absolute', 'w-1.5', 'h-1.5', 'rounded-sm');
                     conf.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
                     conf.style.left = Math.random() * 100 + '%';
                     conf.style.top = '-10px';
-                    // Random fall animation
-                    conf.style.animation = `fall ${Math.random() * 2 + 1}s linear forwards`;
+                    conf.style.animation = `fall-blue ${Math.random() * 2 + 1}s linear forwards`;
                     container.appendChild(conf);
                 }
             }
 
-            // Add Style for Confetti fall
-            const style = document.createElement('style');
-            style.innerHTML = `
-            @keyframes fall {
-                to { transform: translateY(500px) rotate(720deg); opacity: 0; }
-            }
-            @keyframes scan {
-                0%, 100% { top: 0%; }
-                50% { top: 100%; }
-            }
-        `;
-            document.head.appendChild(style);
-
             runExamSim();
         });
+
+        // Init Billing
+        addItem();
     </script>
-
-
-
-    <section class="py-20 bg-[#172010] text-white text-center">
-        <h2 class="text-3xl font-bold mb-6">Ready for the Future?</h2>
-        <div class="flex justify-center gap-4">
-            <a href="contact.php" class="bg-green-600 text-white font-bold py-3 px-8 rounded-full hover:bg-green-500 transition-colors">Get Started Now</a>
-        </div>
-    </section>
-
-    <?php include "include/footer.php" ?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
-        // --- 1. GLOBAL STATE & UTILS ---
-        let items = [];
-        const fmt = new Intl.NumberFormat('en-IN', {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2
+        $(document).ready(function() {
+            var owl = $(".owl-carousel");
+
+            owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 0,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000, // Time to wait on each slide (5 seconds)
+                smartSpeed: 1000, // Speed of the sliding animation (1 second smooth slide)
+                autoplayHoverPause: true, // Stops sliding when user hovers
+
+                // Standard Slide Settings (No Fade)
+                animateOut: false,
+                animateIn: false
+            });
+
+            // OPTIONAL: Reset animations when slide changes so they replay
+            owl.on('changed.owl.carousel', function(event) {
+                $('.feature-popup').removeClass('animated'); // Reset
+                setTimeout(function() {
+                    $('.owl-item.active .feature-popup').addClass('animated'); // Re-trigger
+                }, 100);
+            });
         });
-
-        // --- 2. SCREEN/IMAGE SWITCHER (LAPTOP DEMO) ---
-        function changeScreen(feature, element) {
-            const images = {
-                'dashboard': '/asset/software/bill2 (1).jpg',
-                'billing': '/asset/software/bill2 (2).jpg',
-                'reports': '/asset/software/bill2 (3).jpg'
-            };
-            const screen = document.getElementById('laptop-screen');
-            screen.style.opacity = '0';
-            setTimeout(() => {
-                if (images[feature]) screen.src = images[feature];
-                screen.style.opacity = '1';
-            }, 300);
-
-            document.querySelectorAll('.feature-tab').forEach(tab => {
-                tab.classList.remove('bg-white/10', 'border-green-500/50');
-                tab.classList.add('bg-transparent', 'border-transparent');
-            });
-            element.classList.remove('bg-transparent', 'border-transparent');
-            element.classList.add('bg-white/10', 'border-green-500/50');
-        }
-
-        // --- 3. PAPER SIZE SWITCHER (A4 vs POS) ---
-        function setPaper(type) {
-            const a4 = document.getElementById('view-a4');
-            const pos = document.getElementById('view-pos');
-            const btnA4 = document.getElementById('btn-a4');
-            const btnPos = document.getElementById('btn-thermal');
-
-            if (type === 'thermal') {
-                a4.classList.add('hidden');
-                pos.classList.remove('hidden');
-                btnPos.classList.replace('text-gray-400', 'text-white');
-                btnPos.classList.add('bg-green-500');
-                btnA4.classList.remove('bg-green-500', 'text-white');
-                btnA4.classList.add('text-gray-400');
-            } else {
-                a4.classList.remove('hidden');
-                pos.classList.add('hidden');
-                btnA4.classList.add('bg-green-500', 'text-white');
-                btnA4.classList.remove('text-gray-400');
-                btnPos.classList.remove('bg-green-500', 'text-white');
-                btnPos.classList.add('text-gray-400');
-            }
-        }
-
-        // --- 4. ITEM MANAGEMENT (ADD/DELETE) ---
-        function addItem() {
-            const desc = document.getElementById('newItemDesc').value;
-            const hsn = document.getElementById('newItemHsn').value;
-            const rate = parseFloat(document.getElementById('newItemRate').value) || 0;
-            const qty = parseFloat(document.getElementById('newItemQty').value) || 0;
-            const gst = parseFloat(document.getElementById('newItemGst').value) || 0;
-            const disc = parseFloat(document.getElementById('newItemDisc').value) || 0;
-
-            if (!desc) {
-                alert("Please enter description");
-                return;
-            }
-
-            items.push({
-                desc,
-                hsn,
-                rate,
-                qty,
-                gst,
-                disc
-            });
-            renderInvoice();
-            renderControlList();
-
-            // Reset input fields
-            document.getElementById('newItemDesc').value = "";
-            document.getElementById('newItemRate').value = "";
-        }
-
-        function deleteItem(index) {
-            items.splice(index, 1);
-            renderInvoice();
-            renderControlList();
-        }
-
-        function renderControlList() {
-            const list = document.getElementById('controlPanelList');
-            document.getElementById('itemCount').innerText = items.length;
-
-            if (items.length === 0) {
-                list.innerHTML = '<div class="text-xs text-gray-500 italic text-center py-2">No items added yet.</div>';
-                return;
-            }
-
-            let html = '';
-            items.forEach((item, index) => {
-                html += `
-                    <div class="flex justify-between items-center bg-gray-800 p-2 rounded border border-gray-700">
-                        <div class="truncate w-2/3">
-                            <p class="text-xs font-bold text-white truncate">${item.desc}</p>
-                            <p class="text-[10px] text-gray-400">${item.qty} x ${item.rate}</p>
-                        </div>
-                        <button onclick="deleteItem(${index})" class="text-red-400 hover:text-red-300"><i class="fas fa-trash"></i></button>
-                    </div>`;
-            });
-            list.innerHTML = html;
-        }
-
-        // --- 5. INVOICE RENDERING & CALCULATIONS ---
-        function updateHeader() {
-            const inv = document.getElementById('inpInvNo').value;
-            const name = document.getElementById('inpName').value || "Client Name";
-            document.getElementById('outInvNo').innerText = inv;
-            document.querySelectorAll('.outName').forEach(el => el.innerText = name);
-        }
-
-        function renderInvoice() {
-            const tbody = document.getElementById('invoiceBody');
-            const posBody = document.getElementById('posBody');
-
-            let htmlA4 = '';
-            let htmlPos = '';
-
-            let gTotalQty = 0;
-            let gTotalDisc = 0;
-            let gTotalTax = 0;
-            let gGrandTotal = 0;
-
-            items.forEach((item, i) => {
-                const baseAmt = item.rate * item.qty;
-                const discAmt = baseAmt * (item.disc / 100);
-                const taxable = baseAmt - discAmt;
-                const taxAmt = taxable * (item.gst / 100);
-                const total = taxable + taxAmt;
-
-                gTotalQty += item.qty;
-                gTotalDisc += discAmt;
-                gTotalTax += taxAmt;
-                gGrandTotal += total;
-
-                // A4 Row
-                htmlA4 += `
-                <div class="flex text-[11px] border-b border-gray-100 last:border-0 relative hover:bg-gray-50">
-                    <div class="w-[5%] p-2 text-center">${i + 1}</div>
-                    <div class="w-[40%] p-2 font-bold truncate">${item.desc}</div>
-                    <div class="w-[10%] p-2 text-center">${item.hsn}</div>
-                    <div class="w-[10%] p-2 text-center">${item.qty}</div>
-                    <div class="w-[10%] p-2 text-right">${fmt.format(item.rate)}</div>
-                    <div class="w-[10%] p-2 text-center">${item.disc}%</div>
-                    <div class="w-[15%] p-2 text-right font-bold">${fmt.format(taxable)}</div>
-                </div>`;
-
-                // POS Row
-                htmlPos += `
-                <div class="flex justify-between mb-1">
-                    <span class="w-2/3 truncate"><span class="text-[10px] font-bold">${item.qty}</span> x ${item.desc}</span>
-                    <span class="w-1/3 text-right">${fmt.format(baseAmt)}</span>
-                </div>`;
-            });
-
-            // Empty State
-            if (items.length === 0) {
-                htmlA4 = `<div class="flex text-[11px] h-10 items-center justify-center text-gray-400 italic">Add items from left panel</div>`;
-                htmlPos = `<div class="text-center text-[10px] text-gray-400">No items</div>`;
-            }
-
-            tbody.innerHTML = htmlA4;
-            posBody.innerHTML = htmlPos;
-
-            // Update Totals
-            document.getElementById('outTotalQty').innerText = gTotalQty.toFixed(2);
-            document.getElementById('outTotalDisc').innerText = fmt.format(gTotalDisc);
-            document.getElementById('outTotalCgst').innerText = fmt.format(gTotalTax / 2);
-            document.getElementById('outTotalSgst').innerText = fmt.format(gTotalTax / 2);
-            document.getElementById('outGrandTotal').innerText = fmt.format(gGrandTotal);
-            document.getElementById('posTax').innerText = fmt.format(gTotalTax);
-            document.getElementById('posTotal').innerText = fmt.format(gGrandTotal);
-            document.getElementById('outWords').innerText = "INR " + Math.round(gGrandTotal) + " Only";
-        }
-
-        // Init
-        addItem(); // Add one default item
     </script>
 </body>
 
