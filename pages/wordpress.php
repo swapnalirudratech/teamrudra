@@ -12,23 +12,23 @@ $page_title = "wordpress"
 
 
 
-    <section class="relative min-h-[90vh] flex items-center py-20">
+    <section class="relative min-h-[90vh] flex items-center py-20 max-md:py-12">
         <div class="absolute top-0 right-0 w-1/2 h-full bg-slate-50 -z-10 hidden md:block"></div>
         <div class="w-[85%] mx-auto grid lg:grid-cols-2 gap-0">
             <div class=" z-10">
                 <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest uppercase bg-blue-600 text-white rounded-full">Evolution 2026</span>
-                <h1 class="text-4xl md:text-7xl font-black tracking-tighter leading-[0.85] mb-8">
+                <h1 class="text-4xl md:text-7xl font-bold tracking-tighter leading-[0.85] mb-8">
                     Modern WordPress <br>
                     <span class="text-slate-300 outline-text">Redefined.</span>
                 </h1>
-                <p class="text-xl text-slate-500 max-w-lg leading-relaxed mb-10">
+                <p class="text-xl max-md:text-sm   text-slate-500 max-w-lg leading-relaxed mb-10">
                     Rudra Tech doesn't just "install" WordPress. We engineer high-velocity digital assets using Tailwind CSS architecture and enterprise-grade SEO.
                 </p>
                 <div class="flex flex-wrap gap-6">
-                    <a href="#contact" class="px-10 py-5 bg-slate-950 text-white rounded-2xl font-bold hover:bg-blue-600 transition-all duration-500 transform hover:-translate-y-1">Start Architecture</a>
-                    <div class="flex items-center gap-4">
+                    <a href="#contact" class="px-10 py-5 bg-slate-950 max-md:px-6 max-md:py-3 max-md:text-sm text-white rounded-2xl font-bold hover:bg-blue-600 transition-all duration-500 transform hover:-translate-y-1">Start Architecture</a>
+                    <div class="flex items-center gap-4 max-md:hidden">
                         <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center animate-bounce">↓</div>
-                        <span class="text-sm font-bold uppercase tracking-widest text-slate-400">Scroll to Explore</span>
+                        <span class="text-sm font-bold uppercase tracking-widest text-slate-400 max-md:text-xs">Scroll to Explore</span>
                     </div>
                 </div>
             </div>
@@ -49,45 +49,52 @@ $page_title = "wordpress"
     </section>
 
 
-    <section class="py-24 bg-white overflow-hidden">
-        <div class="w-[90%] mx-auto">
-            <div class="mb-16">
-                <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">About Our Methodology</span>
-                <h2 class="text-5xl md:text-7xl font-black tracking-tighter text-slate-900 leading-[0.9] max-w-2xl">
-                    Websites that tell your brand's story
+
+    <section class="py-24 max-md:py-12   bg-white overflow-hidden">
+        <div class="w-[85%] mx-auto">
+            <div class="mb-4">
+                <span class="text-blue-600 font-semibold text-sm">About Company</span>
+            </div>
+
+            <div class="mb-16 max-md:mb-5">
+                <h2 class="text-2xl md:text-7xl  font-bold tracking-tight text-slate-900 leading-[1.1]">
+                    Websites that tell your <br>brand's story
                 </h2>
             </div>
 
-            <div class="flex flex-col lg:flex-row items-center gap-16 md:gap-24">
-                <div class="lg:w-1/2 relative group">
-                    <div class="rounded-[4rem] overflow-hidden shadow-2xl relative">
-                        <img src="https://nova.bloomcrm.in/wp-content/uploads/nova-fashion-team.jpg"
-                            alt="Nova Clothing Development"
-                            class="w-full h-auto object-cover transform transition duration-700 group-hover:scale-105">
+            <div class="flex flex-col lg:flex-row items-center gap-10 md:gap-24">
+                <div class="lg:w-1/2 relative">
+                    <div class="rounded-[2.5rem] max-md:rounded-[1rem] overflow-hidden shadow-sm">
+                        <img src="/asset/software/6069075740768013890.jpg"
+                            alt="The New You Development"
+                            class="w-full h-auto object-cover">
                     </div>
 
-                    <div class="absolute bottom-10 -right-10 md:-right-16 w-36 h-36 bg-blue-600 rounded-full flex items-center justify-center shadow-2xl animate-spin-slow">
+                    <div class="absolute bottom-20  -right-4 md:-right-12 w-16 h-16 md:w-40 md:h-40 bg-blue-600 rounded-full flex items-center justify-center shadow-xl animate-spin-slow">
                         <svg viewBox="0 0 100 100" class="w-full h-full p-2">
                             <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
-                            <text class="fill-white text-[11px] font-bold tracking-widest uppercase">
+                            <text class="fill-white text-[10px] font-bold tracking-[0.2em] uppercase">
                                 <textPath xlink:href="#circlePath">Free Consultation • Rudra Tech • </textPath>
                             </text>
                         </svg>
                         <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                            <svg class="w-8 h-8 text-white -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <svg class="w-8 h-8 max-md:w-6 max-md:h-6 text-white rotate-[-45deg]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </div>
                     </div>
                 </div>
 
                 <div class="lg:w-1/2 space-y-8">
-                    <div class="space-y-6 text-slate-500 text-lg leading-relaxed">
+                    <div class="space-y-6 text-slate-500 leading-relaxed">
                         <p>
-                            With <span class="text-slate-900 font-bold">Nova Clothing</span>, we moved beyond standard e-commerce. We built a platform that synchronizes aesthetic fashion with deep-level technical architecture.
+                            Through our work with <strong class="text-slate-900">The New You</strong>, Rudra Tech established a new standard for medical aesthetic platforms. We built a high-performance WordPress environment that prioritizes visitor trust and technical reliability.
                         </p>
                         <p>
-                            Our focus is on creating a frictionless digital environment. By prioritizing organic navigation and rapid content delivery, we ensure that every visitor journey is converted into a meaningful brand interaction.
+                            Our architecture removes all digital friction, allowing users to explore clinical services with instant page response times. By engineering a custom theme, we ensured the site remains lightweight and fully discoverable by search engines.
+                        </p>
+                        <p>
+                            Every element is designed to convert curiosity into clinical consultations, utilizing a clean, mobile-first interface that performs flawlessly on every device.
                         </p>
                     </div>
 
@@ -96,44 +103,44 @@ $page_title = "wordpress"
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Ease of Scalability</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Ease of Scalability</span>
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Instant Impact</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Instant Impact</span>
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Expertise and Experience</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Expertise and Experience</span>
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Time Zone Aligned</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Time Zone Aligned</span>
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Full Flexibility</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Full Flexibility</span>
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="bg-blue-600 text-white rounded-full p-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M5 13l4 4L19 7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></div>
-                            <span class="text-slate-900 font-bold text-sm tracking-tight">Proactive Support</span>
+                            <span class="text-slate-900 font-bold text-[14px]">Proactive Support</span>
                         </div>
                     </div>
 
-                    <div class="pt-8">
-                        <a href="#contact" class="inline-flex items-center gap-3 px-10 py-5 bg-blue-600 text-white rounded-2xl font-bold hover:bg-slate-900 transition-all shadow-xl shadow-blue-100">
+                    <div class="pt-4">
+                        <a href="#contact" class="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-full font-bold hover:bg-slate-900 transition-all shadow-md">
                             Free Consultation
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
@@ -155,173 +162,205 @@ $page_title = "wordpress"
         }
 
         .animate-spin-slow {
-            animation: spin-slow 12s linear infinite;
+            animation: spin-slow 15s linear infinite;
         }
     </style>
 
-    <section class="py-32 bg-slate-950 text-white overflow-hidden">
-        <div class="w-[90%] mx-auto">
-            <div class="flex flex-col lg:flex-row items-center gap-20">
-                <div class="lg:w-3/5 relative">
-                    <div class="absolute -top-10 -left-10 text-[10rem] font-black text-white/5 pointer-events-none">01</div>
-                    <div class="rounded-[2.5rem] overflow-hidden border border-white/10 p-4 bg-white/5 backdrop-blur-xl">
-                        <img src="https://kesarbaug.in/wp-content/uploads/2023/screenshot.jpg" class="rounded-[2rem] w-full" alt="Kesarbaug Review">
+    <section class="py-24 max-md:py-12  bg-slate-50/50">
+        <div class="w-[85%] mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 max-md:mb-5 gap-6 max-md:items-start">
+                <div class="max-w-2xl">
+                    <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Our Expertise</span>
+                    <h2 class="text-2xl md:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
+                        What we can offer <br>today
+                    </h2>
+                </div>
+                <a href="/all-services" class=" max-md:px-6 max-md:py-3 max-md:text-xs inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-slate-900 transition-all shadow-lg group">
+                    View All Services
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div class="bg-white p-10 max-md:p-6 max-md:rounded-[1rem] rounded-[3rem] shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full border border-slate-100">
+                    <div class="flex justify-between items-start mb-8">
+                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                            Custom Theme <br>Development
+                        </h3>
+                        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-slate-500 leading-relaxed mb-10">
+                        We engineer unique, lightweight WordPress themes from scratch using Tailwind CSS, ensuring zero bloat and a brand-first identity.
+                    </p>
+                    <div class="mt-auto rounded-[2rem] overflow-hidden aspect-[4/3]">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="WordPress Coding" class="w-full h-full object-cover">
                     </div>
                 </div>
-                <div class="lg:w-2/5 space-y-8">
-                    <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Full-Stack WordPress <br> Case Study.</h2>
-                    <div class="p-8 bg-blue-600 rounded-[2rem] transform ">
-                        <p class="text-lg italic text-white leading-relaxed">
-                            "The goal for Kesarbaug was to merge organic aesthetics with aggressive performance. We delivered a Tailwind-WordPress hybrid that handles thousands of users."
-                        </p>
-                        <p class="mt-4 font-bold uppercase tracking-widest text-sm">— Rudra Tech Lead</p>
+
+                <div class="bg-white p-10 max-md:p-6 max-md:rounded-[1rem] rounded-[3rem] shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full border border-slate-100">
+                    <div class="flex justify-between items-start mb-8">
+                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                            Advanced <br>WooCommerce
+                        </h3>
+                        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-6 pt-6">
-                        <div>
-                            <p class="text-3xl font-black">Woo</p>
-                            <p class="text-slate-400 text-xs uppercase tracking-widest mt-1">Commerce Engine</p>
+                    <p class="text-slate-500 leading-relaxed mb-10">
+                        Scaling stores like Kesarbaug.in with custom product filters, secure payment gateways, and high-conversion checkout funnels.
+                    </p>
+                    <div class="mt-auto rounded-[2rem] overflow-hidden aspect-[4/3]">
+                        <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=600&q=80" alt="E-commerce Analytics" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 max-md:p-6 max-md:rounded-[1rem] rounded-[3rem] shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full border border-slate-100">
+                    <div class="flex justify-between items-start mb-8">
+                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                            Speed & Core <br>Optimization
+                        </h3>
+                        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
                         </div>
-                        <div>
-                            <p class="text-3xl font-black">SEO</p>
-                            <p class="text-slate-400 text-xs uppercase tracking-widest mt-1">Semantic Ready</p>
-                        </div>
+                    </div>
+                    <p class="text-slate-500 leading-relaxed mb-10">
+                        Fine-tuning your site to achieve 90+ Core Web Vital scores, ensuring your business ranks high and loads instantly on all devices.
+                    </p>
+                    <div class="mt-auto rounded-[2rem] overflow-hidden aspect-[4/3]">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Performance Monitoring" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="py-24 max-md:py-12  bg-white overflow-hidden">
+        <div class="w-[85%] mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 max-md:mb-5 gap-6 max-md:items-start">
+                <div class="max-w-2xl">
+                    <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Our Portfolio</span>
+                    <h2 class="text-2xl md:text-6xl font-bold tracking-tight text-slate-900 leading-[1.1]">
+                        Excellence from concept to completion
+                    </h2>
+                </div>
+                <a href="/all-work" class="inline-flex max-md:text-xs max-md:px-6 max-md:py-3 items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-slate-900 transition-all shadow-lg group">
+                    View All Projects
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+                <div class="group cursor-pointer">
+                    <div class=" rounded-[3rem] max-md:rounded p-3 mb-8 transition-all duration-700 group-hover:bg-[#f1f3f5] group-hover:shadow-2xl">
+
+                        <img src="asset/software/kesarbaug.png" alt="Kesarbaug Home Hero" class=" w-full h-[40vh] max-md:h-[20vh] object-cover  rounded-[3rem] max-md:rounded">
+
+                    </div>
+                    <div class="px-4">
+                        <h3 class="text-3xl max-md:text-xl font-bold text-slate-900 mb-3 text-blue-600">Kesarbaug Organic</h3>
+                        <p class="text-slate-500 leading-relaxed max-md:text-xs">
+                            A premium E-commerce destination for organic oils and seeds. We engineered a high-performance WooCommerce engine focused on product purity and seamless user experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="bg-[#f8f9fa] rounded-[3rem] max-md:rounded p-3 mb-8 transition-all duration-700 group-hover:bg-[#f1f3f5] group-hover:shadow-2xl">
+
+                        <img src="/asset/software/thenew.png" alt="Kesarbaug Home Hero" class="w-full h-[40vh] max-md:h-[20vh] object-cover  rounded-[3rem] max-md:rounded">
+
+                    </div>
+                    <div class="px-4">
+                        <h3 class="text-3xl max-md:text-xl font-bold text-slate-900 mb-3 text-blue-600">The New You Beauty</h3>
+                        <p class="text-slate-500 leading-relaxed max-md:text-xs">
+                            Elevating the digital presence of aesthetic skincare. We developed a sophisticated interface for body washes, face scrubs, and specialized clinical treatments.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-32 bg-white">
-        <div class="w-[90%] mx-auto">
-            <h2 class="text-5xl font-black mb-20 tracking-tighter">The Rudra Stack.</h2>
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="md:col-span-2 md:row-span-2 bg-slate-50 p-12 rounded-[3rem] group hover:bg-slate-950 transition-all duration-700">
-                    <div class="w-16 h-16 bg-blue-600 rounded-2xl mb-8 flex items-center justify-center text-white">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke-width="2" />
+
+
+    <section class="bg-[#f8fafc] py-20 max-md:py-12 font-sans text-[#1e293b]">
+        <div class="w-[85%] mx-auto">
+            <div class="mb-12">
+                <p class="text-[#6366f1] font-semibold mb-2">Why Choose Us</p>
+                <h2 class="text-5xl max-md:text-3xl font-extrabold tracking-tight">Why choose us For WordPress?</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-md:gap-2">
+                <div class="bg-white p-10 max-md:p-6 rounded-[2rem] shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-6 text-[#6366f1]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                     </div>
-                    <h3 class="text-3xl font-bold mb-4 group-hover:text-white transition">Tailwind Architecture</h3>
-                    <p class="text-slate-500 group-hover:text-slate-400 leading-relaxed text-lg">We don't use builders like Elementor. We write clean Tailwind CSS code inside WordPress to ensure zero bloat and maximum speed.</p>
+                    <h3 class="text-2xl font-bold mb-4">Custom Solutions</h3>
+                    <p class="text-slate-500 leading-relaxed">Tailored WordPress websites built to meet your specific business goals and requirements.</p>
                 </div>
-                <div class="bg-blue-600 p-10 rounded-[3rem] text-white">
-                    <h3 class="text-xl font-bold mb-4 italic">90+ Core Vitals</h3>
-                    <p class="text-blue-100 text-sm">Google loves speed. We guarantee passing grades on every launch.</p>
-                </div>
-                <div class="bg-slate-900 p-10 rounded-[3rem] text-white">
-                    <h3 class="text-xl font-bold mb-4 italic">Security Hardening</h3>
-                    <p class="text-slate-400 text-sm">Custom `.htaccess` and API lockdowns to keep hackers out.</p>
-                </div>
-                <div class="md:col-span-2 bg-slate-100 p-10 rounded-[3rem] flex items-center justify-between group">
-                    <div class="max-w-[60%]">
-                        <h3 class="text-2xl font-bold mb-2">Scalable E-Commerce</h3>
-                        <p class="text-slate-500 text-sm">Building shopping experiences that never lag.</p>
+
+                <div class="bg-white p-10 max-md:p-6 rounded-[2rem] shadow-sm hover:shadow-md transition-shadow border-2 border-transparent hover:border-[#6366f1]/10">
+                    <div class="text-4xl mb-6 text-[#6366f1]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
                     </div>
-                    <div class="text-4xl font-black text-slate-200 group-hover:text-blue-600 transition">↗</div>
+                    <h3 class="text-2xl font-bold mb-4">Reliable & Secure</h3>
+                    <p class="text-slate-500 leading-relaxed">Robust development practices ensure your site is fast, secure, and always performing at its best.</p>
+                </div>
+
+                <div class="bg-white p-10 max-md:p-6 rounded-[2rem] shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-6 text-[#6366f1]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Future-Proof & Scalable</h3>
+                    <p class="text-slate-500 leading-relaxed">Designed for growth, making your site easy to expand as your business evolves.</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 md:p-16 rounded-[2.5rem] shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-8 relative overflow-hidden">
+                <div class="absolute right-10 top-10 text-slate-100 hidden md:block">
+                    <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                    </svg>
+                </div>
+
+                <div class="max-w-2xl">
+                    <h2 class="text-xl md:text-5xl font-bold mb-6 leading-tight">Ready to Transform Your Online Presence?</h2>
+                    <p class="text-slate-500 ">We specialize in creating powerful, user-friendly, and visually stunning websites that drive results. Let's build something together.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-4 shrink-0">
+                    <a href="#" class="bg-[#1e293b] text-white px-8 py-4 max-md:px-6 max-md:py-2 max-md:text-xs rounded-full font-semibold hover:bg-black transition-all">View Our Work</a>
+                    <a href="#" class="border border-slate-200 px-8 py-4 max-md:px-6 max-md:py-2 max-md:text-xs rounded-full font-semibold hover:bg-slate-50 transition-all">Free Consultation</a>
+                    <a href="#" class="border border-slate-200 px-8 py-4 max-md:px-6 max-md:py-2 max-md:text-xs rounded-full font-semibold hover:bg-slate-50 transition-all">Contact Us </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="py-32 bg-slate-50">
-        <div class="w-[90%] mx-auto">
-            <div class="flex justify-between items-end mb-16">
-                <h2 class="text-5xl font-black tracking-tighter">Beyond Standard <br> Templates.</h2>
-                <p class="text-slate-500 max-w-xs text-right hidden md:block">From management systems to biophilic design hubs.</p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="group">
-                    <div class="rounded-[3rem] overflow-hidden aspect-video bg-white mb-6 border border-slate-200 shadow-sm transition group-hover:shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1558902867-c414427188cd" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-                    </div>
-                    <h4 class="text-2xl font-bold">Cylinder & Quad CRM</h4>
-                    <p class="text-slate-400 mt-2 font-medium">Custom Inventory Management via WordPress Backend.</p>
-                </div>
-                <div class="group mt-12 md:mt-24">
-                    <div class="rounded-[3rem] overflow-hidden aspect-video bg-white mb-6 border border-slate-200 shadow-sm transition group-hover:shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-                    </div>
-                    <h4 class="text-2xl font-bold">Biophilic Marketing Hubs</h4>
-                    <p class="text-slate-400 mt-2 font-medium">High-conversion landing pages for Landscaping services.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="py-20 bg-white border-y border-slate-100 overflow-hidden">
-        <div class="w-[90%] mx-auto">
-            <div class="flex flex-wrap justify-between items-center gap-10 opacity-30 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-700">
-                <img src="/asset/logo/wp.png" class="h-8" alt="WordPress">
-                <img src="/asset/logo/tailwind.png" class="h-6" alt="Tailwind">
-                <img src="/asset/logo/php.png" class="h-10" alt="PHP 8.2">
-                <img src="/asset/logo/woo.png" class="h-6" alt="WooCommerce">
-                <img src="/asset/logo/hostinger.png" class="h-6" alt="Hostinger">
-            </div>
-        </div>
-    </div>
-
-    <section class="py-32 bg-slate-950 text-white">
-        <div class="w-[90%] mx-auto">
-            <h2 class="text-center text-sm font-bold text-blue-500 uppercase tracking-[0.5em] mb-20">The Deployment Cycle</h2>
-            <div class="max-w-5xl mx-auto space-y-0">
-                <div class="group py-12 border-b border-white/10 flex flex-col md:flex-row md:items-center justify-between hover:bg-white/5 transition px-8">
-                    <div class="flex items-center gap-10">
-                        <span class="text-2xl font-bold text-white/20 group-hover:text-blue-600 transition">01.</span>
-                        <h4 class="text-4xl font-bold tracking-tight">Logic & Wireframing</h4>
-                    </div>
-                    <p class="text-slate-400 max-w-sm mt-4 md:mt-0 opacity-0 group-hover:opacity-100 transition-opacity">Mapping the user journey and SEO content silos before we touch code.</p>
-                </div>
-                <div class="group py-12 border-b border-white/10 flex flex-col md:flex-row md:items-center justify-between hover:bg-white/5 transition px-8">
-                    <div class="flex items-center gap-10">
-                        <span class="text-2xl font-bold text-white/20 group-hover:text-blue-600 transition">02.</span>
-                        <h4 class="text-4xl font-bold tracking-tight">Tailwind Engineering</h4>
-                    </div>
-                    <p class="text-slate-400 max-w-sm mt-4 md:mt-0 opacity-0 group-hover:opacity-100 transition-opacity">Building a custom lightweight theme tailored specifically to your branding.</p>
-                </div>
-                <div class="group py-12 flex flex-col md:flex-row md:items-center justify-between hover:bg-white/5 transition px-8">
-                    <div class="flex items-center gap-10">
-                        <span class="text-2xl font-bold text-white/20 group-hover:text-blue-600 transition">03.</span>
-                        <h4 class="text-4xl font-bold tracking-tight">SEO Indexing</h4>
-                    </div>
-                    <p class="text-slate-400 max-w-sm mt-4 md:mt-0 opacity-0 group-hover:opacity-100 transition-opacity">Connecting Google Search Console and optimizing XML sitemaps for fast ranking.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-32 px-6">
-        <div class="max-w-6xl mx-auto bg-slate-900 rounded-[4rem] p-16 text-center text-white relative overflow-hidden">
-            <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px]"></div>
-            <h2 class="text-5xl md:text-7xl font-black mb-8 leading-[0.9]">Ready to <br>Go Top Level?</h2>
-            <p class="text-slate-400 mb-12 max-w-md mx-auto text-lg leading-relaxed">Let Rudra Tech IT Services architect your premium WordPress presence today.</p>
-
-            <form class="max-w-xl mx-auto flex flex-col md:flex-row gap-4">
-                <input type="text" placeholder="Project details or URL" class="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-5 focus:outline-none focus:border-blue-500 transition">
-                <button class="bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-2xl font-bold whitespace-nowrap transition-transform active:scale-95">Send Request</button>
-            </form>
-        </div>
-    </section>
-
-    <style>
-        .outline-text {
-            -webkit-text-stroke: 1px #cbd5e1;
-            color: transparent;
-        }
-    </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -372,9 +411,9 @@ $page_title = "wordpress"
             </div>
         </section>
 
-        <section class="bg-gray-100 py-24 max-lg:py-12">
+        <section class="bg-gray-100 py-24 max-md:py-12  max-lg:py-12">
             <div class="w-[80%]  max-lg:w-[85%] mx-auto ">
-                <div class="text-center mb-16 max-lg:mb-4">
+                <div class="text-center mb-16 max-md:mb-5 max-lg:mb-4">
                     <h2 class="max-lg:text-3xl max-md:text-2xl text-4xl font-bold text-gray-800 mb-4">Why Choose <br> Our WordPress Experts?</h2>
                     <p class="text-gray-600 ">Get custom-built, SEO-optimized, and blazing fast websites tailored to your business.</p>
                 </div>
@@ -382,23 +421,23 @@ $page_title = "wordpress"
                 <div class="grid md:grid-cols-3 gap-8 max-lg:gap-3">
                     <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                         <i class="fa-solid fa-laptop-code text-blue-600 text-4xl mb-4"></i>
-                        <h3 class="text-xl max-lg:text-lg font-semibold mb-2 text-blue-600">Custom Design & Development</h3>
+                        <h3 class="text-xl max-md:text-sm  max-lg:text-lg font-semibold mb-2 text-blue-600">Custom Design & Development</h3>
                         <p class="text-gray-600">We build unique WordPress sites that match your brand, not generic templates.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                         <i class="fa-solid fa-globe text-blue-600 text-4xl mb-4"></i>
-                        <h3 class="text-xl max-lg:text-lg font-semibold mb-2 text-blue-600">SEO-Friendly Structure</h3>
+                        <h3 class="text-xl max-md:text-sm  max-lg:text-lg font-semibold mb-2 text-blue-600">SEO-Friendly Structure</h3>
                         <p class="text-gray-600">Boost your visibility with optimized code, clean URLs, and fast loading times.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                         <i class="fa-solid fa-headset text-blue-600 text-4xl mb-4"></i>
-                        <h3 class="text-xl max-lg:text-lg font-semibold mb-2 text-blue-600">Dedicated Support</h3>
+                        <h3 class="text-xl max-md:text-sm  max-lg:text-lg font-semibold mb-2 text-blue-600">Dedicated Support</h3>
                         <p class="text-gray-600">Get post-launch support and updates from our expert WordPress team.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-24 max-lg:py-12 bg-white">
+        <section class="py-24 max-md:py-12  max-lg:py-12 bg-white">
             <div class="w-[80%]  max-lg:w-[85%] mx-auto  flex flex-col-reverse md:flex-row items-center gap-10">
                 <div class="md:w-1/2">
                     <img src="/asset/wordpress.png" alt="WordPress Experts" class="rounded-lg w-full">
@@ -416,7 +455,7 @@ $page_title = "wordpress"
             </div>
         </section>
 
-        <section class="bg-black text-white py-24 max-lg:py-12">
+        <section class="bg-black text-white py-24 max-md:py-12  max-lg:py-12">
             <div class="w-[90%] mx-auto max-lg:h-auto ">
                 <!-- Header -->
                 <div class="flex flex-col md:flex-row md:justify-between items-start mb-10 w-[90%] mx-auto">
@@ -442,7 +481,7 @@ $page_title = "wordpress"
                         <div class="bg-black  overflow-hidden">
                             <img src="/asset/image/s (2).jpg" alt="Kesarbaoug Website" class="w-full h-[40vh] max-lg:h-auto object-cover" />
                             <div class="p-4 text-white">
-                                <h3 class="font-bold text-xl max-lg:text-sm max-lg:text-sm">Kesarbaoug</h3>
+                                <h3 class="font-bold text-xl max-md:text-sm  max-lg:text-sm max-lg:text-sm">Kesarbaoug</h3>
                                 <p class="text-gray-400 max-lg:text-xs">A clean, SEO-friendly WordPress site for a premium property brand.</p>
                             </div>
                         </div>
@@ -451,7 +490,7 @@ $page_title = "wordpress"
                         <div class="bg-black  overflow-hidden">
                             <img src="/asset/image/s (1).jpg" alt="RBA Pure Skin Care Website" class="w-full h-[40vh] max-lg:h-auto object-cover" />
                             <div class="p-4 text-white">
-                                <h3 class="font-bold text-xl max-lg:text-sm max-lg:text-sm">RBA Pure Skin Care</h3>
+                                <h3 class="font-bold text-xl max-md:text-sm  max-lg:text-sm max-lg:text-sm">RBA Pure Skin Care</h3>
                                 <p class="text-gray-400 max-lg:text-xs">Elegant WordPress design for a skincare brand with product showcase and contact features.</p>
                             </div>
                         </div>
@@ -461,7 +500,7 @@ $page_title = "wordpress"
                         <div class="bg-black  overflow-hidden">
                             <img src="/asset/image/gold.jpg" alt="Laxmi Machinery Jewelry Equipment Website" class="w-full h-[40vh] max-lg:h-auto object-cover" />
                             <div class="p-4 text-white">
-                                <h3 class="font-bold text-xl max-lg:text-sm max-lg:text-sm">Laxmi Machinery</h3>
+                                <h3 class="font-bold text-xl max-md:text-sm  max-lg:text-sm max-lg:text-sm">Laxmi Machinery</h3>
                                 <p class="text-gray-400 max-lg:text-xs">WordPress website for a gold and silver jewelry machinery manufacturer with product display and inquiry forms.</p>
                             </div>
                         </div>
@@ -482,11 +521,11 @@ $page_title = "wordpress"
         </section>
 
 
-        <section class="bg-white text-black py-24 max-lg:py-12">
+        <section class="bg-white text-black py-24 max-md:py-12  max-lg:py-12">
             <div class="w-[80%]  max-lg:w-[85%] mx-auto flex flex-col md:flex-row gap-12">
                 <!-- Left Side -->
                 <div class="md:w-1/3">
-                    <p class="text-blue-500 font-semibold uppercase text-3xl max-lg:text-xl max-lg:text-sm">FAQs</p>
+                    <p class="text-blue-500 font-semibold uppercase text-3xl max-lg:text-xl max-md:text-sm  max-lg:text-sm">FAQs</p>
                     <h2 class="text-4xl font-bold mt-2 max-lg:text-2xl">Know The Process</h2>
                 </div>
 
@@ -496,7 +535,7 @@ $page_title = "wordpress"
                     <div class="border-b border-gray-700 pb-4">
                         <button class="w-full text-left flex justify-between items-center group" onclick="toggleFaq(this)">
                             <span class="text-lg max-lg:text-sm font-medium group-hover:text-blue-600 transition">Why choose RudraTech for WordPress development?</span>
-                            <span class="text-xl max-lg:text-sm transition group-hover:text-blue-600">+</span>
+                            <span class="text-xl max-md:text-sm  max-lg:text-sm transition group-hover:text-blue-600">+</span>
                         </button>
                         <div class="faq-answer hidden mt-2 text-gray-400 text-sm leading-relaxed">
                             RudraTech specializes in building fast, secure, SEO-friendly WordPress websites with customized features tailored to your business goals.
@@ -506,7 +545,7 @@ $page_title = "wordpress"
                     <div class="border-b border-gray-700 pb-4">
                         <button class="w-full text-left flex justify-between items-center group" onclick="toggleFaq(this)">
                             <span class="text-lg max-lg:text-sm font-medium group-hover:text-blue-600 transition">What is the development process at RudraTech?</span>
-                            <span class="text-xl max-lg:text-sm transition group-hover:text-blue-600">+</span>
+                            <span class="text-xl max-md:text-sm  max-lg:text-sm transition group-hover:text-blue-600">+</span>
                         </button>
                         <div class="faq-answer hidden mt-2 text-gray-400 text-sm leading-relaxed">
                             Our process includes requirement gathering, design approval, development, testing, launch, and post-launch support.
@@ -516,7 +555,7 @@ $page_title = "wordpress"
                     <div class="border-b border-gray-700 pb-4">
                         <button class="w-full text-left flex justify-between items-center group" onclick="toggleFaq(this)">
                             <span class="text-lg max-lg:text-sm font-medium group-hover:text-blue-600 transition">Do you offer custom themes or use pre-built ones?</span>
-                            <span class="text-xl max-lg:text-sm transition group-hover:text-blue-600">+</span>
+                            <span class="text-xl max-md:text-sm  max-lg:text-sm transition group-hover:text-blue-600">+</span>
                         </button>
                         <div class="faq-answer hidden mt-2 text-gray-400 text-sm leading-relaxed">
                             We offer both! Our team can build fully custom themes from scratch or work with premium themes depending on your needs.
@@ -526,7 +565,7 @@ $page_title = "wordpress"
                     <div class="border-b border-gray-700 pb-4">
                         <button class="w-full text-left flex justify-between items-center group" onclick="toggleFaq(this)">
                             <span class="text-lg max-lg:text-sm font-medium group-hover:text-blue-600 transition">Can I manage my content after the site is built?</span>
-                            <span class="text-xl max-lg:text-sm transition group-hover:text-blue-600">+</span>
+                            <span class="text-xl max-md:text-sm  max-lg:text-sm transition group-hover:text-blue-600">+</span>
                         </button>
                         <div class="faq-answer hidden mt-2 text-gray-400 text-sm leading-relaxed">
                             Absolutely! WordPress is user-friendly, and we provide training or documentation so you can easily manage your content.
@@ -536,7 +575,7 @@ $page_title = "wordpress"
                     <div class="border-b border-gray-700 pb-4">
                         <button class="w-full text-left flex justify-between items-center group" onclick="toggleFaq(this)">
                             <span class="text-lg max-lg:text-sm font-medium group-hover:text-blue-600 transition">Do you provide ongoing maintenance and support?</span>
-                            <span class="text-xl max-lg:text-sm transition group-hover:text-blue-600">+</span>
+                            <span class="text-xl max-md:text-sm  max-lg:text-sm transition group-hover:text-blue-600">+</span>
                         </button>
                         <div class="faq-answer hidden mt-2 text-gray-400 text-sm leading-relaxed">
                             Yes, we offer affordable maintenance packages including updates, backups, security monitoring, and performance optimization.
@@ -566,7 +605,7 @@ $page_title = "wordpress"
 
             <!-- Content -->
             <div class="relative z-10 text-center space-y-4 max-w-3xl">
-                <h2 class="text-xl max-lg:text-sm md:text-3xl leading-snug">
+                <h2 class="text-xl max-md:text-sm  max-lg:text-sm md:text-3xl leading-snug">
                     <span class="block line">Ready to Elevate Your Business?</span>
                     <span class="block line">Let’s Build Your Dream WordPress Website</span>
                     <span class="block line">Fast. Beautiful. SEO-Ready.</span>
