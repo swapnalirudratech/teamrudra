@@ -47,7 +47,7 @@ $page_title = "custom-website-designing";
 
 
     <!-- Hero Section -->
-    <section class="relative h-[85vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center bg-white border-b border-gray-100 bg-cover bg-center"
+    <section class="relative h-[85vh] max-md:h-[70vh] flex items-center bg-white border-b border-gray-100 bg-cover bg-center"
         style="background-image: url('/asset/bgweb.png');">
 
         <div class=" absolute   overlay bg-black/50 inset-0"></div>
@@ -72,10 +72,10 @@ $page_title = "custom-website-designing";
                     </p>
 
                     <div class="flex gap-4 pt-4 ">
-                        <a href="#contact" class="px-8 max-lg:px-4 max-lg:py-2 py-4 bg-white text-black font-medium transition-colors">
+                        <a href="/getquote" class="px-8 max-lg:px-4 max-lg:py-2 py-4 bg-white text-black font-medium transition-colors">
                             Get Started
                         </a>
-                        <a href="#work" class="px-8 max-lg:px-4 max-lg:py-2 py-4 border border-white text-white font-bold hover:bg-black  transition-colors">
+                        <a href="/portfolio" class="px-8 max-lg:px-4 max-lg:py-2 py-4 border border-white text-white font-bold hover:bg-black  transition-colors">
                             View Work
                         </a>
                     </div>
@@ -125,87 +125,93 @@ $page_title = "custom-website-designing";
 
 
     <!-- Recent Work Section -->
-    <section id="work" class="py-16 max-lg:py-12  bg-gray-50 relative overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-white opacity-60"></div>
+    <section id="work" class="py-24 max-lg:py-12 bg-white">
+        <div class="max-w-[1400px] mx-auto px-6">
 
-        <div class="relative w-[80%] max-lg:w-[85%] mx-auto z-10">
-            <!-- Section Heading -->
-            <div class="mb-16 max-lg:mb-8  " data-aos="fade-up" data-aos-duration="800">
-                <div class="w-12 h-1 bg-black mb-6"></div>
-                <h2 class="text-4xl lg:text-5xl max-lg:text-3xl  font-bold text-black mb-4">Recent Work</h2>
-                <p class="text-gray-600 max-w-2xl">Explore our latest projects and success stories</p>
+            <div class="flex flex-col md:flex-row justify-between items-baseline mb-20 gap-4">
+                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter text-slate-900">
+                    Selected <span class="text-slate-300">Works</span>
+                </h2>
+                <p class="text-slate-500 font-medium text-lg italic">2024 — 2026 Projects</p>
             </div>
 
-            <!-- Projects Grid -->
-            <div class="space-y-12 max-lg:space-y-6">
-                <!-- Project 1 -->
-                <div data-aos="fade-right" data-aos-duration="1000"
-                    class="group max-lg:p-6 flex flex-col md:flex-row items-center justify-between bg-white shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-700 hover:scale-[1.02]">
-                    <div class="w-full md:w-1/2 overflow-hidden">
-                        <img src="/asset/bnr/4.png"
-                            class="w-full h-[50vh] object-contain max-lg:h-[30vh]" alt="">
-                    </div>
-                    <div class="p-10 max-lg:p-0 md:w-1/2 space-y-3">
-                        <span class="text-sm text-gray-500 uppercase tracking-wider">E-Commerce</span>
-                        <h3 class="text-3xl max-lg:text-2xl font-bold text-black group-hover:text-blue-600 transition-colors">Fashion Retail Store</h3>
-                        <p class="text-gray-600 leading-relaxed">Complete online shopping experience with a custom checkout flow.</p>
+            <div class="grid grid-cols-1 gap-24 max-md:gap-12">
+
+                <div class="group relative block" data-aos="fade-up">
+                    <div class="relative md:h-[600px] rounded-[2.5rem] bg-[#f5f5f7] overflow-hidden border border-slate-100">
+                        <img src="/asset/bnr/4.png" class="w-full h-full rounded-xl object-contain p-12 max-md:p-4 transition-transform duration-1000 ease-out group-hover:scale-105" alt="E-Commerce">
+
+                        <div class="absolute top-8 left-8 flex gap-2">
+                            <span class="px-4 py-2 bg-white/80 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-900 shadow-sm">Tailwind CSS</span>
+                            <span class="px-4 py-2 bg-blue-600 rounded-full text-[10px] font-bold uppercase tracking-widest text-white shadow-sm">PHP</span>
+                        </div>
+
+                        <div class="absolute bottom-6 left-6 right-6 p-8 bg-white/40 backdrop-blur-xl rounded-[1.5rem] border border-white/20 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                                <div>
+                                    <h3 class="text-3xl font-bold text-slate-900">Fashion Retail Store</h3>
+                                    <p class="text-slate-700 mt-1">Full-stack e-commerce solution with custom checkout flow.</p>
+                                </div>
+                                <a href="#" class="h-14 w-14 rounded-full bg-slate-900 text-white flex items-center justify-center hover:scale-110 transition-transform">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div data-aos="fade-left" data-aos-duration="1000"
-                    class="group max-lg:p-6 flex flex-col md:flex-row-reverse items-center justify-between bg-white shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-700 hover:scale-[1.02]">
-                    <div class="w-full md:w-1/2 overflow-hidden">
-                        <img src="/asset/bnr/18.png"
-                            class="w-full h-[50vh] object-contain max-lg:h-[30vh]" alt="">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="group cursor-pointer" data-aos="fade-right">
+                        <div class="rounded-[2.5rem] bg-indigo-50 border border-indigo-100 overflow-hidden mb-6 flex items-center justify-center p-12 relative">
+                            <img src="/asset/bnr/18.png" class="w-full h-full rounded-xl object-contain transition-transform duration-700 group-hover:scale-110" alt="Corporate">
+                        </div>
+                        <div class="px-4">
+                            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest">Consulting</span>
+                            <h3 class="text-2xl font-bold text-slate-900 mt-2">Tech Consulting Firm</h3>
+                        </div>
                     </div>
-                    <div class="p-10 max-lg:p-0 md:w-1/2 space-y-3">
-                        <span class="text-sm text-gray-500 uppercase tracking-wider">Corporate</span>
-                        <h3 class="text-3xl max-lg:text-2xl font-bold text-black group-hover:text-blue-600 transition-colors">Tech Consulting Firm</h3>
-                        <p class="text-gray-600 leading-relaxed">Professional corporate website with elegant service showcase.</p>
+
+                    <div class="group cursor-pointer" data-aos="fade-left">
+                        <div class="rounded-[2.5rem] bg-indigo-50 border border-indigo-100 overflow-hidden mb-6 flex items-center justify-center p-12 relative">
+                            <img src="/asset/bnr/17.png" class="w-full h-full rounded-xl object-contain transition-transform duration-700 group-hover:scale-110" alt="Trading">
+                        </div>
+                        <div class="px-4">
+                            <span class="text-indigo-600 font-bold text-xs uppercase tracking-widest">Fintech</span>
+                            <h3 class="text-2xl font-bold text-slate-900 mt-2">Crypto Trading Platform</h3>
+                        </div>
                     </div>
+
                 </div>
 
-                <!-- Project 3 -->
-                <div data-aos="fade-right" data-aos-duration="1000"
-                    class="group max-lg:p-6 flex flex-col md:flex-row items-center justify-between bg-white shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-700 hover:scale-[1.02]">
-                    <div class="w-full md:w-1/2 overflow-hidden">
-                        <img src="/asset/bnr/33.png"
-                            class="w-full h-[50vh] object-contain max-lg:h-[30vh]" alt="">
+                <div class="group relative rounded-[2.5rem] bg-slate-900 p-12 md:p-24 overflow-hidden flex flex-col md:flex-row items-center gap-12" data-aos="zoom-in">
+                    <div class="md:w-1/2 z-10">
+                        <span class="text-blue-400 font-bold text-xs uppercase tracking-[0.3em] mb-4 block">Logistics Solution</span>
+                        <h3 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">Cargo Tracking <br> & Logistics.</h3>
+                        <p class="text-slate-400 text-lg mb-8 max-w-sm">Real-time inventory management and supply chain tracking for Rudra Tech clients.</p>
+                        <a href="/portfolio" class="inline-block px-8 py-4 border border-white/20 text-white rounded-full hover:bg-white hover:text-black transition-all">View Project Details</a>
                     </div>
-                    <div class="p-10 max-lg:p-0 md:w-1/2 space-y-3">
-                        <span class="text-sm text-gray-500 uppercase tracking-wider">Transport</span>
-                        <h3 class="text-3xl max-lg:text-2xl font-bold text-black group-hover:text-blue-600 transition-colors">Cargo Logistics Company</h3>
-                        <p class="text-gray-600 leading-relaxed">Efficient cargo tracking system with real-time updates.</p>
+                    <div class="md:w-1/2 relative">
+                        <img src="/asset/bnr/33.png" class="w-full h-auto rounded-xl object-contain transition-transform duration-700  group-hover:scale-110" alt="Logistics">
                     </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div data-aos="fade-left" data-aos-duration="1000"
-                    class="group max-lg:p-6 flex flex-col md:flex-row-reverse items-center justify-between bg-white shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-700 hover:scale-[1.02]">
-                    <div class="w-full md:w-1/2 overflow-hidden">
-                        <img src="/asset/bnr/17.png"
-                            class="w-full h-[50vh] object-contain max-lg:h-[30vh]" alt="">
-                    </div>
-                    <div class="p-10 max-lg:p-0 md:w-1/2 space-y-3">
-                        <span class="text-sm text-gray-500 uppercase tracking-wider">Trading</span>
-                        <h3 class="text-3xl max-lg:text-2xl font-bold text-black group-hover:text-blue-600 transition-colors">Crypto Trading Platform</h3>
-                        <p class="text-gray-600 leading-relaxed">Advanced crypto trading platform with real-time signals.</p>
-                    </div>
+                    <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-600/20 rounded-full blur-[100px]"></div>
                 </div>
 
             </div>
 
-            <!-- Button -->
-            <div class="text-center mt-16" data-aos="zoom-in" data-aos-duration="800">
-                <a href="/portfolio"
-                    class="inline-block px-10 py-4 border border-black text-black font-medium rounded-full hover:bg-black hover:text-white transition-colors duration-500">
-                    View All Projects
+            <div class="mt-32 max-lg:mt-12 text-center">
+                <a href="/portfolio" class="group text-slate-900 font-bold text-lg inline-flex items-center gap-4">
+                    View more work
+                    <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center group-hover:bg-slate-900 group-hover:text-white transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                        </svg>
+                    </div>
                 </a>
             </div>
         </div>
-
-
     </section>
 
     <!-- FAQ Section -->

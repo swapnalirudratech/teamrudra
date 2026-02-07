@@ -187,6 +187,30 @@
     </a>
 </div>
 
+<div class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] flex flex-col items-end">
+
+    <a href="https://wa.me/917208344434" target="_blank"
+        class="group flex items-center justify-end bg-[#25D366] text-white h-14 w-14 hover:w-44 transition-all duration-300 ease-in-out overflow-hidden shadow-lg">
+        <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-bold text-sm absolute right-16">
+            WhatsApp Us
+        </span>
+        <div class="w-14 h-14 flex items-center justify-center shrink-0 bg-[#25D366]">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </div>
+    </a>
+
+    <a href="tel:+917208344434"
+        class="group flex items-center justify-end bg-blue-600 text-white h-14 w-14 hover:w-44 transition-all duration-300 ease-in-out overflow-hidden shadow-lg border-t border-white/10">
+        <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-bold text-sm absolute right-16">
+            Call Now
+        </span>
+        <div class="w-14 h-14 flex items-center justify-center shrink-0 bg-blue-600">
+            <i class="fas fa-phone text-xl"></i>
+        </div>
+    </a>
+
+</div>
+
 
 <!-- Advanced Floating Top-Down Scroll Button -->
 <button id="scrollButton"
@@ -377,7 +401,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
                     <span class=" text-sm">+91-720 834 4434
-                     </span>
+                    </span>
                 </div>
                 <div class="flex items-start">
                     <svg class="h-5 w-5 mr-2  mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -506,9 +530,9 @@
                 <h3 class="text-base font-semibold text-gray-100 mb-4">We Accept</h3>
                 <div class="flex flex-wrap items-center gap-4 bg-gray-800">
 
-                    <img src="/asset/gpay.jpg" alt="PhonePe" class="h-10 w-auto rounded-md object-contain" />
-                    <img src="/asset/paytm.png" alt="PhonePe" class="h-10 w-auto rounded-md object-contain" />
-                    <img src="/asset/phonepay.png" alt="PhonePe" class="h-10 w-auto rounded-md object-contain" />
+                    <img src="/asset/icon/master.webp" alt="Master card" class="h-10 w-16 rounded-md object-cover" />
+                    <img src="/asset/icon/visa.jpg" alt="Visa" class="h-10 w-16 rounded-md object-cover" />
+                    <img src="/asset/icon/amex-card1708.jpg" alt="American Express" class="h-10 w-16 rounded-md object-cover" />
 
                 </div>
             </div>

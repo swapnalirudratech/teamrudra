@@ -14,30 +14,49 @@ $page_title = "multivendor-website";
 
     <?php include "include/navbar.php" ?>
 
-    <section class="relative  h-[90vh]  max-lg:h-[40vh] max-md:h-[60vh]   bg-gradient-to-r from-blue-400 via-blue-300 to-blue-400 flex items-center overflow-hidden">
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
 
-        <div class="absolute inset-0 bg-black/10 z-0"></div>
+        <div class="absolute inset-0">
+            <img src="/asset/image/w4.jpg" alt="Multivendor Marketplace Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
 
-        <div class="relative z-10 w-[80%] max-lg:w-[85%]  mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-lg:gap-4">
+            <div class="absolute inset-0 bg-gradient-to-b from-blue-900/30 via-black/60 to-black/80 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-black/40"></div>
+        </div>
 
-                <div class="text-center md:text-left text-white">
-                    <h1 class="text-4xl max-lg:text-3xl lg-text-5xl xl:text-5xl font-extrabold  leading-tight mb-6 drop-shadow-sm">
-                        Multivendor Website <br class="hidden sm:block" />
-                        <span class="text-yellow-300">Development</span>
-                    </h1>
-                    <p class="text-base sm:text-lg max-w-xl max-lg:text-sm mb-8 mx-auto md:mx-0 leading-relaxed text-white/90">
-                        Create your own online marketplace. Discover what it takes to build a powerful, scalable multi-vendor e-commerce platform.
-                    </p>
-                    <a href="#about"
-                        class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold border-2 border-white text-white rounded-full transition duration-300 hover:text-blue-600 hover:bg-white hover:border-white shadow-md">
-                        🚀 Get Started
-                    </a>
-                </div>
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto flex flex-col items-center">
 
-                <div class="hidden md:block">
-                    <img src="/asset/image/w4.jpg" alt="Multivendor Mockup" class="w-full rounded-xl  mx-auto drop-shadow-xl">
-                </div>
+            <span class="mb-4 inline-block rounded-full bg-blue-500/20 px-4 py-1.5 text-sm font-semibold text-blue-300 border border-blue-500/30 backdrop-blur-sm uppercase tracking-wider">
+                E-Commerce Solutions
+            </span>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
+                   text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
+                Build Your Own <br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-400">
+                    Multi-Vendor Empire
+                </span>
+            </h1>
+
+            <p class="text-gray-200 text-base max-md:hidden sm:text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-8">
+                Create a powerful, scalable online marketplace like Amazon or Etsy. Empower vendors, manage commissions, and grow your revenue.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/getquote"
+                    class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 
+                       text-white font-bold text-base sm:text-lg px-8 py-4 rounded-full 
+                       shadow-[0_0_20px_rgba(234,179,8,0.4)] hover:shadow-[0_0_30px_rgba(234,179,8,0.6)] 
+                       transition-all duration-300 ease-in-out transform hover:-translate-y-1">
+                    Start Building
+                </a>
+
+                <!-- <a href="#demo"
+                    class="inline-flex items-center justify-center border border-white/30 hover:bg-white/10 backdrop-blur-md
+                       text-white font-semibold text-base sm:text-lg px-8 py-4 rounded-full 
+                       transition-all duration-300">
+                    View Demo
+                </a> -->
             </div>
         </div>
     </section>
@@ -51,10 +70,10 @@ $page_title = "multivendor-website";
                 <h2 class="text-3xl max-md:text-2xl font-medium">Multivendor Website Development</h2>
             </div>
             <p class="text-gray-800 text-base leading-relaxed mb-4">
-                At <span class="text-blue-600 font-semibold">RudraTech</span>, we craft powerful and scalable multivendor platforms designed to elevate your marketplace—whether it's B2B, B2C, or niche-specific. Our development approach ensures seamless integration of vendors, customers, and administrators, all within a secure, customizable ecosystem.
+                At <span class="text-blue-600 font-semibold">RudraTech</span>, we develop powerful and scalable multivendor platforms that are designed to take your marketplace to the next level, whether it's B2B, B2C, or niche markets. Our development process is designed to provide smooth vendor, customer, and admin interactions in a secure and customizable environment.
             </p>
             <p class="text-gray-800 text-base leading-relaxed mb-4">
-                From intuitive vendor onboarding and personalized dashboards to real-time inventory tracking and secure payment gateways, we build platforms tailored to your growth and monetization goals. Our pricing is modular, based on the specific features you choose—ensuring clarity and flexibility.
+                With our multivendor website development services, you get platforms that are designed for vendor onboarding, customized dashboards, real-time inventory management, and secure payment gateways, all of which are designed to meet your growth and monetization strategies. Our pricing model is modular and based on the features you want to incorporate, ensuring clarity and flexibility.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-lg:gap-2">
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 ease-in-out group">
@@ -63,7 +82,7 @@ $page_title = "multivendor-website";
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Vendor-Centric</h3>
                     <p class="max-lg:text-xs text-gray-400 group-hover:text-gray-200 transition duration-300">
-                        Empower individual vendors with their own dashboards, analytics, and order management tools.
+                        Empower individual vendors with their own dashboards, analytics, and order management systems.
                     </p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 ease-in-out group">
@@ -72,7 +91,7 @@ $page_title = "multivendor-website";
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Secure Architecture</h3>
                     <p class="max-lg:text-xs text-gray-400 group-hover:text-gray-200 transition duration-300">
-                        Advanced protection with secure logins, encrypted payments, and user data safeguards.
+                        Advanced security features that include secure logins, encrypted payments, and user data protection.
                     </p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 ease-in-out group">
@@ -81,7 +100,7 @@ $page_title = "multivendor-website";
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Fully Customizable</h3>
                     <p class="max-lg:text-xs text-gray-400 group-hover:text-gray-200 transition duration-300">
-                        Tailor your platform with options like multi-currency, language support, product filters, and commission settings.
+                        Customize your platform with features such as multi-currency support, language translation, product filtering, and commission management.
                     </p>
                 </div>
             </div>

@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 
     <div class="container mx-auto   py-16  max-md:py-8">
-        <div class="bg-white overflow-hidden w-[90%] mx-auto">
+        <div class="overflow-hidden w-[90%] mx-auto">
 
 
             <div class="w-full flex gap-20 max-lg:flex-col max-lg:gap-8">
@@ -150,16 +150,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         Have questions or need IT assistance? Connect with our team — we’ll respond promptly to support your needs.
                     </p>
 
-                    <div class="space-y-5 font-sans text-gray-600">
+                    <div class="space-y-5 font-sans text-gray-800">
 
                         <div class="flex items-center gap-3">
                             <i class="fa-regular fa-clock text-blue-600"></i>
-                            <p>We’re open Mon–Sat, 10:00 AM – 7:00 PM. Closed on Sundays.</p>
+                            <p class="font-normal">We’re open Mon–Sat, 10:00 AM – 7:00 PM. Closed on Sundays.</p>
                         </div>
 
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-location-dot text-blue-600"></i>
-                            <p>RudraTech IT Services, Office No. 331, Globe Business Park, Ambernath (W),
+                            <p class="font-normal">RudraTech IT Services, Office No. 331, Globe Business Park, Ambernath (W),
                                 Thane – 421501, Maharashtra, India</p>
                         </div>
 
@@ -170,7 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-envelope text-blue-600"></i>
-                            <p>business@teamrudra.com</p>
+                            <p class="font-normal">business@teamrudra.com</p>
                         </div>
                     </div>
                 </div>

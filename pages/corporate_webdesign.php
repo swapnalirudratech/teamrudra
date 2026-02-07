@@ -13,25 +13,48 @@ $page_title = "static_website_design";
     <?php include "include/navbar.php"; ?>
 
 
-    <section class="relative w-full h-[90vh] max-lg:h-[40vh] max-md:h-[60vh] bg-cover bg-center overflow-hidden" style="background-image: url('/asset/appdevbg.jpg');">
-        <!-- Dark overlay -->
-        <div class="absolute inset-0 bg-black/60"></div>
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-slate-900">
 
-        <div class="relative z-10 h-full flex items-center">
-            <div class="container mx-auto w-[80%] max-lg:w-[85%] max-md:w-[90%] text-left max-md:text-center">
-                <!-- Text Content -->
-                <div class="max-w-2xl">
-                    <h1 class="text-3xl md:text-5xl font-extrabold leading-tight text-white mb-6">
-                        Corporate Websites<br />
+        <div class="absolute inset-0">
+            <img src="/asset/appdevbg.jpg" alt="Corporate Office Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
 
-                    </h1>
-                    <p class="text-lg md:text-xl text-gray-200 mb-8">
-                        We craft scalable, professional websites that elevate your brand and drive real business results.
-                    </p>
-                    <a href="/getin-touch" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-sm font-semibold shadow-lg hover:bg-blue-600 transition">
-                        Get a Free Consultation
-                    </a>
-                </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/70 to-black/90"></div>
+        </div>
+
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-5xl mx-auto flex flex-col items-center">
+
+            <div class="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
+                <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                <span class="text-xs font-bold text-gray-200 uppercase tracking-widest">Enterprise Solutions</span>
+            </div>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
+                   text-4xl sm:text-5xl md:text-7xl mb-6">
+                Corporate Websites <br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-white to-blue-300">
+                    Built for Scale
+                </span>
+            </h1>
+
+            <p class="text-gray-300 text-base sm:text-lg md:text-xl max-md:hidden max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-10 font-light">
+                We develop secure, scalable, and professional digital platforms that enhance your brand reputation and drive global business results.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+                <a href="/getquote"
+                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
+                       text-white font-bold text-base px-8 py-4 rounded-full 
+                       shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 
+                       transition-all duration-300 transform hover:-translate-y-1">
+                    Get a Free Consultation
+                </a>
+
+                <a href="/portfolio"
+                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/30 rounded-full 
+                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
+                    Our Work
+                </a>
             </div>
         </div>
     </section>
@@ -52,7 +75,7 @@ $page_title = "static_website_design";
                     <span class="text-blue-500"> That Drives Business Forward</span>
                 </h2>
                 <p class="mt-5 text-lg text-gray-600">
-                    We build enterprise-grade websites that align with your brand values, engage stakeholders, and support your business objectives.
+                    We design and develop enterprise-level corporate websites that resonate with your brand values and deliver business results.
                 </p>
 
             </div>
@@ -61,9 +84,9 @@ $page_title = "static_website_design";
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
                 <!-- Left: Services Showcase -->
                 <div class="relative p-6  max-md:p-0 ">
-                    <div class="absolute -top-4 -left-4 px-4 py-2 bg-blue-500 text-white font-medium rounded-lg">
+                    <!-- <div class="absolute -top-4 -left-4 px-4 py-2 bg-blue-500 text-white font-medium rounded-lg">
                         Our Approach
-                    </div>
+                    </div> -->
 
                     <!-- Service Cards -->
                     <div class="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2">
@@ -75,7 +98,7 @@ $page_title = "static_website_design";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Responsive Design</h3>
-                            <p class="text-xs text-gray-600">Perfect across all devices with fluid layouts and optimized visuals</p>
+                            <p class="text-sm text-gray-600">Optimized for all devices with fluid designs and visuals</p>
                         </div>
 
                         <!-- Card 2 -->
@@ -86,7 +109,7 @@ $page_title = "static_website_design";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Custom UI/UX</h3>
-                            <p class="text-xs text-gray-600">Brand-aligned interfaces that enhance user engagement</p>
+                            <p class="text-sm text-gray-600">Brand-centric designs that boost user engagement</p>
                         </div>
 
                         <!-- Card 3 -->
@@ -97,7 +120,7 @@ $page_title = "static_website_design";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Performance</h3>
-                            <p class="text-xs text-gray-600">Lightning-fast load times with optimized code and assets</p>
+                            <p class="text-sm text-gray-600">Blazing-fast load times with optimized code and assets</p>
                         </div>
 
                         <!-- Card 4 -->
@@ -108,7 +131,7 @@ $page_title = "static_website_design";
                                 </svg>
                             </div>
                             <h3 class="mb-2 text-md font-bold text-gray-900">Modern Frameworks</h3>
-                            <p class="text-xs text-gray-600">Built with cutting-edge technologies for scalable growth</p>
+                            <p class="text-sm text-gray-600">Developed using the latest technologies for scalable growth</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +140,7 @@ $page_title = "static_website_design";
                 <div class="relative flex flex-col items-center justify-center lg:pl-8">
                     <div class="relative w-full  overflow-hidden rounded-lg">
                         <!-- Main image -->
-                        <img src="/asset/image/w2.webp" alt="Professional Web Design" class="w-full h-[60vh] max-lg:h-[30vh] object-cover rounded-lg">
+                        <img src="/asset/image/w2.webp" alt="Professional Web Design" class="w-full h-full max-lg:h-[30vh] object-cover rounded-lg">
                     </div>
                 </div>
             </div>
@@ -186,8 +209,8 @@ $page_title = "static_website_design";
 
 
     <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 
 </body>
 

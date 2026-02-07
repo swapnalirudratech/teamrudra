@@ -15,27 +15,51 @@ $page_title = "biseness-profile";
 
 
     <!-- Hero Section -->
-    <section class="relative  h-[90vh]  max-lg:h-[40vh] max-md:h-[60vh]   flex items-center justify-center text-center px-4 py-20">
-        <!-- Background Image -->
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/asset/businesspro.jpg');"></div>
+    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
 
-        <!-- Dark Overlay -->
-        <div class="absolute inset-0 bg-black/70"></div>
+        <div class="absolute inset-0">
+            <img src="/asset/businesspro.jpg" alt="Business Profile Background"
+                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
 
-        <!-- Content -->
-        <div class="relative z-10 text-white max-w-2xl">
-            <h1 class="text-4xl md:text-4xl lg-text-5xl xl:text-5xl font-extrabold mb-6">
-                Business Profile <span class="text-blue-500">Website</span>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-black/90"></div>
+        </div>
+
+        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto flex flex-col items-center">
+
+            <div class="mb-6 max-md:hidden inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-600/20 border border-blue-500/30 backdrop-blur-sm">
+                <i class="fas fa-check-circle text-blue-400 text-xs"></i>
+                <span class="text-xs font-bold text-blue-100 uppercase tracking-widest">Professional Identity</span>
+            </div>
+
+            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
+                   text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
+                Business Profile <br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
+                    Website Design
+                </span>
             </h1>
-            <p class="text-md text-gray-200 mb-8">
-                Elevate your brand with a sleek, modern website that builds trust and drives engagement.
+
+            <p class="text-gray-300 max-md:hidden text-base sm:text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-10 font-light">
+                First impressions are important. Enhance your brand with a modern, online headquarters that instills confidence and fosters client interaction.
             </p>
-            <a href="/getin-touch" class="inline-block px-6 py-3 border border-white rounded-md text-white hover:bg-blue-600 hover:border-blue-600 transition duration-300">
-                Get Started
-            </a>
+
+            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+                <a href="/getin-touch"
+                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
+                       text-white font-bold text-base px-8 py-4 rounded-full 
+                       shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 
+                       transition-all duration-300 transform hover:-translate-y-1">
+                    Establish Your Brand
+                </a>
+
+                <a href="/portfolio"
+                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/20 rounded-full 
+                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
+                    View Samples
+                </a>
+            </div>
         </div>
     </section>
-
 
 
     <!-- About Section -->
@@ -46,10 +70,10 @@ $page_title = "biseness-profile";
                 <h2 class="text-3xl font-medium">Business Profile Website Features</h2>
             </div>
             <p class="text-gray-800 text-base leading-relaxed mb-4">
-                At <span class="text-blue-600 font-semibold">RudraTech</span>, we design and develop elegant business profile websites that reflect your brand, vision, and professionalism. Whether you’re a startup or an established firm, our websites are built to make an impact.
+                At <span class="text-blue-600 font-semibold">RudraTech</span>,we create beautiful business profile websites that represent your brand, your vision, and your professionalism. Whether it is a new business or an existing one, our websites are designed to make a statement.
             </p>
             <p class="text-gray-800 text-base leading-relaxed mb-4">
-                Our team focuses on responsive design, fast loading speed, and brand-consistent layouts to deliver a seamless user experience across all devices. Every page is built to communicate your value effectively to clients and partners.
+                Our team is dedicated to responsive design, fast loading, and brand-oriented layouts to ensure a smooth user experience on all devices. Each page is designed to convey your value to clients and partners.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-lg:gap-2">
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 group">
@@ -57,109 +81,147 @@ $page_title = "biseness-profile";
                         <i class="fas fa-laptop-code"></i>
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Responsive Design</h3>
-                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Optimized for mobile, tablet, and desktop viewing.</p>
+                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Designed for mobile, tablet, and computer viewing.</p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:text-white transition duration-300">
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Fast & Lightweight</h3>
-                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Quick-loading pages for better SEO and user experience.</p>
+                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Quick-loading pages for improved SEO and user experience.</p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:text-white transition duration-300">
                         <i class="fas fa-palette"></i>
                     </div>
                     <h3 class="text-xl text-white font-medium mb-3">Brand-Oriented UI</h3>
-                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Custom layouts that align with your business identity.</p>
+                    <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Custom layouts that match your business identity.</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section class="w-full py-16 bg-gray-50 text-center px-6">
-        <p class="text-sm text-blue-600 tracking-widest uppercase mb-2">Our Services</p>
-        <h2 class="text-4xl font-bold mb-4">
-            Solution for your <span class="text-blue-500">Business</span>
-        </h2>
-        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
-            At RudraTech IT Services, we design high-performance business websites that reflect professionalism, engage customers, and drive results. We help businesses create a digital identity they can be proud of.
-        </p>
+    <section class="py-24 bg-gray-50 overflow-hidden">
+        <div class="w-[80%] max-lg:w-full mx-auto px-6 lg:px-8">
 
-        <div class="w-[80%] max-lg:w-[85%] max-md:w-full mx-auto space-y-8 max-lg:space-y-4">
-            <!-- Row 1 -->
-            <div class="grid grid-cols-2 gap-8 max-lg:gap-3 max-lg:grid-cols-1">
-                <!-- Digital Marketing -->
-                <div class="flex max-md:flex-col max-md:rounded max-md:gap-2 max-md:items-start items-center bg-gradient-to-r from-gray-400 to-gray-300 text-white rounded-full px-6 py-6 shadow-lg">
-                    <div class="bg-white rounded-full p-4 mr-6 ">
-                        <img src="https://img.icons8.com/ios-filled/50/rocket--v1.png" class="w-8 h-8 text-cyan-500" alt="Digital Marketing" />
-                    </div>
-                    <div class="text-left">
-                        <h3 class="text-lg text-black  font-semibold mb-2">Digital Marketing</h3>
-                        <ul class="text-sm space-y-1">
-                            <li>• Targeted campaigns to boost visibility</li>
-                            <li>• SEO strategies for business growth</li>
-                            <li>• Social media and ad management</li>
-                        </ul>
-                    </div>
+            <div class="w-full mb-16 flex max-lg:flex-col justify-between md:gap-16">
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-6">
+                        Solutions crafted for <br>
+                        <span class="text-blue-600 relative inline-block">
+                            Business Growth
+                            <svg class="absolute w-full h-3 -bottom-1 left-0 text-blue-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="8" fill="none" />
+                            </svg>
+                        </span>
+                    </h2>
                 </div>
-
-                <!-- Business Management -->
-                <div class="flex max-md:flex-col max-md:rounded max-md:gap-2 max-md:items-start items-center  bg-gradient-to-r from-gray-400 to-gray-300 text-white rounded-full px-6 py-6 shadow-lg">
-                    <div class="bg-white rounded-full p-4 mr-6">
-                        <img src="https://img.icons8.com/ios-filled/50/clipboard.png" class="w-8 h-8 text-cyan-500" alt="Business Management" />
-                    </div>
-                    <div class="text-left">
-                        <h3 class="text-lg font-semibold mb-2 text-black ">Business Management</h3>
-                        <ul class="text-sm space-y-1">
-                            <li>• Streamlined workflow integration</li>
-                            <li>• Tools for client and task tracking</li>
-                            <li>• Scalable solutions for growth</li>
-                        </ul>
-                    </div>
+                <div class="max-w-2xl">
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        RudraTech IT Services develops high-performance digital ecosystems. We don't just build websites; we build your digital identity.
+                    </p>
                 </div>
             </div>
 
-            <!-- Row 2 -->
-            <div class="grid grid-cols-2 gap-8 max-lg:gap-3 max-lg:grid-cols-1">
-                <!-- Plan Implementation -->
-                <div class="flex max-md:flex-col max-md:rounded max-md:gap-2 max-md:items-start items-center  bg-gradient-to-r from-gray-400 to-gray-300 text-white rounded-full px-6 py-6 shadow-lg">
-                    <div class="bg-white rounded-full p-4 mr-6">
-                        <img src="https://img.icons8.com/ios-filled/50/combo-chart--v1.png" class="w-8 h-8 text-cyan-500" alt="Plan Implementation" />
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+
+                <div class="space-y-8 lg:space-y-12">
+                    <div class="group relative bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity transform group-hover:scale-110 duration-500">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/rocket--v1.png" class="w-32 h-32" alt="Watermark" />
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                <img src="https://img.icons8.com/ios-filled/50/currentcolor/rocket--v1.png" class="w-7 h-7" alt="Icon" />
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Digital Marketing</h3>
+                            <p class="text-gray-500 mb-6">Targeted campaigns and SEO plans designed to dominate your market.</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-blue-500 mr-3"></span> SEO & Visibility
+                                </li>
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-blue-500 mr-3"></span> Social Media Mgmt
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="text-left">
-                        <h3 class="text-lg text-black  font-semibold mb-2">Plan Implementation</h3>
-                        <ul class="text-sm space-y-1">
-                            <li>• Step-by-step website rollout</li>
-                            <li>• Agile development processes</li>
-                            <li>• Results-driven execution</li>
-                        </ul>
+
+                    <div class="group relative bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity transform group-hover:scale-110 duration-500">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/combo-chart--v1.png" class="w-32 h-32" alt="Watermark" />
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mb-6 text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition-colors duration-300">
+                                <img src="https://img.icons8.com/ios-filled/50/currentcolor/combo-chart--v1.png" class="w-7 h-7" alt="Icon" />
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Plan Implementation</h3>
+                            <p class="text-gray-500 mb-6">Agile methodologies and result-oriented execution strategies.</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-purple-500 mr-3"></span> Strategic Launch
+                                </li>
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-purple-500 mr-3"></span> Agile Development
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Web Development -->
-                <div class="flex max-md:flex-col max-md:rounded max-md:gap-2 max-md:items-start items-center  bg-gradient-to-r from-gray-400 to-gray-300 text-white rounded-full px-6 py-6 shadow-lg">
-                    <div class="bg-white rounded-full p-4 mr-6">
-                        <img src="https://img.icons8.com/ios-filled/50/source-code.png" class="w-8 h-8 text-cyan-500" alt="Web Development" />
+                <div class="space-y-8 lg:space-y-12 md:mt-24">
+                    <div class="group relative bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity transform group-hover:scale-110 duration-500">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/clipboard.png" class="w-32 h-32" alt="Watermark" />
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center mb-6 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                                <img src="https://img.icons8.com/ios-filled/50/currentcolor/clipboard.png" class="w-7 h-7" alt="Icon" />
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Business Management</h3>
+                            <p class="text-gray-500 mb-6">Workflow integration and scalable solutions for effortless expansion.</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-emerald-500 mr-3"></span> Workflow Automation
+                                </li>
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-emerald-500 mr-3"></span> Task Management
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="text-left">
-                        <h3 class="text-lg text-black font-semibold mb-2">Web Development</h3>
-                        <ul class="text-sm space-y-1">
-                            <li>• Modern, responsive design</li>
-                            <li>• Secure and scalable codebase</li>
-                            <li>• Optimized for speed and SEO</li>
-                        </ul>
+
+                    <div class="group relative bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity transform group-hover:scale-110 duration-500">
+                            <img src="https://img.icons8.com/ios-filled/100/000000/source-code.png" class="w-32 h-32" alt="Watermark" />
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center mb-6 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300">
+                                <img src="https://img.icons8.com/ios-filled/50/currentcolor/source-code.png" class="w-7 h-7" alt="Icon" />
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Web Development</h3>
+                            <p class="text-gray-500 mb-6">Secure, scalable code structure optimized for speed and SEO.</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-indigo-500 mr-3"></span> Responsive Design
+                                </li>
+                                <li class="flex items-center text-sm font-medium text-gray-700">
+                                    <span class="w-6 h-px bg-indigo-500 mr-3"></span> Speed Optimization
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
 
-  <?php include 'include/marquee.php' ?>
-<?php include "include/upperfooter.php"; ?>
-<?php include "include/footer.php" ?>
+    <?php include 'include/marquee.php' ?>
+    <?php include "include/upperfooter.php"; ?>
+    <?php include "include/footer.php" ?>
 </body>
 
 </html>
