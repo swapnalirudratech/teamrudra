@@ -620,7 +620,7 @@ $page_title = "home";
                     <div class="bg-[#B6FF69] text-black px-4 py-1 text-sm font-bold rounded mb-2 shadow-md">
                         Manager
                     </div>
-                    <img src="https://i.pravatar.cc/150?u=2" class="w-12 h-12 lg:w-20 lg:h-20 rounded-full object-cover border-4 border-[#B6FF69] shadow-xl">
+                    <img src="/asset/image/hitesh.png" class="w-12 h-12 lg:w-20 lg:h-20 rounded-full object-cover border-4 border-[#B6FF69] shadow-xl">
                 </div>
             </div>
 
@@ -1032,6 +1032,228 @@ $page_title = "home";
         });
     </script>
 
+
+    <section class="bg-white py-28 border-t border-gray-200" id="ai-builder">
+        <div class="max-md:w-[90%] w-[80%] mx-auto flex flex-col">
+
+            <div class="flex flex-col gap-12 items-start">
+
+                <div class="flex max-md:flex-col justify-between w-full">
+                    <div class="flex flex-col gap-6 items-center justify-between w-[50%] max-md:w-full">
+                        <div class="max-w-3xl space-y-4">
+                            <h2 class="text-4xl max-md:text-3xl md:text-5xl font-bold text-black leading-tight">
+                                Build Your Website <br> <span class="text-blue-600">Instantly</span>
+                            </h2>
+                            <p class="text-xl md:text-2xl text-gray-500">
+                                Powered by <span class="text-black font-bold">AI Agent Rudra</span>.
+                                Describe your business and watch our agent code your front-end in seconds.
+                            </p>
+                        </div>
+                        <div class="w-full flex items-start justify-start relative">
+                            <img src="/asset/icon/ai.gif" alt="AI Agent Rudra" class="w-[50%] max-md:w-full">
+
+                            <div class="absolute left-[40%] top-0 bg-white border-2 border-blue-100 w-[50%] p-4 rounded-2xl shadow-lg max-md:hidden">
+                                <div class="absolute -left-2 bottom-5 w-4 h-4 bg-white border-l-2 border-b-2 border-blue-100 rotate-45"></div>
+
+                                <div class="relative z-10">
+                                    <p class="text-sm md:text-base font-bold text-slate-800 leading-relaxed">
+                                        Hiii, I'm <span class="text-blue-600">AI Agent Rudra!</span> 👋
+                                        <br>
+                                        <span class="text-slate-500 font-medium text-xs md:text-sm">
+                                            Just tell me your business name and your vision, and I'll start building your custom website right now.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 w-[45%] max-md:w-full">
+                        <div class="space-y-6">
+
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Business Name</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-building absolute left-4 top-3.5 text-gray-400"></i>
+                                    <input type="text" id="businessName" placeholder="e.g. Rudratech Solutions"
+                                        class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition font-medium">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Email</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-envelope absolute left-4 top-3.5 text-gray-400"></i>
+                                        <input type="email" id="emailId" placeholder="contact@company.com"
+                                            class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none transition font-medium">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Phone</label>
+                                    <div
+                                        class="flex items-center bg-gray-50 border border-gray-200 rounded-lg overflow-hidden focus-within:ring-2 focus-within:ring-blue-600 transition">
+                                        <span
+                                            class="bg-gray-100 px-3 py-3 text-gray-600 font-bold border-r border-gray-200 text-sm">+91</span>
+                                        <input type="tel" id="phoneNumber" placeholder="98765 43210"
+                                            class="w-full px-4 py-3 bg-transparent outline-none font-medium">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Describe Your Vision</label>
+                                <textarea id="userPrompt" rows="5"
+                                    placeholder="Describe the vibe, colors, and specific services (e.g., 'A corporate IT website with a blue theme, cloud services, and a contact form')..."
+                                    class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none transition resize-none font-medium"></textarea>
+                            </div>
+
+                            <button onclick="generateWebsite()" id="genBtn"
+                                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-1 flex justify-center items-center gap-3 text-lg">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Generate Preview</span>
+                            </button>
+
+                            <div id="statusMsg"
+                                class="text-center text-sm text-red-500 hidden font-bold bg-red-50 py-2 rounded"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <div
+                        class="relative w-full h-[600px] bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col group">
+
+                        <div class="h-10 bg-gray-100 border-b border-gray-200 flex items-center px-4 space-x-2">
+                            <div class="flex space-x-1.5">
+                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                            </div>
+                            <div class="flex-1 text-center">
+                                <div
+                                    class="bg-white mx-auto w-1/2 h-6 rounded text-[10px] flex items-center justify-center text-gray-400 font-mono">
+                                    <i class="fa-solid fa-lock mr-1"></i> live-preview.com
+                                </div>
+                            </div>
+                            <button onclick="toggleFullScreen()" id="fullscreenBtn"
+                                class="hidden text-gray-500 hover:text-blue-600 text-xs font-bold uppercase tracking-wider transition">
+                                Full Screen <i class="fa-solid fa-expand ml-1"></i>
+                            </button>
+                        </div>
+
+                        <div class="flex-1 relative bg-slate-50">
+
+                            <div id="emptyState"
+                                class="absolute inset-0 flex flex-col items-center justify-center text-gray-400 p-8 text-center">
+                                <div
+                                    class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6 text-blue-200">
+                                    <i class="fa-solid fa-laptop-code text-4xl text-blue-500"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-700">Ready to Build?</h3>
+                                <p class="max-w-xs mx-auto mt-2 text-gray-500">Fill out the form on the left and watch
+                                    AI Agent Rudra build your site here in real-time.</p>
+                            </div>
+
+                            <div id="loader"
+                                class="hidden absolute inset-0 flex flex-col items-center justify-center bg-white/90 z-20 backdrop-blur-sm">
+                                <div
+                                    class="animate-spin rounded-full h-16 w-16 border-4 border-blue-600 border-t-transparent shadow-xl">
+                                </div>
+                                <p class="mt-6 text-gray-800 font-bold text-xl animate-pulse">Rudra is Coding...</p>
+                                <p class="text-gray-500 font-medium">Generating layout, writing content, and styling.
+                                </p>
+                                <p class="text-red-500 font-medium mt-6 text-sm">Please wait, this will take 40-50 seconds.</p>
+                            </div>
+
+                            <iframe id="previewFrame" class="w-full h-full bg-white hidden"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script>
+        async function generateWebsite() {
+            const businessName = document.getElementById('businessName').value.trim();
+            const emailId = document.getElementById('emailId').value.trim();
+            const phoneNumber = document.getElementById('phoneNumber').value.trim();
+            const userPrompt = document.getElementById('userPrompt').value.trim();
+
+            const btn = document.getElementById('genBtn');
+            const loader = document.getElementById('loader');
+            const iframe = document.getElementById('previewFrame');
+            const emptyState = document.getElementById('emptyState');
+            const statusMsg = document.getElementById('statusMsg');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+
+            if (!userPrompt) {
+                alert("Please describe your website vision first.");
+                return;
+            }
+
+            // UI Loading State
+            btn.disabled = true;
+            btn.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin"></i> Building...`;
+            document.getElementById('previewFrame').parentElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            loader.classList.remove('hidden');
+            emptyState.classList.add('hidden');
+            iframe.classList.add('hidden');
+            statusMsg.classList.add('hidden');
+            fullscreenBtn.classList.add('hidden');
+
+            // Construct Prompt
+            let combinedPrompt = `Create a landing page for a business named "${businessName || 'My Business'}". `;
+            if (emailId) combinedPrompt += ` Contact email: ${emailId}.`;
+            if (phoneNumber) combinedPrompt += ` Contact phone: +91 ${phoneNumber}.`;
+            combinedPrompt += ` \n\nUser Request: ${userPrompt}`;
+
+            try {
+                // IMPORTANT: Ensure 'generate_code.php' is in the same folder as this HTML file
+                const response = await fetch('generate_code.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        prompt: combinedPrompt
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.html) {
+                    iframe.srcdoc = data.html;
+                    iframe.classList.remove('hidden');
+                    fullscreenBtn.classList.remove('hidden');
+                    loader.classList.add('hidden');
+                } else {
+                    throw new Error(data.error || "Unknown API Error");
+                }
+
+            } catch (err) {
+                console.error(err);
+                statusMsg.innerText = "Error: " + err.message;
+                statusMsg.classList.remove('hidden');
+                emptyState.classList.remove('hidden');
+                loader.classList.add('hidden');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = `<i class="fa-solid fa-wand-magic-sparkles"></i> <span>Generate Preview</span>`;
+            }
+        }
+
+        function toggleFullScreen() {
+            const iframe = document.getElementById('previewFrame');
+            if (!document.fullscreenElement) {
+                if (iframe.requestFullscreen) iframe.requestFullscreen();
+            } else {
+                if (document.exitFullscreen) document.exitFullscreen();
+            }
+        }
+    </script>
 
     <!-- <div id="projectForm" class="fixed top-[20%] right-0 max-lg:right-2 w-[95%] max-w-sm bg-white shadow-2xl rounded-l-xl p-6 z-50 border border-gray-200 transition-all duration-500">
 

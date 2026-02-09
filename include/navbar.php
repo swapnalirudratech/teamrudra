@@ -72,6 +72,43 @@
         font-size: 1.2em;
         /* adjust bullet size */
     }
+
+    @keyframes shadow-breathe {
+
+        0%,
+        100% {
+            /* Purple Shadow */
+            box-shadow: 0 0 15px 2px rgba(164, 81, 242, 0.6);
+            /* border-color: #9e58e1; */
+        }
+
+        50% {
+            /* Violet/Blue Shadow */
+            box-shadow: 0 0 15px 2px rgba(61, 51, 243, 0.6);
+            /* border-color: #4f46e5; */
+        }
+    }
+
+    .ai-capsule-container {
+        position: relative;
+        display: inline-flex;
+        padding: 1px;
+        /* Minimal border to define the shape */
+        border-radius: 9999px;
+        background: transparent;
+        transition: all 0.5s ease;
+        /* Apply the breathing shadow animation */
+        animation: shadow-breathe 2s ease-in-out infinite;
+        /* border: 1px solid; */
+        /* This will also change color via animation */
+    }
+
+    .ai-capsule-inner {
+        position: relative;
+        z-index: 1;
+        background: white;
+        border-radius: 9999px;
+    }
 </style>
 
 
@@ -111,7 +148,23 @@
 
             <div class="hidden md:flex items-center gap-8 text-sm ">
 
+                <div class="ai-capsule-container group scale-95 origin-center">
+                    <div class="ai-capsule-inner">
+                        <a href="#"
+                            class="<?= ($page_title == "website-designing") ? 'bg-blue-50 text-blue-600' : 'text-slate-700 hover:text-blue-600' ?> px-3 py-1.5 flex items-center gap-2 transition-all duration-300 rounded-full group">
+
+                            <span class="relative flex h-2 w-2">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
+                            </span>
+
+                            <span class="tracking-tight font-semibold whitespace-nowrap">Agent Rudra</span>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="relative group mega-menu-container  overflow-visible" data-menu-id="website-designing-menu">
+
                     <a href="/website-designing" aria-haspopup="true" aria-expanded="false"
                         class="<?= ($page_title == "website-designing") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center  font-medium transition-colors duration-300">
                         Website Designing<i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
@@ -423,7 +476,7 @@
 
                 <a href="/client" class=" <?= ($page_title == "client") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Clients</a>
 
-                  <a href="/software" class=" <?= ($page_title == "software") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software</a>
+                <a href="/software" class=" <?= ($page_title == "software") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software</a>
             </div>
         </div>
 
