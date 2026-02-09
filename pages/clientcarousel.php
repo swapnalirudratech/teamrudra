@@ -24,7 +24,7 @@
 
 <body class="bg-slate-50">
 
-    <section class="py-12 lg:py-24 relative overflow-hidden">
+    <section class="py-12 lg:py-24 relative overflow-hidden w-full">
 
         <div class="absolute inset-0 bg-grid-pattern opacity-[0.4] pointer-events-none"></div>
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
@@ -32,7 +32,7 @@
             <div class="absolute top-[20%] -right-[10%] w-[300px] lg:w-[600px] h-[300px] lg:h-[600px] bg-purple-100 rounded-full blur-[80px] lg:blur-[120px] opacity-40 mix-blend-multiply"></div>
         </div>
 
-        <div class="container mx-auto px-4 lg:px-6 relative z-10">
+        <div class="w-[85%] max-md:w-full mx-auto max-md:px-4 relative z-10">
             <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 h-auto lg:h-[800px]">
 
                 <div class="lg:w-1/3 flex flex-col justify-center shrink-0 z-20 text-center lg:text-left">

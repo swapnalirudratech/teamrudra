@@ -601,14 +601,14 @@ $page_title = "home";
                 <div class="border-r border-gray-300 h-full"></div>
             </div>
 
-            <h1 class="text-6xl sm:text-8xl lg:text-[12rem] font-bold tracking-tighter text-gray-900 select-none text-center whitespace-nowrap z-10">
+            <h1 class="text-7xl sm:text-8xl lg:text-[12rem] font-bold tracking-tighter text-gray-900 select-none text-center whitespace-nowrap z-10">
                 Rudra Tech
             </h1>
 
 
-            <div class="absolute -bottom-16 left-4 lg:-bottom-4 lg:left-10 animate-float z-20" style="animation-delay: 0s;">
+            <div class="absolute -bottom-16 left-4 lg:-bottom-4 lg:left-10 animate-float z-20">
                 <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=1" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <img src="/asset/image/naresh.jpg" class="w-10 h-10 lg:w-16 lg:h-16 rounded-full object-cover border-2 border-white shadow-lg mb-2">
                     <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Strategist
                     </div>
@@ -620,13 +620,13 @@ $page_title = "home";
                     <div class="bg-[#B6FF69] text-black px-4 py-1 text-sm font-bold rounded mb-2 shadow-md">
                         Manager
                     </div>
-                    <img src="https://i.pravatar.cc/150?u=2" class="w-12 h-12 lg:w-14 lg:h-14 rounded-full border-4 border-[#B6FF69] shadow-xl">
+                    <img src="/asset/image/hitesh.png" class="w-12 h-12 lg:w-20 lg:h-20 rounded-full object-cover border-4 border-[#B6FF69] shadow-xl">
                 </div>
             </div>
 
             <div class="absolute -bottom-24 left-[40%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-10 lg:left-[45%] animate-float z-20" style="animation-delay: 0.5s;">
                 <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=3" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <img src="/asset/image/swapnali.jpeg" class="w-10 h-10 lg:w-16 lg:h-16 rounded-full object-cover border-2 border-white shadow-lg mb-2">
                     <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Designer
                     </div>
@@ -638,13 +638,13 @@ $page_title = "home";
                     <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm mb-2 flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Developer
                     </div>
-                    <img src="https://i.pravatar.cc/150?u=4" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg">
+                    <img src="/asset/image/harsh.jpg" class="w-10 h-10 lg:w-16 lg:h-16 rounded-full object-cover border-2 border-white shadow-lg">
                 </div>
             </div>
 
             <div class="absolute -bottom-20 right-4 lg:-bottom-4 lg:right-40 animate-float z-20" style="animation-delay: 2s;">
                 <div class="flex flex-col items-center">
-                    <img src="https://i.pravatar.cc/150?u=5" class="w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white shadow-lg mb-2">
+                    <img src="/asset/image/niki.jpg" class="w-10 h-10 lg:w-16 lg:h-16 rounded-full object-cover border-2 border-white shadow-lg mb-2">
                     <div class="bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded shadow-sm flex items-center gap-1">
                         <span class="text-[10px] text-green-500">▲</span> Marketer
                     </div>
@@ -845,7 +845,7 @@ $page_title = "home";
 
                     <button onclick="updateFeature(0)" id="btn-0" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
-                            <div class="flex-1 text-right lg:text-right">
+                            <div class="flex-1 text-left lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1"> Insightful Dashboard</h4>
                                 <p class="text-gray-500 text-sm leading-relaxed">Create and send professional GST invoices in seconds.</p>
                             </div>
@@ -859,7 +859,7 @@ $page_title = "home";
 
                     <button onclick="updateFeature(1)" id="btn-1" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
-                            <div class="flex-1 text-right lg:text-right">
+                            <div class="flex-1 text-left lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1"> Real-Time Reports</h4>
                                 <p class="text-gray-500 text-sm leading-relaxed"> Track revenue & cash flow instantly with visual graphs. </p>
                             </div>
@@ -873,7 +873,7 @@ $page_title = "home";
 
                     <button onclick="updateFeature(2)" id="btn-2" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
-                            <div class="flex-1 text-right lg:text-right">
+                            <div class="flex-1 text-left lg:text-right">
                                 <h4 class="text-gray-900 font-bold text-base mb-1"> Smart Invoicing</h4>
                                 <p class="text-gray-500 text-sm leading-relaxed"> Create and send professional GST invoices in seconds.</p>
                             </div>
@@ -887,9 +887,9 @@ $page_title = "home";
 
                 </div>
 
-                <div class="w-full lg:w-1/2 relative h-auto lg:h-auto flex items-center justify-center p-10">
-                    <div class="absolute left-0 bottom-4 w-full h-6 bg-gray-700 rounded-full"></div>
-                    <div class="w-full relative h-[300px] lg:h-[400px] flex items-center justify-center z-10 border-2 border-gray-700 rounded-2xl">
+                <div class="w-full lg:w-1/2 relative h-auto lg:h-auto flex items-center justify-center p-10 max-md:p-4">
+                    <div class="absolute left-0 bottom-4 max-md:-bottom-1 w-full h-6 bg-gray-700 rounded-full"></div>
+                    <div class="w-full relative h-[200px] lg:h-[400px] flex items-center justify-center z-10 border-2 border-gray-700 rounded-2xl">
 
                         <div class="relative w-full h-full bg-white rounded-2xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-200 overflow-hidden flex flex-col transform transition-transform hover:scale-[1.02] duration-500">
                             <div class="h-10 bg-gray-50 border-b flex items-center px-4 space-x-2 shrink-0">
@@ -1032,6 +1032,228 @@ $page_title = "home";
         });
     </script>
 
+
+    <section class="bg-white py-28 border-t border-gray-200" id="ai-builder">
+        <div class="max-md:w-[90%] w-[80%] mx-auto flex flex-col">
+
+            <div class="flex flex-col gap-12 items-start">
+
+                <div class="flex max-md:flex-col justify-between w-full">
+                    <div class="flex flex-col gap-6 items-center justify-between w-[50%] max-md:w-full">
+                        <div class="max-w-3xl space-y-4">
+                            <h2 class="text-4xl max-md:text-3xl md:text-5xl font-bold text-black leading-tight">
+                                Build Your Website <br> <span class="text-blue-600">Instantly</span>
+                            </h2>
+                            <p class="text-xl md:text-2xl text-gray-500">
+                                Powered by <span class="text-black font-bold">AI Agent Rudra</span>.
+                                Describe your business and watch our agent code your front-end in seconds.
+                            </p>
+                        </div>
+                        <div class="w-full flex items-start justify-start relative">
+                            <img src="/asset/icon/ai.gif" alt="AI Agent Rudra" class="w-[50%] max-md:w-full">
+
+                            <div class="absolute left-[40%] top-0 bg-white border-2 border-blue-100 w-[50%] p-4 rounded-2xl shadow-lg max-md:hidden">
+                                <div class="absolute -left-2 bottom-5 w-4 h-4 bg-white border-l-2 border-b-2 border-blue-100 rotate-45"></div>
+
+                                <div class="relative z-10">
+                                    <p class="text-sm md:text-base font-bold text-slate-800 leading-relaxed">
+                                        Hiii, I'm <span class="text-blue-600">AI Agent Rudra!</span> 👋
+                                        <br>
+                                        <span class="text-slate-500 font-medium text-xs md:text-sm">
+                                            Just tell me your business name and your vision, and I'll start building your custom website right now.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 w-[45%] max-md:w-full">
+                        <div class="space-y-6">
+
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Business Name</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-building absolute left-4 top-3.5 text-gray-400"></i>
+                                    <input type="text" id="businessName" placeholder="e.g. Rudratech Solutions"
+                                        class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition font-medium">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Email</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-envelope absolute left-4 top-3.5 text-gray-400"></i>
+                                        <input type="email" id="emailId" placeholder="contact@company.com"
+                                            class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none transition font-medium">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Phone</label>
+                                    <div
+                                        class="flex items-center bg-gray-50 border border-gray-200 rounded-lg overflow-hidden focus-within:ring-2 focus-within:ring-blue-600 transition">
+                                        <span
+                                            class="bg-gray-100 px-3 py-3 text-gray-600 font-bold border-r border-gray-200 text-sm">+91</span>
+                                        <input type="tel" id="phoneNumber" placeholder="98765 43210"
+                                            class="w-full px-4 py-3 bg-transparent outline-none font-medium">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Describe Your Vision</label>
+                                <textarea id="userPrompt" rows="5"
+                                    placeholder="Describe the vibe, colors, and specific services (e.g., 'A corporate IT website with a blue theme, cloud services, and a contact form')..."
+                                    class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none transition resize-none font-medium"></textarea>
+                            </div>
+
+                            <button onclick="generateWebsite()" id="genBtn"
+                                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-1 flex justify-center items-center gap-3 text-lg">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Generate Preview</span>
+                            </button>
+
+                            <div id="statusMsg"
+                                class="text-center text-sm text-red-500 hidden font-bold bg-red-50 py-2 rounded"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <div
+                        class="relative w-full h-[600px] bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col group">
+
+                        <div class="h-10 bg-gray-100 border-b border-gray-200 flex items-center px-4 space-x-2">
+                            <div class="flex space-x-1.5">
+                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                            </div>
+                            <div class="flex-1 text-center">
+                                <div
+                                    class="bg-white mx-auto w-1/2 h-6 rounded text-[10px] flex items-center justify-center text-gray-400 font-mono">
+                                    <i class="fa-solid fa-lock mr-1"></i> live-preview.com
+                                </div>
+                            </div>
+                            <button onclick="toggleFullScreen()" id="fullscreenBtn"
+                                class="hidden text-gray-500 hover:text-blue-600 text-xs font-bold uppercase tracking-wider transition">
+                                Full Screen <i class="fa-solid fa-expand ml-1"></i>
+                            </button>
+                        </div>
+
+                        <div class="flex-1 relative bg-slate-50">
+
+                            <div id="emptyState"
+                                class="absolute inset-0 flex flex-col items-center justify-center text-gray-400 p-8 text-center">
+                                <div
+                                    class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6 text-blue-200">
+                                    <i class="fa-solid fa-laptop-code text-4xl text-blue-500"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-700">Ready to Build?</h3>
+                                <p class="max-w-xs mx-auto mt-2 text-gray-500">Fill out the form on the left and watch
+                                    AI Agent Rudra build your site here in real-time.</p>
+                            </div>
+
+                            <div id="loader"
+                                class="hidden absolute inset-0 flex flex-col items-center justify-center bg-white/90 z-20 backdrop-blur-sm">
+                                <div
+                                    class="animate-spin rounded-full h-16 w-16 border-4 border-blue-600 border-t-transparent shadow-xl">
+                                </div>
+                                <p class="mt-6 text-gray-800 font-bold text-xl animate-pulse">Rudra is Coding...</p>
+                                <p class="text-gray-500 font-medium">Generating layout, writing content, and styling.
+                                </p>
+                                <p class="text-red-500 font-medium mt-6 text-sm">Please wait, this will take 40-50 seconds.</p>
+                            </div>
+
+                            <iframe id="previewFrame" class="w-full h-full bg-white hidden"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script>
+        async function generateWebsite() {
+            const businessName = document.getElementById('businessName').value.trim();
+            const emailId = document.getElementById('emailId').value.trim();
+            const phoneNumber = document.getElementById('phoneNumber').value.trim();
+            const userPrompt = document.getElementById('userPrompt').value.trim();
+
+            const btn = document.getElementById('genBtn');
+            const loader = document.getElementById('loader');
+            const iframe = document.getElementById('previewFrame');
+            const emptyState = document.getElementById('emptyState');
+            const statusMsg = document.getElementById('statusMsg');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+
+            if (!userPrompt) {
+                alert("Please describe your website vision first.");
+                return;
+            }
+
+            // UI Loading State
+            btn.disabled = true;
+            btn.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin"></i> Building...`;
+            document.getElementById('previewFrame').parentElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            loader.classList.remove('hidden');
+            emptyState.classList.add('hidden');
+            iframe.classList.add('hidden');
+            statusMsg.classList.add('hidden');
+            fullscreenBtn.classList.add('hidden');
+
+            // Construct Prompt
+            let combinedPrompt = `Create a landing page for a business named "${businessName || 'My Business'}". `;
+            if (emailId) combinedPrompt += ` Contact email: ${emailId}.`;
+            if (phoneNumber) combinedPrompt += ` Contact phone: +91 ${phoneNumber}.`;
+            combinedPrompt += ` \n\nUser Request: ${userPrompt}`;
+
+            try {
+                // IMPORTANT: Ensure 'generate_code.php' is in the same folder as this HTML file
+                const response = await fetch('generate_code.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        prompt: combinedPrompt
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.html) {
+                    iframe.srcdoc = data.html;
+                    iframe.classList.remove('hidden');
+                    fullscreenBtn.classList.remove('hidden');
+                    loader.classList.add('hidden');
+                } else {
+                    throw new Error(data.error || "Unknown API Error");
+                }
+
+            } catch (err) {
+                console.error(err);
+                statusMsg.innerText = "Error: " + err.message;
+                statusMsg.classList.remove('hidden');
+                emptyState.classList.remove('hidden');
+                loader.classList.add('hidden');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = `<i class="fa-solid fa-wand-magic-sparkles"></i> <span>Generate Preview</span>`;
+            }
+        }
+
+        function toggleFullScreen() {
+            const iframe = document.getElementById('previewFrame');
+            if (!document.fullscreenElement) {
+                if (iframe.requestFullscreen) iframe.requestFullscreen();
+            } else {
+                if (document.exitFullscreen) document.exitFullscreen();
+            }
+        }
+    </script>
 
     <!-- <div id="projectForm" class="fixed top-[20%] right-0 max-lg:right-2 w-[95%] max-w-sm bg-white shadow-2xl rounded-l-xl p-6 z-50 border border-gray-200 transition-all duration-500">
 
@@ -1215,7 +1437,7 @@ $page_title = "home";
                         <div class="order-2 md:order-2 max-md:hidden ">
                             <div class="relative">
                                 <div class="absolute inset-0 bg-blue-600 transform translate-x-6 translate-y-6 rounded-lg"></div>
-                                <img src="/asset/image/abt.avif" alt="RudraTech Team" class="relative z-10 w-full h-full max-lg:h-[30vh] object-cover rounded-lg shadow-xl">
+                                <img src="/asset/image/abt.png" alt="RudraTech Team" class="relative z-10 w-full h-full max-lg:h-[30vh] object-cover rounded-lg shadow-xl">
                             </div>
                         </div>
                     </div>
@@ -1255,7 +1477,7 @@ $page_title = "home";
 
 
                     <div class="industry-card h-80 max-lg:h-60 max-md:h-40 rounded-lg">
-                        <img src="/asset/indus3.jpg" alt="Finance Industry" class="w-full h-full object-cover">
+                        <img src="/asset/image/finance.avif" alt="Finance Industry" class="w-full h-full object-cover">
                         <div class="overlay"></div>
                         <div class="card-content">
                             <div class="square-element"></div>
@@ -1463,7 +1685,7 @@ $page_title = "home";
         </div>
     </div>
 
-    <div class="container mx-auto py-20 max-lg:py-12 w-[80%] max-lg:w-[90%] max-md:w-[85%] relative border-t border-gray-200">
+    <div class="container hidden mx-auto py-20 max-lg:py-12 w-[80%] max-lg:w-[90%] max-md:w-[85%] relative border-t border-gray-200">
         <h2 class="text-2xl md:text-4xl font-normal max-lg:text-center max-lg:mb-8 animate-fadeInUp text-slate-800 mb-16">Rapid Digital Solutions</h2>
 
         <div class="grid max-md:grid-cols-1 grid-cols-3 gap-8 max-lg:gap-4">
@@ -1515,6 +1737,91 @@ $page_title = "home";
 
         </div>
     </div>
+
+    <section class="container mx-auto py-24 max-lg:py-16 w-[85%] max-lg:w-[92%] border-t border-gray-100">
+        <div class="flex flex-col lg:flex-row gap-12 items-start">
+
+            <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-md:order-2">
+                <div class="md:col-span-2 group relative p-8 rounded-[2.5rem] border border-blue-100 bg-white hover:shadow-lg transition-all duration-500 overflow-hidden">
+                    <div class="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
+                        <img src="/asset/image/v1.png" class="w-[40%] max-md:w-[80%] h-auto flex mx-auto" alt="Software">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Custom Software Solutions</h3>
+                            <p class="text-slate-500 max-w-md">Our flagship rapid prototyping system turns complex concepts into design-ready software architecture in record time.</p>
+                        </div>
+                    </div>
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-blue-100/20 rounded-full blur-3xl group-hover:bg-blue-200/40 transition-colors"></div>
+                </div>
+
+                <div class="group p-8 bg-white border border-slate-100 rounded-[2.5rem] hover:shadow-xl transition-all duration-500">
+                    <img src="/asset/image/v2.png" class="w-[80%] h-auto flex mx-auto" alt="Digital">
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Digital Transformation</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Modernizing legacy workflows with cloud-native solutions tailored to your growth.</p>
+                </div>
+
+                <div class="group p-8 bg-white border border-slate-100 rounded-[2.5rem] hover:shadow-xl transition-all duration-500">
+                    <img src="/asset/image/v3.png" class="w-[80%] h-auto flex mx-auto" alt="Mobile">
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Enterprise Apps</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">High-performance mobile and web environments designed for enterprise-level scale.</p>
+                </div>
+            </div>
+
+            <div class="lg:w-1/3 lg:sticky lg:top-36 max-md:order-1">
+                <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+                    Capabilities
+                </span>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+                    Rapid Digital <br />
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Solutions.</span>
+                </h2>
+                <p class="text-slate-500 text-lg leading-relaxed mb-8">
+                    We bridge the gap between complex ideas and seamless digital execution through rapid prototyping and modern architecture.
+                </p>
+
+                <div class="mb-10">
+                    <button class="px-8 py-4 bg-slate-900 text-white rounded-2xl font-medium hover:bg-blue-600 transition-all shadow-lg hover:shadow-blue-200">
+                        View All Services
+                    </button>
+                </div>
+
+                <div class="relative p-6 rounded-[2rem] bg-gradient-to-br from-slate-50 to-blue-50 border border-white shadow-inner overflow-hidden">
+                    <div class="flex flex-col gap-4 relative z-10">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white">
+                                <i class="fas fa-check text-xs"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-slate-700 uppercase tracking-tight">Rapid Deployment</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center text-white">
+                                <i class="fas fa-layer-group text-xs"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-slate-700 uppercase tracking-tight">Scalable Infrastructure</span>
+                        </div>
+                    </div>
+
+                    <div class="absolute -right-6 -bottom-6 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
+                        <svg width="160" height="160" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M2 12h20" />
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+
+                            <circle cx="12" cy="12" r="1" fill="currentColor" />
+                            <circle cx="12" cy="2" r="1" fill="currentColor" />
+                            <circle cx="12" cy="22" r="1" fill="currentColor" />
+                            <circle cx="20" cy="12" r="1" fill="currentColor" />
+                            <circle cx="4" cy="12" r="1" fill="currentColor" />
+
+                            <path d="M16 8l3-3" stroke-dasharray="2 2" />
+                            <path d="M8 16l-3 3" stroke-dasharray="2 2" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <div class=" w-[80%] mx-auto hidden py-20">
         <div class="grid md:grid-cols-3 gap-6 text-start bg-blue-100">
@@ -1731,15 +2038,16 @@ $page_title = "home";
         </div>
     </section>
 
-    <section class="w-full bg-white">
-        <div class="w-[80%] mx-auto py-20 bg-white border-t max-lg:py-12 overflow-hidden">
+
+    <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900">
+        <div class="w-[85%] mx-auto">
 
             <div class=" mb-12 flex justify-between max-lg:flex-col max-lg:text-center">
                 <div class="inline-block relative">
-                    <h2 class="text-4xl max-lg:text-3xl font-normal text-gray-800 relative z-10">
+                    <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800 relative z-10">
                         Our Digital Masterpieces
                     </h2>
-
+                    <div class="h-1.5 w-24 bg-blue-600 mt-6 max-lg:mx-auto rounded-full"></div>
                 </div>
                 <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full ">
                     A showcase of transformative digital experiences we've crafted for businesses across various industries.
@@ -1747,91 +2055,136 @@ $page_title = "home";
             </div>
 
             <div class="owl-carousel website-carousel owl-theme">
-                <div class="item bg-yellow-100 py-8 max-lg:p-2  rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
 
-                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                        <div class="text-left flex flex-col justify-center max-lg:text-center">
-                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-orange-900 ">KESARBAUG</h3>
-                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">The Taste of Nature 🌿</p>
-                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-20 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-orange-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-orange-50 border border-orange-100 rounded-full">E-comm / Food</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">KESAR<span class="text-orange-600/80">BAUG</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">A multi-layered digital experience. We crafted a seamless journey from high-conversion product grids to a fluid checkout.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">45%</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sales Growth</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Fast</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Load Speed</span></div>
+                            </div>
                         </div>
-                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                            <img src="/asset/image/s (2).jpg" alt="Kesarbag Website" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/s (2).jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/kesarbaug-pp.png" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/kesarbaug-mob.png" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">E-comm / Clothing</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">DREAM<span class="text-indigo-700">KITCHEN</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing a digital home for architectural visionaries. We crafted an immersive showcase that blends minimalist aesthetics with high-performance gallery systems.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Premium</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UI Design</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Smooth</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UX Flow</span></div>
+                            </div>
                         </div>
-                        <div class="absolute top-2 right-2 bg-orange-900 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/dk1.jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/dk3.jpg" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/dk2.png" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-yellow-700 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-yellow-50 border border-yellow-200 rounded-full">Investment / Real Estate</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VR<br /><span class="text-yellow-600/80">CONSULT</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing the bridge between investors and growth. A professional platform for high-end real estate and success.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Elite</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Consulting</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Modern</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Investments</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/vr.jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vrpp.jpg" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vrmob.jpg" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-[#8B4513] font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-[#FDF5E6] border border-[#DEB887] rounded-full">
+                                Heritage / Pilgrimage
+                            </span>
+
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">
+                                <span class="text-[#A0522D]">SAPTAM</span>
+                            </h3>
+
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">
+                                Discover India’s sacred temples and serene trails. We provide detailed guides and inspiring cultural stories for the modern spiritual explorer.
+                            </p>
+
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">100+</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sacred Guides</span>
+                                </div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Rich</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Cultural Media</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white">
+                            <img src="/asset/image/saptam1.jpg" alt="Saptam Heritage" class="w-full object-cover">
+                        </div>
+
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block">
+                            <img src="/asset/image/saptam3.jpg" alt="Temple Detail" class="w-full object-cover h-44">
+                        </div>
+
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block">
+                            <img src="/asset/image/saptam2.jpg" alt="Saptam Mobile" class="w-full object-cover h-[340px]">
+                        </div>
                     </div>
                 </div>
 
 
-                <div class="item bg-pink-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                        <div class="text-left flex flex-col justify-center max-lg:text-center">
-                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-pink-900">RB A PURE SKIN CARE</h3>
-                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Leading the Beauty Industry with Purity 🛀</p>
-                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Ecommerce Project</p>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">Education / Edutech</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VSA<br /><span class="text-indigo-600/80">EDUTECH</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">An online platform dedicated to distance learning, offering an intuitive classroom experience for students and mentors.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">10k+</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Active Students</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Cloud</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Classroom</span></div>
+                            </div>
                         </div>
-                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                            <img src="/asset/image/s (1).jpg" alt="RB A PURE SKIN CARE" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                        </div>
-                        <div class="absolute top-2 right-2 bg-pink-900 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
+                    </div>
+                    <div class="lg:col-span-8 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full overflow-hidden"><img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" class="w-full object-cover"></div>
+                        <!-- <div class="absolute z-30 -top-12 -right-8 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vsa-courses.png" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-10 -left-6 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vsa-mob.png" class="w-full object-cover h-[340px]"></div> -->
                     </div>
                 </div>
-
-
-
-                <div class="item bg-black py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-lg:gap-2">
-                        <div class="text-left flex flex-col justify-center max-md:text-center">
-                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-white">DATADEFEND TECHNOLOGIES</h3>
-                            <p class="text-gray-300 mt-2 italic text-xl max-md:text-sm ">Shielding Your Digital Future, Today</p>
-                            <p class="text-blue-500 font-semibold text-sm tracking-wider mt-2">CyberSec Project</p>
-                        </div>
-                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                            <img src="/asset/image/cs.jpg" alt="DATADEFEND TECHNOLOGIES" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                        </div>
-                        <div class="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                    </div>
-                </div>
-
-
-
-                <div class="item bg-yellow-100 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
-                        <div class="text-left flex flex-col justify-center max-md:text-center">
-                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-black">VR CONSULTANT</h3>
-                            <p class="text-gray-700 mt-2 italic text-xl max-md:text-sm ">Invest - Expand - Succeed</p>
-                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Real Estate Project</p>
-                        </div>
-                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                            <img src="/asset/image/vr.jpg" alt="VR CONSULTANT" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                        </div>
-                        <div class="absolute top-2 right-2 bg-black text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                    </div>
-                </div>
-
-
-                <div class="item bg-gray-200 py-8 max-lg:p-2 rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden group">
-                    <div class="flex max-lg:flex-col justify-between gap-6  relative max-lg:p-4 w-[90%] mx-auto max-md:gap-2">
-                        <div class="text-left flex flex-col justify-center max-md:text-center">
-                            <h3 class="text-4xl max-lg:text-2xl font-semibold text-blue-700">VSA</h3>
-                            <p class="text-gray-600 mt-2 italic text-xl max-md:text-sm">Online Platform for Distance Learning</p>
-                            <p class="text-blue-600 font-semibold text-sm tracking-wider mt-2">Edutech Project</p>
-                        </div>
-                        <div class="overflow-hidden rounded-xl max-lg:rounded-none">
-                            <img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" alt="VSA" class="h-60 w-full max-lg:h-40 max-lg:w-full object-cover group-hover:scale-105 transition-all duration-500 max-lg:object-contain">
-                        </div>
-                        <div class="absolute top-2 right-2 bg-blue-700 text-white px-3 py-1 rounded-full text-sm opacity-0 group-hover:opacity-100 transition-all">NEW</div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
     </section>
-
-
-
-
 
 
 

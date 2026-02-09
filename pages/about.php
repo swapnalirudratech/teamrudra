@@ -42,26 +42,27 @@ $page_title = "about"
                     </p>
 
                     <div class="flex flex-wrap items-center gap-6">
-                        <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-bold shadow-2xl hover:bg-blue-600  transition-all duration-500 transform hover:-translate-y-1">
+                        <a href="/career" class="bg-slate-900 text-white px-10 py-4 rounded-full font-bold shadow-2xl hover:bg-blue-600  transition-all duration-500 transform hover:-translate-y-1">
                             Work With Us
-                        </button>
-                        <div class="flex -space-x-3">
-                            <img src="https://i.pravatar.cc/100?u=1" class="w-10 h-10 rounded-full border-2 border-white shadow-sm">
-                            <img src="https://i.pravatar.cc/100?u=2" class="w-10 h-10 rounded-full border-2 border-white shadow-sm">
-                            <div class="w-10 h-10 rounded-full bg-slate-100 border-2 border-white flex items-center justify-center text-[10px] font-bold text-slate-400">+15</div>
+                        </a>
+                        <div class="flex -space-x-5">
+                            <img src="/asset/image/sarvesh.jpeg" class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm">
+                            <img src="/asset/image/naresh.jpg" class="w-16 h-16 rounded-full border-2 border-white shadow-sm">
+                            <img src="/asset/image/nikita.jpeg" class="w-16 h-16 rounded-full border-2 border-white shadow-sm">
+                            <div class="w-16 h-16 rounded-full bg-slate-100 border-2 border-white flex items-center justify-center text-[10px] font-bold text-slate-400">+15</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="relative flex justify-center lg:justify-end">
-                    <div class="relative w-[80%] aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                    <div class="relative w-[80%] aspect-[4/4] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
                         <img src="/asset/image/ofc.avif"
                             alt="Team working"
                             class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>
                     </div>
 
-                    <div class="absolute -bottom-10 -left-10 lg:left-0 w-[60%] aspect-square rounded-2xl overflow-hidden border-8 border-[#0a0a0a] shadow-[0_20px_50px_rgba(0,0,0,0.5)] animate-float-slow">
+                    <div class="absolute -bottom-4 -left-10 lg:left-0 w-[50%] aspect-square rounded-2xl overflow-hidden border-8 border-[#0a0a0a] shadow-[0_20px_50px_rgba(0,0,0,0.5)] animate-float-slow">
                         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600"
                             alt="Office collaboration"
                             class="w-full h-full object-cover">
@@ -310,7 +311,7 @@ $page_title = "about"
                         </div>
 
                         <div class="flex items-center gap-4">
-                            <a href="#" class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-900 hover:text-white transition-all duration-300">
+                            <a href="https://in.linkedin.com/in/rahul-sachwani-b3395a153?trk=people-guest_people_search-card" target="_blank" class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-900 hover:text-white transition-all duration-300">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                                 </svg>
@@ -325,19 +326,18 @@ $page_title = "about"
                         <div class="absolute inset-0 bg-slate-50 rounded-[3rem] w-[80%] max-md:w-full -rotate-3 scale-105 z-0"></div>
 
                         <div class="relative z-10 w-[80%] max-md:w-full h-[600px] max-md:h-[400px] lg:aspect-square rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 border-8 border-white">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000"
+                            <img src="/asset/image/manager.jpeg"
                                 alt="Manager Name"
                                 class="w-full h-full object-cover">
                         </div>
 
                         <div class="absolute -bottom-24 -right-2 lg:-right-12 lg:-bottom-10 p-8 max-md:p-6 bg-white/90 backdrop-blur-2xl rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-white z-20 w-80 max-md:w-60 animate-float">
                             <div class="flex flex-col">
-                                <span class="text-blue-600 font-black text-xs uppercase tracking-widest mb-2">Project Manager</span>
+                                <span class="text-blue-600 font-black text-xs uppercase tracking-widest mb-2">Chief Operating Officer</span>
                                 <h3 class="text-2xl max-md:text-xl font-black text-slate-900 tracking-tighter leading-none mb-4">Mr. Rahul Sachwani</h3>
                                 <p class="text-[11px] text-slate-500 leading-relaxed font-medium">
-                                    Expert in PHP ecosystem and high-performance database management. Driving technical strategy since 2020.
+                                    Specializing in operational excellence and strategic scaling. Optimizing internal workflows and driving sustainable business growth since 2020.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -387,7 +387,7 @@ $page_title = "about"
                     <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
                         <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">The Foundation</h4>
                         <p class="text-slate-600 text-lg leading-relaxed mb-6">
-                            Roshan & Rahul founded <span class="font-semibold text-slate-900">RudraTech</span> in a small home office. We didn't have big servers, just big ideas and a commitment to writing clean code.
+                            Rahul & Roshan founded <span class="font-semibold text-slate-900">RudraTech</span> in a small home office. We didn't have big servers, just big ideas and a commitment to writing clean code.
                         </p>
                         <div class="flex gap-3">
                             <div class="px-4 py-2 bg-slate-50 rounded-lg text-xs font-semibold text-slate-500 border border-slate-100">Web Design</div>
@@ -396,11 +396,11 @@ $page_title = "about"
                     </div>
                 </div>
 
-                <div class="sticky top-32 min-h-[400px] bg-gradient-to-br from-blue-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-blue-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+                <div class="sticky top-32 min-h-[400px] bg-gradient-to-br from-cyan-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-cyan-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
 
                     <div class="lg:w-1/3 flex flex-col justify-between">
-                        <span class="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-semibold text-sm w-fit mb-4">Chapter 02</span>
-                        <h3 class="text-7xl lg:text-9xl font-bold text-blue-100/80 tracking-tighter group-hover:text-blue-200 transition-colors duration-500">2021</h3>
+                        <span class="inline-block px-4 py-2 rounded-full bg-cyan-100 text-slate-600 font-semibold text-sm w-fit mb-4">Chapter 02</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-cyan-100/80 tracking-tighter group-hover:text-cyan-200 transition-colors duration-500">2021</h3>
                     </div>
 
                     <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
@@ -409,23 +409,41 @@ $page_title = "about"
                             We pivoted from simple websites to <strong>Custom Software Solutions</strong>. We onboarded our first major educational clients and built our first proprietary CRM tool.
                         </p>
                         <div class="flex gap-3">
-                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">PHP Development</div>
-                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">Database Mgmt</div>
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-cyan-600 border border-cyan-100">PHP Development</div>
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-cyan-600 border border-cyan-100">Database Mgmt</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="sticky top-40 min-h-[400px] bg-gradient-to-br from-indigo-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-indigo-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+                <div class="sticky top-40 min-h-[400px] bg-gradient-to-br from-blue-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-blue-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+                    <div class="lg:w-1/3 flex flex-col justify-between">
+                        <span class="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-semibold text-sm w-fit mb-4">Chapter 03</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-blue-100/80 tracking-tighter group-hover:text-blue-200 transition-colors duration-500">2023</h3>
+                    </div>
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">Enterprise Excellence</h4>
+                        <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                            We expanded into high-traffic enterprise applications. By mastering the <strong>MERN Stack</strong>, we delivered scalable solutions for industrial leaders and complex ERP systems.
+                        </p>
+                        <div class="flex gap-3">
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">Node.js</div>
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">React.js</div>
+                            <div class="px-4 py-2 bg-white rounded-lg text-xs font-semibold text-blue-600 border border-blue-100">MongoDB</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky top-48 min-h-[400px] bg-gradient-to-br from-indigo-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-indigo-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
 
                     <div class="lg:w-1/3 flex flex-col justify-between">
-                        <span class="inline-block px-4 py-2 rounded-full bg-indigo-100 text-indigo-600 font-semibold text-sm w-fit mb-4">Chapter 03</span>
-                        <h3 class="text-7xl lg:text-9xl font-bold text-indigo-100/80 tracking-tighter group-hover:text-indigo-200 transition-colors duration-500">2023</h3>
+                        <span class="inline-block px-4 py-2 rounded-full bg-indigo-100 text-indigo-600 font-semibold text-sm w-fit mb-4">Chapter 04</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-indigo-100/80 tracking-tighter group-hover:text-indigo-200 transition-colors duration-500">2024</h3>
                     </div>
 
                     <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
                         <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">Rapid Scale</h4>
                         <p class="text-slate-600 text-lg leading-relaxed mb-6">
-                            The team grew to 15+ developers. We mastered the MERN stack and delivered complex enterprise apps for clients like <strong>Vikas Sawants Academy</strong>.
+                            The team grew to 10+ developers. We mastered the MERN stack and built complex enterprise apps for clients like <strong>The Indian Constitution Study</strong>.
                         </p>
                         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600 font-medium">
                             <li class="flex items-center gap-2">✓ 50+ Happy Clients</li>
@@ -435,7 +453,26 @@ $page_title = "about"
                     </div>
                 </div>
 
-                <div class="sticky top-48 min-h-[400px] bg-slate-900 rounded-[2.5rem] p-8 lg:p-12 shadow-2xl border border-slate-700 flex flex-col lg:flex-row gap-10 overflow-hidden relative">
+                <div class="sticky top-56 min-h-[400px] bg-gradient-to-br from-purple-50 to-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl border border-purple-100 flex flex-col lg:flex-row gap-10 overflow-hidden group">
+                    <div class="lg:w-1/3 flex flex-col justify-between">
+                        <span class="inline-block px-4 py-2 rounded-full bg-purple-100 text-purple-600 font-semibold text-sm w-fit mb-4">Chapter 05</span>
+                        <h3 class="text-7xl lg:text-9xl font-bold text-purple-100/80 tracking-tighter group-hover:text-purple-200 transition-colors duration-500">2025</h3>
+                    </div>
+                    <div class="lg:w-2/3 flex flex-col justify-center relative z-10">
+                        <h4 class="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">The Smart Era</h4>
+                        <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                            We integrated <strong>AI-driven analytics</strong> and transitioned into a "Mobile-First" agency. Our team grew to 15+ experts, specializing in cross-platform apps and intelligent automation.
+                        </p>
+                        <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600 font-medium">
+                            <li class="flex items-center gap-2">✓ AI Automation</li>
+                            <li class="flex items-center gap-2">✓ Flutter & React Native</li>
+                            <li class="flex items-center gap-2">✓ Cloud Infrastructure</li>
+                            <li class="flex items-center gap-2">✓ 80+ Global Projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sticky top-72 min-h-[400px] bg-slate-900 rounded-[2.5rem] p-8 lg:p-12 shadow-2xl border border-slate-700 flex flex-col lg:flex-row gap-10 overflow-hidden relative">
 
                     <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600 rounded-full blur-[150px] opacity-20 pointer-events-none"></div>
 
@@ -450,18 +487,19 @@ $page_title = "about"
                             Today, RudraTech is a premier IT ecosystem. With <strong>100+ clients</strong> and products like <em>Snackita.in</em>, we aren't just coding—we are defining the digital future for businesses.
                         </p>
 
-                        <button class="bg-white text-slate-900 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-colors w-fit flex items-center gap-2 group">
+                        <a href="/getin-touch" class="bg-white text-slate-900 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-colors w-fit flex items-center gap-2 group">
                             Be Part of Our Future
                             <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                             </svg>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
             </div>
         </section>
 
+        <!-- best layoyt hover effect -->
         <section class="py-24 bg-white font-sans overflow-hidden hidden">
             <div class="container mx-auto px-6 lg:px-24">
 
@@ -537,167 +575,7 @@ $page_title = "about"
             </div>
         </section>
 
-        <section class="py-24 bg-slate-50 hidden">
-            <div class="container mx-auto px-6">
-                <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
-                    <div class="max-w-xl">
-                        <span class="text-blue-600 font-bold tracking-widest uppercase text-sm italic">Our Talent</span>
-                        <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mt-2">The people behind the pixels.</h2>
-                    </div>
-                    <p class="text-slate-600 max-w-xs border-l-4 border-blue-600 pl-4">
-                        A specialized team of developers and designers turning complex problems into elegant web solutions.
-                    </p>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
-
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
-                            <img src="/"
-                                alt="Team"
-                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
-
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-slate-900 transition-colors">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-6 text-center lg:text-left">
-                            <h3 class="text-xl font-bold text-slate-800">Alex Rivers</h3>
-                            <p class="text-blue-600 font-semibold text-sm">Backend Architect</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
-                            <img src="/"
-                                alt="Team"
-                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
-
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-6 text-center lg:text-left">
-                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
-                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
-                            <img src="/"
-                                alt="Team"
-                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
-
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-6 text-center lg:text-left">
-                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
-                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
-                            <img src="/"
-                                alt="Team"
-                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
-
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-6 text-center lg:text-left">
-                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
-                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-2xl bg-slate-200 h-[300px]">
-                            <img src="/"
-                                alt="Team"
-                                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110">
-
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                                <div class="flex gap-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-pink-500 transition-colors">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-6 text-center lg:text-left">
-                            <h3 class="text-xl font-bold text-slate-800">Sarah Chen</h3>
-                            <p class="text-blue-600 font-semibold text-sm">UI Designer</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
         <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
-
-        <!-- About RudraTech Banner -->
-        <section class="relative w-full h-[80vh] max-lg:h-[40vh] max-md:h-[60vh] flex items-center justify-center overflow-hidden hidden">
-            <!-- Background Image -->
-            <div class="absolute inset-0">
-                <img
-                    src="/asset/rudratech.jpg"
-                    alt="About RudraTech IT Services"
-                    class="w-full h-full object-cover object-bottom" />
-                <div class="absolute inset-0 bg-black/70"></div>
-            </div>
-
-            <!-- Content -->
-            <div class="relative z-10 text-center text-white px-6">
-                <p class="uppercase tracking-widest text-sm text-gray-300 mb-4">
-                    Since 2020
-                </p>
-                <h1 class="text-5xl md:text-6xl font-semibold mb-6">
-                    RudraTech IT Services
-                </h1>
-                <p class=" text-lg  max-lg:text-base md: text-lg  max-lg:text-base  max-w-2xl mx-auto leading-relaxed text-gray-200">
-                    Innovating digital transformation with next-gen IT solutions, cloud expertise,
-                    and software excellence for a smarter tomorrow.
-                </p>
-            </div>
-        </section>
-
 
 
         <style>
@@ -744,42 +622,6 @@ $page_title = "about"
             }
         </style>
 
-
-
-
-        <!-- Welcome Section -->
-        <section class="py-20 max-lg:py-12 bg-white relative overflow-hidden hidden">
-            <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-50 to-transparent"></div>
-            <div class="w-[80%] max-lg:w-[85%] mx-auto relative z-10">
-                <div class="grid grid-cols-2 max-lg:grid-cols-1 gap-16 items-center">
-                    <div>
-                        <div class="mb-6">
-                            <i class="fas fa-code text-5xl text-blue-600 max-lg:text-3xl"></i>
-                        </div>
-                        <p class="text-sm uppercase tracking-widest text-gray-500 mb-4 font-medium">
-                            Welcome to RudraTech IT Services
-                        </p>
-                        <h2 class="max-lg:text-3xl text-5xl font-bold text-gray-900 mb-8 leading-tight">
-                            Empowering Digital Growth with Innovative Technology
-                        </h2>
-                        <p class=" text-lg  max-lg:text-base text-gray-600 leading-relaxed mb-8">
-                            Founded in 2020, <span class="font-semibold text-gray-900">RudraTech IT Services</span> is a young and dynamic
-                            tech start-up powered by bright minds striving to make a meaningful difference for our clients.
-                        </p>
-                        <p class=" text-lg  max-lg:text-base text-gray-600 leading-relaxed">
-                            We specialize in delivering solutions driven by cutting-edge technologies — helping businesses accelerate
-                            their digital transformation journeys with confidence.
-                        </p>
-                    </div>
-                    <div class="relative">
-                        <div class="absolute -top-6 -right-6 w-full h-full border-4 border-blue-600 rounded-sm"></div>
-                        <div class="relative rounded-sm overflow-hidden shadow-2xl">
-                            <img src="/asset/team4 (1).jpg" class="w-full h-[60vh] max-lg:h-[30vh] object-cover" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Services Section -->
         <section id="services" class="py-20 max-lg:py-12 bg-gradient-to-b from-slate-50 to-white">
