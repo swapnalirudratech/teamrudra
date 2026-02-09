@@ -13,7 +13,7 @@ $routes = [
         "page" => "home.php",
     ],
     [
-        "route" => "/website",
+        "route" => "/website-development",
         "method" => ["GET", "POST"],
         "page" => "pages/website.php",
     ],
@@ -23,7 +23,7 @@ $routes = [
         "page" => "pages/software-development.php",
     ],
 
-      [
+    [
         "route" => "/software",
         "method" => ["GET", "POST"],
         "page" => "pages/software.php",
@@ -33,43 +33,31 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/portfolio.php",
     ],
+
+
     [
-        "route" => "/web-calculator",
-        "method" => ["GET", "POST"],
-        "page" => "pages/web-calculator.php",
-    ],
-    [
-        "route" => "/packages",
-        "method" => ["GET", "POST"],
-        "page" => "pages/packages.php",
-    ],
-    [
-        "route" => "/customizewebsite",
+        "route" => "/customize-website",
         "method" => ["GET", "POST"],
         "page" => "pages/customizewebsite.php",
     ],
     [
-        "route" => "/website-designing",
+        "route" => "/website-design",
         "method" => ["GET", "POST"],
         "page" => "pages/website_designing.php",
     ],
     [
-        "route" => "/static-website-designing",
+        "route" => "/static-website-design",
         "method" => ["GET", "POST"],
         "page" => "pages/static_website_design.php",
     ],
     [
-        "route" => "/dynamic-website-designing",
+        "route" => "/dynamic-website-design",
         "method" => ["GET", "POST"],
         "page" => "pages/dynamic_webdesign.php",
     ],
+
     [
-        "route" => "/free-website-designing",
-        "method" => ["GET", "POST"],
-        "page" => "pages/free_websitedesign.php",
-    ],
-    [
-        "route" => "/CMS-development",
+        "route" => "/cms-development",
         "method" => ["GET", "POST"],
         "page" => "pages/cms_dev.php",
     ],
@@ -79,7 +67,7 @@ $routes = [
         "page" => "pages/corporate_webdesign.php",
     ],
     [
-        "route" => "/CRM-development",
+        "route" => "/crm-development",
         "method" => ["GET", "POST"],
         "page" => "pages/crm_dev.php",
     ],
@@ -98,21 +86,13 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/travel-transport.php",
     ],
-    [
-        "route" => "/email-template-design",
-        "method" => ["GET", "POST"],
-        "page" => "pages/email_temp.php",
-    ],
+
     [
         "route" => "/landing-page-website",
         "method" => ["GET", "POST"],
         "page" => "pages/landingpage_design.php",
     ],
-    [
-        "route" => "/PSD-to-html-design",
-        "method" => ["GET", "POST"],
-        "page" => "pages/psd_design.php",
-    ],
+
     [
         "route" => "/business-profile-website",
         "method" => ["GET", "POST"],
@@ -143,120 +123,60 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/testimonial.php",
     ],
+
     [
-        "route" => "/getquote",
-        "method" => ["GET", "POST"],
-        "page" => "pages/get-quote.php",
-    ],
-    [
-        "route" => "/getin-touch",
+        "route" => "/get-in-touch",
         "method" => ["GET", "POST"],
         "page" => "pages/getin-touch.php",
     ],
+
     [
-        "route" => "/telecalling",
-        "method" => ["GET", "POST"],
-        "page" => "pages/telecalling.php",
-    ],
-    [
-        "route" => "/mobileapp_developement",
+        "route" => "/mobile-app-developement",
         "method" => ["GET", "POST"],
         "page" => "pages/mobileapp_developement.php",
     ],
 
-    [
-        "route" => "/app_dev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/app_dev.php",
-    ],
 
-    [
-        "route" => "/website_designing",
-        "method" => ["GET", "POST"],
-        "page" => "pages/website_designing.php",
-    ],
-    [
-        "route" => "/dynamic_webdesign",
-        "method" => ["GET", "POST"],
-        "page" => "pages/dynamic_webdesign.php",
-    ],
     [
         "route" => "/education",
         "method" => ["GET", "POST"],
         "page" => "pages/education.php",
     ],
     [
-        "route" => "/realestate",
+        "route" => "/real-estate",
         "method" => ["GET", "POST"],
         "page" => "pages/realestate.php",
     ],
+
+
+
+
     [
-        "route" => "/free_websitedesign",
-        "method" => ["GET", "POST"],
-        "page" => "pages/free_websitedesign.php",
-    ],
-    [
-        "route" => "/static_website_design",
-        "method" => ["GET", "POST"],
-        "page" => "pages/static_website_design.php",
-    ],
-    [
-        "route" => "/nodejs",
-        "method" => ["GET", "POST"],
-        "page" => "pages/nodejs.php",
-    ],
-    [
-        "route" => "/mobile-app",
-        "method" => ["GET", "POST"],
-        "page" => "pages/mobile-app.php",
-    ],
-    [
-        "route" => "/email_hosting",
+        "route" => "/email-hosting",
         "method" => ["GET", "POST"],
         "page" => "pages/email_hosting.php",
     ],
-    [
-        "route" => "/shopify",
-        "method" => ["GET", "POST"],
-        "page" => "pages/shopify.php",
-    ],
+
     [
         "route" => "/domain",
         "method" => ["GET", "POST"],
         "page" => "pages/domain.php",
     ],
     [
-        "route" => "/amc",
+        "route" => "/annual-maintenance-contract",
         "method" => ["GET", "POST"],
         "page" => "pages/amc.php",
     ],
+
+
+
     [
-        "route" => "/hiredesigner",
-        "method" => ["GET", "POST"],
-        "page" => "pages//hiredesigner.php",
-    ],
-    [
-        "route" => "/htmldev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/htmldev.php",
-    ],
-    [
-        "route" => "/frontend_dev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/frontend_dev.php",
-    ],
-    [
-        "route" => "/shopify_dev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/shopify_dev.php",
-    ],
-    [
-        "route" => "/cloud_services",
+        "route" => "/cloud-services",
         "method" => ["GET", "POST"],
         "page" => "pages/cloud_services.php",
     ],
     [
-        "route" => "/it-consult",
+        "route" => "/it-consulting-services",
         "method" => ["GET", "POST"],
         "page" => "pages/it-consult.php",
     ],
@@ -275,21 +195,7 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/wordpress.php",
     ],
-    [
-        "route" => "/framework_dev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/framework_dev.php",
-    ],
-    [
-        "route" => "/fullstack_dev",
-        "method" => ["GET", "POST"],
-        "page" => "pages/fullstack_dev.php",
-    ],
-    [
-        "route" => "/media",
-        "method" => ["GET", "POST"],
-        "page" => "pages/media.php",
-    ],
+
     [
         "route" => "/career",
         "method" => ["GET", "POST"],
@@ -311,17 +217,17 @@ $routes = [
         "page" => "pages/sitemap.php",
     ],
     [
-        "route" => "/refundpolicy",
+        "route" => "/refund-policy",
         "method" => ["GET", "POST"],
         "page" => "pages/refundpolicy.php",
     ],
     [
-        "route" => "/privacypolicy",
+        "route" => "/privacy-policy",
         "method" => ["GET", "POST"],
         "page" => "pages/privacypolicy.php",
     ],
     [
-        "route" => "/termsconditions",
+        "route" => "/terms-and-conditions",
         "method" => ["GET", "POST"],
         "page" => "pages/termsconditions.php",
     ],
@@ -443,7 +349,7 @@ $routes = [
         "page" => "pages/food-and-beverage.php",
     ],
     [
-        "route" => "/Logistics-delivery-service",
+        "route" => "/logistics-delivery-service",
         "method" => ["GET", "POST"],
         "page" => "pages/Logistics-delivery-service.php",
     ],
@@ -465,7 +371,7 @@ $routes = [
         "page" => "pages/fintech.php",
     ],
     [
-        "route" => "/dating",
+        "route" => "/dating-app",
         "method" => ["GET", "POST"],
         "page" => "pages/dating.php",
     ],
