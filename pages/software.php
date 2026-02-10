@@ -521,7 +521,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
                 <div class="bg-white p-10 rounded-[3rem] max-md:p-6 max-md:rounded-lg  border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full">
                     <div class="flex justify-between items-start mb-8">
-                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                        <h3 class="text-2xl max-md: font-bold text-slate-900 leading-tight">
                             Bharat Bill Book <br>(Billing Software)
                         </h3>
                         <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500 shadow-lg">
@@ -540,7 +540,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
                 <div class="bg-white p-10 rounded-[3rem] max-md:p-6 max-md:rounded-lg  border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full">
                     <div class="flex justify-between items-start mb-8">
-                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                        <h3 class="text-2xl max-md: font-bold text-slate-900 leading-tight">
                             Custom CRM <br>Architecture
                         </h3>
                         <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500 shadow-lg">
@@ -559,7 +559,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
                 <div class="bg-white p-10 rounded-[3rem] max-md:p-6 max-md:rounded-lg  border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500 group flex flex-col h-full">
                     <div class="flex justify-between items-start mb-8">
-                        <h3 class="text-2xl max-md:text-lg font-bold text-slate-900 leading-tight">
+                        <h3 class="text-2xl max-md: font-bold text-slate-900 leading-tight">
                             Precision HRMS <br>& Payroll
                         </h3>
                         <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500 shadow-lg">
@@ -578,96 +578,104 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
             </div>
         </div>
     </section>
-<section class="py-10 md:py-24 bg-white relative overflow-hidden">
-    <div class="w-[95%] md:w-[85%] mx-auto bg-slate-50 rounded-[3rem] md:rounded-[4rem] p-8 md:p-20 relative">
-        <div class="grid lg:grid-cols-2 items-center gap-12 md:gap-16">
+    <section class="py-10 md:py-24 bg-white relative overflow-hidden">
+        <div class="w-[95%] md:w-[85%] mx-auto bg-slate-50 rounded-[3rem] md:rounded-[4rem] p-8 md:p-20 relative">
+            <div class="grid lg:grid-cols-2 items-center gap-12 md:gap-16">
 
-            <div class="space-y-6 md:space-y-8">
-                <span class="text-blue-600 font-bold uppercase tracking-widest text-[10px] block text-center lg:text-left">System Efficiency</span>
-                
-                <h2 class="text-3xl md:text-5xl font-bold tracking-tighter text-slate-900 leading-[1.1] md:leading-[0.9] text-center lg:text-left">
-                    Technology To Optimize <br class="hidden md:block"> Your <span class="text-blue-600">Software Systems</span>
-                </h2>
-                
-                <p class="text-slate-500 text-center lg:text-left text-sm md:text-base max-w-xl mx-auto lg:mx-0">
-                    Guide users to unlock the value of your product faster. Rather than being frustrated, they'll want to explore more. With the adoption of additional features comes higher engagement and more continuous use of your product.
-                </p>
+                <div class="space-y-6 md:space-y-8">
+                    <span class="text-blue-600 font-bold uppercase tracking-widest text-[10px] block text-center lg:text-left">System Efficiency</span>
 
-                <div class="grid grid-cols-2 gap-y-6 gap-x-4 md:gap-x-12">
-                    <div class="flex items-center justify-start lg:justify-start gap-3">
-                        <span class="text-blue-600 text-lg md:text-xl font-bold italic">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </span>
-                        <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Long-term Viability</span>
+                    <h2 class="text-3xl md:text-5xl font-bold tracking-tighter text-slate-900 leading-[1.1] md:leading-[0.9] text-center lg:text-left">
+                        Technology To Optimize <br class="hidden md:block"> Your <span class="text-blue-600">Software Systems</span>
+                    </h2>
+
+                    <p class="text-slate-500 text-center lg:text-left text-sm md:text-base max-w-xl mx-auto lg:mx-0">
+                        Guide users to unlock the value of your product faster. Rather than being frustrated, they'll want to explore more. With the adoption of additional features comes higher engagement and more continuous use of your product.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-y-6 gap-x-4 md:gap-x-12">
+                        <div class="flex items-center justify-start lg:justify-start gap-3">
+                            <span class="text-blue-600  md:text-xl font-bold italic">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                            <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Long-term Viability</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-blue-600  md:text-xl font-bold italic">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                            <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Truly Cost Savings</span>
+                        </div>
+                        <div class="flex items-center justify-start lg:justify-start gap-3">
+                            <span class="text-blue-600  md:text-xl font-bold italic">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                            <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Better Decision-Making</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-blue-600  md:text-xl font-bold italic">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                            <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight text-nowrap">Up-to-date And Optimized</span>
+                        </div>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <span class="text-blue-600 text-lg md:text-xl font-bold italic">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </span>
-                        <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Truly Cost Savings</span>
-                    </div>
-                    <div class="flex items-center justify-start lg:justify-start gap-3">
-                        <span class="text-blue-600 text-lg md:text-xl font-bold italic">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </span>
-                        <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight">Better Decision-Making</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <span class="text-blue-600 text-lg md:text-xl font-bold italic">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </span>
-                        <span class="text-slate-900 font-bold text-xs md:text-sm leading-tight text-nowrap">Up-to-date And Optimized</span>
+
+                    <div class="pt-4 md:pt-8 text-center lg:text-left">
+                        <a href="#get-started" class="inline-flex items-center gap-2 font-bold text-slate-900 group">
+                            Get Started Now
+                            <span class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all text-blue-600">
+                                →
+                            </span>
+                        </a>
                     </div>
                 </div>
 
-                <div class="pt-4 md:pt-8 text-center lg:text-left">
-                    <a href="#get-started" class="inline-flex items-center gap-2 font-bold text-slate-900 group">
-                        Get Started Now
-                        <span class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all text-blue-600">
-                            →
-                        </span>
-                    </a>
+                <div class="relative flex justify-center items-center mt-10 lg:mt-0">
+                    <div class="relative w-64 h-64 md:w-[450px] md:h-[450px] rounded-full bg-slate-200 overflow-hidden shadow-2xl">
+                        <img src="/asset/software/person.avif" class="w-full h-full object-cover" alt="Optimization Specialist">
+                    </div>
+
+                    <div class="absolute -left-2 md:-left-4 top-1/2 bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-2xl border border-slate-100 animate-bounce-slow">
+                        <p class="text-xl md:text-3xl font-bold text-slate-900">84%</p>
+                        <hr class="my-1 md:my-2 border-slate-100">
+                        <p class="text-[8px] md:text-[10px] font-bold text-green-500 uppercase">▲ 108,15% Growth</p>
+                    </div>
+
+                    <div class="absolute -right-2 md:-right-4 top-10 md:top-20 bg-white p-3 md:p-4 rounded-xl md:rounded-2xl shadow-xl border border-slate-100 block">
+                        <div class="flex gap-1 h-8 md:h-12 items-end">
+                            <div class="w-1.5 md:w-2 h-[40%] bg-blue-200 rounded-t-sm"></div>
+                            <div class="w-1.5 md:w-2 h-[70%] bg-blue-600 rounded-t-sm"></div>
+                            <div class="w-1.5 md:w-2 h-[50%] bg-blue-400 rounded-t-sm"></div>
+                            <div class="w-1.5 md:w-2 h-[90%] bg-slate-900 rounded-t-sm"></div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-
-            <div class="relative flex justify-center items-center mt-10 lg:mt-0">
-                <div class="relative w-64 h-64 md:w-[450px] md:h-[450px] rounded-full bg-slate-200 overflow-hidden shadow-2xl">
-                    <img src="/asset/software/person.avif" class="w-full h-full object-cover" alt="Optimization Specialist">
-                </div>
-
-                <div class="absolute -left-2 md:-left-4 top-1/2 bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-2xl border border-slate-100 animate-bounce-slow">
-                    <p class="text-xl md:text-3xl font-bold text-slate-900">84%</p>
-                    <hr class="my-1 md:my-2 border-slate-100">
-                    <p class="text-[8px] md:text-[10px] font-bold text-green-500 uppercase">▲ 108,15% Growth</p>
-                </div>
-
-                <div class="absolute -right-2 md:-right-4 top-10 md:top-20 bg-white p-3 md:p-4 rounded-xl md:rounded-2xl shadow-xl border border-slate-100 block">
-                    <div class="flex gap-1 h-8 md:h-12 items-end">
-                        <div class="w-1.5 md:w-2 h-[40%] bg-blue-200 rounded-t-sm"></div>
-                        <div class="w-1.5 md:w-2 h-[70%] bg-blue-600 rounded-t-sm"></div>
-                        <div class="w-1.5 md:w-2 h-[50%] bg-blue-400 rounded-t-sm"></div>
-                        <div class="w-1.5 md:w-2 h-[90%] bg-slate-900 rounded-t-sm"></div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
-<style>
-    @keyframes bounce-slow {
-        0%, 100% { transform: translateY(-50%) translateY(0); }
-        50% { transform: translateY(-50%) translateY(-10px); }
-    }
-    .animate-bounce-slow {
-        animation: bounce-slow 3s ease-in-out infinite;
-    }
-</style>
+    <style>
+        @keyframes bounce-slow {
+
+            0%,
+            100% {
+                transform: translateY(-50%) translateY(0);
+            }
+
+            50% {
+                transform: translateY(-50%) translateY(-10px);
+            }
+        }
+
+        .animate-bounce-slow {
+            animation: bounce-slow 3s ease-in-out infinite;
+        }
+    </style>
 
     <section class="py-24 max-md:py-12  bg-white overflow-hidden">
         <div class="w-[85%] mx-auto">
-            <div class="text-right mb-16">
+            <div class="text-right mb-16 max-md:text-center max-md:mb-6">
                 <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Our Premier Products</span>
                 <h2 class="text-3xl md:text-6xl font-bold  tracking-tighter text-slate-900 leading-[0.9]">
                     Scale Your Business With Our <br> <span class="text-blue-600">Software Ecosystem</span>
@@ -697,7 +705,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                             <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-width="1.5" />
                         </svg>
                     </div>
-                    <h4 class="text-lg font-bold text-slate-900">CRM Sync</h4>
+                    <h4 class=" font-bold text-slate-900">CRM Sync</h4>
                     <p class="text-slate-500 text-[10px]">Automate your sales pipeline.</p>
                 </div>
 
@@ -707,7 +715,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                             <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" stroke-width="1.5" stroke-linecap="round" />
                         </svg>
                     </div>
-                    <h4 class="text-lg font-bold text-slate-900">HRMS Core</h4>
+                    <h4 class=" font-bold text-slate-900">HRMS Core</h4>
                     <p class="text-slate-500 text-[10px]">Payroll & attendance logic.</p>
                 </div>
 
@@ -725,7 +733,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                 </div>
 
                 <div class="bg-white p-8 rounded-[2.5rem] border border-slate-100 flex items-center justify-between group hover:border-blue-200 transition-colors">
-                    <h4 class="text-lg font-bold text-slate-900">Cloud Data</h4>
+                    <h4 class=" font-bold text-slate-900">Cloud Data</h4>
                     <div class="text-blue-600">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" stroke-width="1.5" />
@@ -751,7 +759,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                             <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" />
                         </svg>
                     </div>
-                    <h4 class="text-lg font-bold mb-1 tracking-tight">API Sync</h4>
+                    <h4 class=" font-bold mb-1 tracking-tight">API Sync</h4>
                     <p class="text-blue-100 text-[10px]">Hardened security layers.</p>
                 </div>
             </div>
@@ -762,29 +770,29 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
 
 
-    <section class="py-24 max-md:py-12  bg-white overflow-hidden border-t">
+    <section class="py-24 max-md:py-12  bg-white overflow-hidden border-t max-md:hidden">
         <div class="w-[85%] mx-auto">
-            <div class="mb-16">
+            <div class="mb-16 max-md:mb-6">
                 <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Live Software Demo</span>
-                <h2 class="text-5xl md:text-6xl font-bold tracking-tighter text-slate-900 leading-[0.9] mb-6">
+                <h2 class="text-3xl md:text-6xl font-bold tracking-tighter text-slate-900 leading-[0.9] mb-6">
                     Generate Invoices <span class="text-blue-600">In Real-Time.</span>
                 </h2>
-                <p class="text-slate-500 text-lg max-w-xl">Experience the automation logic behind Bharat Bill Book. Adjust the fields and paper size to see instant results.</p>
+                <p class="text-slate-500  max-w-xl">Experience the automation logic behind Bharat Bill Book. Adjust the fields and paper size to see instant results.</p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-md:gap-6">
 
-                <div class="lg:col-span-4 bg-slate-50 p-8 rounded-[3rem] border border-slate-100 space-y-6">
+                <div class="lg:col-span-4 bg-slate-50 p-8 max-md:p-4 max-md:rounded-lg rounded-[3rem] border border-slate-100 space-y-6">
                     <div>
                         <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-4">Paper Size Selection</label>
-                        <div id="tab-container" class="flex gap-2 p-1.5 bg-white rounded-2xl border border-slate-200 shadow-sm">
-                            <button onclick="setSize('A4', this)" class="size-tab flex-1 py-3 rounded-xl font-bold text-sm transition-all duration-300 bg-blue-600 text-white shadow-lg shadow-blue-200">
+                        <div id="tab-container" class="flex gap-2 p-1.5  bg-white rounded-2xl border border-slate-200 shadow-sm">
+                            <button onclick="setSize('A4', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 bg-blue-600 text-white shadow-lg shadow-blue-200">
                                 A4
                             </button>
-                            <button onclick="setSize('A5', this)" class="size-tab flex-1 py-3 rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
+                            <button onclick="setSize('A5', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
                                 A5
                             </button>
-                            <button onclick="setSize('POS', this)" class="size-tab flex-1 py-3 rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
+                            <button onclick="setSize('POS', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
                                 POS
                             </button>
                         </div>
@@ -792,19 +800,19 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
                     <div class="space-y-4">
                         <div class="relative">
-                            <input type="text" id="custName" placeholder="Customer Name" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
+                            <input type="text" id="custName" placeholder="Customer Name" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
                         </div>
                         <div class="relative">
-                            <input type="text" id="itemName" placeholder="Item Name (e.g. Organic Oil)" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
+                            <input type="text" id="itemName" placeholder="Item Name (e.g. Organic Oil)" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl  max-md:rounded-lg max-md:py-2 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
                         </div>
                         <div class="flex gap-4">
-                            <input type="number" id="qty" placeholder="Qty" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
-                            <input type="number" id="price" placeholder="Price" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                            <input type="number" id="qty" placeholder="Qty" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                            <input type="number" id="price" placeholder="Price" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
                         </div>
                     </div>
 
-                    <div class="pt-6">
-                        <button class="w-full bg-slate-900 text-white py-5 rounded-[2rem] font-bold hover:bg-blue-600 transition-all shadow-xl flex items-center justify-center gap-3 group">
+                    <div class="pt-6 max-md:pt-2">
+                        <button class="w-full bg-slate-900 text-white py-5 max-md:py-2 max-md:text-xs rounded-[2rem] font-bold hover:bg-blue-600 transition-all shadow-xl flex items-center justify-center gap-3 group">
                             Print Digital Receipt
                             <svg class="w-5 h-5 group-hover:rotate-12 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -813,7 +821,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                     </div>
                 </div>
 
-                <div class="lg:col-span-8 flex justify-center bg-slate-100/50 rounded-[3rem] py-12 border border-slate-100">
+                <div class="lg:col-span-8 flex justify-center bg-slate-100/50 rounded-[3rem] max-md:rounded-lg max-md:py-4 py-12 border border-slate-100">
                     <div id="invoiceFrame" class="bg-white shadow-2xl transition-all duration-500 border border-slate-100 overflow-hidden" style="width: 595px; min-height: 542px; padding: 40px;">
                         <div class="flex justify-between items-start border-b-2 border-slate-900 pb-8 mb-10">
                             <div>
@@ -922,13 +930,13 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
 
 
-    <section class="py-28 bg-gradient-to-r from-blue-200 to-blue-100 overflow-hidden font-sans">
+    <section class="py-20 max-md:py-12 bg-gradient-to-r from-blue-200 to-blue-100 overflow-hidden font-sans">
         <div class="w-[90%] max-w-7xl mx-auto text-center">
 
-            <div class="relative inline-block mb-24 px-4">
+            <div class="relative inline-block mb-24 px-4 max-md:mb-12">
                 <span class="text-blue-600 font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block opacity-80">What We Have Accomplished</span>
 
-                <h2 class="text-5xl  font-bold tracking-tighter text-slate-900 leading-[1.1] max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-6xl  font-bold tracking-tighter text-slate-900 leading-[1.1] max-w-6xl mx-auto">
                     Revolutionize Your Operations
                     <span class="inline-block align-middle mx-1 ">
                         <img src="/asset/1 (2).jpeg" class="w-20 h-12 rounded-full shadow-xl object-cover">
@@ -940,7 +948,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                     </span>
                     Software.
                     <span class="inline-block align-middle mx-1 ">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=60&fit=crop" class="w-20 h-12 rounded-full  shadow-xl object-cover object-top">
+                        <img src="/asset/1 (1).jpeg" class="w-20 h-12 rounded-full  shadow-xl object-cover object-top">
                     </span>
                     Scaling Success For The Future
                     <span class="inline-block align-middle text-blue-600 animate-pulse">
@@ -952,34 +960,34 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                 </h2>
             </div>
 
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 mb-24 border-t border-slate-50 pt-20">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-12 md:gap-12 mb-24 border-t border-slate-50 pt-20">
 
                 <div class="space-y-4 group">
-                    <p class="text-6xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">80%<span class="text-blue-600">-</span></p>
+                    <p class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">80%<span class="text-blue-600">-</span></p>
                     <div class="space-y-1">
                         <p class="text-xs font-bold text-slate-900 uppercase tracking-widest leading-tight">Reduced Technical Debt</p>
                         <p class="text-[10px] text-slate-400 font-medium tracking-wide">Verified by Rudra Tech internal code audits</p>
                     </div>
                 </div>
 
-                <div class="space-y-4 group border-l lg:border-l-0 border-slate-50">
-                    <p class="text-6xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">95%</p>
+                <div class="space-y-4 group border-l lg:border-l-0 border-slate-50 pl-8 md:pl-0">
+                    <p class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">95%</p>
                     <div class="space-y-1">
                         <p class="text-xs font-bold text-slate-900 uppercase tracking-widest leading-tight">System Scalability Score</p>
                         <p class="text-[10px] text-slate-400 font-medium tracking-wide">Based on high-traffic stress testing</p>
                     </div>
                 </div>
 
-                <div class="space-y-4 group border-t lg:border-t-0 border-slate-50 pt-12 lg:pt-0">
-                    <p class="text-6xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">$500K</p>
+                <div class="space-y-4 group border-t md:border-t-0 lg:border-t-0 border-slate-50 pt-10 md:pt-0 lg:pt-0">
+                    <p class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">$500K</p>
                     <div class="space-y-1">
                         <p class="text-xs font-bold text-slate-900 uppercase tracking-widest leading-tight">Efficiency ROI Realized</p>
                         <p class="text-[10px] text-slate-400 font-medium tracking-wide">Average annually per enterprise deployment</p>
                     </div>
                 </div>
 
-                <div class="space-y-4 group border-t lg:border-t-0 border-l lg:border-l-0 border-slate-50 pt-12 lg:pt-0">
-                    <p class="text-6xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">M3.50</p>
+                <div class="space-y-4 group border-t md:border-t-0 lg:border-t-0 border-l lg:border-l-0 border-slate-50 pt-10 md:pt-0 lg:pt-0 pl-8 md:pl-0">
+                    <p class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter group-hover:text-blue-600 transition-colors">M3.50</p>
                     <div class="space-y-1">
                         <p class="text-xs font-bold text-slate-900 uppercase tracking-widest leading-tight">Secure Lines of Code</p>
                         <p class="text-[10px] text-slate-400 font-medium tracking-wide">Engineered for Bharat Bill Book & NK Distributor</p>
@@ -1006,7 +1014,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
                         </div>
 
                         <div class="flex items-center gap-4 group/btn">
-                            <span class="text-slate-950 font-black text-lg hidden md:block group-hover/btn:text-blue-600 transition-colors">Start Consultation</span>
+                            <span class="text-slate-950 font-black  hidden md:block group-hover/btn:text-blue-600 transition-colors">Start Consultation</span>
                             <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-blue-200 transform transition-all duration-500 group-hover:rotate-[360deg] group-hover:scale-110">
                                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />

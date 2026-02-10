@@ -10,9 +10,18 @@ $page_title = "website"
 
 
 
-<body>
+<body >
 
     <?php include "include/navbar.php" ?>
+
+
+
+
+
+
+
+
+    
     <div class="w-full flex flex-col items-center justify-center ">
 
         <style>
@@ -634,7 +643,7 @@ $page_title = "website"
             }
         </style>
 
-        <div class="w-[80%] max-lg:w-[85%] mx-auto py-16 max-lg:py-12 bg-white border-t border-gray-200">
+        <div class="w-[80%] max-lg:w-[85%] mx-auto py-16 max-lg:py-12 ">
             <div class="text-center mb-12">
                 <span class="bg-blue-600 text-white text-sm font-medium px-4 py-1 rounded-full">Development Process</span>
                 <h2 class="text-3xl md:text-4xl font-normal mt-4 text-gray-800">Grow your business with ease</h2>

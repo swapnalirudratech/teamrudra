@@ -467,7 +467,6 @@
 
                 <a href="/client" class=" <?= ($page_title == "client") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Clients</a>
 
-                <a href="/software" class=" <?= ($page_title == "software") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software</a>
             </div>
         </div>
 
