@@ -164,12 +164,7 @@
                 </div>
 
                 <div class="relative group mega-menu-container  overflow-visible" data-menu-id="website-designing-menu">
-<<<<<<< HEAD
                     <a href="/website-design" aria-haspopup="true" aria-expanded="false"
-=======
-
-                    <a href="/website-designing" aria-haspopup="true" aria-expanded="false"
->>>>>>> 6f27bbef7ad64c5950676879fe099a2ed724624a
                         class="<?= ($page_title == "website-designing") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center  font-medium transition-colors duration-300">
                         Website Designing<i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
                     </a>
@@ -394,7 +389,7 @@
                                         <!-- <a href="/software-development" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                         <span class="text-gray-800 font-medium">Software Development</span>
                                     </a> -->
-                                        <a href="/mobile-app-developement" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/mobile-app-development" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Mobile App Development</span>
                                         </a>
                                         <a href="/wordpress" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
@@ -563,7 +558,7 @@
                             <span class="menu-item-icon text-xs"><i class="fa-solid fa-chevron-right"></i></span>
                         </a>
                         <ul class="submenu bg-gray-50 pl-8">
-                            <li><a href="/mobile-app-developement" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Mobile App Development</a></li>
+                            <li><a href="/mobile-app-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Mobile App Development</a></li>
                             <li><a href="/wordpress" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Wordpress</a></li>
                             <li><a href="/cloud-services" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Cloud Solutions</a></li>
                             <li><a href="/shopify" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Shopify Development</a></li>

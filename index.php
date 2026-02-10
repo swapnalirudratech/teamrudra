@@ -20,7 +20,7 @@ $routes = [
     [
         "route" => "/software-development",
         "method" => ["GET", "POST"],
-        "page" => "pages/software-development.php",
+        "page" => "pages/software.php",
     ],
 
     [
@@ -131,7 +131,7 @@ $routes = [
     ],
 
     [
-        "route" => "/mobile-app-developement",
+        "route" => "/mobile-app-development",
         "method" => ["GET", "POST"],
         "page" => "pages/mobileapp_developement.php",
     ],
