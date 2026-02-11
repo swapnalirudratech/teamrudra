@@ -1,4 +1,17 @@
 <?php
+set_time_limit(300); // Allow script to run for 5 minutes
+
+
+
+require 'vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// Now you can access your key safely
+$agentApiKey = $_ENV['agent_api_key'];
+
+
 
 if (!function_exists('str_contains')) {
     function str_contains($haystack, $needle)
@@ -16,7 +29,7 @@ header("Access-Control-Allow-Methods: POST");
 // 1. CONFIGURATION
 
 //  PASTE YOUR REAL API KEY BELOW
-$apiKey = 'AIzaSyC03ylKqAD0ZFVsKjH1QB8YxwZBYVEZLRU';
+$apiKey = $agentApiKey;
 
 // We use 1.5-flash because it is fast, stable, and supports long outputs (8k tokens).
 $model = "gemini-2.5-flash";
@@ -25,15 +38,38 @@ $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/$model:genera
 
 // 2. INPUT HANDLING
 
+// $inputJSON = file_get_contents('php://input');
+// $input = json_decode($inputJSON, true);
+
+// print_r($input);
+// die();
+// $userPrompt = $input['prompt'] ?? '';
+// $businessName = htmlspecialchars($input['businessName'] ?? 'Our Company', ENT_QUOTES, 'UTF-8');
+
+// if (empty($userPrompt)) {
+//     echo json_encode(['error' => 'No prompt provided.']);
+//     exit;
+// }
+
+// 2. INPUT HANDLING
 $inputJSON = file_get_contents('php://input');
 $input = json_decode($inputJSON, true);
+
+// DEBUGGING: Instead of print_r/die which breaks JSON, 
+// log it to a text file on your server to verify the data.
+// file_put_contents('debug_log.txt', print_r($input, true)); 
+
 $userPrompt = $input['prompt'] ?? '';
 
+// Ensure this matches the key sent in JS: 'businessName'
+$businessName = $input['businessName'] ?? 'Our Company';
+$businessName = htmlspecialchars($businessName, ENT_QUOTES, 'UTF-8');
+
 if (empty($userPrompt)) {
+    // Return a valid JSON error so the frontend can display it
     echo json_encode(['error' => 'No prompt provided.']);
     exit;
 }
-
 
 // 3. CORE AI ENGINE FUNCTION
 
@@ -146,6 +182,7 @@ DESIGN SYSTEM (STRICT RULES):
    - **Grids:** Use `grid-cols-1 md:grid-cols-3 gap-8`. Ensure cards have `h-full`.
    - **Navbar:** Sticky top, Glassmorphism (`backdrop-blur-md`).
    - **Spacing:** Use massive padding (`py-20`, `px-6`).
+   - ** Company Name:** Use EXACTLY '{$businessName}'. Do not append 'Solutions', 'Inc', or any other words. Use this name for the Logo, Header, and Footer.
 
 3. **Mega Footer:**
    - 4 Columns: Brand, Quick Links, Resources, Newsletter.
@@ -173,6 +210,8 @@ DESIGN SYSTEM (STRICT RULES):
    - **The Content:** Inside the `.animate-scroll` div, generate **15 distinct FontAwesome Brand Icons** (e.g., `fa-google`, `fa-amazon`, `fa-stripe`).
    - **The Loop:** You MUST **duplicate** the entire set of 15 icons immediately after the first set (so there are 30 icons total in the row).
    - **Styling:** Style icons as `text-5xl mx-12 text-gray-400 opacity-60 grayscale hover:grayscale-0 transition`.
+
+  
 
 OUTPUT FORMAT:
 - Return ONLY RAW HTML.

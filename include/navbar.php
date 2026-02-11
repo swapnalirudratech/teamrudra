@@ -72,43 +72,6 @@
         font-size: 1.2em;
         /* adjust bullet size */
     }
-
-    @keyframes shadow-breathe {
-
-        0%,
-        100% {
-            /* Purple Shadow */
-            box-shadow: 0 0 15px 2px rgba(164, 81, 242, 0.6);
-            /* border-color: #9e58e1; */
-        }
-
-        50% {
-            /* Violet/Blue Shadow */
-            box-shadow: 0 0 15px 2px rgba(61, 51, 243, 0.6);
-            /* border-color: #4f46e5; */
-        }
-    }
-
-    .ai-capsule-container {
-        position: relative;
-        display: inline-flex;
-        padding: 1px;
-        /* Minimal border to define the shape */
-        border-radius: 9999px;
-        background: transparent;
-        transition: all 0.5s ease;
-        /* Apply the breathing shadow animation */
-        animation: shadow-breathe 2s ease-in-out infinite;
-        /* border: 1px solid; */
-        /* This will also change color via animation */
-    }
-
-    .ai-capsule-inner {
-        position: relative;
-        z-index: 1;
-        background: white;
-        border-radius: 9999px;
-    }
 </style>
 
 
@@ -148,17 +111,14 @@
 
             <div class="hidden md:flex items-center gap-8 text-sm ">
 
-                <div class="ai-capsule-container group scale-95 origin-center">
-                    <div class="ai-capsule-inner">
+                <div class="inline-flex p-[1px] rounded-lg origin-center">
+                    <div class="bg-blue-50 rounded-lg flex items-center">
                         <a href="#"
                             class="<?= ($page_title == "website-designing") ? 'bg-blue-50 text-blue-600' : 'text-slate-700 hover:text-blue-600' ?> px-3 py-1.5 flex items-center gap-2 transition-all duration-300 rounded-full group">
 
-                            <span class="relative flex h-2 w-2">
-                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
-                            </span>
+                            <span class="flex h-2 w-2 rounded-lg bg-blue-600"></span>
 
-                            <span class="tracking-tight font-semibold whitespace-nowrap">Agent Rudra</span>
+                            <span class="tracking-tight font-semibold whitespace-nowrap text-[11px] lg:text-sm">AI Agent Rudra</span>
                         </a>
                     </div>
                 </div>

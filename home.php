@@ -830,6 +830,10 @@ $page_title = "home";
 
         <div class="container w-[90%] mx-auto">
 
+            <div class="absolute bottom-0 right-20 w-full h-full opacity-[0.03] pointer-events-none select-none">
+                <span class="text-[10rem] font-black absolute -bottom-20 -right-20">LEAD</span>
+            </div>
+
             <div class="text-center mb-20">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
                     Powerful <span class="text-blue-600">Billing Engine</span>
@@ -1149,14 +1153,15 @@ $page_title = "home";
                                     <i class="fa-solid fa-laptop-code text-4xl text-blue-500"></i>
                                 </div>
                                 <h3 class="text-xl font-bold text-gray-700">Ready to Build?</h3>
-                                <p class="max-w-xs mx-auto mt-2 text-gray-500">Fill out the form on the left and watch
-                                    AI Agent Rudra build your site here in real-time.</p>
+                                <p class="max-w-xs mx-auto mt-2 text-gray-500">Fill out the form above to trigger the AI Agent.</p>
                             </div>
 
                             <div id="loader"
                                 class="hidden absolute inset-0 flex flex-col items-center justify-center bg-white/90 z-20 backdrop-blur-sm">
-                                <div
-                                    class="animate-spin rounded-full h-16 w-16 border-4 border-blue-600 border-t-transparent shadow-xl">
+                                <div class="relative h-24 w-24 mb-8">
+                                    <div class="absolute inset-0 rounded-full border-4 border-slate-100"></div>
+                                    <div class="absolute inset-0 rounded-full border-4 border-blue-600 border-t-transparent animate-spin"></div>
+                                    <i class="fa-solid fa-bolt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-blue-600 text-2xl"></i>
                                 </div>
                                 <p class="mt-6 text-gray-800 font-bold text-xl animate-pulse">Rudra is Coding...</p>
                                 <p class="text-gray-500 font-medium">Generating layout, writing content, and styling.
@@ -1197,7 +1202,10 @@ $page_title = "home";
             // UI Loading State
             btn.disabled = true;
             btn.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin"></i> Building...`;
-            document.getElementById('previewFrame').parentElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            document.getElementById('previewFrame').parentElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
             loader.classList.remove('hidden');
             emptyState.classList.add('hidden');
             iframe.classList.add('hidden');
@@ -1218,7 +1226,10 @@ $page_title = "home";
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        prompt: combinedPrompt
+                        prompt: combinedPrompt,
+                        businessName: businessName,
+                        emailId: emailId,
+                        phoneNumber: phoneNumber
                     })
                 });
 
