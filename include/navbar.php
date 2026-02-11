@@ -124,8 +124,7 @@
                 </div>
 
                 <div class="relative group mega-menu-container  overflow-visible" data-menu-id="website-designing-menu">
-
-                    <a href="/website-designing" aria-haspopup="true" aria-expanded="false"
+                    <a href="/website-design" aria-haspopup="true" aria-expanded="false"
                         class="<?= ($page_title == "website-designing") ? 'text-blue-600 font-normal' : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center  font-medium transition-colors duration-300">
                         Website Designing<i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
                     </a>
@@ -146,16 +145,16 @@
                                             Across Sectors Who <br />
                                             <span class="text-black">Trust Us To Drive Innovation.</span>
                                         </h2>
-                                        <a href="/getin-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
+                                        <a href="/get-in-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
                                             Get Started
                                             <span class="inline-block bg-green-400 text-white rounded-full ml-2 w-5 h-5 text-center">→</span>
                                         </a>
                                     </div>
 
 
-                                    <div class="bg-yellow-200 p-3   flex flex-col items-center text-center gap-4  ">
+                                    <div class="bg-yellow-200 p-3   flex flex-col items-center text-center gap-4 ">
 
-                                        <div class="owl-carousel navbar-carousel owl-theme  rounded-lg overflow-hidden w-full">
+                                        <div class="owl-carousel navbar-carousel owl-theme  rounded-lg  w-full h-full overflow-hidden ">
                                             <div class="item">
                                                 <img src="/asset/image/s (1).jpg" alt="Slide 1" class="w-full h-32 object-contain " />
                                             </div>
@@ -187,7 +186,7 @@
                                             </div>
                                         </a> -->
 
-                                        <a href="/static-website-designing" class="block">
+                                        <a href="/static-website-design" class="block">
                                             <div class="flex items-center space-x-3 bg-white border-b border-gray-300    rounded hover-trigger transition">
                                                 <!-- <img src="/asset/icon/staticweb.webp" alt="Static Website Design" class="w-10 h-10 object-contain flip-icon" /> -->
                                                 <span class="text-gray-800 font-medium">Static Website Design</span>
@@ -208,7 +207,7 @@
                                             </div>
                                         </a>
 
-                                        <a href="/dynamic-website-designing" class="block">
+                                        <a href="/dynamic-website-design" class="block">
                                             <div class="flex items-center space-x-3 bg-white border-b border-gray-300   rounded hover-trigger transition">
                                                 <!-- <img src="/asset/icon/dynamic.jpg" alt="Dynamic Website Design" class="w-10 h-10 object-contain flip-icon" /> -->
                                                 <span class="text-gray-800 font-medium">Dynamic Website Design</span>
@@ -259,14 +258,14 @@
                                             </div>
                                         </a>
 
-                                        <a href="/CMS-development" class="block">
+                                        <a href="/cms-development" class="block">
                                             <div class="flex items-center space-x-3 bg-white border-b border-gray-300   rounded hover-trigger transition">
                                                 <!-- <img src="/asset/icon/webp" alt="CMS Development" class="w-10 h-10 object-contain flip-icon" /> -->
                                                 <span class="text-gray-800 font-medium">CMS Development</span>
                                             </div>
                                         </a>
 
-                                        <a href="/CRM-development" class="block">
+                                        <a href="/crm-development" class="block">
                                             <div class="flex items-center space-x-3 bg-white border-b border-gray-300    rounded hover-trigger transition">
                                                 <!-- <img src="/asset/icon/crm.webp" alt="CRM Development" class="w-10 h-10 object-contain flip-icon" /> -->
                                                 <span class="text-gray-800 font-medium">CRM Development</span>
@@ -275,7 +274,7 @@
                                     </div>
 
                                     <div class="flex  gap-6">
-                                        <a href="/customizewebsite"
+                                        <a href="/customize-website"
                                             class="text-white bg-black text-xs font-bold py-3 px-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all flex items-center">
                                             <span>Customize Your Website</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -284,15 +283,7 @@
                                                     clip-rule="evenodd" />
                                             </svg>
                                         </a>
-                                        <a href="/packages"
-                                            class="border-2 border-black text-black font-bold py-2 px-6 text-xs rounded-lg hover:scale-105 hover:shadow-lg transition-all flex items-center">
-                                            <span>Know Packages</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 " viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -329,7 +320,7 @@
                                             Across Sectors Who <br />
                                             <span class="text-black">Trust Us To Drive Innovation.</span>
                                         </h2>
-                                        <a href="/getin-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
+                                        <a href="/get-in-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
                                             Get Started
                                             <span class="inline-block bg-green-400 text-white rounded-full ml-2 w-5 h-5 text-center">→</span>
                                         </a>
@@ -358,40 +349,40 @@
                                         <!-- <a href="/software-development" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                         <span class="text-gray-800 font-medium">Software Development</span>
                                     </a> -->
-                                        <a href="/mobileapp_developement" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/mobile-app-development" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Mobile App Development</span>
                                         </a>
                                         <a href="/wordpress" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">WordPress</span>
                                         </a>
-                                        <a href="/cloud_services" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/cloud-services" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Cloud Solutions</span>
                                         </a>
                                         <!-- <a href="/shopify" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Shopify</span>
                                         </a> -->
-                                        <a href="/website" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/website-development" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Web Development</span>
                                         </a>
-                                        <a href="/email_hosting" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/email-hosting" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Email Hosting</span>
                                         </a>
                                         <a href="/domain" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Domain</span>
                                         </a>
-                                        <a href="/amc" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/annual-maintenance-contract" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">AMC</span>
                                         </a>
                                         <a href="/blockchain" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Blockchain</span>
                                         </a>
-                                        <a href="/it-consult" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/it-consulting-services" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">IT Consulting Advisory</span>
                                         </a>
                                         <a href="/food-and-beverage" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Food & Beverage</span>
                                         </a>
-                                        <a href="/Logistics-delivery-service" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/logistics-delivery-service" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Logistics & Delivery</span>
                                         </a>
                                         <a href="/fitness" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
@@ -403,7 +394,7 @@
                                         <a href="/education" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Education</span>
                                         </a>
-                                        <a href="/realestate" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/real-estate" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Real Estate</span>
                                         </a>
                                         <a href="/healthcare" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
@@ -412,7 +403,7 @@
                                         <a href="/fintech" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">FinTech</span>
                                         </a>
-                                        <a href="/dating" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
+                                        <a href="/dating-app" class="flex items-center space-x-3 bg-white border-b border-gray-300 rounded hover:shadow-sm">
                                             <span class="text-gray-800 font-medium">Dating App</span>
                                         </a>
                                     </div>
@@ -436,13 +427,12 @@
 
                 <a href="/client" class=" <?= ($page_title == "client") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Clients</a>
 
-                <a href="/software" class=" <?= ($page_title == "software") ? 'text-blue-200 font-normal'  : 'text-gray-800 hover:text-blue-600' ?> relative after:hover:w-full after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:absolute after:bottom-0 after:left-0 h-full flex items-center justify-center text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software</a>
             </div>
         </div>
 
 
         <div class="flex items-center max-lg:hidden">
-            <a href="getin-touch"
+            <a href="get-in-touch"
                 class="relative inline-flex items-center gap-2 border border-blue-600 text-blue-600 font-medium text-sm py-2 px-4 rounded-lg overflow-hidden 
               transition-all duration-500  
               hover:text-white group">
@@ -493,17 +483,17 @@
                     </li>
 
                     <li>
-                        <a href="/website-designing" class="nav-item block flex justify-between py-3 px-4 border-b border-gray-50 text-gray-800 hover:bg-blue-50 transition-colors duration-200">
+                        <a href="/website-design" class="nav-item block flex justify-between py-3 px-4 border-b border-gray-50 text-gray-800 hover:bg-blue-50 transition-colors duration-200">
                             <p><span><i class="fa-solid fa-brush mr-2 text-blue-700 text-sm"></i></span> Website Designing</p>
                             <span class="menu-item-icon text-xs "><i class="fa-solid fa-chevron-right"></i></span>
                         </a>
                         <ul class="submenu bg-gray-50 pl-8">
-                            <li><a href="/website-designing" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Website Designing</a></li>
-                            <li><a href="/static-website-designing" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Static Website Design</a></li>
-                            <li><a href="/dynamic-website-designing" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Dynamic Website Design</a></li>
+                            <li><a href="/website-design" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Website Designing</a></li>
+                            <li><a href="/static-website-design" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Static Website Design</a></li>
+                            <li><a href="/dynamic-website-design" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Dynamic Website Design</a></li>
                             <li><a href="/corporate-website-design" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Corporate Website Design</a></li>
-                            <li><a href="/CMS-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">CMS Development</a></li>
-                            <li><a href="/CRM-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">CRM Development</a></li>
+                            <li><a href="/cms-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">CMS Development</a></li>
+                            <li><a href="/crm-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">CRM Development</a></li>
                             <li><a href="/e-commerce-website" class="block py-2 px-4 text-gray-600 hover:text-blue-500">E-commerce Website</a></li>
                             <li><a href="/landing-page-website" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Landing Page Website</a></li>
                             <li><a href="/custom-website-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Custom Website Development</a></li>
@@ -527,27 +517,27 @@
                             <span class="menu-item-icon text-xs"><i class="fa-solid fa-chevron-right"></i></span>
                         </a>
                         <ul class="submenu bg-gray-50 pl-8">
-                            <li><a href="/mobileapp_developement" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Mobile App Development</a></li>
+                            <li><a href="/mobile-app-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Mobile App Development</a></li>
                             <li><a href="/wordpress" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Wordpress</a></li>
-                            <li><a href="/cloud_services" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Cloud Solutions</a></li>
+                            <li><a href="/cloud-services" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Cloud Solutions</a></li>
                             <li><a href="/shopify" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Shopify Development</a></li>
 
-                            <li><a href="/website" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Web Development</a></li>
+                            <li><a href="/website-development" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Web Development</a></li>
                             <li><a href="/blockchain" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Blockchain Solutions</a></li>
-                            <li><a href="/email_hosting" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Email Hosting</a></li>
+                            <li><a href="/email-hosting" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Email Hosting</a></li>
                             <li><a href="/domain" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Domain Services</a></li>
-                            <li><a href="/amc" class="block py-2 px-4 text-gray-600 hover:text-blue-500">AMC (Annual Maintenance Contract)</a></li>
-                            <li><a href="/it-consult" class="block py-2 px-4 text-gray-600 hover:text-blue-500">IT Consulting Advisory </a></li>
-                            <!-- Additional industries from your list -->
+                            <li><a href="/annual-maintenance-contract" class="block py-2 px-4 text-gray-600 hover:text-blue-500">AMC (Annual Maintenance Contract)</a></li>
+                            <li><a href="/it-consulting-services" class="block py-2 px-4 text-gray-600 hover:text-blue-500">IT Consulting Advisory </a></li>
+
                             <li><a href="/food-and-beverage" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Food & Beverage Solutions</a></li>
-                            <li><a href="/Logistics-delivery-service" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Logistics & Delivery</a></li>
+                            <li><a href="/logistics-delivery-service" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Logistics & Delivery</a></li>
                             <li><a href="/fitness" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Fitness Apps & Solutions</a></li>
                             <li><a href="/travel-transport" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Travel & Transport</a></li>
                             <li><a href="/education" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Education Technology</a></li>
-                            <li><a href="/realestate" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Real Estate Solutions</a></li>
+                            <li><a href="/real-estate" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Real Estate Solutions</a></li>
                             <li><a href="/healthcare" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Healthcare Solutions</a></li>
                             <li><a href="/fintech" class="block py-2 px-4 text-gray-600 hover:text-blue-500">FinTech Solutions</a></li>
-                            <li><a href="/dating" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Dating Apps</a></li>
+                            <li><a href="/dating-app" class="block py-2 px-4 text-gray-600 hover:text-blue-500">Dating Apps</a></li>
                         </ul>
 
                     </li>
@@ -586,7 +576,7 @@
             </div>
 
             <div class="p-4 border-t border-gray-200 flex gap-3">
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="flex-1 text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
                     Get in Touch
                 </a>

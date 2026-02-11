@@ -462,9 +462,9 @@
                     <li><a href="/" class="hover:text-blue-400 transition">Any Grievance Home</a></li>
                     <li><a href="/about" class="hover:text-blue-400 transition">Know More About</a></li>
                     <li><a href="/client" class="hover:text-blue-400 transition">Our Supporter Clients</a></li>
-                    <li><a href="/testimonial" class="hover:text-blue-400 transition">What They Say Testimonial</a></li>
-                    <li><a href="/getquote" class="hover:text-blue-400 transition">For Pricing GET QUOTE</a></li>
-                    <li><a href="/feedback" class="hover:text-blue-400 transition">Your Words Feedback</a></li>
+
+
+
 
                 </ul>
 
@@ -473,12 +473,12 @@
             <div>
                 <h4 class="text-sm font-normal mb-4 border-b border-blue-500 pb-2">Our Services</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="/website_designing" class="hover:text-blue-400 transition">Website Designing</a></li>
-                    <li><a href="/static_website_design" class="hover:text-blue-400 transition">Static Website Design</a></li>
+                    <li><a href="/website-design" class="hover:text-blue-400 transition">Website Designing</a></li>
+                    <li><a href="/static-website-design" class="hover:text-blue-400 transition">Static Website Design</a></li>
                     <li><a href="/corporate-website-design" class="hover:text-blue-400 transition">Corporate Website Design</a></li>
-                    <li><a href="/CMS-development" class="hover:text-blue-400 transition">CMS Development</a></li>
+                    <li><a href="/cms-development" class="hover:text-blue-400 transition">CMS Development</a></li>
                     <li><a href="/e-commerce-website" class="hover:text-blue-400 transition">E-commerce Website Development</a></li>
-                    <li><a href="/telecalling" class="hover:text-blue-400 transition">Telecalling Services</a></li>
+
                 </ul>
             </div>
 
@@ -489,7 +489,7 @@
 
                     <li><a href="/landing-page-website" class="hover:text-blue-400 transition">Landing Page Website</a></li>
 
-                    <li><a href="/customizewebsite" class="hover:text-blue-400 transition">Custom Website Development</a></li>
+                    <li><a href="/customize-website" class="hover:text-blue-400 transition">Custom Website Development</a></li>
                     <li><a href="/multi-vendor-website" class="hover:text-blue-400 transition">Multi Vendor Website Development</a></li>
                     <li><a href="/business-profile-website" class="hover:text-blue-400 transition">Business Profile Website</a></li>
                     <li><a href="/informative-website" class="hover:text-blue-400 transition">Informative Website</a></li>
@@ -501,11 +501,11 @@
                 <h4 class="text-sm font-normal mb-4 border-b border-blue-500 pb-2">Policies & Contact</h4>
                 <ul class="space-y-2 text-sm">
 
-                    <li><a href="/email_hosting" class="hover:text-blue-400 transition">Email Hosting</a></li>
+                    <li><a href="/email-hosting" class="hover:text-blue-400 transition">Email Hosting</a></li>
                     <li><a href="/domain" class="hover:text-blue-400 transition">Domain</a></li>
                     <li><a href="/amc" class="hover:text-blue-400 transition">Annual Maintenance</a></li>
-                    <li><a href="/refundpolicy" class="hover:text-blue-400 transition">Refund Policy</a></li>
-                    <li><a href="/privacypolicy" class="hover:text-blue-400 transition">Privacy Policy</a></li>
+                    <li><a href="/refund-policy" class="hover:text-blue-400 transition">Refund Policy</a></li>
+                    <li><a href="/privacy-policy" class="hover:text-blue-400 transition">Privacy Policy</a></li>
                     <li> <a href="/sitemap" class="text-gray-600 transition text-sm border px-3 py-1  border-gray-600"> Sitemap</a></li>
 
 
@@ -516,12 +516,11 @@
             <div>
                 <h4 class="text-sm font-normal mb-4 border-b border-blue-500 pb-2">Quick Links</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="/website" class="hover:text-blue-400 transition">Website Designing</a></li>
-                    <li><a href="software-development" class="hover:text-blue-400 transition">Software Development</a></li>
+                    <li><a href="/website-development" class="hover:text-blue-400 transition">Website Development</a></li>
+                    <li><a href="/software-development" class="hover:text-blue-400 transition">Software Development</a></li>
                     <li><a href="/portfolio" class="hover:text-blue-400 transition">Portfolio</a></li>
-                    <li><a href="/media" class="hover:text-blue-400 transition">Media</a></li>
-                    <li><a href="/career" class="hover:text-blue-400 transition">Career</a></li>
 
+                    <li><a href="/career" class="hover:text-blue-400 transition">Career</a></li>
                 </ul>
 
             </div>
@@ -533,7 +532,7 @@
                     <img src="/asset/icon/master.webp" alt="Master card" class="h-10 w-16 rounded-md object-cover" />
                     <img src="/asset/icon/visa.jpg" alt="Visa" class="h-10 w-16 rounded-md object-cover" />
                     <img src="/asset/icon/amex-card1708.jpg" alt="American Express" class="h-10 w-16 rounded-md object-cover" />
-
+                    <img src="/asset/icon/Rupay-Logo.png" alt="rupay" class="h-10 w-16 rounded-md object-contain bg-white" />
                 </div>
             </div>
         </div>
@@ -543,7 +542,7 @@
     <div class="terms flex items-center justify-center w-full bg-white text-black h-[10vh] rounded-t-[50px] max-lg:h-auto max-lg:py-6">
         <div class="copyright w-[80%] flex items-center justify-between max-lg:flex-col max-lg:w-full max-lg:gap-4">
 
-            <a href="/termsconditions">
+            <a href="/terms-and-conditions">
                 <p class="text-sm max-lg:text-center"><b>Terms &amp; Conditions</b></p>
             </a>
             <p class="text-sm max-lg:text-center">© All rights reserved <?php echo date('Y'); ?> <b>RudraTech IT Services</b></p>
