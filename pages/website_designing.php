@@ -287,7 +287,7 @@ include "include/header.php";
                     </a>
                     <p class="mt-4 text-sm font-bold text-gray-800 uppercase tracking-widest">Weconnect Beauty<span class="text-blue-500">
                             <i class="fa-solid fa-arrow-right mr-4"></i>
-                            </span></p>
+                        </span></p>
                 </div>
 
                 <div class="group">

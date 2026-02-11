@@ -27,14 +27,17 @@
 
     // Define which image belongs to which project
     $imagePath = "";
-    if ($project == 'rudra-tech') {
+    if ($project == 'nova') {
         $imagePath = "/asset/software/nova.png";
     } elseif ($project == 'weconnect') {
         $imagePath = "/asset/software/weconnect.png";
     } elseif ($project == 'pranaa') {
         $imagePath = "/asset/software/pranna.png";
-    } elseif ($project == 'nk-export') {
-        $imagePath = "/asset/software/nk_export.jpg";
+    } elseif ($project == 'snackita') {
+        $imagePath = "/asset/software/snackita.png";
+    }
+    elseif ($project == 'kesarbaug') {
+        $imagePath = "/asset/software/keserbg.png";
     }
     ?>
 
