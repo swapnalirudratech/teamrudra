@@ -9,7 +9,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 // Now you can access your key safely
-$apiKey = $_ENV['agent_api_key'];
+$agentApiKey = $_ENV['agent_api_key'];
 
 
 
@@ -29,7 +29,7 @@ header("Access-Control-Allow-Methods: POST");
 // 1. CONFIGURATION
 
 //  PASTE YOUR REAL API KEY BELOW
-$apiKey = $apiKey;
+$apiKey = $agentApiKey;
 
 // We use 1.5-flash because it is fast, stable, and supports long outputs (8k tokens).
 $model = "gemini-2.5-flash";
