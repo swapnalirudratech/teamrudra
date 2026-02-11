@@ -13,20 +13,20 @@ include "include/header.php";
     <?php include "include/navbar.php"; ?>
 
 
-    <section class="relative min-h-[90vh] flex items-center py-20 bg-white overflow-hidden">
+    <section class="relative h-[90vh] flex items-center py-20 max-md:py-10 max-md:h-[80vh]  bg-white overflow-hidden">
 
-        <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+        <!-- <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
             <img src="/asset/software/q.webp"
-                class="w-full h-full object-cover object-center opacity-[0.2]"
+                class="w-full h-full object-cover object-center opacity-[0.2] max-md:h-[50vh]"
                 alt="Background Pattern">
-        </div>
+        </div> -->
 
-        <div class="w-[95%] md:w-[85%] mx-auto flex flex-col lg:flex-row items-center gap-16 md:gap-24 relative z-10">
+        <div class="w-[85%] mx-auto flex flex-col lg:flex-row items-center gap-16 md:gap-24 relative z-10 max-md:gap-0 ">
 
-            <div class="lg:w-1/2 space-y-8 text-center lg:text-left">
+            <div class="lg:w-1/2 space-y-8  lg:text-left ">
                 <div>
                     <span class="text-blue-600 font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Premium Digital Solutions</span>
-                    <h1 class="text-5xl md:text-6xl font-black tracking-tighter text-slate-950 leading-[0.85] mb-8">
+                    <h1 class="text-3xl md:text-6xl font-bold tracking-tighter text-slate-950 leading-[0.85] mb-8">
                         Crafting
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-500 italic font-light">High-Growth</span> <br>
                         Websites.
@@ -55,12 +55,12 @@ include "include/header.php";
                     </div>
                 </div>
 
-                <div class="pt-8 flex flex-col sm:flex-row gap-6 items-center justify-center lg:justify-start">
-                    <a href="#contact" class="px-10 py-5 bg-slate-950 text-white rounded-2xl font-bold hover:bg-blue-600 transition-all duration-500 shadow-2xl hover:-translate-y-1">Start Free Consultation</a>
+                <div class="pt-8 max-md:pt-4  flex flex-col sm:flex-row gap-6 items-center justify-start max-md:items-start">
+                    <a href="/get-in-touch" class="px-10 py-5 max-md:text-xs  max-md:px-8 max-md:rounded-lg max-md:py-2  bg-slate-950 text-white rounded-2xl font-bold hover:bg-blue-600 transition-all duration-500 shadow-2xl hover:-translate-y-1">Start Free Consultation</a>
                 </div>
             </div>
 
-            <div class="lg:w-1/2 relative group w-full h-[350px]   mt-12 lg:mt-0">
+            <div class="lg:w-1/2 relative group w-full h-[350px]   mt-12 lg:mt-0 max-md:hidden">
 
                 <div class="absolute top-0 right-0 w-full h-full aspect-video rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100 bg-white z-10 transform transition duration-700 group-hover:-translate-y-2">
                     <img src="/asset/software/nova.jpg"
@@ -121,29 +121,29 @@ include "include/header.php";
         </div>
     </section>
 
-    <section class="py-24 bg-white overflow-hidden">
-        <div class="w-[95%] md:w-[85%] mx-auto flex flex-col lg:flex-row items-center gap-16 md:gap-24">
+    <section class="py-24 max-md:py-0 bg-white overflow-hidden">
+        <div class=" w-[85%] mx-auto flex flex-col lg:flex-row items-center gap-8 md:gap-24">
 
             <div class="lg:w-1/2 relative">
                 <div class="relative w-80 h-80 md:w-[550px] md:h-[550px] bg-blue-50/50 rounded-full flex items-center justify-center">
-                    <div class="w-[85%] h-[85%] rounded-full overflow-hidden border-8 border-white shadow-2xl">
-                        <img src="/asset/software/onlineexam.webp" class="w-full h-full object-cover" alt="Rudra Tech Web Team">
+                    <div class="w-[85%] h-[85%] max-md:w-full rounded-full max-md:rounded-lg overflow-hidden border-8 border-white shadow-2xl">
+                        <img src="/asset/software/onlineexam.webp" class="w-full h-full object-cover max-md:object-top" alt="Rudra Tech Web Team">
                     </div>
 
-                    <div class="absolute top-10 right-4 w-28 h-28 md:w-36 md:h-36 rounded-full border-4 border-white shadow-xl overflow-hidden animate-bounce-slow">
+                    <div class="absolute top-10 right-4 max-md:rounded-lg max-md:right-2 w-12 h-12 md:w-36 md:h-36 rounded-full border-4 border-white shadow-xl overflow-hidden animate-bounce-slow">
                         <img src="/asset/1 (1).jpeg" class="w-full h-full object-cover" alt="Kesarbaug Project">
                     </div>
 
-                    <div class="absolute bottom-10 left-4 w-20 h-20 md:w-28 md:h-28 rounded-full border-4 border-white shadow-xl overflow-hidden">
+                    <div class="absolute bottom-10 left-4 max-md:rounded-lg max-md:left-2 w-12 h-12 md:w-28 md:h-28 rounded-full border-4 border-white shadow-xl overflow-hidden">
                         <img src="/asset/1 (2).jpeg" class="w-full h-full object-cover" alt="NK Distributor UI">
                     </div>
                 </div>
             </div>
 
-            <div class="lg:w-1/2 space-y-8">
+            <div class="lg:w-1/2 space-y-8  text-sm max-md:pb-10">
                 <div class="space-y-4">
 
-                    <h2 class="text-4xl md:text-6xl font-black tracking-tighter text-slate-900 leading-[0.95]">
+                    <h2 class="text-3xl md:text-6xl font-bold tracking-tighter text-slate-900 leading-[0.95]">
                         Stay Modern <br>
                         Stay Optimized <br>
                         <span class="text-blue-600">Stay Ahead.</span>
@@ -207,9 +207,9 @@ include "include/header.php";
             animation: bounce-slow 4s ease-in-out infinite;
         }
     </style>
-    <section class="relative min-h-screen w-full flex flex-col md:flex-row items-center overflow-hidden font-sans bg-white">
+    <section class="relative h-screen max-md:h-full w-full flex flex-col md:flex-row items-center overflow-hidden font-sans bg-white">
 
-        <div class="relative w-full md:w-[45%] h-[400px] md:h-screen">
+        <div class="relative w-full md:w-[45%] h-[400px] md:h-screen max-md:hidden">
             <img
                 src="/asset/1 (3).jpeg"
                 alt="Web Design"
@@ -217,14 +217,14 @@ include "include/header.php";
             <div class="absolute inset-0 bg-black/5"></div>
         </div>
 
-        <div class="relative w-full md:w-[55%] min-h-screen flex items-center justify-center px-8 md:pl-32 md:pr-16 bg-[#fffafa]">
+        <div class="relative w-full md:w-[55%] max-md:h-[70vh] h-screen flex items-center justify-center px-8 md:pl-32 md:pr-16 bg-[#fffafa]">
             <div class="absolute inset-0 opacity-[0.03] pointer-events-none">
                 <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000" class="w-full h-full object-cover grayscale" />
             </div>
 
             <div class="relative max-w-2xl z-10">
-                <p class="text-blue-500 italic font-serif text-2xl mb-4">Our Creative Process</p>
-                <h1 class="text-5xl md:text-6xl font-bold text-[#422a4c] leading-[1.1] mb-12">
+                <p class="text-blue-500 font-bold text-xl mb-4">Our Creative Process</p>
+                <h1 class="text-3xl md:text-6xl font-bold text-[#422a4c] leading-[1.1] mb-12">
                     Modern Website Design For Your Digital Growth.
                 </h1>
 
@@ -257,13 +257,13 @@ include "include/header.php";
         </div>
     </section>
 
-    <section class="py-24 bg-gray-50 font-sans">
+    <section class="py-24 max-md:py-10 bg-gray-50 font-sans">
         <div class="w-[80%] mx-auto">
-            <div class="flex items-end gap-4 mb-16">
-                <span class="text-7xl font-bold text-blue-500">3</span>
+            <div class="flex items-end gap-2 mb-16 max-md:mb-8">
+                <span class="text-8xl max-md:text-6xl font-bold text-blue-500">3</span>
                 <div>
-                    <h2 class="text-3xl font-bold text-gray-900">Featured Projects</h2>
-                    <p class="text-2xl font-serif italic text-gray-600">Explore <span class="text-gray-900 font-sans not-italic font-bold">our latest work _</span></p>
+                    <h2 class="text-3xl md:text-6xl font-bold text-gray-900">Featured Projects</h2>
+                    <p class="text-2xl max-md:text-lg font-serif italic text-gray-600">Explore <span class="text-gray-900 font-sans not-italic font-bold">our latest work </span></p>
                 </div>
             </div>
 
@@ -285,7 +285,7 @@ include "include/header.php";
                             <img src="/asset/software/weconnect.png" class="w-full h-full object-cover object-top" alt="weconnect beauty">
                         </div>
                     </a>
-                    <p class="mt-4 text-sm font-bold text-gray-800 uppercase tracking-widest">Weconnect Beauty<<span class="text-blue-500">
+                    <p class="mt-4 text-sm font-bold text-gray-800 uppercase tracking-widest">Weconnect Beauty<span class="text-blue-500">
                             <i class="fa-solid fa-arrow-right mr-4"></i>
                             </span></p>
                 </div>
@@ -316,86 +316,141 @@ include "include/header.php";
 
 
 
-    <section class="relative py-24 bg-white overflow-hidden font-sans">
-        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50 -z-10"></div>
 
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col lg:flex-row items-center gap-16">
+    <section class="relative py-24 max-md:py-10 bg-white overflow-hidden border-t border-slate-50">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-50/20 to-transparent -z-10"></div>
 
-                <div class="w-full lg:w-1/2">
-                    <p class="text-blue-500 font-serif italic text-2xl mb-4">The Strategy Behind the Screen</p>
-                    <h2 class="text-4xl md:text-5xl font-bold text-[#422a4c] leading-tight mb-8">
-                        Turning Complex Code Into <br> Seamless Experiences.
+        <div class="w-[90%] md:w-[85%] mx-auto relative">
+
+            <div class="flex flex-col lg:flex-row justify-between items-center mb-20 gap-12 ">
+                <div class="max-w-4xl text-center lg:text-left">
+                    <p class="text-slate-400 text-xs font-bold uppercase tracking-[0.3em] mb-8 block">The Engineering Behind the Design</p>
+                    <h2 class="text-3xl md:text-6xl font-black tracking-tighter max-md:tracking-tight text-slate-900 leading-[0.85] mb-8">
+                        High-Performance <br>
+                        <span class="text-blue-600 italic font-light">Digital Ecosystems.</span>
                     </h2>
+                    <p class="text-slate-500  font-medium tracking-tight">
+                        We specialize in transforming complex requirements into conversion-ready platforms optimized for high-velocity growth.
+                    </p>
+                </div>
 
-                    <div class="space-y-8">
-                        <div class="flex gap-6 group">
-                            <div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center text-blue-500 font-bold group-hover:bg-blue-500 group-hover:text-white transition-all">01</div>
-                            <div>
-                                <h4 class="text-xl font-bold text-gray-800 mb-2">Creative Strategy</h4>
-                                <p class="text-gray-500 leading-relaxed">We analyze your industry landscape—whether it's IT services or global trade—to find your unique competitive edge.</p>
-                            </div>
-                        </div>
+                <div class="pt-4 lg:pt-0">
+                    <a href="/get-in-touch" class="px-10 py-5 max-md:text-xs max-md:py-3 bg-slate-950 text-white rounded-2xl font-bold hover:bg-blue-600 transition-all duration-500 shadow-2xl hover:-translate-y-1">Get Technical Audit</a>
+                </div>
+            </div>
 
-                        <div class="flex gap-6 group">
-                            <div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center text-blue-500 font-bold group-hover:bg-blue-500 group-hover:text-white transition-all">02</div>
-                            <div>
-                                <h4 class="text-xl font-bold text-gray-800 mb-2">UI/UX Designing</h4>
-                                <p class="text-gray-500 leading-relaxed">Crafting modern, mobile-first interfaces using Tailwind CSS that prioritize user journey and conversion.</p>
-                            </div>
-                        </div>
+            <div class="flex flex-col lg:flex-row items-start gap-16 lg:gap-0 ">
 
-                        <div class="flex gap-6 group">
-                            <div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center text-blue-500 font-bold group-hover:bg-blue-500 group-hover:text-white transition-all">03</div>
-                            <div>
-                                <h4 class="text-xl font-bold text-gray-800 mb-2">Agile Development</h4>
-                                <p class="text-gray-500 leading-relaxed">Building secure, scalable systems with PHP and SQL, ensuring your backend is as powerful as your frontend.</p>
-                            </div>
+                <div class="w-full lg:w-1/2 relative h-[500px] max-md:h-[200px]">
+                    <div class="absolute top-0 left-0 w-[90%] max-md:w-full aspect-video rounded-[3rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] border border-slate-100 bg-white group">
+                        <img src="/asset/bnr/24.png" class="w-full h-full object-cover transform transition duration-1000 group-hover:scale-105" alt="Web Engineering">
+
+                        <!-- <div class="absolute bottom-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-3xl border border-white/40 shadow-2xl">
+                        <div class="flex items-center gap-2 mb-1">
+                            <div class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
+                            <span class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Global Status</span>
                         </div>
+                        <p class="text-2xl font-black text-slate-950 tracking-tighter">0.8s Core Load</p>
+                    </div> -->
                     </div>
                 </div>
 
-                <div class="w-full lg:w-1/2 bg-gray-50 p-8 md:p-12 rounded-2xl shadow-inner relative">
-                    <div class="absolute inset-0 z-0 opacity-10">
-                        <img src="your-achievements-bg.jpg" class="w-full h-full object-cover rounded-2xl" alt="Background">
-                    </div>
+                <div class="w-full lg:w-1/2 space-y-0 border-t border-slate-100">
 
-                    <div class="relative z-10">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-10 text-center">Our Success in Numbers</h3>
+                    <div class="group border-b border-slate-100 py-12 max-md:py-8 flex flex-row max-md:flex-col-reverse items-center max-md:items-start justify-between hover:bg-slate-50 transition-all px-8 max-md:px-6">
+                        <p class="text-slate-500 text-[11px] max-w-xs italic opacity-0 md:group-hover:opacity-100 max-md:opacity-100 max-md:mt-4 transition-opacity leading-relaxed">
+                            Data-driven UI/UX designed to handle intricate logic flows and enterprise-grade operational management.
+                        </p>
 
-                        <div class="grid grid-cols-2 gap-8">
-                            <div class="text-center">
-                                <span class="block text-4xl font-bold text-blue-500 mb-2">145+</span>
-                                <p class="text-[10px] uppercase tracking-widest font-bold text-gray-400">Projects Delivered</p>
+                        <div class="flex items-center justify-between max-md:w-full gap-8">
+                            <div class="flex items-center gap-4">
+                                <svg class="w-5 h-5 text-blue-600 -rotate-90 opacity-0 md:group-hover:opacity-100 max-md:opacity-100 transition-all" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 22h20L12 2z" />
+                                </svg>
+                                <h3 class="text-sm md:text-2xl font-black text-slate-900 tracking-tight">Logic Design</h3>
                             </div>
-                            <div class="text-center">
-                                <span class="block text-4xl font-bold text-lime-500 mb-2">80+</span>
-                                <p class="text-[10px] uppercase tracking-widest font-bold text-gray-400">Satisfied Clients</p>
-                            </div>
-                            <div class="text-center">
-                                <span class="block text-4xl font-bold text-cyan-500 mb-2">5+</span>
-                                <p class="text-[10px] uppercase tracking-widest font-bold text-gray-400">Years Excellence</p>
-                            </div>
-                            <div class="text-center">
-                                <span class="block text-4xl font-bold text-orange-400 mb-2">99%</span>
-                                <p class="text-[10px] uppercase tracking-widest font-bold text-gray-400">Success Rate</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-12 pt-10 border-t border-gray-200 text-center">
-                            <a href="#contact" class="inline-block bg-[#422a4c] text-white px-10 py-4 rounded-full font-bold hover:bg-blue-600 transition-colors shadow-lg">
-                                Start Your Project Today
-                            </a>
+                            <span class="text-slate-200 text-3xl font-black italic">01</span>
                         </div>
                     </div>
+
+                    <div class="group border-b border-slate-100 py-12 max-md:py-8 flex flex-row max-md:flex-col-reverse items-center max-md:items-start justify-between hover:bg-slate-50 transition-all px-8 max-md:px-6">
+                        <p class="text-slate-500 text-[11px] max-w-xs italic opacity-0 md:group-hover:opacity-100 max-md:opacity-100 max-md:mt-4 transition-opacity leading-relaxed">
+                            Hardened security protocols and encrypted database structures to protect global business infrastructure.
+                        </p>
+
+                        <div class="flex items-center justify-between max-md:w-full gap-8">
+                            <div class="flex items-center gap-4">
+                                <svg class="w-5 h-5 text-blue-600 -rotate-90 opacity-0 md:group-hover:opacity-100 max-md:opacity-100 transition-all" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 22h20L12 2z" />
+                                </svg>
+                                <h3 class="text-sm md:text-2xl font-black text-slate-900 tracking-tight">Secure Systems</h3>
+                            </div>
+                            <span class="text-slate-200 text-3xl font-black italic">02</span>
+                        </div>
+                    </div>
+
+                    <div class="group py-12 max-md:py-8 flex flex-row max-md:flex-col-reverse items-center max-md:items-start justify-between hover:bg-slate-50 transition-all px-8 max-md:px-6">
+                        <p class="text-slate-500 text-[11px] max-w-xs italic opacity-0 md:group-hover:opacity-100 max-md:opacity-100 max-md:mt-4 transition-opacity leading-relaxed">
+                            Continuous performance mapping and Core Web Vital optimization to maintain peak search engine visibility.
+                        </p>
+
+                        <div class="flex items-center justify-between max-md:w-full gap-8">
+                            <div class="flex items-center gap-4">
+                                <svg class="w-5 h-5 text-blue-600 -rotate-90 opacity-0 md:group-hover:opacity-100 max-md:opacity-100 transition-all" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 22h20L12 2z" />
+                                </svg>
+                                <h3 class="text-sm md:text-2xl font-black text-slate-900 tracking-tight">Growth Mapping</h3>
+                            </div>
+                            <span class="text-slate-200 text-3xl font-black italic">03</span>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
         </div>
     </section>
 
 
+    <section class="py-16 bg-white border-t border-slate-100 overflow-hidden relative">
+        <div class="w-[90%] md:w-[85%] mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
 
+                <div class="text-center md:text-left space-y-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+                        </span>
+                        <span class="text-[9px] font-black text-blue-600 uppercase tracking-widest">Accepting New Projects</span>
+                    </div>
+                    <h2 class="text-4xl md:text-6xl font-black tracking-tighter text-slate-950 leading-tight">
+                        Let's Build Your <br> <span class="text-blue-600 italic font-light">Digital Future.</span>
+                    </h2>
+                </div>
+
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-blue-600 rounded-[2rem] blur opacity-10 group-hover:opacity-20 transition duration-500"></div>
+
+                    <a href="/get-in-touch" id="cta-btn" class="relative flex items-center gap-4 bg-white border border-slate-200 p-2 pr-6 rounded-[2rem] hover:shadow-xl transition-all duration-500 hover:-translate-y-1 z-10">
+                        <div class="w-12 h-12 bg-slate-950 rounded-full flex items-center justify-center text-white transition-colors group-hover:bg-blue-600">
+                            <svg class="w-5 h-5 group-hover:rotate-45 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="text-left">
+                            <span class="block text-xs font-black text-slate-950 uppercase tracking-tight">Start Project</span>
+                            <span class="block text-[10px] text-slate-400 font-bold">Free Technical Audit</span>
+                        </div>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
 
 
 
@@ -451,7 +506,7 @@ include "include/header.php";
             </div>
         </section>
 
-        <section class="relative bg-white py-24 overflow-hidden max-lg:py-10">
+        <section class="relative bg-white py-24 max-md:py-10 overflow-hidden max-lg:py-10">
             <div class="w-[80%]  max-md:w-[85%] mx-auto flex max-lg:flex-col justify-between gap-16 max-lg:gap-8 items-center">
 
                 <!-- Left: Image/Illustration (Creative Design) -->
@@ -566,7 +621,7 @@ include "include/header.php";
 
 
 
-        <section class="py-24 bg-white relative overflow-hidden max-lg:py-12 ">
+        <section class="py-24 max-md:py-10 bg-white relative overflow-hidden max-lg:py-12 ">
             <div class="w-[80%] mx-auto  max-md:w-[85%] ">
                 <div class="text-center mb-16 max-md:mb-8">
                     <h2 class="text-4xl max-md:text-2xl font-extrabold text-gray-900">

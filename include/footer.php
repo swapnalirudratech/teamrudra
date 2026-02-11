@@ -521,7 +521,6 @@
                     <li><a href="/portfolio" class="hover:text-blue-400 transition">Portfolio</a></li>
 
                     <li><a href="/career" class="hover:text-blue-400 transition">Career</a></li>
-
                 </ul>
 
             </div>
@@ -533,7 +532,7 @@
                     <img src="/asset/icon/master.webp" alt="Master card" class="h-10 w-16 rounded-md object-cover" />
                     <img src="/asset/icon/visa.jpg" alt="Visa" class="h-10 w-16 rounded-md object-cover" />
                     <img src="/asset/icon/amex-card1708.jpg" alt="American Express" class="h-10 w-16 rounded-md object-cover" />
-
+                    <img src="/asset/icon/Rupay-Logo.png" alt="rupay" class="h-10 w-16 rounded-md object-contain bg-white" />
                 </div>
             </div>
         </div>

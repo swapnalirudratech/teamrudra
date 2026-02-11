@@ -191,7 +191,7 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
             <div class="lg:w-1/2 relative group">
                 <div class="relative rounded-3xl overflow-hidden shadow-[0_60px_100px_-20px_rgba(0,0,0,0.1)] border border-slate-100 bg-slate-50 ">
                     <video autoplay muted loop playsinline class="w-full h-full object-cover">
-                        <source src="/asset/software/billing.mp4" type="video/mp4">
+                        <source src="/asset/software/Software_Development_Video_Generation.mp4" type="video/mp4">
                     </video>
                 </div>
 
@@ -632,14 +632,14 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
 
                 <div class="relative flex justify-center items-center mt-10 lg:mt-0">
                     <div class="relative w-64 h-64 md:w-[450px] md:h-[450px] rounded-full bg-slate-200 overflow-hidden shadow-2xl">
-                        <img src="/asset/software/person.avif" class="w-full h-full object-cover" alt="Optimization Specialist">
+                        <img src="/asset/software/SDLC-stages.png" class="w-full h-full object-cover" alt="Optimization Specialist">
                     </div>
 
-                    <div class="absolute -left-2 md:-left-4 top-1/2 bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-2xl border border-slate-100 animate-bounce-slow">
+                    <!-- <div class="absolute -left-2 md:-left-4 top-1/2 bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-2xl border border-slate-100 animate-bounce-slow">
                         <p class="text-xl md:text-3xl font-bold text-slate-900">84%</p>
                         <hr class="my-1 md:my-2 border-slate-100">
                         <p class="text-[8px] md:text-[10px] font-bold text-green-500 uppercase">▲ 108,15% Growth</p>
-                    </div>
+                    </div> -->
 
                     <div class="absolute -right-2 md:-right-4 top-10 md:top-20 bg-white p-3 md:p-4 rounded-xl md:rounded-2xl shadow-xl border border-slate-100 block">
                         <div class="flex gap-1 h-8 md:h-12 items-end">
@@ -673,255 +673,170 @@ $page_title = "AI Custom Software & ERP Solutions | RudraTech";
         }
     </style>
 
-    <section class="py-24 max-md:py-12  bg-white overflow-hidden">
-        <div class="w-[85%] mx-auto">
-            <div class="text-right mb-16 max-md:text-center max-md:mb-6">
-                <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Our Premier Products</span>
-                <h2 class="text-3xl md:text-6xl font-bold  tracking-tighter text-slate-900 leading-[0.9]">
-                    Scale Your Business With Our <br> <span class="text-blue-600">Software Ecosystem</span>
-                </h2>
-                <a href="/all-products" class="inline-flex items-center gap-2 text-blue-600 font-bold mt-8 hover:underline">
-                    <i class="fa-solid fa-arrow-left"></i>Explore All Solutions
-                </a>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<section class="py-24 bg-white overflow-hidden border-t">
+    <div class="w-[90%] md:w-[85%] mx-auto">
+        <div class="mb-16 text-center lg:text-left">
+            <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Bharat Bill Book Demo</span>
+            <h2 class="text-4xl md:text-6xl font-black tracking-tighter text-slate-900 leading-[0.9] mb-6">
+                Print Logic. <span class="text-blue-600">Export Ready.</span>
+            </h2>
+            <p class="text-slate-500 max-w-xl mx-auto lg:mx-0">Generate professional A4 documents or 80mm thermal receipts and download them instantly for your records.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            
+            <div class="lg:col-span-4 bg-slate-50 p-8 rounded-[3rem] border border-slate-100 space-y-8">
+                <div>
+                    <label class="block text-[10px] font-black uppercase tracking-widest text-slate-400 mb-4">Select Paper Size</label>
+                    <div class="flex gap-2 p-1.5 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                        <button onclick="changeFormat('A4', this)" class="format-tab flex-1 py-3 rounded-xl font-bold text-xs transition-all bg-blue-600 text-white shadow-lg">A4</button>
+                        <button onclick="changeFormat('A5', this)" class="format-tab flex-1 py-3 rounded-xl font-bold text-xs transition-all text-slate-500 hover:bg-slate-50">A5</button>
+                        <button onclick="changeFormat('POS', this)" class="format-tab flex-1 py-3 rounded-xl font-bold text-xs transition-all text-slate-500 hover:bg-slate-50">POS</button>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <input type="text" id="custIn" placeholder="Customer Name" oninput="liveSync()" class="w-full px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                    <input type="text" id="itemIn" placeholder="Product/Service" oninput="liveSync()" class="w-full px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                    <div class="flex gap-4">
+                        <input type="number" id="qtyIn" placeholder="Qty" oninput="liveSync()" class="w-1/2 px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                        <input type="number" id="priceIn" placeholder="Price" oninput="liveSync()" class="w-1/2 px-5 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
+                    </div>
+                </div>
+
+                <button onclick="downloadInvoice()" class="w-full bg-blue-600 text-white py-5 rounded-[2rem] font-bold hover:bg-slate-900 transition-all flex items-center justify-center gap-3 shadow-xl shadow-blue-100">
+                    Save as Image (JPG)
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div class="lg:col-span-8 flex justify-center bg-slate-200 rounded-[4rem] py-16 border border-slate-100 min-h-[850px]">
+                
+                <div id="invoiceToCapture" class="bg-white shadow-2xl transition-all duration-500 overflow-hidden" style="width: 595px; padding: 50px;">
+                    
+                    <div id="corpHeader" class="flex justify-between items-start border-b-2 border-slate-900 pb-8 mb-10">
+                        <div>
+                            <h4 id="docTitle" class="text-3xl font-black tracking-tighter uppercase">INVOICE</h4>
+                            <p class="text-[9px] font-bold text-slate-400 mt-1 uppercase tracking-widest leading-none">Ref: #RT-2026-09</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="font-bold text-slate-900 leading-none">Rudra Tech IT Services</p>
+                            <p class="text-[9px] text-slate-500 font-bold uppercase tracking-tighter mt-1">Web Architecture & Logic</p>
+                        </div>
+                    </div>
 
-                <div class="md:col-span-2 bg-white p-8 rounded-[2.5rem] border border-slate-100 flex flex-col justify-between group relative overflow-hidden shadow-sm hover:shadow-md transition-all">
-                    <div class="relative z-10">
-                        <h4 class="text-2xl font-bold text-slate-900 mb-2">Bharat Bill Book</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed max-w-[80%]">India's leading automated GST billing logic for high-velocity retail.</p>
+                    <div id="thermHeader" class="hidden text-center mb-6 font-mono border-b border-dashed border-slate-400 pb-4">
+                        <h4 class="text-xl font-bold uppercase">Rudra Tech POS</h4>
+                        <p class="text-[10px]">Ambernath, Maharashtra</p>
+                        <div class="border-t border-dashed border-slate-300 my-4"></div>
                     </div>
-                    <div class="text-blue-600 mt-6 ">
-                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
 
-                <div class="bg-white p-8 rounded-[2.5rem] border border-slate-100 flex flex-col items-center justify-center text-center gap-4 group hover:border-blue-200 transition-colors">
-                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-width="1.5" />
-                        </svg>
+                    <div class="mb-10" id="billBox">
+                        <p class="text-[9px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Bill To:</p>
+                        <p id="nameOut" class="text-xl font-bold text-slate-900 italic underline decoration-blue-600 underline-offset-4 decoration-2">John Doe</p>
                     </div>
-                    <h4 class=" font-bold text-slate-900">CRM Sync</h4>
-                    <p class="text-slate-500 text-[10px]">Automate your sales pipeline.</p>
-                </div>
 
-                <div class="bg-white p-8 rounded-[2.5rem] border border-slate-100 flex flex-col items-center justify-center text-center gap-4 group hover:border-blue-200 transition-colors">
-                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" stroke-width="1.5" stroke-linecap="round" />
-                        </svg>
-                    </div>
-                    <h4 class=" font-bold text-slate-900">HRMS Core</h4>
-                    <p class="text-slate-500 text-[10px]">Payroll & attendance logic.</p>
-                </div>
+                    <table class="w-full mb-10">
+                        <thead id="tableHead" class="bg-slate-950 text-white text-[9px] uppercase font-bold tracking-widest">
+                            <tr>
+                                <th class="text-left px-4 py-3">Description</th>
+                                <th class="text-center px-4 py-3">Qty</th>
+                                <th class="text-right px-4 py-3">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm font-medium text-slate-700">
+                            <tr class="border-b border-slate-100">
+                                <td id="itemOut" class="px-4 py-6 font-bold">Software Development</td>
+                                <td id="qtyOut" class="px-4 py-6 text-center">1</td>
+                                <td id="priceOut" class="px-4 py-6 text-right font-black">₹50,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                <div class="md:row-span-2 bg-slate-900 p-8 rounded-[2.5rem] text-white flex flex-col justify-between group">
-                    <div>
-                        <h4 class="text-xl font-bold text-white mb-4">NK Distributor</h4>
-                        <p class="text-slate-400 text-xs leading-relaxed">International transport management for Burkina Faso logistics.</p>
+                    <div class="flex justify-end pt-6 border-t-2 border-slate-900" id="totalFooter">
+                        <div class="w-48 space-y-2">
+                            <div class="flex justify-between text-xs font-bold text-slate-400" id="taxRow">
+                                <span>GST (18%)</span>
+                                <span id="taxOut">₹9,000</span>
+                            </div>
+                            <div class="flex justify-between text-xl font-black text-slate-950">
+                                <span>TOTAL</span>
+                                <span id="grandOut">₹59,000</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white self-end shadow-lg transform group-hover:-translate-y-2 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" stroke-width="1.5" />
-                            <path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" stroke-width="1.5" />
-                        </svg>
-                    </div>
-                </div>
 
-                <div class="bg-white p-8 rounded-[2.5rem] border border-slate-100 flex items-center justify-between group hover:border-blue-200 transition-colors">
-                    <h4 class=" font-bold text-slate-900">Cloud Data</h4>
-                    <div class="text-blue-600">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" stroke-width="1.5" />
-                        </svg>
+                    <div id="thermFooter" class="hidden mt-10 pt-10 border-t border-dashed border-slate-400 text-center font-mono">
+                        <div class="w-40 h-8 bg-slate-100 mx-auto mb-4 flex gap-1 items-center justify-center">
+                            <div class="w-1 h-6 bg-black"></div><div class="w-2 h-6 bg-black"></div><div class="w-0.5 h-6 bg-black"></div>
+                        </div>
+                        <p class="text-[10px] font-bold">Thank You For Your Business!</p>
                     </div>
-                </div>
-
-                <div class="md:col-span-2 bg-white p-8 rounded-[2.5rem] border border-slate-100 flex items-center justify-between group hover:border-blue-200 transition-colors">
-                    <div>
-                        <h4 class="text-xl font-bold text-slate-950">Business Intelligence</h4>
-                        <p class="text-slate-500 text-xs">Quality software for data-driven decisions.</p>
-                    </div>
-                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" stroke-width="1.5" />
-                        </svg>
-                    </div>
-                </div>
-
-                <div class="bg-blue-600 p-8 rounded-[2.5rem] text-white flex flex-col items-center justify-center text-center shadow-lg group">
-                    <div class="mb-3 transform group-hover:rotate-12 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" />
-                        </svg>
-                    </div>
-                    <h4 class=" font-bold mb-1 tracking-tight">API Sync</h4>
-                    <p class="text-blue-100 text-[10px]">Hardened security layers.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+<script>
+    function changeFormat(size, btn) {
+        document.querySelectorAll('.format-tab').forEach(t => t.className = "format-tab flex-1 py-3 rounded-xl font-bold text-xs transition-all text-slate-500 hover:bg-slate-50");
+        btn.className = "format-tab flex-1 py-3 rounded-xl font-bold text-xs transition-all bg-blue-600 text-white shadow-lg shadow-blue-200";
 
+        const paper = document.getElementById('invoiceToCapture');
+        const corpHead = document.getElementById('corpHeader');
+        const thermHead = document.getElementById('thermHeader');
+        const thermFoot = document.getElementById('thermFooter');
+        const tHead = document.getElementById('tableHead');
+        const footer = document.getElementById('totalFooter');
 
-
-
-    <section class="py-24 max-md:py-12  bg-white overflow-hidden border-t max-md:hidden">
-        <div class="w-[85%] mx-auto">
-            <div class="mb-16 max-md:mb-6">
-                <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 block">Live Software Demo</span>
-                <h2 class="text-3xl md:text-6xl font-bold tracking-tighter text-slate-900 leading-[0.9] mb-6">
-                    Generate Invoices <span class="text-blue-600">In Real-Time.</span>
-                </h2>
-                <p class="text-slate-500  max-w-xl">Experience the automation logic behind Bharat Bill Book. Adjust the fields and paper size to see instant results.</p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-md:gap-6">
-
-                <div class="lg:col-span-4 bg-slate-50 p-8 max-md:p-4 max-md:rounded-lg rounded-[3rem] border border-slate-100 space-y-6">
-                    <div>
-                        <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-4">Paper Size Selection</label>
-                        <div id="tab-container" class="flex gap-2 p-1.5  bg-white rounded-2xl border border-slate-200 shadow-sm">
-                            <button onclick="setSize('A4', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 bg-blue-600 text-white shadow-lg shadow-blue-200">
-                                A4
-                            </button>
-                            <button onclick="setSize('A5', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
-                                A5
-                            </button>
-                            <button onclick="setSize('POS', this)" class="size-tab flex-1 py-3 max-md:py-1.5 max-md:rounded-lg rounded-xl font-bold text-sm transition-all duration-300 text-slate-500 hover:bg-slate-50">
-                                POS
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="space-y-4">
-                        <div class="relative">
-                            <input type="text" id="custName" placeholder="Customer Name" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
-                        </div>
-                        <div class="relative">
-                            <input type="text" id="itemName" placeholder="Item Name (e.g. Organic Oil)" oninput="updateInvoice()" class="w-full px-5 py-4 rounded-2xl  max-md:rounded-lg max-md:py-2 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 transition-all text-sm outline-none">
-                        </div>
-                        <div class="flex gap-4">
-                            <input type="number" id="qty" placeholder="Qty" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
-                            <input type="number" id="price" placeholder="Price" oninput="updateInvoice()" class="w-1/2 px-5 py-4 rounded-2xl max-md:rounded-lg max-md:py-2  border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-blue-600 text-sm outline-none">
-                        </div>
-                    </div>
-
-                    <div class="pt-6 max-md:pt-2">
-                        <button class="w-full bg-slate-900 text-white py-5 max-md:py-2 max-md:text-xs rounded-[2rem] font-bold hover:bg-blue-600 transition-all shadow-xl flex items-center justify-center gap-3 group">
-                            Print Digital Receipt
-                            <svg class="w-5 h-5 group-hover:rotate-12 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-8 flex justify-center bg-slate-100/50 rounded-[3rem] max-md:rounded-lg max-md:py-4 py-12 border border-slate-100">
-                    <div id="invoiceFrame" class="bg-white shadow-2xl transition-all duration-500 border border-slate-100 overflow-hidden" style="width: 595px; min-height: 542px; padding: 40px;">
-                        <div class="flex justify-between items-start border-b-2 border-slate-900 pb-8 mb-10">
-                            <div>
-                                <h4 class="text-3xl font-black tracking-tighter uppercase">INVOICE</h4>
-                                <p class="text-[9px] font-bold text-slate-400 mt-1 uppercase tracking-widest">Ref: #RT-2026-001</p>
-                            </div>
-                            <div class="text-right">
-                                <p class="font-bold text-slate-900 leading-none">Rudra Tech IT Services</p>
-                                <p class="text-[9px] text-slate-500 font-bold uppercase tracking-tighter">Software Engineering Expert</p>
-                            </div>
-                        </div>
-
-                        <div class="mb-10">
-                            <p class="text-[9px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Bill To:</p>
-                            <p id="dispCustName" class="text-xl font-bold text-slate-900 italic underline decoration-blue-600 underline-offset-4 decoration-2">John Doe</p>
-                        </div>
-
-                        <table class="w-full mb-10">
-                            <thead class="bg-slate-950 text-white text-[9px] uppercase font-bold tracking-widest">
-                                <tr>
-                                    <th class="text-left px-4 py-3">Service Description</th>
-                                    <th class="text-center px-4 py-3">Qty</th>
-                                    <th class="text-right px-4 py-3">Price</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-sm font-medium text-slate-700">
-                                <tr class="border-b border-slate-100">
-                                    <td id="dispItem" class="px-4 py-6 font-bold">Bharat Bill Book Setup</td>
-                                    <td id="dispQty" class="px-4 py-6 text-center">1</td>
-                                    <td id="dispPrice" class="px-4 py-6 text-right">₹50,000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <div class="flex justify-end pt-6 border-t-2 border-slate-900">
-                            <div class="w-48 space-y-2">
-                                <div class="flex justify-between text-xs font-bold text-slate-400">
-                                    <span>TAX (18%)</span>
-                                    <span id="dispTax">₹9,000</span>
-                                </div>
-                                <div class="flex justify-between text-xl font-black text-slate-950">
-                                    <span>TOTAL</span>
-                                    <span id="dispGrandTotal">₹59,000</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <script>
-        function setSize(size, element) {
-            // Handle Active Tab State
-            const tabs = document.querySelectorAll('.size-tab');
-            tabs.forEach(tab => {
-                tab.classList.remove('bg-blue-600', 'text-white', 'shadow-lg', 'shadow-blue-200');
-                tab.classList.add('text-slate-500');
-            });
-            element.classList.remove('text-slate-500');
-            element.classList.add('bg-blue-600', 'text-white', 'shadow-lg', 'shadow-blue-200');
-
-            // Handle Invoice Resize
-            const frame = document.getElementById('invoiceFrame');
-            if (size === 'A4') {
-                frame.style.width = '595px';
-                frame.style.minHeight = '842px';
-            }
-            if (size === 'A5') {
-                frame.style.width = '420px';
-                frame.style.minHeight = '595px';
-            }
-            if (size === 'POS') {
-                frame.style.width = '300px';
-                frame.style.minHeight = '400px';
-                frame.style.padding = '20px';
-            }
+        if(size === 'POS') {
+            paper.style.width = '320px'; paper.style.padding = '20px'; paper.classList.add('font-mono');
+            corpHead.classList.add('hidden'); thermHead.classList.remove('hidden'); thermFoot.classList.remove('hidden');
+            tHead.className = "border-y border-dashed border-slate-400 text-[10px] uppercase font-bold";
+            footer.className = "flex justify-end pt-6 border-t border-dashed border-slate-400";
+        } else {
+            paper.classList.remove('font-mono'); paper.style.padding = '50px';
+            paper.style.width = (size === 'A4') ? '595px' : '420px';
+            corpHead.classList.remove('hidden'); thermHead.classList.add('hidden'); thermFoot.classList.add('hidden');
+            tHead.className = "bg-slate-950 text-white text-[9px] uppercase font-bold tracking-widest";
+            footer.className = "flex justify-end pt-6 border-t-2 border-slate-900";
         }
+    }
 
-        function updateInvoice() {
-            const name = document.getElementById('custName').value || 'John Doe';
-            const item = document.getElementById('itemName').value || 'Software Development';
-            const qty = parseFloat(document.getElementById('qty').value) || 1;
-            const price = parseFloat(document.getElementById('price').value) || 0;
+    function liveSync() {
+        const name = document.getElementById('custIn').value || 'John Doe';
+        const item = document.getElementById('itemIn').value || 'Software Development';
+        const qty = parseFloat(document.getElementById('qtyIn').value) || 1;
+        const price = parseFloat(document.getElementById('priceIn').value) || 0;
+        const total = qty * price;
+        const tax = total * 0.18;
 
-            const total = qty * price;
-            const tax = total * 0.18;
-            const grand = total + tax;
+        document.getElementById('nameOut').innerText = name;
+        document.getElementById('itemOut').innerText = item;
+        document.getElementById('qtyOut').innerText = qty;
+        document.getElementById('priceOut').innerText = '₹' + total.toLocaleString();
+        document.getElementById('taxOut').innerText = '₹' + tax.toLocaleString();
+        document.getElementById('grandOut').innerText = '₹' + (total + tax).toLocaleString();
+    }
 
-            document.getElementById('dispCustName').innerText = name;
-            document.getElementById('dispItem').innerText = item;
-            document.getElementById('dispQty').innerText = qty;
-            document.getElementById('dispPrice').innerText = '₹' + price.toLocaleString();
-            document.getElementById('dispTax').innerText = '₹' + tax.toLocaleString();
-            document.getElementById('dispGrandTotal').innerText = '₹' + grand.toLocaleString();
-        }
-    </script>
-
+    function downloadInvoice() {
+        const element = document.getElementById('invoiceToCapture');
+        html2canvas(element, { scale: 3 }).then(canvas => {
+            const link = document.createElement('a');
+            link.download = 'RudraTech_Invoice.jpg';
+            link.href = canvas.toDataURL('image/jpeg', 0.9);
+            link.click();
+        });
+    }
+</script>
 
 
 
