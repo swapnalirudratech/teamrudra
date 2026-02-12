@@ -39,6 +39,19 @@
     elseif ($project == 'kesarbaug') {
         $imagePath = "/asset/software/keserbg.png";
     }
+
+     elseif ($project == 'anubhuti') {
+        $imagePath = "/asset/software/anubhuti.png";
+    }
+     elseif ($project == 'armahealthcare') {
+        $imagePath = "/asset/software/arma.png";
+    }
+     elseif ($project == 'laxmikamal') {
+        $imagePath = "/asset/software/laxmikamal.png";
+    }
+     elseif ($project == 'saptam') {
+        $imagePath = "/asset/software/saptam-full.png";
+    }
     ?>
 
     <?php if ($imagePath != ""): ?>

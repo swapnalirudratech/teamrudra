@@ -1,204 +1,392 @@
 <?php
-$page_title = "free-website-designing";
-
+$page_title = "Dynamic Website Design | Rudra Tech IT Services";
 include "include/header.php";
-
 ?>
-
 <!Doctype html>
 <html lang="en">
 
-<body>
+<body class="bg-white text-gray-950 antialiased">
+
     <?php include "include/navbar.php"; ?>
 
+    <section class="relative min-h-[90vh] flex items-center bg-white overflow-hidden">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="z-10 order-2 lg:order-1">
+                <div class="w-20 h-1 bg-blue-600 mb-8"></div>
 
-    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-black">
+                <h1 class="text-3xl md:text-6xl font-black leading-[1] tracking-tighter mb-8 text-gray-950">
+                    EXPERT <br>
+                    <span class="text-blue-600">DYNAMIC WEBSITE</span> <br>
+                    DEVELOPMENT.
+                </h1>
 
-        <div class="absolute inset-0">
-            <img src="/asset/image/bg.jpeg" alt="Dynamic Website Background"
-                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
-
-            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/80"></div>
-        </div>
-
-        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto flex flex-col items-center">
-
-            <span class="mb-4 inline-block rounded-full bg-blue-600/20 px-4 py-1.5 text-sm font-semibold text-blue-300 border border-blue-500/30 backdrop-blur-sm uppercase tracking-wider">
-                Free Beta Launch
-            </span>
-
-            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
-                   text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
-                Get a <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Dynamic Website</span> <br />
-                to Grow Your Business
-            </h1>
-
-            <p class="text-gray-200 text-base sm:text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-8 max-md:hidden">
-                Launch a feature-rich dynamic website — <b>absolutely free</b>. Manage content, users, and databases with ease.
-            </p>
-
-            <div class="mt-2">
-                <a href="/getquote"
-                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
-                       text-white font-bold text-base sm:text-lg px-8 py-4 rounded-full 
-                       shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 
-                       transition-all duration-300 ease-in-out transform hover:-translate-y-1">
-                    Get My Dynamic Website
-                    <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Modern Web Development Services Section -->
-    <section class="relative py-20 max-lg:py-12  overflow-hidden bg-gradient-to-t from-white to-gray-50">
-
-
-        <!-- Section Content -->
-        <div class="container relative z-10 mx-auto w-[80%] max-lg:w-[85%]">
-            <!-- Section Header -->
-            <div class="text-center mb-16 max-w-3xl mx-auto max-md:mb-4">
-                <h2 class="text-4xl max-lg:text-2xl font-medium uppercase tracking-tight text-gray-900">
-                    <span class="relative inline-block"> Features</span>
-                </h2>
-                <p class="mt-5  text-gray-600">
-                    From user dashboards to database integration, your dynamic website is built for growth and engagement.
+                <p class=" text-gray-500 max-w-lg mb-10 font-medium leading-relaxed">
+                    Rudra Tech is a leading <strong>web development company</strong> specializing in high-performance <strong>custom CMS</strong>, database-driven platforms, and <strong>scalable dynamic websites</strong> designed to convert visitors into customers.
                 </p>
+
+                <div class="flex gap-4">
+                    <a href="/getquote" title="Get a free quote for web development" class="px-10 py-4 bg-gray-950 text-white text-xs font-black uppercase tracking-widest hover:bg-blue-600 transition-all duration-300">
+                        Start Your Project
+                    </a>
+                </div>
             </div>
 
-            <!-- Main Content Grid -->
-            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 max-md:gap-0">
-                <!-- Left: Services Showcase -->
-                <div class="relative p-6 max-lg:p-0 max-md:order-2 ">
+            <div class="relative order-1 lg:order-2 h-[60vh] ">
+                <div class="absolute inset-0 bg-slate-100 rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="/asset/image/bg.jpeg"
+                        alt="Professional Dynamic Website Development Services by Rudra Tech"
+                        class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="py-24 border-y border-gray-100 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900 mb-2">
+                        <span class="counter" data-target="98">0</span>%
+                    </h3>
+                    <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Success Rate</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900 mb-2">
+                        <span class="counter" data-target="500">0</span>+
+                    </h3>
+                    <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Websites Launched</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900 mb-2">
+                        <span class="counter" data-target="24">0</span>/7
+                    </h3>
+                    <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Technical Support</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900 mb-2">
+                        <span class="counter" data-target="100">0</span>%
+                    </h3>
+                    <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Secure Delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <!-- Service Cards -->
-                    <div class="grid grid-cols-1 gap-2 mt-8 sm:grid-cols-2">
-                        <!-- Card 1 -->
-                        <div class="p-5 transition-all outline outline-1 outline-transparent border border-gray-300 bg-white rounded-lg hover:shadow-md hover:bg-white group">
-                            <div class="p-3 mb-3 text-white bg-blue-500 rounded-full w-14 h-14 flex items-center justify-center group-hover:bg-blue-600">
-                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="mb-2 text-md font-bold text-gray-900">Responsive Design</h3>
-                            <p class="text-xs text-gray-600">Perfect on all devices with fluid layouts and optimized graphics</p>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200; // The lower the slower
+
+            const startCounting = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const updateCount = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const count = +counter.innerText;
+                            const inc = target / speed;
+
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + inc);
+                                setTimeout(updateCount, 15);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+                        updateCount();
+                        observer.unobserve(counter); // Stop observing after animation is done
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(startCounting, {
+                threshold: 0.5
+            });
+
+            counters.forEach(counter => observer.observe(counter));
+        });
+    </script>
+
+    <section class="py-32 bg-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-24">
+
+                <div class="w-full lg:w-1/2 relative">
+                    <div class="relative  w-2/3 z-20 rounded-2xl shadow-[0_50px_100px_-20px_rgba(0,0,0,0.2)] border border-slate-100 overflow-hidden transform group-hover:-translate-y-2 transition-all duration-700">
+                        <img src="/asset/software/shavison-f.jpg" alt="Modern Frontend Website Design" class="w-full h-auto">
+                        <!-- <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest shadow-sm">
+                            Frontend View
+                        </div> -->
+                    </div>
+
+                    <div class="absolute -top-12 -right-8 z-30 w-2/3 rounded-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] border-4 border-white overflow-hidden hidden md:block animate-bounce-slow">
+                        <img src="/asset/software/shavison-b.jpg" alt="Custom Admin Dashboard Panel" class="w-full h-auto">
+                        <div class="absolute bottom-4 right-4 bg-blue-600 text-white px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">
+                            Admin Engine
                         </div>
+                    </div>
 
-                        <!-- Card 2 -->
-                        <div class="p-5 border border-gray-300 bg-white rounded-lg hover:shadow-md hover:bg-white group">
-                            <div class="p-3 mb-3 text-white bg-blue-500 rounded-full w-14 h-14 flex items-center justify-center group-hover:bg-blue-600">
-                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
-                                </svg>
+                    <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-50 rounded-full -z-10 blur-3xl opacity-60"></div>
+                </div>
+
+                <div class="w-full lg:w-1/2">
+                    <div class="w-16 h-1 bg-blue-600 mb-8"></div>
+                    <h4 class="text-blue-600 font-black text-xs uppercase tracking-[0.4em] mb-6 italic">Total Synchronization</h4>
+                    <h2 class="text-5xl md:text-6xl font-black text-gray-950 mb-8 leading-[1.1] tracking-tighter">
+                        BEAUTIFUL FRONTEND. <br>
+                        <span class="text-gray-400">POWERFUL BACKEND.</span>
+                    </h2>
+
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed font-medium">
+                        At Rudra Tech, we bridge the gap between <strong>high-end user experience (UX)</strong> and <strong>efficient content management</strong>. Every website we build comes with a custom-engineered admin dashboard.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-6 mb-12">
+                        <div class="flex items-start gap-3">
+                            <span class="text-blue-600 font-bold text-xl">01</span>
+                            <div>
+                                <h6 class="font-black text-gray-950 uppercase text-xs tracking-widest mb-1">Dynamic Control</h6>
+                                <p class="text-xs text-gray-500 font-medium">Manage images, text, and users instantly.</p>
                             </div>
-                            <h3 class="mb-2 text-md font-bold text-gray-900">Custom UI/UX</h3>
-                            <p class="text-xs text-gray-600">Brand-centric interfaces for maximum user engagement</p>
                         </div>
-
-                        <!-- Card 3 -->
-                        <div class="p-5 border border-gray-300 bg-white rounded-lg hover:shadow-md hover:bg-white group">
-                            <div class="p-3 mb-3 text-white bg-blue-500 rounded-full w-14 h-14 flex items-center justify-center group-hover:bg-blue-600">
-                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                </svg>
+                        <div class="flex items-start gap-3">
+                            <span class="text-blue-600 font-bold text-xl">02</span>
+                            <div>
+                                <h6 class="font-black text-gray-950 uppercase text-xs tracking-widest mb-1">SEO Dashboard</h6>
+                                <p class="text-xs text-gray-500 font-medium">Update meta tags and alt text with ease.</p>
                             </div>
-                            <h3 class="mb-2 text-md font-bold text-gray-900">Performance</h3>
-                            <p class="text-xs text-gray-600">Blazing-fast loading speeds with optimized code and assets</p>
                         </div>
+                    </div>
 
-                        <!-- Card 4 -->
-                        <div class="p-5 border border-gray-300 bg-white rounded-lg hover:shadow-md hover:bg-white group">
-                            <div class="p-3 mb-3 text-white bg-blue-500 rounded-full w-14 h-14 flex items-center justify-center group-hover:bg-blue-600">
-                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                                </svg>
-                            </div>
-                            <h3 class="mb-2 text-md font-bold text-gray-900">Modern Frameworks</h3>
-                            <p class="text-xs text-gray-600">Developed with the latest tech for scalable growth</p>
+                    <a href="/getquote" class="inline-flex items-center gap-6 group">
+                        <span class="w-12 h-12 rounded-full bg-gray-950 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </span>
+                        <span class="text-xs font-black uppercase tracking-[0.3em] text-gray-950">Explore Admin Features</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @keyframes bounce-slow {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .animate-bounce-slow {
+            animation: bounce-slow 6s ease-in-out infinite;
+        }
+    </style>
+
+    <!-- <section class="py-32 bg-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="w-full lg:w-1/2">
+                    <div class="relative group">
+                        <img src="/asset/custom.jpg" alt="Dynamic Tech" class="w-full h-[550px] object-cover rounded-2xl shadow-2xl">
+                        <div class="absolute inset-0 border-[20px] border-white/20 m-6 rounded-lg pointer-events-none"></div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <h4 class="text-blue-600 font-black text-xs uppercase tracking-[0.4em] mb-6">Expert Architecture</h4>
+                    <h2 class="text-5xl font-black text-gray-950 mb-8 leading-tight">
+                        Perfect Start. <br>Ongoing Improvements.
+                    </h2>
+                    <p class="text-lg text-gray-500 mb-10 leading-loose">
+                        We don't just build and leave. Rudra Tech dynamic websites are built on a scalable core, allowing your platform to grow from a simple portal to a massive enterprise engine without rebuilding.
+                    </p>
+                    <ul class="space-y-4 mb-12">
+                        <li class="flex items-center gap-4 text-sm font-bold text-gray-900">
+                            <span class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">✓</span>
+                            Scalable Database Integration
+                        </li>
+                        <li class="flex items-center gap-4 text-sm font-bold text-gray-900">
+                            <span class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">✓</span>
+                            Real-time Content Management
+                        </li>
+                        <li class="flex items-center gap-4 text-sm font-bold text-gray-900">
+                            <span class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">✓</span>
+                            High-Performance Security
+                        </li>
+                    </ul>
+                    <a href="#" class="inline-block text-xs font-black uppercase tracking-[0.3em] border-b-4 border-blue-600 pb-1 hover:text-blue-600 transition-all">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="py-32 bg-gray-950 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-24">
+                <h2 class="text-5xl md:text-6xl font-black mb-6">CORE CAPABILITIES</h2>
+                <p class="text-gray-400 max-w-xl mx-auto font-medium">We deliver enterprise-grade dynamic features that turn websites into powerful business tools.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-0.5 bg-gray-800 border border-gray-800">
+                <div class="bg-gray-950 p-12 hover:bg-blue-600 transition-all duration-500 group">
+                    <div class="text-blue-600 text-4xl mb-8 group-hover:text-white transition-colors">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h5 class=" font-black mb-4 uppercase tracking-tighter">Live Builder</h5>
+                    <p class="text-gray-500 group-hover:text-white/80 transition-colors text-sm leading-relaxed">
+                        Effortlessly update your front-end content without any technical hurdles.
+                    </p>
+                </div>
+                <div class="bg-gray-950 p-12 hover:bg-blue-600 transition-all duration-500 group">
+                    <div class="text-blue-600 text-4xl mb-8 group-hover:text-white transition-colors">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h5 class=" font-black mb-4 uppercase tracking-tighter">Custom CMS</h5>
+                    <p class="text-gray-500 group-hover:text-white/80 transition-colors text-sm leading-relaxed">
+                        Manage products, users, and blogs through an intuitive dashboard tailored to you.
+                    </p>
+                </div>
+                <div class="bg-gray-950 p-12 hover:bg-blue-600 transition-all duration-500 group">
+                    <div class="text-blue-600 text-4xl mb-8 group-hover:text-white transition-colors">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h5 class=" font-black mb-4 uppercase tracking-tighter">Auth Engines</h5>
+                    <p class="text-gray-500 group-hover:text-white/80 transition-colors text-sm leading-relaxed">
+                        Secure login systems for members, clients, and internal teams.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
+                <div class="max-w-2xl">
+                    <h2 class="text-6xl font-black text-gray-900 mb-6 tracking-tighter uppercase">
+                        The Admin <span class="text-blue-600">Empire.</span>
+                    </h2>
+                    <p class="text-gray-500 text-lg font-medium border-l-4 border-blue-600 pl-6">
+                        Take full command of your digital landscape. Our custom-built backend systems are engineered for speed, security, and total content autonomy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="owl-carousel admin-carousel">
+                <div class="px-2">
+                    <div class="relative overflow-hidden rounded-2xl shadow-xl group">
+                        <img src="/asset/software/shavison (1).png" alt="customer management" class="w-full transition-transform duration-500 group-hover:scale-105">
+                        <div class="p-8 bg-white border-x border-b border-gray-100">
+                            <h5 class="text-lg font-black uppercase mb-2">User Relations</h5>
+                            <p class="text-xs text-blue-600 font-bold uppercase tracking-widest">Customer Management System</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Right: Image + CTA -->
-                <div class="relative flex flex-col items-center justify-center lg:pl-8 mt-4 max-md:mb-8">
-                    <div class="relative w-full overflow-hidden  max-lg:w-full">
-                        <!-- Main image -->
-                        <img src="/asset/custom.jpg" alt="Professional Web Design" class="w-full h-full max-lg:h-[30vh] object-cover rounded-xl">
+                <div class="px-2">
+                    <div class="relative overflow-hidden rounded-2xl shadow-xl group">
+                        <img src="/asset/software/shavison (2).png" alt="dashboard" class="w-full transition-transform duration-500 group-hover:scale-105">
+                        <div class="p-8 bg-white border-x border-b border-gray-100">
+                            <h5 class="text-lg font-black uppercase mb-2">Live Insights</h5>
+                            <p class="text-xs text-blue-600 font-bold uppercase tracking-widest">Real-Time Data Dashboard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-2">
+                    <div class="relative overflow-hidden rounded-2xl shadow-xl group">
+                        <img src="/asset/software/shavison (3).png" alt="upcoming event" class="w-full transition-transform duration-500 group-hover:scale-105">
+                        <div class="p-8 bg-white border-x border-b border-gray-100">
+                            <h5 class="text-lg font-black uppercase mb-2">Event Scheduling</h5>
+                            <p class="text-xs text-blue-600 font-bold uppercase tracking-widest">Dynamic Calendar Updates</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-2">
+                    <div class="relative overflow-hidden rounded-2xl shadow-xl group">
+                        <img src="/asset/software/shavison (4).png" alt="login shavison" class="w-full transition-transform duration-500 group-hover:scale-105">
+                        <div class="p-8 bg-white border-x border-b border-gray-100">
+                            <h5 class="text-lg font-black uppercase mb-2">Secure Auth</h5>
+                            <p class="text-xs text-blue-600 font-bold uppercase tracking-widest">Access Control & Security</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-2">
+                    <div class="relative overflow-hidden rounded-2xl shadow-xl group">
+                        <img src="/asset/software/shavison (5).png" alt="website setting" class="w-full transition-transform duration-500 group-hover:scale-105">
+                        <div class="p-8 bg-white border-x border-b border-gray-100">
+                            <h5 class="text-lg font-black uppercase mb-2">Global Settings</h5>
+                            <p class="text-xs text-blue-600 font-bold uppercase tracking-widest">Core Configuration Engine</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="py-40 bg-gray-950 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-blue-600/5 -skew-x-12 transform translate-x-20"></div>
 
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <span class="text-blue-500 font-black text-xs uppercase tracking-[0.5em] mb-8 block">Ready for the next level?</span>
+            <h2 class="text-6xl md:text-8xl font-black text-white tracking-tighter mb-12 uppercase leading-none">
+                BUILD YOUR <br> <span class="text-blue-600">EMPIRE.</span>
+            </h2>
 
-    <section class="py-24 bg-blue-50 rounded-tl-[80px]  relative overflow-hidden max-lg:py-12 ">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto ">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl max-md:text-2xl font-medium uppercase text-gray-900">
-                    Strategic Digital Excellence
-                </h2>
-            </div>
+            <div class="flex flex-col items-center justify-center">
+                <a href="/getquote" class="group relative px-16 py-6 bg-blue-600 text-white text-sm font-black uppercase tracking-[0.5em] transition-all duration-500 shadow-[0_20px_50px_rgba(37,99,235,0.3)] hover:shadow-[0_20px_50px_rgba(37,99,235,0.5)] hover:-translate-y-1">
+                    <span class="relative z-10">Get Started Now</span>
+                    <div class="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300 mix-blend-difference"></div>
+                </a>
 
-            <div class="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-10 relative">
-
-                <!-- Card 1 -->
-                <div class="group bg-white border-t-4 border-blue-600 rounded-xl shadow-lg p-8 transition-all hover:shadow-xl relative">
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-semibold text-gray-800">Proven Formula</h3>
-                        <div class="relative w-12 h-12">
-                            <div class="absolute inset-0 bg-black rounded-md transform rotate-0 group-hover:rotate-12 transition duration-300"></div>
-                            <div class="absolute -top-2 -left-2 w-12 h-12 border-2 border-black rounded-md transform rotate-0 group-hover:-rotate-12 transition duration-300"></div>
-                            <i class="fas fa-chart-line text-white text-xl absolute top-3 left-3 z-10"></i>
-                        </div>
+                <div class="mt-20 flex flex-col md:flex-row items-center gap-8 md:gap-16 border-t border-white/10 pt-12">
+                    <div class="text-left">
+                        <p class="text-[10px] text-gray-500 uppercase font-black tracking-widest mb-1">Current Version</p>
+                        <p class="text-xs text-white font-bold tracking-widest italic">Rudra Tech v3.0 — 2026</p>
                     </div>
-                    <div class="h-px bg-gradient-to-r from-blue-500 to-transparent mb-6"></div>
-                    <p class="text-gray-600">100s of websites optimized. 1,000s of first-page rankings across industries.</p>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="group bg-white border-t-4 border-blue-600 rounded-xl shadow-lg p-8 transition-all hover:shadow-xl relative">
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-semibold text-gray-800">Winning Team</h3>
-                        <div class="relative w-12 h-12">
-                            <div class="absolute inset-0 bg-black rounded-md transform rotate-0 group-hover:rotate-12 transition duration-300"></div>
-                            <div class="absolute -top-2 -left-2 w-12 h-12 border-2 border-black rounded-md transform rotate-0 group-hover:-rotate-12 transition duration-300"></div>
-                            <i class="fas fa-users text-white text-xl absolute top-3 left-3 z-10"></i>
-                        </div>
+                    <div class="w-px h-8 bg-white/10 hidden md:block"></div>
+                    <div class="text-left">
+                        <p class="text-[10px] text-gray-500 uppercase font-black tracking-widest mb-1">Service Standard</p>
+                        <p class="text-xs text-white font-bold tracking-widest uppercase">Professional Engineering</p>
                     </div>
-                    <div class="h-px bg-gradient-to-r from-blue-500 to-transparent mb-6"></div>
-                    <p class="text-gray-600">A team of skilled designers, SEO experts, developers, and strategists who deliver results.</p>
                 </div>
-
-                <!-- Card 3 -->
-                <div class="group bg-white border-t-4 border-blue-600 rounded-xl shadow-lg p-8 transition-all hover:shadow-xl relative">
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-semibold text-gray-800">ROI Oriented</h3>
-                        <div class="relative w-12 h-12">
-                            <div class="absolute inset-0 bg-black rounded-md transform rotate-0 group-hover:rotate-12 transition duration-300"></div>
-                            <div class="absolute -top-2 -left-2 w-12 h-12 border-2 border-black rounded-md transform rotate-0 group-hover:-rotate-12 transition duration-300"></div>
-                            <i class="fas fa-chart-pie text-white text-xl absolute top-3 left-3 z-10"></i>
-                        </div>
-                    </div>
-                    <div class="h-px bg-gradient-to-r from-blue-500 to-transparent mb-6"></div>
-                    <p class="text-gray-600">Get measurable returns that far exceed your investment in web design and SEO.</p>
-                </div>
-
             </div>
         </div>
     </section>
-
-
-
 
     <?php include 'include/marquee.php' ?>
     <?php include "include/upperfooter.php"; ?>
     <?php include "include/footer.php" ?>
+
+    <script>
+        $(document).ready(function() {
+            $(".admin-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                dots: true,
+                responsive: {
+                    768: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 2.5
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 

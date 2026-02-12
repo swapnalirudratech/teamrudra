@@ -69,67 +69,67 @@ $page_title = "website-designing"; ?>
             <div class="owl-carousel owl-theme ecommerce-slider">
 
                 <div class="item group px-2">
-                    <div class="relative h-[450px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
-                        <img src="/asset/software/furniture.jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="High-End Furniture">
+                    <div class="relative h-[400px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <img src="/asset/software/1(6).jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="High-End Furniture">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                             <p class="text-white text-[10px] font-bold uppercase tracking-widest leading-relaxed">Luxury interiors & bespoke kitchen engineering.</p>
                         </div>
                     </div>
                     <div class="mt-6 text-center">
                         <h4 class="text-xs font-black text-slate-900 uppercase tracking-[0.2em] mb-1">High-End Furniture</h4>
-                        <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">4 Core Architectures</p>
+
                     </div>
                 </div>
 
                 <div class="item group px-2">
-                    <div class="relative h-[450px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
-                        <img src="/asset/software/fasion.jpeg" class="w-full h-full object-cover object-top grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Fashion & Retail">
+                    <div class="relative h-[400px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <img src="/asset/software/1(2).jpeg" class="w-full h-full object-cover object-top grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Fashion & Retail">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                             <p class="text-white text-[10px] font-bold uppercase tracking-widest leading-relaxed">Dynamic fashion storefronts with custom checkout logic.</p>
                         </div>
                     </div>
                     <div class="mt-6 text-center">
                         <h4 class="text-xs font-black text-slate-900 uppercase tracking-[0.2em] mb-1">Fashion & Retail</h4>
-                        <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">3 Custom Frameworks</p>
+
                     </div>
                 </div>
 
                 <div class="item group px-2">
-                    <div class="relative h-[450px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
-                        <img src="/asset/software/organic.jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="organic product">
+                    <div class="relative h-[400px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <img src="/asset/software/1(5).png" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="organic product">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                             <p class="text-white text-[10px] font-bold uppercase tracking-widest leading-relaxed">Organic products & sustainable supply chains.</p>
                         </div>
                     </div>
                     <div class="mt-6 text-center">
                         <h4 class="text-xs font-black text-slate-900 uppercase tracking-[0.2em] mb-1">Organic Products</h4>
-                        <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">3 Custom Frameworks</p>
+
                     </div>
                 </div>
 
                 <div class="item group px-2">
-                    <div class="relative h-[450px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
-                        <img src="/asset/software/beauty.jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Beauty Wellness">
+                    <div class="relative h-[400px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <img src="/asset/software/1 (4).jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Beauty Wellness">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                             <p class="text-white text-[10px] font-bold uppercase tracking-widest leading-relaxed">Aesthetic UI/UX for beauty & premium wellness products.</p>
                         </div>
                     </div>
                     <div class="mt-6 text-center">
                         <h4 class="text-xs font-black text-slate-900 uppercase tracking-[0.2em] mb-1">Beauty Wellness</h4>
-                        <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">2 Conversion Flows</p>
+
                     </div>
                 </div>
 
                 <div class="item group px-2">
-                    <div class="relative h-[450px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
-                        <img src="/asset/software/mashine.jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Industrial B2B">
+                    <div class="relative h-[400px] rounded-sm overflow-hidden border border-slate-100 shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <img src="/asset/software/1(3).jpg" class="w-full h-full object-cover object-center grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" alt="Industrial B2B">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                             <p class="text-white text-[10px] font-bold uppercase tracking-widest leading-relaxed">B2B commerce hubs for industrial machinery & parts.</p>
                         </div>
                     </div>
                     <div class="mt-6 text-center">
                         <h4 class="text-xs font-black text-slate-900 uppercase tracking-[0.2em] mb-1">Industrial B2B</h4>
-                        <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Enterprise API Ready</p>
+
                     </div>
                 </div>
 
@@ -577,57 +577,89 @@ $page_title = "website-designing"; ?>
 
     </div>
 
-    <section class="bg-gray-50 py-24 max-md:py-12  px-6 overflow-hidden">
+    <section class="bg-gray-50 py-24 max-md:py-12 px-6 overflow-hidden">
         <div class="max-w-7xl mx-auto">
 
-            <div class="text-center mb-16 max-md:mb-6 ">
-                <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase">Mobile-First Experience</h2>
-                <p class="mt-2 text-3xl max-md:text-2xl font-extrabold text-gray-900 sm:text-4xl">
+            <div class="text-center mb-16 max-md:mb-10">
+                <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase font-eternal">Mobile-First Experience</h2>
+                <p class="mt-2 text-3xl max-md:text-2xl font-extrabold text-gray-900 sm:text-4xl ">
                     Powerful Features in the Palm of Your Hand
                 </p>
-                <p class="mt-4 max-w-2xl mx-auto text-lg max-md:text-sm  text-gray-600">
-                    See how our eCommerce solutions look and feel on mobile. From smooth transitions to instant checkout.
-                </p>
             </div>
 
-            <div class="relative mx-auto border-gray-900 bg-gray-900 border-[14px] rounded-[2.5rem] h-[580px] w-[300px] shadow-2xl overflow-hidden">
+            <div class="relative flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20">
 
-                <div class="absolute top-0 inset-x-0 h-6 bg-gray-900 z-20">
-                    <div class=" mx-auto w-20 h-1 bg-gray-800 rounded-full"></div>
+                <div class="hidden lg:flex flex-col gap-24 w-1/4 text-right">
+                    <div class="relative">
+                        <h4 class="font-bold text-gray-900 uppercase text-xs tracking-widest mb-2">App-Like Speed</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Lightning fast browsing via static edge delivery.</p>
+                        <svg class="absolute -right-16 top-0 text-indigo-300 w-12 h-12 transform rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
+                    <div class="relative">
+                        <h4 class="font-bold text-gray-900 uppercase text-xs tracking-widest mb-2">One-Tap Checkout</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Seamless payment transitions for higher conversions.</p>
+                        <svg class="absolute -right-16 top-0 text-indigo-300 w-12 h-12 transform -rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
                 </div>
 
-                <div class="h-full w-full bg-white relative">
-                    <video
-                        class="h-full w-full object-cover"
-                        autoplay
-                        loop
-                        muted
-                        playsinline>
-                        <source src="/asset/software/nova5.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="relative z-10">
+                    <div class="absolute -inset-10 bg-indigo-500/10 rounded-full blur-3xl"></div>
+
+                    <div class="relative border-gray-900 bg-gray-900 border-[14px] rounded-[2.5rem] h-[580px] w-[300px] shadow-2xl overflow-hidden">
+                        <div class="absolute top-0 inset-x-0 h-6 bg-gray-900 z-20">
+                            <div class="mx-auto w-20 h-1 bg-gray-800 rounded-full"></div>
+                        </div>
+
+                        <div class="h-full w-full bg-white relative">
+                            <video class="h-full w-full object-cover" autoplay loop muted playsinline>
+                                <source src="/asset/software/nova5.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="absolute -left-[17px] top-24 h-12 w-[3px] bg-gray-800 rounded-l-lg"></div>
+                        <div class="absolute -left-[17px] top-40 h-12 w-[3px] bg-gray-800 rounded-l-lg"></div>
+                        <div class="absolute -right-[17px] top-32 h-20 w-[3px] bg-gray-800 rounded-r-lg"></div>
+                    </div>
                 </div>
 
-                <div class="absolute -left-[17px] top-24 h-12 w-[3px] bg-gray-800 rounded-l-lg"></div>
-                <div class="absolute -left-[17px] top-40 h-12 w-[3px] bg-gray-800 rounded-l-lg"></div>
-                <div class="absolute -right-[17px] top-32 h-20 w-[3px] bg-gray-800 rounded-r-lg"></div>
+                <div class="hidden lg:flex flex-col gap-24 w-1/4 text-left">
+                    <div class="relative">
+                        <h4 class="font-bold text-gray-900 uppercase text-xs tracking-widest mb-2">Responsive Admin</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Manage your site on the go with our mobile panel.</p>
+                        <svg class="absolute -left-16 top-0 text-indigo-300 w-12 h-12 transform rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                        </svg>
+                    </div>
+                    <div class="relative">
+                        <h4 class="font-bold text-gray-900 uppercase text-xs tracking-widest mb-2">SEO Optimized</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Perfectly indexed for mobile-first search ranking.</p>
+                        <svg class="absolute -left-16 top-0 text-indigo-300 w-12 h-12 transform -rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-3 text-center lg:hidden mt-10">
+                    <div>
+                        <h4 class="font-bold text-gray-900">App-Like Speed</h4>
+                        <p class="text-sm text-gray-600 mt-1">Lightning fast browsing.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900">One-Tap Checkout</h4>
+                        <p class="text-sm text-gray-600 mt-1">Seamless payment integration.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900">Responsive Admin</h4>
+                        <p class="text-sm text-gray-600 mt-1">Manage anywhere, anytime.</p>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
-                <div>
-                    <h4 class="font-bold text-gray-900">App-Like Speed</h4>
-                    <p class="text-sm text-gray-600 mt-1">Lightning fast browsing on any mobile device.</p>
-                </div>
-                <div>
-                    <h4 class="font-bold text-gray-900">One-Tap Checkout</h4>
-                    <p class="text-sm text-gray-600 mt-1">Seamless payment integration for mobile users.</p>
-                </div>
-                <div>
-                    <h4 class="font-bold text-gray-900">Responsive Admin</h4>
-                    <p class="text-sm text-gray-600 mt-1">Manage your store on the go with our mobile panel.</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
