@@ -97,6 +97,19 @@
     </div> -->
 
 
+
+    <style>
+        .dropdown-menu,
+        .lg\:col-span-4 {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .owl-stage-outer {
+            overflow: hidden !important;
+        }
+    </style>
+
     <nav class="flex items-center justify-between py-2 max-lg:py-6 z-10 relative w-[90%] ">
 
 
@@ -137,7 +150,8 @@
                             <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 ">
 
 
-                                <div class="lg:col-span-4 flex flex-col gap-8 border-r border-gray-300 pr-8 ">
+                                <div class="lg:col-span-4 flex flex-col gap-8 border-r border-gray-300 pr-8 relative overflow-hidden">
+
 
                                     <div>
                                         <h2 class="text-2xl font-semibold text-gray-800 leading-tight">
