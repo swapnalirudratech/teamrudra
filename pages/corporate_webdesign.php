@@ -215,3 +215,115 @@ $page_title = "static_website_design";
 </body>
 
 </html>
+
+
+
+<div class="hidden">
+
+    <section class="relative pt-40 pb-24 bg-[#f8fafc] overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 mb-8">
+                        <span class="flex h-2 w-2 rounded-full bg-indigo-600"></span>
+                        <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">Established 2026</span>
+                    </div>
+                    <h1 class="text-6xl lg:text-7xl font-black text-slate-900 leading-tight mb-8 tracking-tighter">
+                        Scaling Brands <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600">Globally.</span>
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-12 max-w-lg leading-relaxed font-light">
+                        Rudratech engineers high-performance corporate platforms that combine enterprise-grade security with intuitive user experiences.
+                    </p>
+                    <div class="flex flex-wrap gap-5">
+                        <button class="px-10 py-5 bg-slate-900 text-white rounded-2xl font-bold hover:bg-indigo-600 transition-all shadow-xl">Start Strategy Session</button>
+                        <div class="flex items-center gap-4 px-6 border-l border-slate-200">
+                            <div class="text-slate-900 font-bold text-2xl">50+</div>
+                            <div class="text-slate-500 text-xs uppercase font-bold tracking-widest leading-none">Global <br>Enterprises</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 relative">
+                    <div class="relative z-20 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden">
+                        <img src="/asset/software/corporate=web.png" alt="Rudratech Corporate Design" class="w-full">
+                    </div>
+                    <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-indigo-200 rounded-full blur-[100px] opacity-40"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-slate-100">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div>
+                    <h4 class="text-indigo-600 font-bold uppercase tracking-widest text-sm mb-4">Discovery</h4>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Strategic Mapping</h3>
+                    <p class="text-slate-500">We analyze your corporate objectives and competitor landscape to build a blueprint for digital dominance.</p>
+                </div>
+                <div>
+                    <h4 class="text-indigo-600 font-bold uppercase tracking-widest text-sm mb-4">Development</h4>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Scaleable Engineering</h3>
+                    <p class="text-slate-500">Using **PHP**, **JavaScript**, and **Tailwind CSS**, we build architectures that support thousands of concurrent users.</p>
+                </div>
+                <div>
+                    <h4 class="text-indigo-600 font-bold uppercase tracking-widest text-sm mb-4">Launch</h4>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Performance Audit</h3>
+                    <p class="text-slate-500">Post-launch, we perform heavy security and speed audits to ensure your brand's authority is maintained.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="py-24 bg-[#0f172a] text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Our Enterprise Footprint</h2>
+                <p class="text-slate-400">Leading the digital transformation for diverse industry sectors.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <?php
+                $projects = [
+                    ['name' => 'Pranaa Landscapes', 'tag' => 'Corporate Service', 'img' => '/asset/software/dreamkichen-landing.png'],
+                    ['name' => 'Media Solutions', 'tag' => 'AdTech Enterprise', 'img' => '/asset/software/building-material-landing.png'],
+                    ['name' => 'Vitmio Pharma', 'tag' => 'Healthcare Tech', 'img' => '/asset/software/packer-movers-landing.png'],
+                    ['name' => 'Rudra IT Hub', 'tag' => 'Internal Systems', 'img' => '/asset/software/washing-machin-landing.png']
+                ];
+                foreach ($projects as $project): ?>
+                    <div class="group relative bg-slate-800 rounded-[2.5rem] border border-white/5 overflow-hidden transition-all hover:border-indigo-500/50">
+                        <div class="h-[450px] w-full overflow-hidden relative">
+                            <img src="<?= $project['img'] ?>"
+                                class="w-full absolute top-0 left-0 transition-all duration-[8s] ease-in-out group-hover:translate-y-[calc(-100%+450px)] grayscale group-hover:grayscale-0"
+                                alt="<?= $project['name'] ?> Case Study">
+                        </div>
+                        <div class="p-8 bg-slate-900/90 backdrop-blur-md relative z-10 border-t border-white/5">
+                            <h4 class="font-bold text-xl"><?= $project['name'] ?></h4>
+                            <p class="text-xs text-indigo-400 font-bold uppercase tracking-widest mt-1"><?= $project['tag'] ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Corporate Development FAQ</h2>
+            </div>
+            <div class="space-y-6">
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100">
+                    <h5 class="font-bold text-slate-900 mb-3 text-lg">Can your websites handle high traffic loads?</h5>
+                    <p class="text-slate-600">Yes. We specialize in scalable architectures for clients like **NK** and **Rudra Tech**, ensuring zero-downtime during peak visitor hours.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100">
+                    <h5 class="font-bold text-slate-900 mb-3 text-lg">Are the designs optimized for B2B lead generation?</h5>
+                    <p class="text-slate-600">Every element is built for conversion. We utilize professional UI/UX frameworks to ensure corporate visitors are funneled toward inquiries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

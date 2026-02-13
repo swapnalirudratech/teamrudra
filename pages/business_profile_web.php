@@ -213,10 +213,206 @@ $page_title = "biseness-profile";
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="container mx-auto px-6">
+
+            <div class="text-center mb-16">
+                <h2 class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Project Spotlight</h2>
+                <h3 class="text-4xl font-extrabold text-gray-900">Innovation in Every Pixel</h3>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+
+                <div class="w-full lg:w-1/4 space-y-12 text-right order-2 lg:order-1">
+                    <div class="group">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Modern UI/UX</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            We design interfaces that are not only beautiful but conversion-focused, ensuring your users stay engaged.
+                        </p>
+                    </div>
+                    <div class="group">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Lightning Speed</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Optimized with Tailwind CSS and clean JS to ensure 99+ Core Web Vital scores for better SEO ranking.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-2/4 order-1 lg:order-2">
+                    <div class="relative group">
+                        <div class="absolute -inset-4 bg-blue-100 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+
+                        <div class="relative bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden transform group-hover:scale-[1.02] transition duration-500">
+
+                            <div class="bg-gray-100 px-4 py-3 flex items-center gap-1.5 border-b border-gray-200">
+                                <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
+                                <div class="ml-4 bg-white h-5 w-full rounded-md border border-gray-200 flex items-center px-2">
+                                    <div class="w-2 h-2 rounded-full bg-gray-200 mr-2"></div>
+                                    <div class="h-1.5 w-24 bg-gray-100 rounded"></div>
+                                </div>
+                            </div>
+
+                            <div class="aspect-video bg-slate-900 flex items-center justify-center overflow-hidden">
+                                <video
+                                    class="w-full h-full object-cover"
+                                    autoplay
+                                    loop
+                                    muted
+                                    playsinline>
+                                    <source src="/asset/software/madasky-v.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                            <div class="bg-white border-t border-gray-50 px-4 py-2 flex justify-between items-center">
+                                <span class="text-[10px] font-bold text-blue-600 uppercase tracking-tighter">Live Preview: RudraTech Admin</span>
+                                <div class="flex gap-2">
+                                    <div class="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse"></div>
+                                    <span class="text-[10px] text-gray-400">System Active</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-1/4 space-y-12 text-left order-3">
+                    <div class="group">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">SEO Ready</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Built-in semantic HTML structure to make your business easily discoverable on Google and Bing.
+                        </p>
+                    </div>
+                    <div class="group">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Admin Control</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Every website we build comes with a custom dashboard to manage your content without touching a line of code.
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
+
+
+    <section class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+
+            <div class="mb-16">
+                <h2 class="text-blue-600 font-bold uppercase tracking-widest text-sm mb-2">Total Control</h2>
+                <h3 class="text-4xl font-extrabold text-gray-900">Custom Built <span class="text-blue-700">Admin Dashboards</span></h3>
+                <p class="text-gray-600 mt-4 max-w-2xl">Manage your entire business from one place. Our custom-coded panels are fast, secure, and easy to use.</p>
+            </div>
+
+            <div class="owl-carousel owl-theme" id="admin-carousel">
+
+                <div class="item px-4">
+                    <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                        <div class="bg-gray-800 px-4 py-2 flex gap-1.5 items-center">
+                            <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                            <span class="text-[10px] text-gray-400 ml-2 font-mono uppercase tracking-tighter">Main_Dashboard.php</span>
+                        </div>
+                        <img src="https://via.placeholder.com/800x500/1e40af/ffffff?text=Main+Analytics+Dashboard" alt="Admin Dashboard" class="w-full">
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-gray-800">Real-time Analytics</h4>
+                            <p class="text-gray-500 text-sm mt-2">Track visitors, sales, and performance in real-time with visual charts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item px-4">
+                    <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                        <div class="bg-gray-800 px-4 py-2 flex gap-1.5 items-center">
+                            <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                            <span class="text-[10px] text-gray-400 ml-2 font-mono uppercase tracking-tighter">User_Control.php</span>
+                        </div>
+                        <img src="https://via.placeholder.com/800x500/1d4ed8/ffffff?text=User+Management+System" alt="User Management" class="w-full">
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-gray-800">User Management</h4>
+                            <p class="text-gray-500 text-sm mt-2">Control roles, permissions, and profiles with a secure database system.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item px-4">
+                    <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                        <div class="bg-gray-800 px-4 py-2 flex gap-1.5 items-center">
+                            <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                            <span class="text-[10px] text-gray-400 ml-2 font-mono uppercase tracking-tighter">Inventory.php</span>
+                        </div>
+                        <img src="https://via.placeholder.com/800x500/3b82f6/ffffff?text=Product+Inventory+CMS" alt="Inventory Management" class="w-full">
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-gray-800">Dynamic CMS</h4>
+                            <p class="text-gray-500 text-sm mt-2">Update your website content, products, or images without any coding knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function() {
+            $("#admin-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                smartSpeed: 800,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 2.5
+                    } // Shows a preview of the next slide
+                },
+                navText: [
+                    '<span class="bg-white p-3 rounded-full shadow-lg text-blue-600 hover:bg-blue-600 hover:text-white transition">←</span>',
+                    '<span class="bg-white p-3 rounded-full shadow-lg text-blue-600 hover:bg-blue-600 hover:text-white transition">→</span>'
+                ]
+            });
+        });
+    </script>
+
+    <style>
+        .owl-nav {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .owl-dots {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .owl-dot.active span {
+            background: #1e40af !important;
+            /* Active Blue Dot */
+        }
+    </style>
 
 
     <?php include 'include/marquee.php' ?>
