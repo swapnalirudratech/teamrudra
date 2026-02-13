@@ -1,349 +1,238 @@
 <?php
-$page_title = "email-website-designing"; ?>
+$page_title = "Landing Page Design & Conversion Services | Rudratech";
+include "include/header.php";
+include "include/navbar.php";
+?>
 
-<?php include "include/header.php"; ?>
+<section class="relative py-20 bg-[#f8f9ff] overflow-hidden">
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2 text-left">
+                <div class="inline-block px-4 py-1.5 mb-6 text-sm font-bold text-blue-600 bg-blue-50 rounded-full border border-blue-100">
+                    Trusted Landing Page Agency
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold text-[#0f172a] leading-tight mb-6">
+                    Launch Pages That <span class="text-blue-600">Drive Growth</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-lg">
+                    We design and develop high-converting landing pages for businesses that want more leads, more sales, and better ROI.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="/get-started" class="px-8 py-4 bg-black text-white rounded-xl font-bold hover:bg-blue-600 transition-all shadow-xl">Start Your Project</a>
+                    <a href="#work" class="px-8 py-4 bg-white border border-gray-200 text-gray-900 rounded-xl font-bold hover:bg-gray-50 transition-all">View Our Work</a>
+                </div>
+            </div>
 
-<!DOCTYPE html>
-<html lang="en">
+            <div class="lg:w-1/2 relative">
+                <div class="relative z-20 animate-float">
+                    <img src="/asset/software/landing-page.png" alt="Rudratech Landing Page Design" class="rounded-2xl shadow-2xl border-4 border-white">
+                </div>
+                <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-200 rounded-full blur-3xl opacity-50"></div>
+                <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-purple-200 rounded-full blur-3xl opacity-50"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-24 bg-white">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-16">Why Businesses Choose Rudratech</h2>
+
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="p-10 rounded-3xl bg-[#f8f9ff] border border-gray-100 hover:shadow-lg transition-all text-left">
+                <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-md mb-6">
+                    <i class="fa-solid fa-rocket text-blue-600 text-xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-900">Conversion Focused</h3>
+                <p class="text-gray-600 leading-relaxed">We don't just make it pretty. We use heatmaps and psychology to ensure users take action on your page.</p>
+            </div>
+
+            <div class="p-10 rounded-3xl bg-[#f8f9ff] border border-gray-100 hover:shadow-lg transition-all text-left">
+                <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-md mb-6">
+                    <i class="fa-solid fa-code text-blue-600 text-xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-900">Advanced Tech Stack</h3>
+                <p class="text-gray-600 leading-relaxed">Built with Tailwind CSS and lightweight code for lightning-fast loading speeds under 1.5 seconds.</p>
+            </div>
+
+            <div class="p-10 rounded-3xl bg-[#f8f9ff] border border-gray-100 hover:shadow-lg transition-all text-left">
+                <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-md mb-6">
+                    <i class="fa-solid fa-magnifying-glass text-blue-600 text-xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-900">SEO Optimized</h3>
+                <p class="text-gray-600 leading-relaxed">Proper heading hierarchy and fast loading times mean your page ranks higher on Google automatically.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <style>
-    @keyframes fadeUp {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .animate-fade-up {
-        animation: fadeUp 1s ease-out forwards;
+    /* Smooth easing for the scroll effect */
+    .scroll-container img {
+        transition: transform 5s ease-in-out, filter 0.5s ease;
+        will-change: transform;
+        /* Optimization for smoother motion */
     }
 </style>
 
-<body>
-
-    <?php
-    include "include/navbar.php";
-    ?>
-
-    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
-
-        <div class="absolute inset-0">
-            <img src="/asset/image/lpbg.avif" alt="Landing Page Background"
-                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
-
-            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/90"></div>
+<section id="work" class="py-24 bg-[#0f172a] text-white">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+            <div class="max-w-xl">
+                <h2 class="text-4xl font-bold mb-4">Our Latest Work</h2>
+                <p class="text-gray-400 text-lg">Hover over the designs to see the full page layout.</p>
+            </div>
+            <a href="/portfolio" class="text-blue-400 font-bold hover:text-white transition-all flex items-center gap-2">
+                Explore All Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
 
-        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-5xl mx-auto flex flex-col items-center animate-fade-up">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-            <span class="mb-4 inline-block px-4 py-1.5 text-sm font-bold tracking-[0.2em] text-gray-300 border-b border-gray-500 uppercase">
-                Conversion-First Design
-            </span>
-
-            <h1 class="text-white font-extrabold tracking-tight leading-none drop-shadow-2xl
-                   text-3xl md:text-6xl mb-6">
-                Pages that <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">Convert</span>
-            </h1>
-
-            <h2 class="text-gray-200 text-base md:text-lg font-light mb-8 max-w-2xl mx-auto leading-relaxed max-md:hidden">
-                Stop losing leads. Launch high-performance pages designed for <b class="text-white">Speed</b> and <b class="text-white">Maximum ROI</b>.
-            </h2>
-
-            <div class="flex flex-col sm:flex-row gap-4">
-                <a href="/getquote"
-                    class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-8 py-4 rounded-full 
-                       hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
-                    Boost My Sales
-                </a>
-                <a href="/portfolio"
-                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/30 rounded-full 
-                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
-                    View Projects
-                </a>
+            <div class="group relative bg-slate-800 rounded-3xl border border-white/10 overflow-hidden shadow-2xl transition-all scroll-container">
+                <div class="h-[450px] w-full overflow-hidden relative">
+                    <img src="/asset/software/dreamkichen-landing.png"
+                        class="w-full absolute top-0 left-0  group-hover:translate-y-[calc(-100%+450px)]"
+                        alt="Dream Kitchen Landing">
+                </div>
+                <div class="p-5 bg-slate-900/80 backdrop-blur-md relative z-20">
+                    <h4 class="font-bold text-lg">Dream Kitchen</h4>
+                    <p class="text-xs text-blue-400 font-semibold uppercase">Interior Design</p>
+                </div>
             </div>
+
+            <div class="group relative bg-slate-800 rounded-3xl border border-white/10 overflow-hidden shadow-2xl transition-all scroll-container lg:mt-12">
+                <div class="h-[450px] w-full overflow-hidden relative">
+                    <img src="/asset/software/building-material-landing.png"
+                        class="w-full absolute top-0 left-0  group-hover:translate-y-[calc(-100%+450px)]"
+                        alt="Building Material Landing">
+                </div>
+                <div class="p-5 bg-slate-900/80 backdrop-blur-md relative z-20">
+                    <h4 class="font-bold text-lg">BuildMaster</h4>
+                    <p class="text-xs text-blue-400 font-semibold uppercase">Industrial Supply</p>
+                </div>
+            </div>
+
+            <div class="group relative bg-slate-800 rounded-3xl border border-white/10 overflow-hidden shadow-2xl transition-all scroll-container">
+                <div class="h-[450px] w-full overflow-hidden relative">
+                    <img src="/asset/software/packer-movers-landing.png"
+                        class="w-full absolute top-0 left-0  group-hover:translate-y-[calc(-100%+450px)]"
+                        alt="Packer Movers Landing">
+                </div>
+                <div class="p-5 bg-slate-900/80 backdrop-blur-md relative z-20">
+                    <h4 class="font-bold text-lg">Fast Movers</h4>
+                    <p class="text-xs text-blue-400 font-semibold uppercase">Logistics</p>
+                </div>
+            </div>
+
+            <div class="group relative bg-slate-800 rounded-3xl border border-white/10 overflow-hidden shadow-2xl transition-all scroll-container lg:mt-12">
+                <div class="h-[450px] w-full overflow-hidden relative">
+                    <img src="/asset/software/washing-machin-landing.png"
+                        class="w-full absolute top-0 left-0  group-hover:translate-y-[calc(-100%+450px)]"
+                        alt="Washing Machine Landing">
+                </div>
+                <div class="p-5 bg-slate-900/80 backdrop-blur-md relative z-20">
+                    <h4 class="font-bold text-lg">Smart Repair</h4>
+                    <p class="text-xs text-blue-400 font-semibold uppercase">Service Booking</p>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="relative h-auto  w-full overflow-hidden bg-gradient-to-br from-blue-50 via-white to-white py-28 max-lg:py-10">
-        <div class="container mx-auto w-[85%] flex flex-col md:flex-row items-center gap-10">
-
-            <div class="flex-1 text-left space-y-6">
-                <h1 class="text-5xl max-lg:text-3xl  max-md:text-3xl font-extrabold text-gray-900 leading-tight">
-                    Premium <span class="text-blue-600">Landing Page</span> Designs <br>
-                    for Your Business
-                </h1>
-                <p class=" text-gray-600 max-w-xl">
-                    We craft elegant, high-performing landing pages that captivate users and drive measurable business results.
-                </p>
-                <a href="/getaquote"
-                    class="inline-block px-8 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all">
-                    Get a Quote
-                </a>
-            </div>
-
-
-            <div class="flex-1 relative max-md:hidden">
-                <img src="/asset/landing.png"
-                    alt="Landing Page Design"
-                    class="w-full ">
-                <div class="absolute inset-0 bg-blue-500/10 rounded-3xl blur-3xl"></div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Services Section - Zigzag Layout -->
-    <section id="services" class="py-16 max-lg:py-12   bg-gradient-to-b from-blue-50 via-white to-white">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto ">
-            <div class="text-center mb-20 max-lg:mb-8">
-                <h2 class="text-5xl max-lg:text-3xl  font-bold mb-4">Landing Page Services</h2>
-                <p class=" text-gray-600">Full-service solutions for effective web presence</p>
-            </div>
-
-            <!-- Service 1 - Left aligned -->
-            <div class="grid md:grid-cols-2 gap-16 items-center mb-32 max-lg:mb-12 stagger-fade max-lg:gap-8">
-                <div>
-
-                    <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Custom Landing Page Design</h3>
-                    <p class=" text-gray-600 mb-6 leading-relaxed">
-                        Every detail counts. We create custom, attention-grabbing landing pages that showcase your brand personality and communicate with your target audience in a compelling visual language.
-                    </p>
-                    <ul class="space-y-3 text-gray-700">
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Responsive Design for All Devices</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Brand-Aligned Visual Identity</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Modern UI/UX Best Practices</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="relative ">
-                    <img src="/asset/image/lp1.png" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
+<section class="py-24 bg-white overflow-hidden">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-center gap-16">
+            <div class="lg:w-1/2 relative">
+                <div class="absolute -top-10 -left-10 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-60"></div>
+                <div class="relative z-10 bg-gradient-to-tr from-blue-600 to-indigo-700 p-1 rounded-[2.5rem] shadow-2xl">
+                    <div class="bg-white rounded-[2.3rem] overflow-hidden">
+                        <img src="/asset/software/landing-page1.png" alt="Rudratech Design Process" class="w-full h-auto">
+                    </div>
                 </div>
             </div>
 
-            <!-- Service 2 - Right aligned -->
-            <div class="grid md:grid-cols-2 gap-16 items-center mb-32 max-lg:mb-12 stagger-fade max-lg:gap-8">
-                <div class="order-2 md:order-1 relative ">
-                    <img src="/asset/l1.avif" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
-                </div>
-                <div class="order-1 md:order-2">
-
-                    <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Conversion Optimization</h3>
-                    <p class=" text-gray-600 mb-6 leading-relaxed">
-                        Design that converts. We apply expert conversion design principles, persuasive CTAs, and strategic content placement to maximize your visitor-to-customer conversion rate.
-                    </p>
-                    <ul class="space-y-3 text-gray-700">
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>A/B Testing & Analytics Integration</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Strategic Call-to-Action Placement</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Lead Capture Forms & Automation</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Service 3 - Left aligned -->
-            <div class="grid md:grid-cols-2 gap-16 items-center mb-32 max-lg:mb-0 stagger-fade max-lg:gap-8">
-                <div>
-
-                    <h3 class="text-4xl max-lg:text-2xl  font-bold mb-6">Fast & SEO-Optimized</h3>
-                    <p class=" text-gray-600 mb-6 leading-relaxed">
-                       Speed meets visibility. We develop super-fast landing pages with optimized code, images, and SEO best practices to ensure your page is highly visible and loads in an instant.
-                    </p>
-                    <ul class="space-y-3 text-gray-700">
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Lightning-Fast Load Times (< 2s)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>SEO-Friendly Structure & Meta Tags</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-blue-600 mr-3 ">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <span>Mobile-First Development Approach</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="relative ">
-                    <img src="/asset/seo.webp" class="w-full h-[50vh] max-lg:h-[30vh]  object-cover rounded-xl" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section - Timeline Flow -->
-    <section id="process" class="py-16 max-lg:py-12 px-6 bg-gradient-to-b from-gray-50 to-white">
-        <div class="w-[80%] max-lg:w-[90%] mx-auto">
-            <!-- Heading -->
-            <div class="text-center mb-20 max-lg:mb-10">
-                <h2 class="text-5xl max-md:text-3xl font-bold mb-4">
-                    Our <span class="text-blue-600">Process</span>
+            <div class="lg:w-1/2">
+                <h2 class="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-8">
+                    Custom Landing Page <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Services by Rudratech</span>
                 </h2>
-                <p class="text-gray-600 text-base max-md:text-sm">
-                   From concept to launch in four easy steps
-                </p>
-            </div>
-
-            <div class="relative">
-                <!-- Center Line (Desktop only) -->
-                <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-600 to-blue-400 transform -translate-x-1/2"></div>
-
-                <!-- Step 1 -->
-                <div class="relative mb-20 max-md:mb-10">
-                    <div class="md:flex items-center">
-                        <!-- Left Content -->
-                        <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0 text-right max-md:text-center">
-                            <div class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-                                Step 01
-                            </div>
-                            <h3 class="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900">
-                                Consultation & Strategy
-                            </h3>
-                            <p class="text-gray-600 leading-relaxed max-md:text-base">
-                               We will discuss your objectives, target audience, and brand strategy to create a strategy that guarantees a high-converting website.
-                            </p>
-                        </div>
-
-                        <!-- Connector Circle -->
-                        <div class="hidden md:flex w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2 items-center justify-center shadow-lg">
-                            <span class="w-7 h-7 bg-white text-blue-700 font-semibold rounded-full flex items-center justify-center text-sm">1</span>
-                        </div>
-
-                        <div class="md:w-1/2 md:pl-16"></div>
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="relative mb-20 max-md:mb-10">
-                    <div class="md:flex items-center">
-                        <div class="md:w-1/2 md:pr-16"></div>
-                        <div class="hidden md:flex w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2 items-center justify-center shadow-lg">
-                            <span class="w-7 h-7 bg-white text-blue-700 font-semibold rounded-full flex items-center justify-center text-sm">2</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-16 max-md:text-center">
-                            <div class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-                                Step 02
-                            </div>
-                            <h3 class="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900">
-                                Design & Prototype
-                            </h3>
-                            <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                Our design team will create pixel-perfect designs and prototypes to ensure an engaging user experience.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="relative mb-20 max-md:mb-10">
-                    <div class="md:flex items-center">
-                        <div class="md:w-1/2 md:pr-16 text-right max-md:text-center">
-                            <div class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-                                Step 03
-                            </div>
-                            <h3 class="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900">
-                                Development & Testing
-                            </h3>
-                            <p class="text-gray-600 leading-relaxed max-md:text-base">
-                                We will develop responsive, optimized, and fast websites while testing to ensure flawless functionality.
-                            </p>
-                        </div>
-                        <div class="hidden md:flex w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2 items-center justify-center shadow-lg">
-                            <span class="w-7 h-7 bg-white text-blue-700 font-semibold rounded-full flex items-center justify-center text-sm">3</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-16"></div>
-                    </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="relative">
-                    <div class="md:flex items-center">
-                        <div class="md:w-1/2 md:pr-16"></div>
-                        <div class="hidden md:flex w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2 items-center justify-center shadow-lg">
-                            <span class="w-7 h-7 bg-white text-blue-700 font-semibold rounded-full flex items-center justify-center text-sm">4</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-16 max-md:text-center">
-                            <div class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-                                Step 04
-                            </div>
-                            <h3 class="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900">
-                                Launch & Optimize
-                            </h3>
-                            <p class="text-gray-600 leading-relaxed max-md:text-base">
-                               After launch, we will track performance, analyze user behavior, and continuously optimize to enhance engagement and conversions.
-                            </p>
-                        </div>
-                    </div>
+                <div class="space-y-6 text-gray-600 text-lg leading-relaxed">
+                    <p>
+                        At Rudratech, we specialize in <strong class="text-gray-900">high-performance landing page design</strong> that transforms casual visitors into loyal customers. We understand that your destination page is the engine of your sales funnel.
+                    </p>
+                    <p>
+                        Our strategy blends <strong class="text-gray-900">behavioral psychology</strong> with cutting-edge UI/UX prototyping. Whether it's for PPC campaigns or organic growth, we build assets that perform.
+                    </p>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+                        <li class="flex items-center gap-3 text-sm font-bold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-blue-500"></i> Lead Generation Pages
+                        </li>
+                        <li class="flex items-center gap-3 text-sm font-bold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-blue-500"></i> High-Ticket Sales Pages
+                        </li>
+                        <li class="flex items-center gap-3 text-sm font-bold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-blue-500"></i> Click-Through Funnels
+                        </li>
+                        <li class="flex items-center gap-3 text-sm font-bold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-blue-500"></i> Webinar Landing Pages
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+<section class="py-24 bg-[#fcfdfe] border-y border-gray-100">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Engineered for Performance</h2>
+            <p class="text-gray-500 italic">"Design is not just what it looks like, it's how it works."</p>
+        </div>
 
-
-    <section class="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20 max-lg:py-12 overflow-hidden">
-        <div class="absolute inset-0 bg-[url('/assets/pattern.svg')] opacity-10"></div>
-
-        <div class="container mx-auto w-[80%] relative z-10 text-center">
-
-            <h2 class="text-4xl max-lg:text-2xl   font-bold mb-6 leading-tight">
-                Ready to Build a Website That Elevates Your Business?
-            </h2>
-
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#contact"
-                    class="px-8 py-4 bg-white text-blue-800 font-semibold rounded-full shadow-md hover:shadow-lg hover:-translate-y-1 transition-all">
-                    Get a Free Consultation
-                </a>
-
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="group p-8 bg-white border border-gray-100 rounded-3xl hover:border-blue-500 transition-all hover:-translate-y-2">
+                <h4 class="text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors mb-4">01</h4>
+                <h5 class="text-xl font-bold text-gray-900 mb-2">Mobile First</h5>
+                <p class="text-gray-500 text-sm">Perfectly responsive layouts that look stunning on every screen size.</p>
+            </div>
+            <div class="group p-8 bg-white border border-gray-100 rounded-3xl hover:border-blue-500 transition-all hover:-translate-y-2">
+                <h4 class="text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors mb-4">02</h4>
+                <h5 class="text-xl font-bold text-gray-900 mb-2">Ultra Fast</h5>
+                <p class="text-gray-500 text-sm">Optimized code and assets for sub-second load times and better SEO.</p>
+            </div>
+            <div class="group p-8 bg-white border border-gray-100 rounded-3xl hover:border-blue-500 transition-all hover:-translate-y-2">
+                <h4 class="text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors mb-4">03</h4>
+                <h5 class="text-xl font-bold text-gray-900 mb-2">SEO Ready</h5>
+                <p class="text-gray-500 text-sm">Semantic HTML structure to help search engines index your page instantly.</p>
+            </div>
+            <div class="group p-8 bg-white border border-gray-100 rounded-3xl hover:border-blue-500 transition-all hover:-translate-y-2">
+                <h4 class="text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors mb-4">04</h4>
+                <h5 class="text-xl font-bold text-gray-900 mb-2">Secure</h5>
+                <p class="text-gray-500 text-sm">Clean, updated code following the latest web security protocols.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+<section class="py-20">
+    <div class="container mx-auto px-6">
+        <div class="bg-slate-900 rounded-[3rem] p-8 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="text-left">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">Start your transformation.</h2>
+                <p class="text-gray-400 text-lg">Stop losing potential revenue to bad design.</p>
+            </div>
+            <div class="flex gap-4">
+                <button class="px-8 py-4 bg-blue-600 text-white font-bold rounded-2xl hover:bg-blue-700 transition-all shadow-lg">Work With Us</button>
+                <button class="px-8 py-4 bg-white/10 text-white font-bold rounded-2xl border border-white/20 hover:bg-white/20 transition-all">Free Audit</button>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-    <?php include "include/marquee.php"; ?>
-    <?php include "include/upperfooter.php"; ?>
-    <?php include "include/footer.php" ?>
-
-
-</body>
-
-</html>
+<?php
+include "include/marquee.php";
+include "include/upperfooter.php";
+include "include/footer.php";
+?>
