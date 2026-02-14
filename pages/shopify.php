@@ -25,7 +25,7 @@ $page_title = "shopify"
                     <a href="/portfolio" class="px-5 py-2.5 max-md:px-3 max-md:py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition transform hover:-translate-y-1">
                         View Projects
                     </a>
-                    <a href="/getin-touch" class="px-5 py-2.5 max-md:px-3 max-md:py-2 border border-blue-500 text-blue-500 font-medium rounded-md hover:bg-blue-500 hover:text-white transition transform hover:-translate-y-1">
+                    <a href="/get-in-touch" class="px-5 py-2.5 max-md:px-3 max-md:py-2 border border-blue-500 text-blue-500 font-medium rounded-md hover:bg-blue-500 hover:text-white transition transform hover:-translate-y-1">
                         Get in Touch
                     </a>
                 </div>
@@ -109,7 +109,7 @@ $page_title = "shopify"
                 </ul>
 
                 <!-- CTA -->
-                <a href="/getin-touch" class="mt-8 inline-block border border-blue-600 hover:bg-blue-500 hover:text-white transition text-blue-500 font-semibold px-6 py-3 rounded shadow">
+                <a href="/get-in-touch" class="mt-8 inline-block border border-blue-600 hover:bg-blue-500 hover:text-white transition text-blue-500 font-semibold px-6 py-3 rounded shadow">
                     Let’s Build Your Shopify Store
                 </a>
             </div>

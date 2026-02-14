@@ -279,7 +279,7 @@ $page_title = "custom-website-designing";
                     Let's discuss how we can help bring your vision to life
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="/getin-touch" class="px-10 py-5 bg-white text-black font-bold hover:bg-gray-100 transition-colors">
+                    <a href="/get-in-touch" class="px-10 py-5 bg-white text-black font-bold hover:bg-gray-100 transition-colors">
                         Get in Touch
                     </a>
                     <a href="tel:+1234567890" class="px-10 py-5 border border-white text-white font-bold hover:bg-white hover:text-black transition-colors">

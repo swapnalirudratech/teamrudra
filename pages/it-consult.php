@@ -195,7 +195,7 @@ $page_title = "it-consult"
                 </div>
 
                 <!-- CTA -->
-                <a href="/getin-touch" class="mt-6 inline-block w-fit bg-blue-700 text-white hover:bg-blue-600 transition px-8 py-4 rounded-md font-medium shadow-md flex items-center">
+                <a href="/get-in-touch" class="mt-6 inline-block w-fit bg-blue-700 text-white hover:bg-blue-600 transition px-8 py-4 rounded-md font-medium shadow-md flex items-center">
                     <i class="fas fa-paper-plane mr-2"></i>
                     Start Your IT Project
                 </a>

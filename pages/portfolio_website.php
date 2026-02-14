@@ -55,7 +55,7 @@ $page_title = "website-designing";
             </h2>
 
             <div class="flex flex-col sm:flex-row gap-4">
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-8 py-4 rounded-full 
                        hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
                     Start Building

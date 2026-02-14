@@ -495,7 +495,7 @@ include "include/header.php";
                 <div class="group relative inline-flex">
                     <div class="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-full blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
 
-                    <a href="/getin-touch"
+                    <a href="/get-in-touch"
                         class="relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 border border-gray-700">
                         Get Started Today
                         <svg class="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -551,7 +551,7 @@ include "include/header.php";
                     </ul>
 
                     <div class="mt-8 max-md:text-center">
-                        <a href="/getin-touch" class="inline-block px-8 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-full text-sm font-medium transition-all shadow-md">
+                        <a href="/get-in-touch" class="inline-block px-8 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-full text-sm font-medium transition-all shadow-md">
                             Let's Design Your Website
                         </a>
                     </div>

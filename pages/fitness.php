@@ -27,7 +27,7 @@ $page_title = "Logistics-delivery-service"
             <p class="text-gray-200 text-base">
                 We create smart, scalable fitness apps tailored to your goals.
             </p>
-            <a href="/getin-touch"
+            <a href="/sah"
                 class="inline-block mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all duration-300">
                 Get Started
             </a>
@@ -175,7 +175,7 @@ $page_title = "Logistics-delivery-service"
                     <li>Diet & Workout Tracking</li>
                     <li>Mobile App Access for Members</li>
                 </ul>
-                <a href="/getin-touch" class="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition">
+                <a href="/get-in-touch" class="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition">
                     Get a Demo
                 </a>
             </div>
@@ -200,21 +200,21 @@ $page_title = "Logistics-delivery-service"
             <div class="flex flex-col items-center space-y-4" data-aos="fade-up" data-aos-delay="100">
                 <img src="/asset/gym3.png" alt="End-user App" class="w-[250px] h-auto max-md:w-[200px] object-contain " />
                 <h4 class="font-semibold text-lg text-gray-800">End-user App</h4>
-                <a href="/getin-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
+                <a href="/get-in-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
             </div>
 
             <!-- Admin Dashboard -->
             <div class="flex flex-col items-center space-y-4" data-aos="fade-up" data-aos-delay="200">
                 <img src="/asset/gym4.png" alt="Admin Dashboard Panel" class="w-[500px] h-auto object-contain " />
                 <h4 class="font-semibold text-lg text-gray-800">Admin Dashboard Panel</h4>
-                <a href="/getin-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
+                <a href="/get-in-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
             </div>
 
             <!-- Trainer App -->
             <div class="flex flex-col items-center space-y-4" data-aos="fade-up" data-aos-delay="300">
                 <img src="/asset/gym6.png" alt="Fitness Trainer App" class="w-[250px] h-auto object-contain " />
                 <h4 class="font-semibold text-lg text-gray-800">Fitness Trainers' App</h4>
-                <a href="/getin-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
+                <a href="/get-in-touch" class="bg-blue-500 text-white font-semibold px-5 py-2 rounded hover:bg-blue-600 transition-all text-sm">Get Started</a>
             </div>
         </div>
     </section>

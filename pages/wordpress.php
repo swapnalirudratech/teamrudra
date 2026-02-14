@@ -397,7 +397,7 @@ $page_title = "wordpress"
                         We craft secure, lightning-fast, and SEO-optimized WordPress websites tailored for startups, businesses & enterprises.
                     </p>
                     <div>
-                        <a href="/getin-touch" class="inline-block max-lg:text-sm bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition">
+                        <a href="/get-in-touch" class="inline-block max-lg:text-sm bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition">
                             Get a Free Consultation
                         </a>
                     </div>

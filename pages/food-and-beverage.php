@@ -71,7 +71,7 @@ $page_title = "food-and-beverage"
 
             <!-- CTA Button -->
             <div class="mt-6 sm:mt-8">
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="bg-orange-500 hover:bg-orange-600 text-white text-sm sm:text-base md:text-lg font-semibold py-2 sm:py-3 px-5 sm:px-6 rounded-md transition transform hover:-translate-y-1 shadow-lg">
                     Book Your Demo Now!
                 </a>
@@ -143,7 +143,7 @@ $page_title = "food-and-beverage"
                 <p class="text-gray-300 max-lg:mt-2 mt-4 max-lg:text-xs">
                     Explore Their Journey To Success With RudraTech
                 </p>
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-block max-lg:mt-3  max-lg:mb-2 mt-6 px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 text-xs sm:text-sm md:text-base bg-orange-500 text-white font-semibold rounded-md hover:bg-orange-600 transition">
                     View Case Study
                 </a>

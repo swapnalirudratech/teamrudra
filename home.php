@@ -600,10 +600,12 @@ $page_title = "home";
                 <div class="border-r border-gray-300 h-full"></div>
                 <div class="border-r border-gray-300 h-full"></div>
             </div>
-
-            <h1 class="text-7xl sm:text-8xl lg:text-[12rem] font-bold tracking-tighter text-gray-900 select-none text-center whitespace-nowrap z-10">
-                Rudra Tech
+            <h1 class="sr-only">
+                Digital Marketing & Web Development Company in India – Rudra Tech
             </h1>
+            <p class="text-7xl sm:text-8xl lg:text-[12rem] font-bold tracking-tighter text-gray-900 select-none text-center whitespace-nowrap z-10">
+                Rudra Tech
+            </p>
 
 
             <div class="absolute -bottom-16 left-4 lg:-bottom-4 lg:left-10 animate-float z-20">
@@ -655,6 +657,8 @@ $page_title = "home";
 
     </section>
 
+
+
     <section class="relative bg-white pb-10 lg:pt-14 lg:pb-24 max-lg:pt-10 overflow-hidden">
         <div class="max-md:w-[85%] w-[80%] mx-auto grid max-lg:grid-cols-1 grid-cols-2 items-center gap-16 max-lg:gap-0">
 
@@ -663,16 +667,21 @@ $page_title = "home";
                     <img src="/asset/image/gif.gif" alt="Global IT Solutions Rudra Tech" class="w-full h-full object-contain" />
                 </div>
 
-                <h1 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                    Transforming Ideas into<br />
-                    <span class="text-blue-600">Digital Reality</span>
-                </h1>
+                <h2 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-3">
+                    Web Development, Software & Digital Marketing Services
+                </h2>
+
+                <h3 class="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">
+                    Transforming Ideas Into Digital Reality
+                </h3>
+
             </div>
 
             <div class="z-10">
                 <p class="text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
-                    <strong>Rudra Tech IT Services</strong> is a leading software development company that specializes in developing scalable websites, high-performance mobile applications, and custom enterprise software solutions.
+                    <strong>Rudra Tech</strong> is a leading IT services company in India providing custom software development, responsive web design, mobile app development, SEO, and complete digital marketing solutions for startups and enterprises.
                 </p>
+
 
                 <ul class="space-y-4 text-sm sm:text-base text-gray-700 mb-8">
                     <li class="flex items-start gap-3">
@@ -701,19 +710,21 @@ $page_title = "home";
         </div>
     </section>
 
-    <div class="hidden border-t border-gray-200 py-20 max-lg:py-12 max-lg:w-[85%] flex items-center justify-center container mx-auto w-[80%]">
+
+
+    <!-- <div class="hidden border-t border-gray-200 py-20 max-lg:py-12 max-lg:w-[85%] flex items-center justify-center container mx-auto w-[80%]">
 
         <div class="flex flex-col lg:flex-row items-center justify-between gap-12 w-full">
 
 
             <div class="w-full lg:w-1/2 fade-in">
                 <div class="inline-block px-4 py-1 rounded-full bg-blue-50 text-blue-600 font-medium text-sm mb-4 delay-100 border border-blue-100">
-                    Custom Admin Solutions
+                 Custom Admin Panel Development
                 </div>
 
-                <h2 class="text-2xl lg:text-4xl font-normal mb-4 delay-200 text-gray-800 leading-tight">
-                    Powerful <span class="text-blue-500">Admin Panels</span> tailored to your needs
-                </h2>
+              <h3 class="text-2xl lg:text-4xl font-normal mb-4 delay-200 text-gray-800 leading-tight">
+                    Custom  <span class="text-blue-500">Admin Panels</span> for Business Automation
+                </h3>
 
                 <p class="text-gray-600 mb-6 delay-300 text-base leading-relaxed">
                     We craft intuitive, feature-rich admin dashboards that help businesses manage their operations efficiently.
@@ -741,7 +752,7 @@ $page_title = "home";
                 </div>
 
                 <div class="flex  gap-4  ">
-                    <a href="/getin-touch" class="max-lg:text-sm max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
+                    <a href="/get-in-touch" class="max-lg:text-sm max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
                         Request a Demo
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -766,64 +777,66 @@ $page_title = "home";
 
         </div>
 
-    </div>
+    </div> -->
 
-    <section class="bg-gray-100 py-20 max-lg:py-12 relative overflow-hidden hidden">
+    <!-- <section class="bg-gray-100 py-20 max-lg:py-12 relative overflow-hidden hidden">
         <div class="container w-[90%] mx-auto">
 
 
             <div class="text-center mb-16 max-lg:mb-6">
                 <h2 class="text-4xl max-lg:text-3xl font-semibold text-gray-800 tracking-wide">
-                    Powerful <span class="text-blue-600">Billing Software</span> Features
+                    Billing Software Development for Small & Medium Businesses
                 </h2>
+
                 <p class="mt-3 text-gray-600 text-sm">
-                    Simplify your business operations with intelligent, reliable, and automated billing solutions.
+                    We build custom billing software with GST support, automated invoicing, real-time reports, and secure cloud backup to simplify business operations.
                 </p>
+
             </div>
 
 
             <div class="relative flex items-center justify-center max-lg:flex-col gap-12 w-full max-lg:gap-3">
 
-                <!-- Left Features -->
+             
                 <div class="flex flex-col items-end space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Smart Invoicing</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">Smart Invoice Management</h3>
                         <p class="text-gray-600 text-sm">Generate and send invoices automatically with custom branding.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Real-Time Reports</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">Real-Time Billing Reports</h3>
                         <p class="text-gray-600 text-sm">Track revenue, expenses, and payments with instant analytics.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-right max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Multi-User Access</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">Multi-User Billing Access</h3>
                         <p class="text-gray-600 text-sm">Empower your team with secure, role-based access control.</p>
                     </div>
                 </div>
 
-                <!-- Center Image -->
+             
                 <div class="w-1/3 max-lg:w-[80%] relative">
-                    <img src="/asset/bg.png" alt="Billing Software Dashboard" class="w-full object-contain ">
+                    <img src="/asset/bg.png" alt="Custom billing software dashboard developed by Rudra Tech" class="w-full object-contain ">
                 </div>
 
-                <!-- Right Features -->
+              
                 <div class="flex flex-col items-start space-y-8 w-1/3 max-lg:w-full max-lg:items-center max-lg:space-y-4">
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Automated Reminders</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">Automated Payment Reminders</h3>
                         <p class="text-gray-600 text-sm">Send payment reminders and alerts automatically to clients.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">GST & Tax Management</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">GST & Tax Billing Management</h3>
                         <p class="text-gray-600 text-sm">Auto-calculate taxes and generate compliant reports easily.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-xl p-4 w-72 text-left max-lg:text-center hover:shadow-lg transition">
-                        <h4 class="text-blue-600 font-semibold text-sm mb-1">Cloud Backup</h4>
+                        <h3 class="text-blue-600 font-semibold text-sm mb-1">Secure Cloud Backup</h3>
                         <p class="text-gray-600 text-sm">Secure your data with automated cloud sync and recovery.</p>
                     </div>
                 </div>
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="py-24 relative overflow-hidden" id="feature-section">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-blue-100/60 rounded-full blur-3xl -z-10 pointer-events-none"></div>
@@ -836,10 +849,10 @@ $page_title = "home";
 
             <div class="text-center mb-20">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
-                    Powerful <span class="text-blue-600">Billing Engine</span>
+                    Advanced <span class="text-blue-600">GST Billing Software Engine</span>
                 </h2>
                 <p class="mt-4 text-gray-500 text-lg max-w-2xl mx-auto">
-                    Explore the features that automate your finance operations. Click a card to preview.
+                    Explore powerful GST billing software features including smart invoicing, real-time reports, inventory management, and automated payment reminders.
                 </p>
             </div>
 
@@ -850,7 +863,7 @@ $page_title = "home";
                     <button onclick="updateFeature(0)" id="btn-0" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-left lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1"> Insightful Dashboard</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1"> Billing Analytics Dashboard</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed">Create and send professional GST invoices in seconds.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
@@ -864,7 +877,7 @@ $page_title = "home";
                     <button onclick="updateFeature(1)" id="btn-1" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-left lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1"> Real-Time Reports</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1"> Real-Time Billing Reports</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed"> Track revenue & cash flow instantly with visual graphs. </p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
@@ -878,7 +891,7 @@ $page_title = "home";
                     <button onclick="updateFeature(2)" id="btn-2" class="feature-card group w-full p-6 rounded-2xl text-left border-2 transition-all duration-300 bg-white hover:bg-white border-transparent">
                         <div class="flex items-start gap-4 flex-row-reverse lg:flex-row">
                             <div class="flex-1 text-left lg:text-right">
-                                <h4 class="text-gray-900 font-bold text-base mb-1"> Smart Invoicing</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1"> GST Smart Invoicing</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed"> Create and send professional GST invoices in seconds.</p>
                             </div>
                             <div class="icon-box w-10 h-10 rounded-lg bg-gray-100 text-gray-500 flex items-center justify-center shrink-0 transition-colors group-hover:bg-blue-50 group-hover:text-blue-600">
@@ -902,7 +915,7 @@ $page_title = "home";
                                 <div class="w-3 h-3 rounded-full bg-green-400"></div>
                                 <div class="ml-4 bg-white border border-gray-200 h-6 w-full max-w-[200px] rounded text-[10px] flex items-center px-2 text-gray-400 font-mono">rudratech.io/app</div>
                             </div>
-                            <img id="feature-image" src="/asset/image/hhd.png" alt="Feature Preview" class="w-full h-full object-cover object-top transition-opacity duration-300">
+                            <img id="feature-image" src="/asset/image/hhd.png" alt="GST billing software dashboard with inventory and payment management" class="w-full h-full object-cover object-top transition-opacity duration-300">
                         </div>
 
                         <div class="absolute -right-10 -bottom-10 w-24 h-24 bg-blue-600 rounded-full blur-2xl opacity-20 -z-10"></div>
@@ -921,7 +934,7 @@ $page_title = "home";
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Stock Management</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1">Inventory & Stock Management</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed">Track inventory levels and get low-stock alerts automatically.</p>
                             </div>
                         </div>
@@ -935,7 +948,7 @@ $page_title = "home";
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Payment Reminders</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1">Automated Payment Reminders</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed">Send automated SMS and Email alerts for overdue payments.</p>
                             </div>
                         </div>
@@ -949,7 +962,7 @@ $page_title = "home";
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h4 class="text-gray-900 font-bold text-base mb-1">Multi-User Access</h4>
+                                <h3 class="text-gray-900 font-bold text-base mb-1">Multi-User AccessMulti-User Billing Access</h3>
                                 <p class="text-gray-500 text-sm leading-relaxed">Secure, role-based access for teams.</p>
                             </div>
                         </div>
@@ -1046,15 +1059,17 @@ $page_title = "home";
                     <div class="flex flex-col gap-6 items-center justify-between w-[50%] max-md:w-full">
                         <div class="max-w-3xl space-y-4">
                             <h2 class="text-4xl max-md:text-3xl md:text-5xl font-bold text-black leading-tight">
-                                Build Your Website <br> <span class="text-blue-600">Instantly</span>
+                                Build Your Website <br> <span class="text-blue-600">Instantly with AI</span>
+
                             </h2>
                             <p class="text-xl md:text-2xl text-gray-500">
                                 Powered by <span class="text-black font-bold">AI Agent Rudra</span>.
-                                Describe your business and watch our agent code your front-end in seconds.
+                                Describe your business and instantly generate an AI-powered website with custom design, layout, and content in seconds.
+
                             </p>
                         </div>
                         <div class="w-full flex items-start justify-start relative">
-                            <img src="/asset/icon/ai.gif" alt="AI Agent Rudra" class="w-[50%] max-md:w-full">
+                            <img src="/asset/icon/ai.gif" alt="AI website builder generating instant business website preview" class="w-[50%] max-md:w-full">
 
                             <div class="absolute left-[40%] top-0 bg-white border-2 border-blue-100 w-[50%] p-4 rounded-2xl shadow-lg max-md:hidden">
                                 <div class="absolute -left-2 bottom-5 w-4 h-4 bg-white border-l-2 border-b-2 border-blue-100 rotate-45"></div>
@@ -1064,7 +1079,8 @@ $page_title = "home";
                                         Hiii, I'm <span class="text-blue-600">AI Agent Rudra!</span> 👋
                                         <br>
                                         <span class="text-slate-500 font-medium text-xs md:text-sm">
-                                            Just tell me your business name and your vision, and I'll start building your custom website right now.
+                                            Just tell me your business name and vision, and I’ll instantly generate your AI-powered custom website.
+
                                         </span>
                                     </p>
                                 </div>
@@ -1105,9 +1121,10 @@ $page_title = "home";
                             </div>
 
                             <div>
-                                <label class="block text-sm font-bold text-gray-700 mb-2">Describe Your Vision</label>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Describe Your Website Requirements
+                                </label>
                                 <textarea id="userPrompt" rows="5"
-                                    placeholder="Describe the vibe, colors, and specific services (e.g., 'A corporate IT website with a blue theme, cloud services, and a contact form')..."
+                                    placeholder="Describe your website design, colors, services, and pages (e.g., corporate IT website with blue theme, cloud services, about page, and contact form)..."
                                     class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none transition resize-none font-medium"></textarea>
                             </div>
 
@@ -1152,7 +1169,7 @@ $page_title = "home";
                                     class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6 text-blue-200">
                                     <i class="fa-solid fa-laptop-code text-4xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-xl font-bold text-gray-700">Ready to Build?</h3>
+                                <h3 class="text-xl font-bold text-gray-700">Ready to Build Your AI Website?</h3>
                                 <p class="max-w-xs mx-auto mt-2 text-gray-500">Fill out the form above to trigger the AI Agent.</p>
                             </div>
 
@@ -1163,7 +1180,7 @@ $page_title = "home";
                                     <div class="absolute inset-0 rounded-full border-4 border-blue-600 border-t-transparent animate-spin"></div>
                                     <i class="fa-solid fa-bolt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-blue-600 text-2xl"></i>
                                 </div>
-                                <p class="mt-6 text-gray-800 font-bold text-xl animate-pulse">Rudra is Coding...</p>
+                                <p class="mt-6 text-gray-800 font-bold text-xl animate-pulse">AI Agent Rudra is Building Your Website...</p>
                                 <p class="text-gray-500 font-medium">Generating layout, writing content, and styling.
                                 </p>
                                 <p class="text-red-500 font-medium mt-6 text-sm">Please wait, this will take 40-50 seconds.</p>
@@ -1337,10 +1354,16 @@ $page_title = "home";
 
                 <div class="max-w-3xl space-y-4">
                     <h2 class="text-4xl max-md:text-3xl md:text-5xl font-bold text-black leading-tight">
-                        Delivering Smart IT Solutions
+                        Delivering Smart IT & Digital Solutions
+
                     </h2>
+                    <p class="sr-only">
+                        Rudra Tech is a full-service IT company in India delivering web development, mobile app development, custom software, AI solutions, and digital marketing services to startups and enterprises worldwide.
+                    </p>
+
                     <p class="text-2xl md:text-3xl text-gray-500">
-                        Trusted by <span class="text-black font-bold">3,000+ Businesses</span> Globally
+                        Trusted by <span class="text-black font-bold">3,000+ Businesses</span> Across Web, Mobile & Software Projects
+
                     </p>
                 </div>
             </div>
@@ -1353,7 +1376,8 @@ $page_title = "home";
                         <div class="bg-blue-600 p-3 rounded shadow-md">
                             <i class="fas fa-briefcase text-white text-xl"></i>
                         </div>
-                        <p class="text-lg max-lg:text-sm text-gray-600">Years of Expertise</p>
+                        <p class="text-lg max-lg:text-sm text-gray-600">Years of IT Development Expertise</p>
+
                     </div>
                 </div>
 
@@ -1364,7 +1388,7 @@ $page_title = "home";
                         <div class="bg-blue-600 p-3 rounded shadow-md">
                             <i class="fas fa-users text-white text-xl"></i>
                         </div>
-                        <p class="text-lg max-lg:text-sm  text-gray-600">Clients Served</p>
+                        <p class="text-lg max-lg:text-sm  text-gray-600">Global Clients Served</p>
                     </div>
                 </div>
 
@@ -1375,7 +1399,7 @@ $page_title = "home";
                         <div class="bg-blue-600 p-3 rounded shadow-md">
                             <i class="fas fa-cogs text-white text-xl"></i>
                         </div>
-                        <p class="text-lg max-lg:text-sm  text-gray-600">Projects Delivered</p>
+                        <p class="text-lg max-lg:text-sm  text-gray-600">Software Projects Delivered</p>
                     </div>
                 </div>
 
@@ -1386,7 +1410,7 @@ $page_title = "home";
                         <div class="bg-blue-600 p-3 rounded shadow-md">
                             <i class="fas fa-industry text-white text-xl"></i>
                         </div>
-                        <p class="text-lg max-lg:text-sm  text-gray-600">Industries Served</p>
+                        <p class="text-lg max-lg:text-sm  text-gray-600">Industries Digitally Transformed</p>
                     </div>
                 </div>
             </div>
@@ -1406,9 +1430,10 @@ $page_title = "home";
                     <div class="grid max-lg:grid-cols-1 grid-cols-2 gap-12 items-center text-sm ">
                         <div class="order-1 md:order-1 ">
                             <h2 class=" font-normal text-gray-800 mb-6 uppercase tracking-wide"><span class="text-black uppercase font-semibold text-[3rem] max-lg:text-[2rem] aibackground">About us</span> </h2>
-                            <p class="text-gray-600 mb-6   ">
-                                RudraTech IT Services, founded in 2020, is a young and vibrant tech start-up that is fueled by bright minds who are eager to make a difference. We are committed to working alongside businesses to enable their digital transformation journey. Our developers, designers, and strategists are passionate about bringing innovation and dedication to every project that we undertake.
+                            <p class="text-gray-600 mb-6">
+                                RudraTech IT Services, founded in 2020, is a fast-growing IT and software development company delivering web development, mobile app development, custom software, and digital transformation solutions. Backed by experienced developers, designers, and strategists, we help startups and enterprises build scalable digital products that drive real business growth.
                             </p>
+
                             <div class="space-y-4 max-lg:text-sm">
                                 <div class="flex items-start">
                                     <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
@@ -1417,8 +1442,8 @@ $page_title = "home";
                                         </svg>
                                     </div>
                                     <div class="ml-4">
-                                        <h4 class="text-lg  max-lg:text-sm font-medium text-gray-800">Innovation-Driven</h4>
-                                        <p class="text-gray-600">We are always at the forefront of technology trends to provide future-ready solutions.</p>
+                                        <h3 class="text-lg  max-lg:text-sm font-medium text-gray-800">Innovation-Driven Development</h3>
+                                        <p class="text-gray-600">We build future-ready software using modern frameworks, cloud technologies, and automation.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-start">
@@ -1428,8 +1453,8 @@ $page_title = "home";
                                         </svg>
                                     </div>
                                     <div class="ml-4">
-                                        <h4 class="text-lg  max-lg:text-sm font-medium text-gray-800">Client-Focused</h4>
-                                        <p class="text-gray-600">Your business needs are our top priority, and this drives every project that we undertake.</p>
+                                        <h3 class="text-lg  max-lg:text-sm font-medium text-gray-800">Client-Centric Approach</h3>
+                                        <p class="text-gray-600">We align technology with your business goals to deliver measurable results.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-start">
@@ -1439,8 +1464,8 @@ $page_title = "home";
                                         </svg>
                                     </div>
                                     <div class="ml-4">
-                                        <h4 class="text-lg max-lg:text-sm font-medium text-gray-800">Quality Assurance</h4>
-                                        <p class="text-gray-600">We conduct rigorous testing to ensure flawless performance.</p>
+                                        <h3 class="text-lg max-lg:text-sm font-medium text-gray-800">Quality Assurance</h3>
+                                        <p class="text-gray-600">We follow strict quality assurance processes to deliver secure, high-performance applications.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1459,9 +1484,15 @@ $page_title = "home";
 
             <div class="w-[80%] mx-auto  py-20  max-lg:py-12  max-lg:w-[85%]">
                 <div class=" mb-8 w-full flex items-center justify-between max-lg:flex-col">
-                    <h2 class="text-2xl md:text-4xl font-bold  animate-fadeInUp text-slate-800 mb-4">Industries We Serve</h2>
+                    <h2 class="text-2xl md:text-4xl font-bold  animate-fadeInUp text-slate-800 mb-4">Industries We Serve With Custom IT Solutions</h2>
+                    <p class="sr-only">
+                        We deliver industry-specific software solutions for manufacturing, healthcare, finance, education, tourism, and real estate businesses worldwide.
+                    </p>
 
-                    <p class=" text-gray-600 w-1/2 max-lg:w-full max-lg:text-center ">Providing innovative IT solutions across diverse sectors to drive digital transformation and business growth.</p>
+                    <p class=" text-gray-600 w-1/2 max-lg:w-full max-lg:text-center ">
+                        Providing custom software, web applications, and digital solutions across industries to accelerate digital transformation and business growth.
+
+                    </p>
                 </div>
 
                 <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 max-md:gap-2">
@@ -1541,21 +1572,23 @@ $page_title = "home";
                             <div class="mb-6">
                                 <span class="bg-blue-100 text-blue-600 text-sm font-semibold py-1 px-3 rounded-full">OUR STACK</span>
                             </div>
-                            <h2 class="text-4xl max-lg:text-2xl font-bold mb-4 text-gray-900">Technologies <span class="text-gray-600 font-light">We Use</span></h2>
+                            <h2 class="text-4xl max-lg:text-2xl font-bold mb-4 text-gray-900">Technologies <span class="text-gray-600 font-light">Powering Our Software Development</span></h2>
                             <div class="w-16 h-1 bg-white mb-6 max-lg:hidden"></div>
 
 
                             <div class="max-w-2xl mb-6 max-lg:w-full">
                                 <p class="text-lg  max-lg:text-sm font-medium text-gray-600 mb-4">
-                                    We craft seamless human experiences in the digital world using cutting-edge technologies and design.
+                                    We build scalable web apps, mobile applications, and enterprise software using modern frameworks and cloud-ready technologies.
                                 </p>
                                 <p class="text-gray-800 mb-2">
-                                    Our strategy shapes our development, and our development brings our strategy to life.
+                                    Our development strategy focuses on performance, security, scalability, and user experience.
+
                                 </p>
                                 <p class="text-gray-800">
                                     We progress through each step of
                                     <a href="#" class="text-gray-600 font-medium underline">our process</a>,
-                                    ensuring seamless execution.
+                                    ensuring seamless software delivery from planning to deployment.
+
                                 </p>
                             </div>
                         </div>
@@ -1684,8 +1717,8 @@ $page_title = "home";
 
 
                     <div class="mt-10 text-center max-md:mt-4 ">
-                        <a href="/getin-touch" class="inline-flex  hover:border border-blue-500 items-center px-6 py-3 bg-blue-200 text-blue-600 font-medium rounded hover:bg-gray-100 transition duration-300">
-                            Let's Build Together
+                        <a href="/get-in-touch" class="inline-flex  hover:border border-blue-500 items-center px-6 py-3 bg-blue-200 text-blue-600 font-medium rounded hover:bg-gray-100 transition duration-300">
+                            Start Your Digital Project
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                             </svg>
@@ -1697,7 +1730,14 @@ $page_title = "home";
     </div>
 
     <div class="container hidden mx-auto py-20 max-lg:py-12 w-[80%] max-lg:w-[90%] max-md:w-[85%] relative border-t border-gray-200">
-        <h2 class="text-2xl md:text-4xl font-normal max-lg:text-center max-lg:mb-8 animate-fadeInUp text-slate-800 mb-16">Rapid Digital Solutions</h2>
+        <h2 class="text-2xl md:text-4xl font-normal max-lg:text-center max-lg:mb-8 animate-fadeInUp text-slate-800 mb-16">
+            Rapid Software Development & Digital Solutions
+        </h2>
+
+        <p class="sr-only">
+            delivers custom software development, mobile app development, web applications, and digital transformation services for startups and enterprises worldwide.
+        </p>
+
 
         <div class="grid max-md:grid-cols-1 grid-cols-3 gap-8 max-lg:gap-4">
 
@@ -1706,12 +1746,15 @@ $page_title = "home";
 
                     <div class="mb-5 img-container ">
                         <div class="  w-full h-48 flex items-center justify-center">
-                            <img src="/asset/custom.jpg" alt="Rocket" class="w-full h-full object-cover rounded-xl" />
+                            <img src="/asset/custom.jpg" alt="Custom software development services" class="w-full h-full object-cover rounded-xl" />
                         </div>
                     </div>
 
-                    <h3 class="text-base font-medium mb-3 ">Custom Software Solutions</h3>
-                    <p class="text-gray-400 max-lg:text-sm">Get your custom software concept designed throuhgh our rapid prototyping system.</p>
+                    <h3 class="text-base font-medium mb-3 ">Custom Software Development Solutions</h3>
+                    <p class="text-gray-400 max-lg:text-sm">
+                        Build scalable custom software applications using our rapid prototyping and agile development process.
+
+                    </p>
                 </div>
             </div>
 
@@ -1721,12 +1764,12 @@ $page_title = "home";
 
                     <div class="mb-5 img-container">
                         <div class=" w-full h-48 flex items-center justify-center">
-                            <img src="/asset/digitaltrans.jpg" alt="Digital Transformation" class="w-full h-full object-cover rounded-xl" />
+                            <img src="/asset/digitaltrans.jpg" alt="Digital transformation consulting services" class="w-full h-full object-cover rounded-xl" />
                         </div>
                     </div>
 
-                    <h3 class="text-base font-medium mb-3">End-to-End Digital Transformation</h3>
-                    <p class="text-gray-400 max-lg:text-sm">Comprehensive digital transformation services tailored to meet your unique business needs.</p>
+                    <h3 class="text-base font-medium mb-3">End-to-End Digital Transformation Services</h3>
+                    <p class="text-gray-400 max-lg:text-sm">Comprehensive digital transformation services including cloud integration, automation, and business process optimization.</p>
                 </div>
             </div>
 
@@ -1736,28 +1779,36 @@ $page_title = "home";
 
                     <div class="mb-5 img-container">
                         <div class=" w-full h-48 flex items-center justify-center">
-                            <img src="/asset/enterprises.jpg" alt="Mobile and Enterprise" class="w-full h-full object-cover rounded-xl" />
+                            <img src="/asset/enterprises.jpg" alt="Mobile app and enterprise software development" class="w-full h-full object-cover rounded-xl" />
                         </div>
                     </div>
 
 
-                    <h3 class="text-base font-medium mb-3">Mobile, Web, and Enterprise Solutions</h3>
-                    <p class="text-gray-400 max-lg:text-sm">Solutions for mobile, web, and enterprise environments, ensuring you're covered across all platforms.</p>
+                    <h3 class="text-base font-medium mb-3">Mobile App, Web & Enterprise Software Solutions</h3>
+                    <p class="text-gray-400 max-lg:text-sm">Full-stack mobile app development, web applications, and enterprise software solutions designed for performance and scalability.</p>
                 </div>
             </div>
 
         </div>
     </div>
 
-    <section class="container mx-auto py-24 max-lg:py-16 w-[85%] max-lg:w-[92%] border-t border-gray-100">
+    <section class="container mx-auto py-24 max-lg:py-16 w-[85%] max-lg:w-[92%] border-t border-gray-100"
+        aria-labelledby="solutions-heading">
+
         <div class="flex flex-col lg:flex-row gap-12 items-start">
 
             <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-md:order-2">
                 <div class="md:col-span-2 group relative p-8 rounded-[2.5rem] border border-blue-100 bg-white hover:shadow-lg transition-all duration-500 overflow-hidden">
                     <div class="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
-                        <img src="/asset/image/v1.png" class="w-[40%] max-md:w-[80%] h-auto flex mx-auto" alt="Software">
+                        <img src="/asset/image/v1.png"
+                            alt="Custom software development and rapid prototyping solutions"
+                            class="w-[40%] max-md:w-[80%] h-auto flex mx-auto">
+
                         <div>
-                            <h3 class="text-2xl font-bold text-slate-800 mb-3">Custom Software Solutions</h3>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3">
+                                Custom Software Development Solutions
+                            </h3>
+
                             <p class="text-slate-500 max-w-md">Our flagship rapid prototyping system turns complex concepts into design-ready software architecture in record time.</p>
                         </div>
                     </div>
@@ -1765,15 +1816,28 @@ $page_title = "home";
                 </div>
 
                 <div class="group p-8 bg-white border border-slate-100 rounded-[2.5rem] hover:shadow-xl transition-all duration-500">
-                    <img src="/asset/image/v2.png" class="w-[80%] h-auto flex mx-auto" alt="Digital">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">Digital Transformation</h3>
+                    <img src="/asset/image/v2.png"
+                        alt="Digital transformation services with cloud-native architecture"
+                        class="w-[80%] h-auto flex mx-auto">
+
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">
+                        Digital Transformation Services
+                    </h3>
+
                     <p class="text-slate-500 text-sm leading-relaxed">Modernizing legacy workflows with cloud-native solutions tailored to your growth.</p>
                 </div>
 
                 <div class="group p-8 bg-white border border-slate-100 rounded-[2.5rem] hover:shadow-xl transition-all duration-500">
-                    <img src="/asset/image/v3.png" class="w-[80%] h-auto flex mx-auto" alt="Mobile">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">Enterprise Apps</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed">High-performance mobile and web environments designed for enterprise-level scale.</p>
+                    <img src="/asset/image/v3.png"
+                        alt="Enterprise mobile and web application development"
+                        class="w-[80%] h-auto flex mx-auto">
+
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">
+                        Enterprise Mobile & Web Applications
+                    </h3>
+
+                    <p class="text-slate-500 text-sm leading-relaxed">High-performance mobile apps and web applications designed for enterprise-level scalability and security.
+                    </p>
                 </div>
             </div>
 
@@ -1781,18 +1845,24 @@ $page_title = "home";
                 <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
                     Capabilities
                 </span>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.1] mb-6">
-                    Rapid Digital <br />
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Solutions.</span>
+                <h2 id="solutions-heading" class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+                    Rapid Digital Solutions for Modern Businesses<br />
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
+                        Software, Mobile & Enterprise Development
+                    </span>
                 </h2>
+
                 <p class="text-slate-500 text-lg leading-relaxed mb-8">
-                    We bridge the gap between complex ideas and seamless digital execution through rapid prototyping and modern architecture.
+                    We bridge the gap between complex ideas and seamless digital execution through rapid prototyping, scalable architecture, and custom software development services for startups and enterprises.
                 </p>
 
+
                 <div class="mb-10">
-                    <button class="px-8 py-4 bg-slate-900 text-white rounded-2xl font-medium hover:bg-blue-600 transition-all shadow-lg hover:shadow-blue-200">
-                        View All Services
-                    </button>
+                    <a href="/get-in-touch"
+                        aria-label="Contact us for custom software development"
+                        title="Start your custom software project" class="px-8 py-4 bg-slate-900 text-white rounded-2xl font-medium hover:bg-blue-600 transition-all shadow-lg hover:shadow-blue-200">
+
+                        Get Started</a>
                 </div>
 
                 <div class="relative p-6 rounded-[2rem] bg-gradient-to-br from-slate-50 to-blue-50 border border-white shadow-inner overflow-hidden">
@@ -1834,46 +1904,11 @@ $page_title = "home";
 
 
 
-    <div class=" w-[80%] mx-auto hidden py-20">
-        <div class="grid md:grid-cols-3 gap-6 text-start bg-blue-100">
-            <div class="p-6 flex items-start space-x-8 hover-trigger transition duration-300">
-                <div class="flex justify-center items-center w-32 h-16 rounded-full flip-icon text-gray-700">
-                    <img src="/asset/icon (2).png" class="h-full w-full object-cover" alt="">
-                </div>
-                <div>
-                    <h3 class="text-md font-semibold text-blue-800">Increase Visibility</h3>
-                    <p class="text-gray-600 mt-2 text-sm">
-                        Expand your reach and grow your business with a professional website that works for you 24/7.
-                    </p>
-                </div>
-            </div>
-            <div class="p-6   flex items-start space-x-8 hover-trigger">
-                <div class="flex justify-center items-center w-32 h-16 rounded-full flip-icon text-gray-700">
-                    <img src="/asset/icon (3).png" class="h-full w-full object-cover" alt="">
-                </div>
-                <div>
-                    <h3 class="text-md font-semibold text-blue-800">Build Cblueibility</h3>
-                    <p class="text-gray-600 mt-2 text-sm">
-                        Build cblueibility and earn customer trust by showcasing your products and services with a stunning online presence.
-                    </p>
-                </div>
-            </div>
 
-            <div class="p-6  flex items-start space-x-8 hover-trigger">
-                <div class="flex justify-center items-center w-24 h-16 flip-icon rounded-full  text-gray-700">
-                    <img src="/asset/icon (1).png" alt="">
-                </div>
-                <div>
-                    <h3 class="text-md font-semibold text-blue-800">Boost Sales</h3>
-                    <p class="text-gray-600 mt-2 text-sm">
-                        Boost your sales and maximize conversions with a captivating, user-friendly website.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="  flex items-center justify-center  bg-black relative overflow-hidden">
+    <section class="flex items-center justify-center bg-black relative overflow-hidden"
+        aria-labelledby="hero-heading">
+
 
         <div id="stars"></div>
 
@@ -1885,24 +1920,36 @@ $page_title = "home";
                     <div class="bg-blue-600 px-4 py-2 max-md:text-sm inline-block text-sm font-normal rounded-full  text-white uppercase tracking-widest">
                         Your Vision, Our Passion
                     </div>
-                    <h2 class="text-3xl max-md:text-xl sm:text-4xl font-extrabold md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl text-white leading-tight">
+                    <h2 id="hero-heading"
+                        class="text-3xl max-md:text-xl sm:text-4xl font-extrabold md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl text-white leading-tight">
                         <span class="block transition-all duration-700 tracking-wider hover:tracking-[0.1em] hover:text-blue-500">
                             Designing Tomorrow's
                         </span>
-                        Digital Experiences
+                        Digital Experiences Through Custom Software Development
                         <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-700 mt-2 rounded-full transition-all duration-700 hover:w-32 hover:opacity-100 mx-auto md:mx-0"></div>
                     </h2>
 
+                    <p class="sr-only">
+                        RudraTech IT Services provides custom software development, mobile app development, enterprise web applications, and digital transformation solutions for startups and growing businesses.
+                    </p>
+
+
                     <p class="text-sm sm:text-base md:text-lg text-gray-300">
-                        We don’t just build websites – we create digital masterpieces that inspire, engage, and lift your brand to unprecedented levels.
+                        We don’t just build websites — we deliver custom software solutions, enterprise applications, and digital experiences that inspire, engage, and scale your business globally.
                     </p>
 
 
                     <div class="flex space-x-4">
-                        <a href="/about" class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-blue-700 transition">
+                        <a href="/about"
+                            aria-label="About RudraTech IT Services"
+                            title="About our software development company"
+                            class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-blue-700 transition">
                             Our Story
                         </a>
-                        <a href="/client" class="border border-white text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-white hover:text-gray-800 transition">
+                        <a href="/client"
+                            aria-label="Our clients and success partners"
+                            title="View our customers and success stories"
+                            class="border border-white text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-white hover:text-gray-800 transition">
                             Our Success Partners
                         </a>
                     </div>
@@ -1914,17 +1961,25 @@ $page_title = "home";
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white">
 
                             <div class="flex items-center justify-center text-4xl max-lg:text-2xl">
-                                <div class="  counter" data-target="5">0 </div>
+                                <span class="counter" data-target="5">0</span>
+                                <meta itemprop="foundingDate" content="2020">
+
                                 <span class=" ml-2">+</span>
                             </div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Year Track Record</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">
+                                Years of Software Development Experience
+                            </div>
+
                         </div>
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white ">
                             <div class="flex items-center justify-center text-4xl max-lg:text-2xl">
                                 <div class=" counter" data-target="100">0 </div>
                                 <span class=" ml-2">+</span>
                             </div>
-                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">Happy Customers</div>
+                            <div class="text-sm uppercase tracking-wider mt-2 max-lg:text-sm">
+                                Global Clients Served
+                            </div>
+
                         </div>
                         <div class="border border-gray-800 p-6 rounded-xl text-center text-white text-4xl max-lg:text-2xl">
                             <div class=" counter" data-target="10">0</div>
@@ -1941,46 +1996,50 @@ $page_title = "home";
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
-
         </div>
-    </div>
+    </section>
 
-    <section id="features" class="py-20 max-lg:py-12 border-t border-gray-200 w-[80%] max-lg:w-[85%] mx-auto border-b">
+    <section id="features"
+        class="py-20 max-lg:py-12 border-t border-gray-200 w-[80%] max-lg:w-[85%] mx-auto border-b"
+        aria-labelledby="features-heading">
 
+        <p class="sr-only">
+            RudraTech delivers secure admin dashboards, real-time analytics, enterprise software,
+            automated reporting, high-performance systems, and 24/7 technical support services.
+        </p>
 
-        <h2 class=" text-2xl md:text-4xl font-normal  animate-fadeInUp text-slate-800 mb-8 ">Features</h2>
-
+        <h2 id="features-heading"
+            class=" text-2xl md:text-4xl font-normal animate-fadeInUp text-slate-800 mb-8 ">
+            Powerful Software Features
+        </h2>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 1 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">Real-time Analytics</h3>
-                <p class="text-gray-400">Monitor your business performance with dynamic dashboards and real-time data visualization tools.</p>
-            </div>
+                <h3 class="text-xl font-semibold mb-2">Real-Time Business Analytics</h3>
+                <p class="text-gray-400">Monitor business performance with dynamic dashboards and live data visualization tools.</p>
+            </article>
 
-
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 2 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">Advanced Security</h3>
-                <p class="text-gray-400">Role-based access control and multi-factor authentication keep your business data secure and protected.</p>
-            </div>
+                <h3 class="text-xl font-semibold mb-2">Advanced Data Security</h3>
+                <p class="text-gray-400">Role-based access control and multi-factor authentication protect your business data.</p>
+            </article>
 
-
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 3 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -1988,44 +2047,46 @@ $page_title = "home";
                     </svg>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Customizable Interface</h3>
-                <p class="text-gray-400">Tailor your admin panel to your specific needs with drag-and-drop components and custom widgets.</p>
-            </div>
+                <p class="text-gray-400">Personalize your admin panel using drag-and-drop components and modular widgets.</p>
+            </article>
 
-
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 4 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Automated Reporting</h3>
-                <p class="text-gray-400">Generate and schedule reports automatically, delivering key insights directly to your inbox.</p>
-            </div>
+                <p class="text-gray-400">Generate scheduled reports and receive actionable business insights automatically.</p>
+            </article>
 
-
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 5 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">Rapid Performance</h3>
-                <p class="text-gray-400">Blazing-fast load times and optimized database queries ensure a smooth, responsive experience.</p>
-            </div>
+                <h3 class="text-xl font-semibold mb-2">High Performance</h3>
+                <p class="text-gray-400">Optimized architecture ensures lightning-fast speed and smooth responsiveness.</p>
+            </article>
 
-
-            <div class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
+            <!-- Feature 6 -->
+            <article class="bg-white p-6 rounded-xl border border-gray-300 hover:border-blue-500/50 transition-all fade-in scale-in">
                 <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
-                <p class="text-gray-400">Our support team is available around the clock to assist with any issues or questions.</p>
-            </div>
+                <h3 class="text-xl font-semibold mb-2">24/7 Technical Support</h3>
+                <p class="text-gray-400">Our expert team provides round-the-clock assistance for your software systems.</p>
+            </article>
+
         </div>
 
     </section>
+
 
 
 
@@ -2050,152 +2111,139 @@ $page_title = "home";
     </section>
 
 
-    <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900">
+    <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900" aria-labelledby="portfolio-heading">
+
+        <p class="sr-only">
+            RudraTech portfolio showcasing ecommerce websites, real estate platforms, edtech systems, heritage portals and enterprise digital solutions.
+        </p>
+
         <div class="w-[85%] mx-auto">
 
             <div class=" mb-12 flex justify-between max-lg:flex-col max-lg:text-center">
+
                 <div class="inline-block relative">
-                    <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800 relative z-10">
+                    <h2 id="portfolio-heading" class="text-4xl max-lg:text-3xl font-bold text-gray-800 relative z-10">
                         Our Digital Masterpieces
                     </h2>
                     <div class="h-1.5 w-24 bg-blue-600 mt-6 max-lg:mx-auto rounded-full"></div>
                 </div>
-                <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full ">
-                    A showcase of transformative digital experiences we've crafted for businesses across various industries.
+
+                <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full">
+                    Transformative ecommerce, enterprise, edtech and real estate platforms crafted by RudraTech.
                 </p>
+
             </div>
 
             <div class="owl-carousel website-carousel owl-theme">
 
-                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-20 items-center py-20">
+                <!-- KESARBAUG -->
+
+                <article class="item grid grid-cols-1 lg:grid-cols-12 gap-20 items-center py-20">
+
                     <div class="lg:col-span-4 order-2 lg:order-1">
                         <div class="space-y-6">
+
                             <span class="inline-block text-orange-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-orange-50 border border-orange-100 rounded-full">E-comm / Food</span>
-                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">KESAR<span class="text-orange-600/80">BAUG</span></h3>
-                            <p class="text-slate-500 text-lg leading-relaxed font-medium">A multi-layered digital experience. We crafted a seamless journey from high-conversion product grids to a fluid checkout.</p>
-                            <div class="flex gap-8 pt-6">
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">45%</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sales Growth</span></div>
-                                <div class="w-px h-12 bg-slate-200"></div>
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Fast</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Load Speed</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
-                        <div class="relative z-20 w-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/s (2).jpg" class="w-full object-cover"></div>
-                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/kesarbaug-pp.png" class="w-full object-cover h-44"></div>
-                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/kesarbaug-mob.png" class="w-full object-cover h-[340px]"></div>
-                    </div>
-                </div>
 
-                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
-                    <div class="lg:col-span-4 order-2 lg:order-1">
-                        <div class="space-y-6">
-                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">E-comm / Clothing</span>
-                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">DREAM<span class="text-indigo-700">KITCHEN</span></h3>
-                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing a digital home for architectural visionaries. We crafted an immersive showcase that blends minimalist aesthetics with high-performance gallery systems.</p>
-                            <div class="flex gap-8 pt-6">
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Premium</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UI Design</span></div>
-                                <div class="w-px h-12 bg-slate-200"></div>
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Smooth</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UX Flow</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
-                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/dk1.jpg" class="w-full object-cover"></div>
-                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/dk3.jpg" class="w-full object-cover h-44"></div>
-                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/dk2.png" class="w-full object-cover h-[340px]"></div>
-                    </div>
-                </div>
-
-                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
-                    <div class="lg:col-span-4 order-2 lg:order-1">
-                        <div class="space-y-6">
-                            <span class="inline-block text-yellow-700 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-yellow-50 border border-yellow-200 rounded-full">Investment / Real Estate</span>
-                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VR<br /><span class="text-yellow-600/80">CONSULT</span></h3>
-                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing the bridge between investors and growth. A professional platform for high-end real estate and success.</p>
-                            <div class="flex gap-8 pt-6">
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Elite</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Consulting</span></div>
-                                <div class="w-px h-12 bg-slate-200"></div>
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Modern</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Investments</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
-                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/vr.jpg" class="w-full object-cover"></div>
-                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vrpp.jpg" class="w-full object-cover h-44"></div>
-                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vrmob.jpg" class="w-full object-cover h-[340px]"></div>
-                    </div>
-                </div>
-
-                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
-                    <div class="lg:col-span-4 order-2 lg:order-1">
-                        <div class="space-y-6">
-                            <span class="inline-block text-[#8B4513] font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-[#FDF5E6] border border-[#DEB887] rounded-full">
-                                Heritage / Pilgrimage
-                            </span>
-
-                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">
-                                <span class="text-[#A0522D]">SAPTAM</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">
+                                KESAR<span class="text-orange-600/80">BAUG</span> Ecommerce Website
                             </h3>
 
                             <p class="text-slate-500 text-lg leading-relaxed font-medium">
-                                Discover India’s sacred temples and serene trails. We provide detailed guides and inspiring cultural stories for the modern spiritual explorer.
+                                High-conversion ecommerce platform with optimized checkout and product browsing.
                             </p>
 
                             <div class="flex gap-8 pt-6">
                                 <div class="flex flex-col">
-                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">100+</span>
-                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sacred Guides</span>
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">45%</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sales Growth</span>
                                 </div>
+
                                 <div class="w-px h-12 bg-slate-200"></div>
+
                                 <div class="flex flex-col">
-                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Rich</span>
-                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Cultural Media</span>
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Fast</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Load Speed</span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
                     <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
-                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white">
-                            <img src="/asset/image/saptam1.jpg" alt="Saptam Heritage" class="w-full object-cover">
+
+                        <div class="relative z-20 w-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] rounded-2xl overflow-hidden border border-white bg-white">
+                            <img src="/asset/image/s (2).jpg" loading="lazy" alt="Kesarbaug ecommerce homepage design" class="w-full object-cover">
                         </div>
 
                         <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block">
-                            <img src="/asset/image/saptam3.jpg" alt="Temple Detail" class="w-full object-cover h-44">
+                            <img src="/asset/image/kesarbaug-pp.png" loading="lazy" alt="Kesarbaug product page layout" class="w-full object-cover h-44">
                         </div>
 
                         <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block">
-                            <img src="/asset/image/saptam2.jpg" alt="Saptam Mobile" class="w-full object-cover h-[340px]">
+                            <img src="/asset/image/kesarbaug-mob.png" loading="lazy" alt="Kesarbaug mobile ecommerce interface" class="w-full object-cover h-[340px]">
                         </div>
+
                     </div>
-                </div>
+                </article>
 
+                <!-- DREAM KITCHEN -->
 
+                <article class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
 
-                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
                     <div class="lg:col-span-4 order-2 lg:order-1">
                         <div class="space-y-6">
-                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">Education / Edutech</span>
-                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VSA<br /><span class="text-indigo-600/80">EDUTECH</span></h3>
-                            <p class="text-slate-500 text-lg leading-relaxed font-medium">An online platform dedicated to distance learning, offering an intuitive classroom experience for students and mentors.</p>
+
+                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">E-comm / Clothing</span>
+
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">
+                                DREAM<span class="text-indigo-700">KITCHEN</span> Ecommerce Platform
+                            </h3>
+
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">
+                                Minimalist ecommerce UI with premium UX flow and gallery systems.
+                            </p>
+
                             <div class="flex gap-8 pt-6">
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">10k+</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Active Students</span></div>
+
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Premium</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UI Design</span>
+                                </div>
+
                                 <div class="w-px h-12 bg-slate-200"></div>
-                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Cloud</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Classroom</span></div>
+
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Smooth</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UX Flow</span>
+                                </div>
+
                             </div>
+
                         </div>
                     </div>
-                    <div class="lg:col-span-8 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
-                        <div class="relative z-20 w-full overflow-hidden"><img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" class="w-full object-cover"></div>
-                        <!-- <div class="absolute z-30 -top-12 -right-8 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vsa-courses.png" class="w-full object-cover h-44"></div>
-                        <div class="absolute z-40 -bottom-10 -left-6 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vsa-mob.png" class="w-full object-cover h-[340px]"></div> -->
+
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white">
+                            <img src="/asset/image/dk1.jpg" loading="lazy" alt="Dream Kitchen ecommerce homepage" class="w-full object-cover">
+                        </div>
+
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block">
+                            <img src="/asset/image/dk3.jpg" loading="lazy" alt="Dream Kitchen product showcase" class="w-full object-cover h-44">
+                        </div>
+
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block">
+                            <img src="/asset/image/dk2.png" loading="lazy" alt="Dream Kitchen mobile ecommerce view" class="w-full object-cover h-[340px]">
+                        </div>
+
                     </div>
-                </div>
+                </article>
 
             </div>
         </div>
     </section>
+
 
 
 
@@ -2301,7 +2349,7 @@ $page_title = "home";
 
 
 
-    <script>
+    <!-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Scroll animation
             const observer = new IntersectionObserver((entries) => {
@@ -2328,7 +2376,7 @@ $page_title = "home";
                 observer.observe(container);
             });
         });
-    </script>
+    </script> -->
 
 
 

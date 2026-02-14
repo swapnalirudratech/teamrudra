@@ -86,7 +86,7 @@ $page_title = "web-calculator"
                     <p class="text-base text-gray-300 mb-8 max-w-lg max-lg:text-sm">In 2024, a strong online presence is essential. Understand the investment required to elevate your digital footprint.</p>
                     <div class="flex gap-2">
 
-                        <a href="/getin-touch" class="bg-transparent max-md:text-xs border border-white  text-white px-6 py-3 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 inline-flex items-center">
+                        <a href="/get-in-touch" class="bg-transparent max-md:text-xs border border-white  text-white px-6 py-3 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 inline-flex items-center">
                             Book Appointment
                         </a>
                     </div>

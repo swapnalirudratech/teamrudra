@@ -83,7 +83,7 @@ $page_title = "healthcare"
                         Empowering healthcare providers with secure, scalable, and intelligent technology solutions for modern medical facilities.
                     </p>
                     <div class="flex gap-4">
-                        <a href="/getin-touch" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
+                        <a href="/get-in-touch" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
                             Get Started
                         </a>
 

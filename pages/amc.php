@@ -59,7 +59,7 @@ $page_title = "amc"
                         <div class="relative overflow-hidden rounded-2xl shadow-xl max-lg:w-full">
                             <img src="/asset/amc1.webp" class="w-full h-[60vh] max-lg:h-[30vh]  object-cover" alt="AMC Services">
                         </div>
-                        <a href="/getin-touch" class="bg-blue-700 group text-center text-white px-8 py-4 w-80 rounded-lg font-semibold hover:bg-blue-800 transition">
+                        <a href="/get-in-touch" class="bg-blue-700 group text-center text-white px-8 py-4 w-80 rounded-lg font-semibold hover:bg-blue-800 transition">
                             Get Started Today <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
                         </a>
                     </div>
@@ -204,7 +204,7 @@ $page_title = "amc"
             <h2 class="max-md:text-lg max-lg:text-2xl text-3xl font-bold mb-4 md:mb-0 max-md:text-center">
                 Ready to Strengthen Your IT Infrastructure?
             </h2>
-            <a href="/getin-touch" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
+            <a href="/get-in-touch" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
                 Get in Touch
             </a>
         </div>

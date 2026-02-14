@@ -152,7 +152,7 @@ $page_title = "Our Clients | RudraTech IT Service";
         <div class="max-w-4xl mx-auto text-center px-6">
             <h2 class="text-3xl font-bold text-white mb-4">Ready to start your project?</h2>
             <p class="text-gray-300 mb-8">Join our list of satisfied clients and let's build something great together.</p>
-            <a href="/getin-touch" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-md shadow-lg hover:bg-blue-700 hover:shadow-blue-900/50 transition duration-300 transform hover:-translate-y-1">
+            <a href="/get-in-touch" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-md shadow-lg hover:bg-blue-700 hover:shadow-blue-900/50 transition duration-300 transform hover:-translate-y-1">
                 Contact Us Today
             </a>
         </div>

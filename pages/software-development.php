@@ -389,7 +389,7 @@ $page_title = "software-development"
             </p>
 
             <div class="mt-8">
-                <a href="/getin-touch" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white px-6 py-3 rounded-full text-lg font-medium group">
+                <a href="/get-in-touch" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white px-6 py-3 rounded-full text-lg font-medium group">
                     Let’s Discuss
                     <svg class="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -682,7 +682,7 @@ $page_title = "software-development"
             <div class="left-panel gap-4 max-md:flex-col max-md:items-center max-md:text-center">
                 <h2 class="tagline text-3xl max-md:text-2xl">Custom Software Development Solutions For Every Business Function</h2>
                 <p class="subheading text-xl">Focused on Your Success</p>
-                <a href="/getin-touch" class="cta-button mt-6 w-fit max-md:mt-2 max-md:mb-8">Get Started</a>
+                <a href="/get-in-touch" class="cta-button mt-6 w-fit max-md:mt-2 max-md:mb-8">Get Started</a>
             </div>
 
             <!-- Right Scrollable Panel -->

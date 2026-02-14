@@ -32,7 +32,7 @@ $page_title = "cloud_services"
 
                 <div class="flex flex-wrap gap-4 pt-4">
 
-                    <a href="/getin-touch" class="px-6 py-3 border border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition">
+                    <a href="/get-in-touch" class="px-6 py-3 border border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition">
                         Learn More
                     </a>
                 </div>
@@ -312,7 +312,7 @@ $page_title = "cloud_services"
                 Accelerate your business growth with RudraTech’s advanced cloud solutions — designed to enhance performance, security, and scalability for lasting success.
             </p>
 
-            <a href="/getin-touch" class="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg transition-all duration-300">
+            <a href="/get-in-touch" class="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg transition-all duration-300">
                 Get Started <i class="fa-solid fa-arrow-right ml-2"></i>
             </a>
         </div>

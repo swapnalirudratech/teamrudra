@@ -29,7 +29,7 @@ $page_title = "domain"
                         class="px-5 py-2.5 max-md:text-sm bg-blue-800 text-white font-medium rounded-md hover:bg-blue-600 transition transform hover:-translate-y-1">
                         View Projects
                     </a>
-                    <a href="/getin-touch"
+                    <a href="/get-in-touch"
                         class="px-5 py-2.5 max-md:text-sm border border-blue-800 text-blue-800 font-medium rounded-md hover:bg-blue-800 hover:text-white transition transform hover:-translate-y-1">
                         Get in Touch
                     </a>
@@ -168,7 +168,7 @@ $page_title = "domain"
             <h2 class="max-lg:text-2xl text-3xl font-bold mb-4 md:mb-0">
                 Ready to Secure Your Perfect Domain?
             </h2>
-            <a href="/getin-touch"
+            <a href="/get-in-touch"
                 class="bg-white text-blue-900 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
                 Get in Touch
             </a>
@@ -224,7 +224,7 @@ $page_title = "domain"
                 Start building your online identity today with RudraTech — where innovation meets reliability.
             </p>
             <div class="mt-6 flex flex-wrap justify-center gap-4">
-                <a href="/getin-touch" class="px-6 py-3 bg-white text-blue-900 font-semibold rounded-md hover:bg-blue-100 transition">
+                <a href="/get-in-touch" class="px-6 py-3 bg-white text-blue-900 font-semibold rounded-md hover:bg-blue-100 transition">
                     Get Started
                 </a>
                 <a href="/portfolio" class="px-6 py-3 border border-white font-semibold rounded-md hover:bg-white hover:text-blue-900 transition">

@@ -33,7 +33,7 @@ include "include/header.php";
                 <!-- Call to Action Buttons -->
                 <div class="mt-6 flex flex-wrap gap-4">
 
-                    <a href="/getin-touch" class="px-6 py-3 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-black transition">
+                    <a href="/get-in-touch" class="px-6 py-3 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-black transition">
                         Build My Travel Website
                     </a>
                 </div>
@@ -269,7 +269,7 @@ include "include/header.php";
 
                 <!-- CTA -->
                 <div class="mt-10 flex max-md:justify-center max-md:pb-4">
-                    <a href="/getin-touch"
+                    <a href="/get-in-touch"
                         class="bg-blue-600 hover:bg-blue-500  text-white px-6 py-3 rounded-lg font-semibold shadow-lg">
                         Get Started
                     </a>

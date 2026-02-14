@@ -367,7 +367,7 @@ $page_title = "website"
                         We provide a complete range of services to turn your great ideas into profitable business solutions.
                     </p>
                     <p class="text-gray-400 mb-8">Don't worry if your industry is not listed here!</p>
-                    <a href="/getin-touch" class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 transition px-6 py-3 text-white font-medium rounded-md mx-auto lg:mx-0">
+                    <a href="/get-in-touch" class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 transition px-6 py-3 text-white font-medium rounded-md mx-auto lg:mx-0">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
                         </svg>

@@ -123,7 +123,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>3 Working Days Delivery</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>
@@ -153,7 +153,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>5 Working Days Delivery</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>
@@ -183,7 +183,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>1 Month AMC for Bug/Error/Security Issues</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>
@@ -206,7 +206,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>1 Month Free Support</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>
@@ -229,7 +229,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>3 Months Free Support</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>
@@ -252,7 +252,7 @@ $page_title = "packages"
                             <li class="flex items-start"><span class="text-green-500 mr-2">✔</span>6 Months Free Support</li>
                         </ul>
                         <div class="w-full mt-6">
-                            <a href="/getin-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
+                            <a href="/get-in-touch" class="block w-full text-center text-sm py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition">
                                 Enquire Now
                             </a>
                         </div>

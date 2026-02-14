@@ -207,7 +207,7 @@ include "include/header.php";
                     experience on every device. Built with the latest <span class="font-semibold text-gray-900">Bootstrap 5.x framework</span>,
                     it delivers flexibility, pixel-perfect visuals, and fast performance.
                 </p>
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-block bg-blue-600 text-white font-semibold py-2.5 px-6 rounded-full shadow-md 
           hover:bg-blue-700 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out mt-4">
                     Get Started

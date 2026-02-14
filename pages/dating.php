@@ -51,7 +51,7 @@ $page_title = "healthcare"
                     Transform your unique dating concept into the next big platform.
                     RudraTech builds beautiful, scalable, and high-performing dating apps that make meaningful connections happen.
                 </p>
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-flex items-center bg-pink-600  text-white max-lg:text-sm  max-md:px-3 max-md:py-2 px-6 py-3 rounded-full text-lg max-md:text-base  font-medium hover:bg-pink-700 transition">
                     Get Free Consultation
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24"

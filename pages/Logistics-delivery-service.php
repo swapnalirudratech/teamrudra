@@ -192,7 +192,7 @@ $page_title = "Logistics-delivery-service"
         <div class="mt-16 text-center" data-aos="fade-up" data-aos-delay="600">
             <h3 class="text-xl md:text-2xl font-semibold mb-2">Need To Digitize Some Other Transportation & Logistics Operations?</h3>
             <p class="text-sm text-gray-600 mb-4">Rudratech offers custom tech solutions to streamline your logistics journey.</p>
-            <a href="/getin-touch" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition">
+            <a href="/get-in-touch" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition">
                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 10.882l7.997-4.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 5-8-5V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />

@@ -674,7 +674,7 @@ $page_title = "home"
                     <button id="backBtn" class="hidden text-gray-600 hover:text-gray-800 px-8 py-3 rounded font-medium transition-colors duration-300 focus:outline-none">
                         <i class="fa-solid fa-left-long"></i> Go Back
                     </button>
-                    <a href="/getin-touch" class="ml-auto max-md:ml-0 bg-black hover:bg-gray-800 text-white px-8 py-3 rounded font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+                    <a href="/get-in-touch" class="ml-auto max-md:ml-0 bg-black hover:bg-gray-800 text-white px-8 py-3 rounded font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
                         Next <i class="fa-solid fa-right-long ml-2"></i>
                     </a>
                 </div>

@@ -106,7 +106,7 @@ Our No-Code products have you coveblue
     <div class="w-[80%] max-lg:w-[85%] mx-auto py-16 ">
         <!-- Main Heading Section -->
         <div class="text-center mb-16">
-            <h1 class="text-5xl max-lg:text-2xl font-normal mb-2 text-white">RudraTech is built</h1>
+            <h2 class="text-5xl max-lg:text-2xl font-normal mb-2 text-white">RudraTech is built</h2>
             <p class="text-blue-400 text-xl max-lg:text-lg font-normal">&lt; for businesses by tech experts &gt;</p>
         </div>
 
@@ -388,9 +388,9 @@ Our No-Code products have you coveblue
                     <div class="bg-gray-100 p-4 rounded-full mr-4">
                         <i class="fas fa-link text-gray-700"></i>
                     </div>
-                    <h4 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Links</h4>
+                    <h3 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Links</h3>
                 </div>
-                <h5 class="text-lg font-bold mb-3 max-lg:text-sm">Accept payments instantly</h5>
+                <h3 class="text-lg font-bold mb-3 max-lg:text-sm">Accept payments instantly</h3>
                 <p class="mb-6 text-gray-600 max-lg:text-xs">
                     Share links via email, text, or social media platforms with ease.
                 </p>
@@ -405,9 +405,9 @@ Our No-Code products have you coveblue
                     <div class="bg-gray-100 p-4 rounded-full mr-4">
                         <i class="fas fa-file-invoice text-gray-700"></i>
                     </div>
-                    <h4 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Pages</h4>
+                    <h3 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Pages</h3>
                 </div>
-                <h5 class="text-lg font-bold mb-3 max-lg:text-sm">Custom-branded stores</h5>
+                <h3 class="text-lg font-bold mb-3 max-lg:text-sm">Custom-branded stores</h3>
                 <p class="mb-6 text-gray-600 max-lg:text-xs">
                     Create professional payment pages without any coding knowledge.
                 </p>
@@ -422,9 +422,9 @@ Our No-Code products have you coveblue
                     <div class="bg-gray-100 p-4 rounded-full mr-4">
                         <i class="fas fa-money-check text-gray-700"></i>
                     </div>
-                    <h4 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Buttons</h4>
+                    <h3 class="text-xl font-semibold text-gray-800 max-lg:text-sm">Payment Buttons</h3>
                 </div>
-                <h5 class="text-lg font-bold mb-3 max-lg:text-sm">Effortless integration</h5>
+                <h3 class="text-lg font-bold mb-3 max-lg:text-sm">Effortless integration</h3>
                 <p class="mb-6 text-gray-600 max-lg:text-xs">
                     Add "Pay Now" buttons to your existing site without writing code.
                 </p>

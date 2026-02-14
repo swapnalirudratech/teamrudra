@@ -34,7 +34,7 @@ $page_title = "blockchain"
             <div class="w-[80%] max-lg:w-[85%] mx-auto relative z-20">
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-normal text-white leading-snug"> Blockchain Development </h2>
                 <p class="mt-4 text-base text-gray-300 w-1/2 max-md:w-full"> Secure, decentralized, and scalable blockchain solutions designed to transform your business processes. </p>
-                <div class="mt-6 flex space-x-4"> <a href="/portfolio" class="px-5 py-2.5 max-md:text-sm bg-gray-100 text-gray-800 font-medium rounded-md transition transform hover:-translate-y-1"> View Projects </a> <a href="/getin-touch" class="px-5 py-2.5 max-md:text-sm border border-gray-200 text-gray-100 font-medium rounded-md transition transform hover:-translate-y-1"> Get in Touch </a> </div>
+                <div class="mt-6 flex space-x-4"> <a href="/portfolio" class="px-5 py-2.5 max-md:text-sm bg-gray-100 text-gray-800 font-medium rounded-md transition transform hover:-translate-y-1"> View Projects </a> <a href="/get-in-touch" class="px-5 py-2.5 max-md:text-sm border border-gray-200 text-gray-100 font-medium rounded-md transition transform hover:-translate-y-1"> Get in Touch </a> </div>
             </div>
         </div>
     </div>
@@ -181,7 +181,7 @@ $page_title = "blockchain"
                     From strategy to deployment, we craft blockchain solutions that are secure, scalable, and built for tomorrow’s business ecosystem.
                 </p>
                 <div>
-                    <a href="/getin-touch"
+                    <a href="/get-in-touch"
                         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-lg shadow-md transition-all">
                         Get in Touch
                     </a>

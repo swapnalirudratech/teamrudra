@@ -82,7 +82,7 @@ $page_title = "healthcare"
                     <p class="text-xl max-md:text-lg  mb-8 text-white">
                         Empowering financial institutions with secure, scalable, and innovative technology solutions for the modern digital economy. </p>
                     <div class="flex gap-4">
-                        <a href="/getin-touch" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
+                        <a href="/get-in-touch" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
                             Get Started
                         </a>
 

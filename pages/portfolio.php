@@ -25,7 +25,7 @@ $page_title = "portfolio"
                 </p>
                 <div class="mt-8 flex space-x-4">
 
-                    <a href="/getin-touch" class="px-6 py-3 max-md:text-xs border border-white text-white font-medium rounded-md hover:bg-white hover:text-black transition transform hover:-translate-y-1">
+                    <a href="/get-in-touch" class="px-6 py-3 max-md:text-xs border border-white text-white font-medium rounded-md hover:bg-white hover:text-black transition transform hover:-translate-y-1">
                         Get in Touch
                     </a>
                 </div>

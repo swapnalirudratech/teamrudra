@@ -44,7 +44,7 @@ $page_title = "biseness-profile";
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
                        text-white font-bold text-base px-8 py-4 rounded-full 
                        shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 

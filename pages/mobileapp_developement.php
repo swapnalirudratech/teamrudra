@@ -779,7 +779,7 @@ $page_title = "Mobile App Development | Rudratech IT Services";
 
                 <div class="lg:w-1/3 flex justify-center lg:justify-end" data-aos="zoom-in">
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="/getin-touch" class="px-8 py-4 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-500/25 text-center">
+                        <a href="/get-in-touch" class="px-8 py-4 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-500/25 text-center">
                             Get In Touch
                         </a>
                         <!-- <a href="tel:+911234567890" class="px-8 py-4 bg-transparent border border-white/30 text-white rounded-full font-bold hover:bg-white hover:text-slate-900 transition text-center flex items-center justify-center gap-2">
@@ -929,7 +929,7 @@ $page_title = "Mobile App Development | Rudratech IT Services";
                     <h2 class="text-3xl lg:text-5xl font-bold text-white mb-6">Have an App Idea?</h2>
                     <p class="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">Let Rudratech IT Services turn your vision into a reality. Get a free consultation and quote today.</p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="/getin-touch" class="px-10 py-4 bg-white text-blue-600 rounded-full font-bold hover:bg-slate-100 transition shadow-lg">
+                        <a href="/get-in-touch" class="px-10 py-4 bg-white text-blue-600 rounded-full font-bold hover:bg-slate-100 transition shadow-lg">
                             Get In Touch
                         </a>
 

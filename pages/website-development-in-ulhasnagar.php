@@ -941,7 +941,7 @@ $page_title = "home"
 
 
                     <div class="mt-10 text-center max-md:mt-4 ">
-                        <a href="/getin-touch" class="inline-flex  hover:border border-blue-500 items-center px-6 py-3 bg-blue-200 text-blue-600 font-medium rounded hover:bg-gray-100 transition duration-300">
+                        <a href="/get-in-touch" class="inline-flex  hover:border border-blue-500 items-center px-6 py-3 bg-blue-200 text-blue-600 font-medium rounded hover:bg-gray-100 transition duration-300">
                             Let's Build Together
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -1239,7 +1239,7 @@ $page_title = "home"
                 </div>
 
                 <div class="flex  gap-4  ">
-                    <a href="/getin-touch" class="max-lg:text-xs max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
+                    <a href="/get-in-touch" class="max-lg:text-xs max-lg:whitespace-nowrap bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white py-2 px-6 rounded-lg text-sm font-medium flex items-center delay-300">
                         Request a Demo
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />

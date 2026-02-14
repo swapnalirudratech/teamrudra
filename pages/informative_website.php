@@ -36,7 +36,7 @@ $page_title = "website-designing";
                 Clean, responsive websites that inform, engage, and convert. Designed with user experience and clarity in mind.
             </p>
             <div class="mt-6">
-                <a href="/getin-touch"
+                <a href="/get-in-touch"
                     class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-md text-sm sm:text-base font-semibold transition duration-300">
                     <i class="fas fa-paper-plane"></i> Get Started
                 </a>
