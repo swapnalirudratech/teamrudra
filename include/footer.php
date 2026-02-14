@@ -181,3 +181,32 @@
     </div>
 
 </footer>
+
+
+
+<!-- whatspp and call icon homepage  -->
+
+
+<div class="fixed right-0 max-md:bottom-28 lg:top-1/2 lg:-translate-y-1/2 z-[9999] flex flex-col items-end">
+
+
+    <a href="tel:+917208344434"
+        class="group flex items-center justify-end bg-blue-600 text-white h-10 w-10 md:hover:w-44 transition-all duration-300 ease-in-out overflow-hidden shadow-lg border-t border-white/10">
+        <span class="hidden md:block opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-bold text-sm absolute right-16">
+            Call Now
+        </span>
+        <div class="w-10 h-10 flex items-center justify-center shrink-0 bg-blue-600">
+            <i class="fas fa-phone text-base md:text-lg"></i>
+        </div>
+    </a>
+    <a href="https://wa.me/917208344434" target="_blank"
+        class="group flex items-center justify-end bg-[#25D366] text-white h-10 w-10 md:hover:w-44 transition-all duration-300 ease-in-out overflow-hidden shadow-lg">
+        <span class="hidden md:block opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-bold text-sm absolute right-16">
+            WhatsApp Us
+        </span>
+        <div class="w-10 h-10 flex items-center justify-center shrink-0 bg-[#25D366]">
+            <i class="fab fa-whatsapp text-lg md:text-xl"></i>
+        </div>
+    </a>
+
+</div>

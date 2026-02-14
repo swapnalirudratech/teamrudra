@@ -4,7 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Mobile App &amp; Software Development Company Mumbai</title>
+
+
+    <!-- Primary SEO -->
+    <title>Custom Software & Mobile App Development Company in Mumbai | Team Rudra</title>
+
+    <meta name="description" content="Team Rudra is a Mumbai-based software development company offering custom web development, mobile app development, enterprise solutions and digital transformation services.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://teamrudra.com/">
+
+    <!-- Open Graph (Facebook / WhatsApp / LinkedIn) -->
+    <meta property="og:title" content="Custom Software & Mobile App Development Company in Mumbai">
+    <meta property="og:description" content="We build scalable software, mobile apps and digital solutions for startups and enterprises.">
+    <meta property="og:url" content="https://teamrudra.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://teamrudra.com/asset/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Team Rudra - Software Development Company">
+    <meta name="twitter:description" content="Custom software, mobile apps and enterprise digital solutions.">
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Team Rudra",
+            "url": "https://teamrudra.com",
+            "logo": "https://teamrudra.com/asset/icon/fav_logo.png",
+            "sameAs": [
+                "https://www.facebook.com/",
+                "https://www.linkedin.com/",
+                "https://www.instagram.com/"
+            ]
+        }
+    </script>
+
     <link rel="icon" href="/asset/icon/fav_logo.png" sizes="1024x1024" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
