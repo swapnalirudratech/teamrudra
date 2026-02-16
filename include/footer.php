@@ -41,27 +41,7 @@
 
             </address>
 
-            <div class="w-full rounded-lg mt-8 max-lg:mb-4">
-                <h3 class="text-base font-semibold text-white mb-2">Stay in the Loop</h3>
 
-                <form class="flex" aria-label="Newsletter subscription">
-
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        class="px-3 py-2 text-sm text-gray-900 rounded-l-md border-none focus:outline-none max-lg:w-1/2"
-                        required
-                        aria-label="Email address" />
-
-                    <button
-                        type="submit"
-                        class="bg-blue-600 text-white px-4 py-2 text-sm font-medium rounded-r-md hover:bg-blue-700 transition-all duration-200">
-                        Subscribe
-                    </button>
-
-                </form>
-            </div>
 
         </div>
 
@@ -73,7 +53,7 @@
                 <h3 class="text-sm font-normal mb-4 border-b border-blue-500 pb-2">About Us</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a href="/">Any Grievance Home</a></li>
-                    <li><a href="/about">Know More About</a></li>
+                    <li><a href="/about-us">Know More About</a></li>
                     <li><a href="/client">Our Supporter Clients</a></li>
                 </ul>
             </div>

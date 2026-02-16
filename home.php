@@ -1940,7 +1940,7 @@ $page_title = "home";
 
 
                     <div class="flex space-x-4">
-                        <a href="/about"
+                        <a href="/about-us"
                             aria-label="About RudraTech IT Services"
                             title="About our software development company"
                             class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-sm rounded-full hover:bg-blue-700 transition">

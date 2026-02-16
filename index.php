@@ -202,7 +202,7 @@ $routes = [
         "page" => "pages/career.php",
     ],
     [
-        "route" => "/about",
+        "route" => "/about-us",
         "method" => ["GET", "POST"],
         "page" => "pages/about.php",
     ],

@@ -1071,7 +1071,7 @@ $page_title = "home"
 
 
                     <div class="flex space-x-4">
-                        <a href="/about" class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-xs rounded-full hover:bg-blue-700 transition">
+                        <a href="/about-us" class="bg-blue-600 text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-xs rounded-full hover:bg-blue-700 transition">
                             Our Story
                         </a>
                         <a href="/client" class="border border-white text-white px-6 py-3 max-lg:px-4 max-lg:py-2 max-lg:text-xs rounded-full hover:bg-white hover:text-gray-800 transition">
