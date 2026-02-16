@@ -52,6 +52,23 @@
      elseif ($project == 'saptam') {
         $imagePath = "/asset/software/saptam-full.png";
     }
+
+        elseif ($project == 'madasky') {
+        $imagePath = "/asset/software/madasky1.png";
+    }
+     elseif ($project == 'weldfab') {
+        $imagePath = "/asset/software/weldfab1.png";
+    }
+        elseif ($project == 'aartha') {
+        $imagePath = "/asset/software/aartha.png";
+    }
+     elseif ($project == 'stallion-wealth') {
+        $imagePath = "/asset/software/stallion.png";
+    }
+        elseif ($project == 'fbmto') {
+        $imagePath = "/asset/software/fbmto.png";
+    }
+     
     ?>
 
     <?php if ($imagePath != ""): ?>

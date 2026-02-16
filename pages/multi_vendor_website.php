@@ -69,7 +69,7 @@ $page_title = "multivendor-website";
             </div>
 
             <div class="flex flex-col sm:flex-row gap-4">
-                <a href="/getquote"
+                <a href="/get-in-touch"
                     class="max-md:text-xs inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 
                    text-white font-bold text-base sm: px-8 py-4 rounded-full 
                    shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] 
@@ -452,7 +452,7 @@ $page_title = "multivendor-website";
                     </div>
 
                     <div class="flex shrink-0 max-md:w-full max-md:justify-center">
-                        <a href="/contact"
+                        <a href="/get-in-touch"
                             class="group flex items-center gap-3 bg-white px-8 py-4 max-md:px-6 max-md:py-3 rounded-full text-slate-900 font-bold shadow-lg hover:bg-blue-500 hover:text-white transition-all duration-500 transform hover:-translate-y-1">
 
                             <span>Get Started</span>
@@ -686,10 +686,10 @@ $page_title = "multivendor-website";
                     </div>
 
                     <div class="flex flex-col sm:flex-row items-center justify-center gap-6 max-md:gap-3">
-                        <a href="/consultation" class="max-md:text-xs w-full sm:w-auto px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-blue-500 hover:text-white transition-all transform hover:-translate-y-1">
+                        <a href="/get-in-touch" class="max-md:text-xs w-full sm:w-auto px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-blue-500 hover:text-white transition-all transform hover:-translate-y-1">
                             Request Free Consultation
                         </a>
-                        <a href="/quote" class="max-md:text-xs w-full sm:w-auto px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 shadow-lg shadow-blue-900/50 transition-all transform hover:-translate-y-1">
+                        <a href="/get-in-touch" class="max-md:text-xs w-full sm:w-auto px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 shadow-lg shadow-blue-900/50 transition-all transform hover:-translate-y-1">
                             Get Custom Quote Today
                         </a>
                     </div>

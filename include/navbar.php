@@ -161,29 +161,31 @@
                                         </h2>
                                         <a href="/get-in-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
                                             Get Started
-                                            <span class="inline-block bg-green-400 text-white rounded-full ml-2 w-5 h-5 text-center">→</span>
+                                            <span class="inline-block bg-blue-600 text-white rounded-full ml-2 w-5 h-5 text-center">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
                                         </a>
                                     </div>
 
 
-                                    <div class="bg-yellow-200 p-3   flex flex-col items-center text-center gap-4 ">
+                                    <div class=" border-4 border-gray-600 rounded-xl  flex flex-col items-center text-center gap-4 ">
 
                                         <div class="owl-carousel navbar-carousel owl-theme  rounded-lg  w-full h-full overflow-hidden ">
                                             <div class="item">
-                                                <img src="/asset/image/s (1).jpg" alt="Slide 1" class="w-full h-32 object-contain " />
+                                                <img src="/asset/image/s (1).jpg" alt="Slide 1" class="w-full h-36 rounded-xl object-contain " />
                                             </div>
                                             <div class="item">
-                                                <img src="/asset/image/s (2).jpg" alt="Slide 2" class="w-full h-32 object-contain " />
+                                                <img src="/asset/image/s (2).jpg" alt="Slide 2" class="w-full h-36 rounded-xl object-contain " />
                                             </div>
                                             <div class="item">
-                                                <img src="/asset/image/s (5).jpg" alt="Slide 3" class="w-full h-32 object-contain " />
+                                                <img src="/asset/image/s (5).jpg" alt="Slide 3" class="w-full h-36 rounded-xl object-contain " />
                                             </div>
                                             <div class="item">
-                                                <img src="/asset/image/s (6).jpg" alt="Slide 3" class="w-full h-32 object-contain " />
+                                                <img src="/asset/image/s (6).jpg" alt="Slide 3" class="w-full h-36 rounded-xl object-contain " />
                                             </div>
-                                            <div class="item">
+                                            <!-- <div class="item">
                                                 <img src="/asset/image/s (7).jpg" alt="Slide 3" class="w-full h-32 object-contain " />
-                                            </div>
+                                            </div> -->
                                         </div>
 
                                     </div>
