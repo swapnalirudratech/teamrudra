@@ -338,7 +338,9 @@
                                         </h2>
                                         <a href="/get-in-touch" class="inline-flex items-center mt-4 text-sm font-bold text-black underline">
                                             Get Started
-                                            <span class="inline-block bg-green-400 text-white rounded-full ml-2 w-5 h-5 text-center">→</span>
+                                            <span class="inline-block bg-blue-600 text-white rounded-full ml-2 w-5 h-5 text-center">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
                                         </a>
                                     </div>
 
