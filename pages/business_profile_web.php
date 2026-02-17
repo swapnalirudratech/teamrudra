@@ -14,60 +14,79 @@ $page_title = "biseness-profile";
     ?>
 
 
-    <!-- Hero Section -->
-    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
+    <section class="relative w-full h-[90vh]  flex items-center justify-center overflow-hidden bg-gray-900">
 
         <div class="absolute inset-0">
             <img src="/asset/businesspro.jpg" alt="Business Profile Background"
                 class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
 
-            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-black/90"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-black md:to-black/90"></div>
         </div>
+
+        <div class="absolute top-20 -left-10 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl md:hidden"></div>
+        <div class="absolute bottom-20 -right-10 w-60 h-60 bg-indigo-500/10 rounded-full blur-3xl md:hidden"></div>
 
         <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-4xl mx-auto flex flex-col items-center">
 
-            <div class="mb-6 max-md:hidden inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-600/20 border border-blue-500/30 backdrop-blur-sm">
-                <i class="fas fa-check-circle text-blue-400 text-xs"></i>
-                <span class="text-xs font-bold text-blue-100 uppercase tracking-widest">Professional Identity</span>
+            <div class="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-600/20 border border-blue-500/30 backdrop-blur-md max-md:scale-110">
+                <i class="fas fa-check-circle text-blue-400 text-xs animate-pulse"></i>
+                <span class="text-[10px] md:text-xs font-bold text-blue-100 uppercase tracking-[0.2em]">Professional Identity</span>
             </div>
 
-            <h1 class="text-white font-extrabold tracking-tight leading-tight drop-shadow-2xl
-                   text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
+            <h1 class="text-white font-extrabold tracking-tight drop-shadow-2xl
+               text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 leading-[1.1] md:leading-tight">
                 Business Profile <br />
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-blue-400 bg-[length:200%_auto] animate-[gradient_4s_linear_infinite]">
                     Website Design
                 </span>
             </h1>
 
-            <p class="text-gray-300 max-md:hidden text-base sm:text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md leading-relaxed mb-10 font-light">
-                First impressions are important. Enhance your brand with a modern, online headquarters that instills confidence and fosters client interaction.
-            </p>
+            <div class="max-md:bg-white/5 max-md:p-6 max-md:rounded-3xl max-md:backdrop-blur-sm max-md:border max-md:border-white/10 max-md:mb-8">
+                <p class="text-gray-300 text-base sm: md:max-w-2xl mx-auto drop-shadow-md leading-relaxed md:mb-10 font-light">
+                    First impressions are critical. Enhance your brand with a modern online headquarters that <span class="text-blue-400 font-medium">instills confidence</span> and fosters interaction.
+                </p>
+            </div>
 
-            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center px-4 md:px-0">
                 <a href="/get-in-touch"
                     class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 
-                       text-white font-bold text-base px-8 py-4 rounded-full 
-                       shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] 
-                       transition-all duration-300 transform hover:-translate-y-1">
+                    text-white font-bold text-base px-10 py-5 rounded-2xl md:rounded-full 
+                    shadow-[0_10px_30px_rgba(37,99,235,0.4)] transition-all duration-300 transform active:scale-95">
                     Establish Your Brand
                 </a>
 
                 <a href="/portfolio"
-                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/20 rounded-full 
-                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
+                    class="inline-flex items-center justify-center px-10 py-5 text-white border border-white/20 rounded-2xl md:rounded-full 
+                    hover:bg-white/10 backdrop-blur-md transition-all duration-300">
                     View Samples
                 </a>
             </div>
         </div>
     </section>
 
+    <style>
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+
 
     <!-- About Section -->
-    <section id="about" class="relative py-24 max-lg:py-16 bg-white w-full">
-        <div class="container mx-auto w-[80%] max-lg:w-[85%]">
+    <section id="about" class="relative py-24 max-md:py-12  max-lg:py-16 bg-white w-full">
+        <div class="container mx-auto w-[85%]  max-lg:w-[85%]">
             <div class="flex items-center mb-12 max-lg:mb-4">
                 <div class="w-16 h-0.5 bg-blue-600 mr-4"></div>
-                <h2 class="text-3xl font-medium">Business Profile Website Features</h2>
+                <h2 class="text-5xl max-md:text-2xl font-bold">Business Profile Website Features</h2>
             </div>
             <p class="text-gray-800 text-base leading-relaxed mb-4">
                 At <span class="text-blue-600 font-semibold">RudraTech</span>,we create beautiful business profile websites that represent your brand, your vision, and your professionalism. Whether it is a new business or an existing one, our websites are designed to make a statement.
@@ -80,21 +99,21 @@ $page_title = "biseness-profile";
                     <div class="text-blue-600 text-4xl mb-4 group-hover:text-white transition duration-300">
                         <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="text-xl text-white font-medium mb-3">Responsive Design</h3>
+                    <h3 class="text-white font-medium mb-3">Responsive Design</h3>
                     <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Designed for mobile, tablet, and computer viewing.</p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:text-white transition duration-300">
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
-                    <h3 class="text-xl text-white font-medium mb-3">Fast & Lightweight</h3>
+                    <h3 class="text-white font-medium mb-3">Fast & Lightweight</h3>
                     <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Quick-loading pages for improved SEO and user experience.</p>
                 </div>
                 <div class="bg-black p-6 rounded-tl-[40px] rounded-br-[40px] hover:bg-gray-800 transition duration-300 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:text-white transition duration-300">
                         <i class="fas fa-palette"></i>
                     </div>
-                    <h3 class="text-xl text-white font-medium mb-3">Brand-Oriented UI</h3>
+                    <h3 class="text-white font-medium mb-3">Brand-Oriented UI</h3>
                     <p class="text-gray-400 group-hover:text-gray-200 max-md:text-xs">Custom layouts that match your business identity.</p>
                 </div>
             </div>
@@ -102,12 +121,12 @@ $page_title = "biseness-profile";
     </section>
 
 
-    <section class="py-24 bg-gray-50 overflow-hidden">
-        <div class="w-[80%] max-lg:w-full mx-auto px-6 lg:px-8">
+    <section class="py-24 max-md:py-12  bg-gray-50 overflow-hidden">
+        <div class="w-[85%]  max-lg:w-full mx-auto px-6 lg:px-8">
 
-            <div class="w-full mb-16 flex max-lg:flex-col justify-between md:gap-16">
+            <div class="w-full mb-16 flex max-lg:flex-col justify-between md:gap-16 max-md:mb-8">
                 <div class="max-w-2xl">
-                    <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-6">
+                    <h2 class="text-4xl max-md:text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-6">
                         Solutions crafted for <br>
                         <span class="text-blue-600 relative inline-block">
                             Business Growth
@@ -118,13 +137,13 @@ $page_title = "biseness-profile";
                     </h2>
                 </div>
                 <div class="max-w-2xl">
-                    <p class="text-lg text-gray-600 leading-relaxed">
+                    <p class=" text-gray-600 leading-relaxed">
                         RudraTech IT Services develops high-performance digital ecosystems. We don't just build websites; we build your digital identity.
                     </p>
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
 
                 <div class="space-y-8 lg:space-y-12">
                     <div class="group relative bg-white p-8 rounded-[2rem] shadow-sm hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden">
@@ -219,25 +238,25 @@ $page_title = "biseness-profile";
 
 
 
-    <section class="py-24 bg-white overflow-hidden">
-        <div class="container mx-auto px-6">
+    <section class="py-24 max-md:py-12  bg-white overflow-hidden">
+        <div class="w-[85%] mx-auto">
 
-            <div class="text-center mb-16">
+            <div class="text-center mb-16 max-md:mb-4">
                 <h2 class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Project Spotlight</h2>
-                <h3 class="text-4xl font-extrabold text-gray-900">Innovation in Every Pixel</h3>
+                <h3 class="text-5xl max-md:text-2xl  font-extrabold text-gray-900">Innovation in Every Pixel</h3>
             </div>
 
             <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
 
-                <div class="w-full lg:w-1/4 space-y-12 text-right order-2 lg:order-1">
+                <div class="w-full lg:w-1/4 space-y-12 text-right order-2 lg:order-1 max-md:text-left">
                     <div class="group">
-                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Modern UI/UX</h4>
+                        <h4 class="font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Modern UI/UX</h4>
                         <p class="text-gray-600 text-sm leading-relaxed">
                             We design interfaces that are not only beautiful but conversion-focused, ensuring your users stay engaged.
                         </p>
                     </div>
                     <div class="group">
-                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Lightning Speed</h4>
+                        <h4 class="font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Lightning Speed</h4>
                         <p class="text-gray-600 text-sm leading-relaxed">
                             Optimized with Tailwind CSS and clean JS to ensure 99+ Core Web Vital scores for better SEO ranking.
                         </p>
@@ -248,7 +267,7 @@ $page_title = "biseness-profile";
                     <div class="relative group">
                         <div class="absolute -inset-4 bg-blue-100 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition duration-1000"></div>
 
-                        <div class="relative bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden transform group-hover:scale-[1.02] transition duration-500">
+                        <div class="relative bg-white rounded-2xl shadow-2xl max-md:shadow border border-gray-100 overflow-hidden transform group-hover:scale-[1.02] transition duration-500">
 
                             <div class="bg-gray-100 px-4 py-3 flex items-center gap-1.5 border-b border-gray-200">
                                 <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
@@ -285,13 +304,13 @@ $page_title = "biseness-profile";
 
                 <div class="w-full lg:w-1/4 space-y-12 text-left order-3">
                     <div class="group">
-                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">SEO Ready</h4>
+                        <h4 class="font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">SEO Ready</h4>
                         <p class="text-gray-600 text-sm leading-relaxed">
                             Built-in semantic HTML structure to make your business easily discoverable on Google and Bing.
                         </p>
                     </div>
                     <div class="group">
-                        <h4 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Admin Control</h4>
+                        <h4 class="font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">Admin Control</h4>
                         <p class="text-gray-600 text-sm leading-relaxed">
                             Every website we build comes with a custom dashboard to manage your content without touching a line of code.
                         </p>
@@ -301,17 +320,17 @@ $page_title = "biseness-profile";
         </div>
     </section>
 
-    <section class="py-20 bg-white overflow-hidden">
-        <div class="w-[80%] mx-auto ">
+    <section class="py-20 max-md:py-12 bg-white overflow-hidden max-md:border-t">
+        <div class="w-[85%]  mx-auto ">
             <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
                 <div class="lg:w-2/5 space-y-8">
                     <div>
                         <h2 class="text-blue-600 font-bold tracking-[0.2em] uppercase text-xs mb-4">Why Businesses Choose Us</h2>
-                        <h3 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
+                        <h3 class="text-2xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
                             Websites That <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Convert Visitors</span> Into Customers.
                         </h3>
-                        <p class="text-lg text-slate-600 leading-relaxed">
+                        <p class=" text-slate-600 leading-relaxed">
                             We don't just build websites; we build high-performance business engines designed to dominate your local market.
                         </p>
                     </div>
@@ -324,7 +343,7 @@ $page_title = "biseness-profile";
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-slate-900">Ultra-Fast Loading</h4>
+                                <h4 class=" font-bold text-slate-900">Ultra-Fast Loading</h4>
                                 <p class="text-slate-500 text-sm font-medium">Core Web Vitals optimized for instant browsing.</p>
                             </div>
                         </div>
@@ -334,7 +353,7 @@ $page_title = "biseness-profile";
                 <div class="lg:w-3/5 w-full relative">
                     <div class="absolute -right-20 top-1/2 -translate-y-1/2 w-80 h-80 bg-blue-100 rounded-full blur-[100px] opacity-60"></div>
 
-                    <div class="swiper business-carousel p-10">
+                    <div class="swiper business-carousel p-10 max-md:p-4">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="rounded-3xl shadow-2xl border-[10px] border-white overflow-hidden ">
@@ -353,13 +372,13 @@ $page_title = "biseness-profile";
                             </div>
                         </div>
 
-                        <div class="flex gap-4 mt-12 justify-center lg:justify-start">
-                            <div class="swiper-prev bg-slate-900 text-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors">
+                        <div class="flex gap-4 mt-12 justify-center lg:justify-start max-md:mt-4">
+                            <div class="swiper-prev bg-slate-900 text-white w-12 h-12 max-md:w-8 max-md:h-8 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                                 </svg>
                             </div>
-                            <div class="swiper-next bg-slate-900 text-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors">
+                            <div class="swiper-next bg-slate-900 text-white w-12 h-12 max-md:w-8 max-md:h-8 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                                 </svg>
@@ -374,10 +393,10 @@ $page_title = "biseness-profile";
 
 
 
-    <section class="py-20 bg-white">
-        <div class="w-[80%] mx-auto ">
+    <section class="py-20 max-md:py-12  bg-white">
+        <div class="w-[85%]  mx-auto ">
 
-            <div class="mb-16">
+            <div class="mb-16 max-md:mb-6">
                 <span class="inline-block px-4 py-1 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
                     The Future of Business, Now
                 </span>
@@ -396,7 +415,7 @@ $page_title = "biseness-profile";
                         <div class="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center font-bold  text-slate-950 shadow-lg">01</div>
                     </div>
                     <div class="px-2">
-                        <h4 class="text-xl font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Strategy & Discovery</h4>
+                        <h4 class="font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Strategy & Discovery</h4>
                         <p class="text-xs font-bold text-slate-400 leading-relaxed">Understanding your brand and market to lay a high-conversion foundation.</p>
                     </div>
                 </div>
@@ -407,7 +426,7 @@ $page_title = "biseness-profile";
                         <div class="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center font-bold  text-slate-950 shadow-lg">02</div>
                     </div>
                     <div class="px-2">
-                        <h4 class="text-xl font-bold  text-slate-950 mb-2 uppercase tracking-tighter">UI/UX & Design</h4>
+                        <h4 class="font-bold  text-slate-950 mb-2 uppercase tracking-tighter">UI/UX & Design</h4>
                         <p class="text-xs font-bold text-slate-400 leading-relaxed">Crafting intuitive interfaces engineered with Tailwind CSS for rapid mobile deployment.</p>
                     </div>
                 </div>
@@ -418,7 +437,7 @@ $page_title = "biseness-profile";
                         <div class="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center font-bold  text-slate-950 shadow-lg">03</div>
                     </div>
                     <div class="px-2">
-                        <h4 class="text-xl font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Logic & Development</h4>
+                        <h4 class="font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Logic & Development</h4>
                         <p class="text-xs font-bold text-slate-400 leading-relaxed">Implementing secure custom PHP frameworks and API integrations for enterprise scale.</p>
                     </div>
                 </div>
@@ -429,7 +448,7 @@ $page_title = "biseness-profile";
                         <div class="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center font-bold  text-slate-950 shadow-lg">04</div>
                     </div>
                     <div class="px-2">
-                        <h4 class="text-xl font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Launch & Growth</h4>
+                        <h4 class="font-bold  text-slate-950 mb-2 uppercase tracking-tighter">Launch & Growth</h4>
                         <p class="text-xs font-bold text-slate-400 leading-relaxed">Post-launch SEO optimization and continuous technical support for global success.</p>
                     </div>
                 </div>
@@ -448,12 +467,12 @@ $page_title = "biseness-profile";
         </div>
     </section>
 
-    <section class="py-24 max-md:py-16 bg-white font-sans">
-        <div class="w-[80%] mx-auto ">
+    <section class="py-24 max-md:py-12  max-md:py-16 bg-white font-sans">
+        <div class="w-[85%]  mx-auto ">
             <div class="flex items-end gap-4 mb-20 max-md:mb-12">
                 <span class="text-8xl max-md:text-6xl font-black text-blue-600 leading-none">05</span>
                 <div>
-                    <h2 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tighter">Business Portals</h2>
+                    <h2 class="text-xl md:text-6xl font-extrabold text-gray-900 tracking-tighter">Business Portals</h2>
                     <p class="text-2xl max-md:text-lg font-serif italic text-gray-500">
                         Explore <span class="text-blue-600 font-sans not-italic font-bold">our corporate & industrial work</span>
                     </p>
@@ -470,7 +489,7 @@ $page_title = "biseness-profile";
                     </a>
                     <div class="mt-6 flex items-center justify-between">
                         <div>
-                            <h4 class="text-xl font-bold text-gray-900 uppercase tracking-tighter">Madasky</h4>
+                            <h4 class="font-bold text-gray-900 uppercase tracking-tighter">Madasky</h4>
                             <p class="text-xs text-blue-600 font-bold uppercase tracking-widest mt-1">Consulting & Services</p>
                         </div>
                         <span class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -487,7 +506,7 @@ $page_title = "biseness-profile";
                     </a>
                     <div class="mt-6 flex items-center justify-between">
                         <div>
-                            <h4 class="text-xl font-bold text-gray-900 uppercase tracking-tighter">Weldfab Tech</h4>
+                            <h4 class="font-bold text-gray-900 uppercase tracking-tighter">Weldfab Tech</h4>
                             <p class="text-xs text-blue-600 font-bold uppercase tracking-widest mt-1">Industrial Media</p>
                         </div>
                         <span class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -506,7 +525,7 @@ $page_title = "biseness-profile";
                     </a>
                     <div class="mt-6 flex items-center justify-between">
                         <div>
-                            <h4 class="text-xl font-bold text-gray-900 uppercase tracking-tighter">Aartha</h4>
+                            <h4 class="font-bold text-gray-900 uppercase tracking-tighter">Aartha</h4>
                             <p class="text-xs text-blue-600 font-bold uppercase tracking-widest mt-1">Financial Services</p>
                         </div>
                         <span class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -523,7 +542,7 @@ $page_title = "biseness-profile";
                     </a>
                     <div class="mt-6 flex items-center justify-between">
                         <div>
-                            <h4 class="text-xl font-bold text-gray-900 uppercase tracking-tighter">Stallion Wealth</h4>
+                            <h4 class="font-bold text-gray-900 uppercase tracking-tighter">Stallion Wealth</h4>
                             <p class="text-xs text-blue-600 font-bold uppercase tracking-widest mt-1">Wealth Advisory</p>
                         </div>
                         <span class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -540,7 +559,7 @@ $page_title = "biseness-profile";
                     </a>
                     <div class="mt-6 flex items-center justify-between">
                         <div>
-                            <h4 class="text-xl font-bold text-gray-900 uppercase tracking-tighter">FBMTO</h4>
+                            <h4 class="font-bold text-gray-900 uppercase tracking-tighter">FBMTO</h4>
                             <p class="text-xs text-blue-600 font-bold uppercase tracking-widest mt-1">E-Commerce & Retail</p>
                         </div>
                         <span class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -553,7 +572,7 @@ $page_title = "biseness-profile";
         </div>
     </section>
 
-    <section class="py-10 bg-white border-t border-slate-100">
+    <section class="py-10 bg-white border-t border-slate-100 max-md:text-xs">
         <div class="w-[85%] mx-auto">
             <div class="relative bg-slate-900 rounded-[3rem] p-10 md:p-16 overflow-hidden shadow-2xl shadow-blue-900/20">
 
@@ -565,7 +584,7 @@ $page_title = "biseness-profile";
                         <h3 class="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight leading-tight">
                             Let’s Build a Website That <span class="text-blue-400">Works for Your Business.</span>
                         </h3>
-                        <p class="text-slate-400 text-lg font-medium leading-relaxed">
+                        <p class="text-slate-400  font-medium leading-relaxed">
                             Partner with **RudraTech IT Services** to transform your digital presence into a high-performance growth engine.
                         </p>
                     </div>

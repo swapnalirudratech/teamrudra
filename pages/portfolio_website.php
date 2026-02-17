@@ -32,50 +32,73 @@ $page_title = "professional-portfolio-development";
         }
     </style>
 
-    <section class="relative w-full h-[90vh] max-md:h-[70vh] flex items-center justify-center overflow-hidden bg-gray-900">
+    <section class="relative w-full h-[90vh]  flex items-center justify-center overflow-hidden bg-gray-950">
 
         <div class="absolute inset-0">
             <img src="/asset/portfolioback.jpg" alt="Portfolio Background"
-                class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
-            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/90"></div>
+                class="w-full h-full object-cover object-center scale-110 md:scale-105 animate-[pulse_10s_ease-in-out_infinite]" />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black md:to-black/90"></div>
         </div>
 
-        <div class="relative z-20 text-center px-6 sm:px-8 md:px-12 max-w-5xl mx-auto flex flex-col items-center animate-fade-up">
-            <span class="mb-4 inline-block px-4 py-1.5 text-sm font-bold tracking-[0.2em] text-gray-300 border-b border-gray-500 uppercase">
-                Personal Branding
-            </span>
-            <h1 class="text-white font-extrabold tracking-tight leading-none drop-shadow-2xl
-                   text-5xl sm:text-6xl md:text-8xl mb-6">
-                YOUR <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-400">PORTFOLIO</span>
+        <div class="relative z-20 text-center px-6 sm:px-12 max-w-5xl mx-auto flex flex-col items-center animate-fade-up">
+
+            <div class="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md max-md:scale-100">
+                <span class="w-2 h-2 rounded-full bg-blue-500 animate-ping"></span>
+                <span class="text-[10px] md:text-sm font-bold text-gray-300 uppercase tracking-[0.3em]">Personal Branding</span>
+            </div>
+
+            <h1 class="text-white font-black tracking-tighter leading-[1.1] md:leading-none drop-shadow-2xl
+               text-3xl sm:text-6xl md:text-8xl mb-6">
+                YOUR <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-500 bg-[length:200%_auto] animate-[gradient_4s_linear_infinite]">PORTFOLIO</span>
             </h1>
 
-            <h2 class="text-gray-200 text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto leading-relaxed max-md:hidden">
-                A creative showcase that builds <b class="text-white">Trust</b> and defines your <b class="text-white">Identity</b>.
-            </h2>
+            <div class="max-md:bg-white/5 max-md:p-6 max-md:rounded-3xl max-md:backdrop-blur-lg max-md:border max-md:border-white/10 max-md:mb-10">
+                <h2 class="text-gray-200 text-lg md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+                    A creative showcase that builds <b class="text-white">Trust</b> and defines your <b class="text-white">Identity</b>.
+                </h2>
+            </div>
 
-            <div class="flex flex-col sm:flex-row gap-4">
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 md:px-0 mt-6">
                 <a href="/get-in-touch"
-                    class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-8 py-4 rounded-full
-                       hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
+                    class="inline-flex items-center justify-center bg-white text-black font-bold text-base px-10 py-5 rounded-2xl md:rounded-full
+                    shadow-[0_10px_30px_rgba(255,255,255,0.2)] hover:bg-gray-200 transition-all duration-300 transform active:scale-95 md:hover:-translate-y-1">
                     Start Building
                 </a>
-                <a href="/portfolio"
-                    class="inline-flex items-center justify-center px-8 py-4 text-white border border-white/30 rounded-full
-                       hover:bg-white/10 backdrop-blur-md transition-all duration-300">
-                    View Examples
-                </a>
+
+
+            </div>
+
+            <div class="absolute -bottom-10 md:hidden animate-bounce opacity-50">
+                <i class="fas fa-chevron-down text-white"></i>
             </div>
         </div>
     </section>
 
-    <section class="py-32 bg-white relative">
-        <div class="container mx-auto w-[85%] relative z-10 flex flex-col lg:flex-row items-center gap-20">
+    <style>
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+
+    <section class="py-20 max-md:py-12 bg-white relative">
+        <div class="container mx-auto w-[85%] relative z-10 flex flex-col lg:flex-row items-center gap-20 max-md:gap-8">
             <div class="w-full lg:w-1/2">
                 <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 inline-block">Strategic Development</span>
-                <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight mb-8">
+                <h2 class="text-2xl md:text-6xl font-black text-slate-900 leading-tight mb-8">
                     Dominating the <br /> <span class="text-blue-600">Digital Market.</span>
                 </h2>
-                <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                <p class="text-lg max-md:text-sm text-slate-600 mb-10 leading-relaxed">
                     At **RudraTech IT Services**, our focus is on building platforms that increase visibility. By utilizing clean code and semantic structures, we ensure your expertise is easily discoverable by potential clients.
                 </p>
 
@@ -105,15 +128,15 @@ $page_title = "professional-portfolio-development";
         </div>
     </section>
 
-    <section id="showcase" class="py-32 bg-slate-50 content-visibility-auto">
+    <section id="showcase" class="py-32 max-md:py-12 bg-slate-50 content-visibility-auto">
         <div class="w-[85%] mx-auto">
-            <div class="text-center max-w-3xl mx-auto mb-20">
+            <div class="text-center max-w-3xl mx-auto mb-20 max-md:mb-8">
                 <h3 class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4">Our Track Record</h3>
                 <h2 class="text-2xl md:text-6xl font-extrabold text-slate-900 tracking-tighter">Impactful Digital Portals</h2>
                 <p class="text-slate-500 font-medium mt-6 leading-relaxed">Custom-built solutions for professionals who demand excellence in their respective industries.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-md:gap-4">
                 <div class="group bg-white rounded-[3rem] p-5 shadow-sm hover:shadow-3xl transition-all duration-700 border border-slate-100 overflow-hidden">
                     <div class="rounded-[2.2rem] overflow-hidden h-72 mb-8 bg-slate-100 relative">
                         <img src="/asset/software/portfolio (3).jpeg" alt="Creative Interface" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110">
@@ -145,13 +168,13 @@ $page_title = "professional-portfolio-development";
         </div>
     </section>
 
-    <section class="py-24 bg-white overflow-hidden">
+    <section class="py-24 max-md:py-12 bg-white overflow-hidden">
         <div class="w-[85%] mx-auto ">
 
-            <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-20">
-                <div class="max-w-2xl">
+            <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-20 max-md:mb-8">
+                <div class="w-full">
                     <span class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4 inline-block">Visual Excellence</span>
-                    <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter leading-tight">
+                    <h2 class="text-2xl md:text-6xl font-black text-slate-900 tracking-tighter leading-tight">
                         Showcasing Our <br /> <span class="text-blue-600">Digital Craftsmanship.</span>
                     </h2>
                 </div>
@@ -160,9 +183,9 @@ $page_title = "professional-portfolio-development";
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-md:gap-6">
 
-                <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-900 aspect-[4/5] md:aspect-auto md:h-[700px]">
+                <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-900 aspect-[4/5] md:aspect-auto md:h-[700px] max-md:h-[400px]">
                     <video
                         class="w-full h-full object-cover object-top transition-transform duration-1000 group-hover:scale-110"
                         autoplay
@@ -185,7 +208,7 @@ $page_title = "professional-portfolio-development";
 
                 <div class="flex flex-col gap-10">
 
-                    <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-100 h-[330px]">
+                    <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-100 h-[330px] max-md:h-[180px] max-md:rounded">
                         <img src="/asset/software/port (1).jpeg" alt="Premium Portfolio UI"
                             class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center p-10">
@@ -193,7 +216,7 @@ $page_title = "professional-portfolio-development";
                         </div>
                     </div>
 
-                    <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-100 h-[330px]">
+                    <div class="group relative rounded-[3rem] overflow-hidden shadow-2xl bg-slate-100 h-[330px] max-md:h-[180px] max-md:rounded">
                         <img src="/asset/software/port (2).jpeg" alt="Consultancy Web Design"
                             class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center p-10">
@@ -212,7 +235,7 @@ $page_title = "professional-portfolio-development";
             </div>
         </div>
     </section>
-    <section class="py-32 bg-white">
+    <section class="py-32 bg-white max-md:py-12 max-md:border-t">
         <div class="w-[85%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div class="relative order-2 lg:order-1">
                 <div class="flex gap-6 items-end">
@@ -223,7 +246,7 @@ $page_title = "professional-portfolio-development";
                 </div>
             </div>
             <div class="lg:pl-10 order-1 lg:order-2">
-                <h3 class="text-4xl md:text-6xl font-black text-slate-900 mb-10 leading-tight">Lightning Fast <br /> <span class="text-blue-600">Global Accessibility.</span></h3>
+                <h3 class="text-3xl md:text-6xl font-black text-slate-900 mb-10 leading-tight">Lightning Fast <br /> <span class="text-blue-600">Global Accessibility.</span></h3>
                 <div class="space-y-10">
                     <div class="flex gap-8 group">
                         <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all"><i class="fas fa-rocket text-2xl"></i></div>

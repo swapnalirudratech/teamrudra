@@ -1059,7 +1059,7 @@ $page_title = "home";
                     <div class="flex flex-col gap-6 items-center justify-between w-[50%] max-md:w-full">
                         <div class="max-w-3xl space-y-4">
                             <h2 class="text-4xl max-md:text-3xl md:text-5xl font-bold text-black leading-tight">
-                                Build Your Website <br> <span class="text-blue-600">Instantly with AI</span>
+                                Build Your Website <br> <span class="text-blue-600">Instantly with AI Agent Rudra</span>
 
                             </h2>
                             <p class="text-xl md:text-2xl text-gray-500">
@@ -2111,7 +2111,7 @@ $page_title = "home";
     </section>
 
 
-    <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900" aria-labelledby="portfolio-heading">
+    <!-- <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900" aria-labelledby="portfolio-heading">
 
         <p class="sr-only">
             RudraTech portfolio showcasing ecommerce websites, real estate platforms, edtech systems, heritage portals and enterprise digital solutions.
@@ -2136,7 +2136,7 @@ $page_title = "home";
 
             <div class="owl-carousel website-carousel owl-theme">
 
-                <!-- KESARBAUG -->
+              
 
                 <article class="item grid grid-cols-1 lg:grid-cols-12 gap-20 items-center py-20">
 
@@ -2187,7 +2187,7 @@ $page_title = "home";
                     </div>
                 </article>
 
-                <!-- DREAM KITCHEN -->
+              
 
                 <article class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
 
@@ -2242,9 +2242,154 @@ $page_title = "home";
 
             </div>
         </div>
+    </section> -->
+
+    <section class="w-full bg-[#fcfcf9] py-24 overflow-hidden text-slate-900">
+        <div class="w-[85%] mx-auto">
+
+            <div class=" mb-12 flex justify-between max-lg:flex-col max-lg:text-center">
+                <div class="inline-block relative">
+                    <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800 relative z-10">
+                        Our Digital Masterpieces
+                    </h2>
+                    <div class="h-1.5 w-24 bg-blue-600 mt-6 max-lg:mx-auto rounded-full"></div>
+                </div>
+                <p class="mt-4 text-md text-gray-600 w-1/2 max-lg:text-center max-lg:w-full ">
+                    A showcase of transformative digital experiences we've crafted for businesses across various industries.
+                </p>
+            </div>
+
+            <div class="owl-carousel website-carousel owl-theme">
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-20 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-orange-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-orange-50 border border-orange-100 rounded-full">E-comm / Food</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">KESAR<span class="text-orange-600/80">BAUG</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">A multi-layered digital experience. We crafted a seamless journey from high-conversion product grids to a fluid checkout.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">45%</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sales Growth</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Fast</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Load Speed</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/s (2).jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/kesarbaug-pp.png" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/kesarbaug-mob.png" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">E-comm / Clothing</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">DREAM<span class="text-indigo-700">KITCHEN</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing a digital home for architectural visionaries. We crafted an immersive showcase that blends minimalist aesthetics with high-performance gallery systems.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Premium</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UI Design</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Smooth</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">UX Flow</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/dk1.jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/dk3.jpg" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/dk2.png" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-yellow-700 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-yellow-50 border border-yellow-200 rounded-full">Investment / Real Estate</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VR<br /><span class="text-yellow-600/80">CONSULT</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">Designing the bridge between investors and growth. A professional platform for high-end real estate and success.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Elite</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Consulting</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Modern</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Investments</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white"><img src="/asset/image/vr.jpg" class="w-full object-cover"></div>
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vrpp.jpg" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vrmob.jpg" class="w-full object-cover h-[340px]"></div>
+                    </div>
+                </div>
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-[#8B4513] font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-[#FDF5E6] border border-[#DEB887] rounded-full">
+                                Heritage / Pilgrimage
+                            </span>
+
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900 uppercase">
+                                <span class="text-[#A0522D]">SAPTAM</span>
+                            </h3>
+
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">
+                                Discover India’s sacred temples and serene trails. We provide detailed guides and inspiring cultural stories for the modern spiritual explorer.
+                            </p>
+
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">100+</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Sacred Guides</span>
+                                </div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col">
+                                    <span class="text-3xl font-black text-slate-800 tracking-tighter">Rich</span>
+                                    <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Cultural Media</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full shadow-2xl rounded-2xl overflow-hidden border border-white bg-white">
+                            <img src="/asset/image/saptam1.jpg" alt="Saptam Heritage" class="w-full object-cover">
+                        </div>
+
+                        <div class="absolute z-30 -top-20 -right-24 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block">
+                            <img src="/asset/image/saptam3.jpg" alt="Temple Detail" class="w-full object-cover h-44">
+                        </div>
+
+                        <div class="absolute z-40 -bottom-20 -left-16 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block">
+                            <img src="/asset/image/saptam2.jpg" alt="Saptam Mobile" class="w-full object-cover h-[340px]">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="item grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-20">
+                    <div class="lg:col-span-4 order-2 lg:order-1">
+                        <div class="space-y-6">
+                            <span class="inline-block text-indigo-600 font-bold tracking-widest text-[10px] uppercase px-4 py-1.5 bg-indigo-50 border border-indigo-100 rounded-full">Education / Edutech</span>
+                            <h3 class="text-3xl md:text-4xl font-black leading-none text-slate-900">VSA<br /><span class="text-indigo-600/80">EDUTECH</span></h3>
+                            <p class="text-slate-500 text-lg leading-relaxed font-medium">An online platform dedicated to distance learning, offering an intuitive classroom experience for students and mentors.</p>
+                            <div class="flex gap-8 pt-6">
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">10k+</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Active Students</span></div>
+                                <div class="w-px h-12 bg-slate-200"></div>
+                                <div class="flex flex-col"><span class="text-3xl font-black text-slate-800 tracking-tighter">Cloud</span><span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Classroom</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-8 lg:offset-1 order-1 lg:order-2 relative h-full flex items-center justify-center">
+                        <div class="relative z-20 w-full overflow-hidden"><img src="/asset/jpeg-optimizer_Vikas-Sawant (1).png" class="w-full object-cover"></div>
+                        <!-- <div class="absolute z-30 -top-12 -right-8 w-[35%] shadow-2xl rounded-2xl overflow-hidden border-4 border-white hidden md:block"><img src="/asset/image/vsa-courses.png" class="w-full object-cover h-44"></div>
+                        <div class="absolute z-40 -bottom-10 -left-6 w-[180px] shadow-2xl rounded-xl overflow-hidden hidden md:block"><img src="/asset/image/vsa-mob.png" class="w-full object-cover h-[340px]"></div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
-
-
 
 
     <?php include 'pages/company.php' ?>

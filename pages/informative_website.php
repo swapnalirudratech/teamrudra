@@ -14,33 +14,47 @@ $page_title = "website-designing";
     ?>
 
 
-    <section class="relative bg-gradient-to-br from-white to-blue-50  h-[90vh] max-md:h-[70vh] overflow-hidden">
+    <section class="relative w-full h-[90vh] flex items-center justify-center overflow-hidden bg-slate-900">
 
-        <!-- Background Image with Black Overlay -->
         <div class="absolute inset-0">
-            <!-- Black Overlay -->
-            <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-slate-900 z-10"></div>
 
-            <!-- Image -->
-            <img src="/asset/infoweb.jpg" alt="Informative Website Background"
-                class="w-full h-full object-cover" />
+            <img src="/asset/infoweb.jpg" alt="Informative Website Development"
+                class="w-full h-full object-cover animate-[pulse_10s_ease-in-out_infinite]" />
         </div>
 
-        <!-- Overlay Content -->
+        <div class="absolute top-10 -left-10 w-64 h-64 bg-blue-600/20 rounded-full blur-[100px] md:hidden"></div>
+
         <div class="relative z-20 w-[90%] max-w-7xl mx-auto flex flex-col items-center justify-center text-center h-full">
-            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-gray-100 leading-tight">
-                Informative Websites <br>
-                That Work
-            </h1>
-            <p class="mt-4 text-base sm:text-lg text-gray-200 max-w-2xl">
-                Clean, responsive websites that inform, engage, and convert. Designed with user experience and clarity in mind.
-            </p>
-            <div class="mt-6">
-                <a href="/get-in-touch"
-                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-md text-sm sm:text-base font-semibold transition duration-300">
-                    <i class="fas fa-paper-plane"></i> Get Started
-                </a>
+
+            <div class="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-600/20 border border-blue-400/30 backdrop-blur-md md:hidden">
+                <span class="w-2 h-2 rounded-full bg-blue-400 animate-ping"></span>
+                <span class="text-[10px] font-bold text-blue-100 uppercase tracking-[0.2em]">Strategic Information Hubs</span>
             </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-black text-white leading-[1.1] md:leading-tight tracking-tighter">
+                Informative Websites <br class="max-md:hidden">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
+                    That Command Results
+                </span>
+            </h1>
+
+            <div class="max-md:bg-white/5 max-md:mt-8 max-md:p-6 max-md:rounded-[2rem] max-md:backdrop-blur-lg max-md:border max-md:border-white/10">
+                <p class="text-gray-200 text-base sm:text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+                    Clean, responsive platforms designed by <span class="text-blue-400">RudraTech</span> to inform, engage, and convert your audience with total clarity.
+                </p>
+            </div>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 w-full justify-center px-4">
+                <a href="/get-in-touch"
+                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white px-8 py-5 rounded-2xl md:rounded-full shadow-[0_10px_30px_rgba(37,99,235,0.4)] text-base font-black transition duration-300 transform active:scale-95">
+                    <i class="fas fa-paper-plane mr-2"></i> Launch Your Project
+                </a>
+
+
+            </div>
+
+
         </div>
 
     </section>
@@ -172,13 +186,13 @@ $page_title = "website-designing";
 
 
 
-    <section class="py-20 bg-gray-50">
+    <section class="py-20 max-md:py-12 bg-gray-50">
         <div class="w-[85%] mx-auto ">
-            <div class="text-center mb-16">
+            <div class="text-center mb-16 max-md:mb-6">
                 <span class="text-blue-600 font-bold tracking-widest uppercase text-xs">How We Work</span>
                 <h2 class="text-2xl md:text-5xl font-extrabold text-slate-900 mt-3">From Vision to Live Link</h2>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-md:gap-4">
                 <div class="p-8 bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
                     <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center font-bold mb-6 group-hover:rotate-6 transition-transform">01</div>
                     <h4 class="text-xl font-bold mb-3">Discovery</h4>
@@ -202,7 +216,7 @@ $page_title = "website-designing";
             </div>
         </div>
     </section>
-    <section class="py-20 bg-white">
+    <section class="py-20 max-md:py-12 bg-white">
         <div class="w-[85%] mx-auto  flex flex-col lg:flex-row gap-16 items-center">
             <div class="lg:w-1/2">
                 <h2 class="text-2xl md:text-5xl font-extrabold text-slate-900 mb-8">What’s Included in Our <span class="text-blue-600">Informative Website?</span></h2>
@@ -240,10 +254,10 @@ $page_title = "website-designing";
         </div>
     </section>
 
-    <section class="py-24 bg-slate-900 text-white overflow-hidden">
+    <section class="py-24 max-md:py-12 bg-slate-900 text-white overflow-hidden">
         <div class="w-[85%] mx-auto ">
 
-            <div class="flex justify-between items-end mb-16">
+            <div class="flex justify-between items-end mb-16 max-md:mb-8">
                 <div>
                     <h2 class="text-3xl md:text-5xl font-black tracking-tight">Success Stories</h2>
                     <p class="text-blue-400 mt-4 text-lg font-medium">Premium Informative Portals Designed by RudraTech</p>
@@ -315,23 +329,23 @@ $page_title = "website-designing";
 
                 <div class="absolute -top-10 -right-10 w-40 h-40 bg-blue-50 rounded-full blur-3xl"></div>
 
-                <div class="relative z-10">
-                    <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
+                <div class="relative z-10 ">
+                    <h3 class="text-2xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
                         Ready to Build Your <br class="hidden md:block" /> Professional Identity?
                     </h3>
 
-                    <p class="text-slate-500 text-lg mb-10 max-w-2xl mx-auto font-medium">
+                    <p class="text-slate-500 text-lg max-md:text-sm mb-10 max-w-2xl mx-auto font-medium">
                         Partner with **RudraTech IT Services** for expert informative website development in Mumbai.
                     </p>
 
                     <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
                         <a href="/get-in-touch"
-                            class="w-full sm:w-auto bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold shadow-lg shadow-blue-600/20 hover:bg-slate-900 transition-all transform hover:-translate-y-1">
+                            class="w-full sm:w-auto  max-md:text-xs bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold shadow-lg shadow-blue-600/20 hover:bg-slate-900 transition-all transform hover:-translate-y-1">
                             Get Free Consultation
                         </a>
 
                         <a href="tel:+917208344434"
-                            class="w-full sm:w-auto bg-white text-slate-700 border border-slate-200 px-10 py-5 rounded-2xl font-bold hover:bg-slate-50 transition-all">
+                            class="w-full sm:w-auto max-md:text-xs  bg-white text-slate-700 border border-slate-200 px-10 py-5 rounded-2xl font-bold hover:bg-slate-50 transition-all">
                             <i class="fas fa-phone mr-2 text-blue-600"></i> Call Us Directly
                         </a>
                     </div>

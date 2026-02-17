@@ -10,7 +10,7 @@ $page_title = "Professional CMS Development Services – Rudratech";
 <body class="bg-white font-sans text-slate-900 overflow-x-hidden">
     <?php include "include/navbar.php"; ?>
 
-    <section class="relative h-[90vh] flex items-center pt-0 overflow-hidden bg-slate-50">
+    <section class="relative h-[90vh] max-md:h-[80vh] flex items-center pt-0 overflow-hidden bg-slate-50">
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-gradient-to-r from-gray-200 via-white to-transparent z-10"></div>
             <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-80">
@@ -20,17 +20,17 @@ $page_title = "Professional CMS Development Services – Rudratech";
 
         <div class=" mx-auto w-[85%] relative z-20">
             <div class="max-w-4xl">
-                <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-[0.2em] text-blue-600 border border-blue-200 rounded-full uppercase bg-blue-50">
+                <span class="max-md:text-[11px] inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-[0.2em] text-blue-600 border border-blue-200 rounded-full uppercase bg-blue-50">
                     Content Management Reimagined
                 </span>
-                <h1 class="text-5xl md:text-6xl font-black text-slate-900 leading-[0.95] tracking-tighter mb-8">
+                <h1 class="text-3xl md:text-6xl font-black text-slate-900 leading-[0.95] tracking-tighter mb-8">
                     Efficient, Scalable, <br /> <span class="text-blue-600">& Secure CMS.</span>
                 </h1>
-                <p class="text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed">
+                <p class=" max-md:text-sm text-slate-600 mb-10 max-w-2xl leading-relaxed">
                     Rudratech delivers custom CMS solutions that empower your business to manage content effortlessly while boosting performance and search visibility.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-5">
-                    <a href="#contact" class="bg-blue-600 text-white font-bold px-10 py-5 rounded-2xl hover:bg-slate-900 transition-all transform hover:-translate-y-1 shadow-2xl shadow-blue-600/30">
+                    <a href="#contact" class="max-md:text-sm max-md:w-fit bg-blue-600 text-white font-bold px-10 py-5 rounded-2xl hover:bg-slate-900 transition-all transform hover:-translate-y-1 shadow-2xl shadow-blue-600/30">
                         Get Your Free Consultation
                     </a>
                 </div>
@@ -38,15 +38,15 @@ $page_title = "Professional CMS Development Services – Rudratech";
         </div>
     </section>
 
-    <section class="py-24 bg-white">
+    <section class="py-24 max-md:py-12  bg-white">
         <div class="w-[85%] mx-auto ">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <div class="lg:w-1/2">
                     <h2 class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-4">Why CMS Development</h2>
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight">
+                    <h3 class="text-2xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight">
                         Manage Your Content <br /> <span class="text-blue-600">With Ease.</span>
                     </h3>
-                    <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                    <p class="text-slate-600 leading-relaxed mb-6">
                         At Rudratech, we specialize in CMS development services that allow businesses to manage digital content efficiently without technical barriers.
                     </p>
                     <p class="text-slate-500 italic border-l-4 border-blue-600 pl-6 py-2">
@@ -68,7 +68,7 @@ $page_title = "Professional CMS Development Services – Rudratech";
             </div>
         </div>
     </section>
-    <section class="relative py-24 bg-white overflow-hidden">
+    <section class="relative py-24 max-md:py-12  bg-white overflow-hidden">
         <div class="absolute inset-0 z-0">
             <svg class="absolute inset-0 h-full w-full stroke-slate-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
                 <defs>
@@ -83,10 +83,10 @@ $page_title = "Professional CMS Development Services – Rudratech";
             <div class="absolute -right-20 bottom-0 w-96 h-96 bg-indigo-100/60 rounded-full blur-[100px]"></div>
         </div>
 
-        <div class="relative z-10 w-[92%] mx-auto max-w-7xl">
-            <div class="text-center mb-20">
+        <div class="relative z-10 w-[85%] mx-auto ">
+            <div class="text-center mb-20 max-md:mb-8">
                 <h3 class="text-blue-600 font-bold tracking-[0.3em] uppercase text-xs mb-4">Core Functionality</h3>
-                <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight">
+                <h2 class="text-2xl md:text-6xl font-black text-slate-900 leading-tight">
                     Powerful Features. <span class="text-blue-600">Total Control.</span>
                 </h2>
             </div>
@@ -98,14 +98,14 @@ $page_title = "Professional CMS Development Services – Rudratech";
                         <div class="w-16 h-16 bg-white text-blue-600 rounded-2xl shadow-lg flex items-center justify-center mb-6 mx-auto lg:ml-auto lg:mr-0 group-hover:bg-blue-600 group-hover:text-white transition-all border border-slate-200">
                             <i class="fas fa-edit text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-3">No-Code Editing</h4>
+                        <h4 class=" font-bold text-slate-900 mb-3">No-Code Editing</h4>
                         <p class="text-slate-500 text-sm leading-relaxed font-medium">Update content, blogs, and pages effortlessly without any coding knowledge.</p>
                     </div>
                     <div class="text-center lg:text-right group">
                         <div class="w-16 h-16 bg-white text-slate-600 rounded-2xl shadow-lg flex items-center justify-center mb-6 mx-auto lg:ml-auto lg:mr-0 group-hover:bg-blue-600 group-hover:text-white transition-all border border-slate-200">
                             <i class="fas fa-layer-group text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-3">Scalable Architecture</h4>
+                        <h4 class=" font-bold text-slate-900 mb-3">Scalable Architecture</h4>
                         <p class="text-slate-500 text-sm leading-relaxed font-medium">Grow your website from a simple portal to a complex enterprise engine seamlessly.</p>
                     </div>
                 </div>
@@ -121,14 +121,14 @@ $page_title = "Professional CMS Development Services – Rudratech";
                         <div class="w-16 h-16 bg-white text-blue-600 rounded-2xl shadow-lg flex items-center justify-center mb-6 mx-auto lg:mr-auto lg:ml-0 group-hover:bg-blue-600 group-hover:text-white transition-all border border-slate-200">
                             <i class="fas fa-search-plus text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-3">Visibility Driven</h4>
+                        <h4 class=" font-bold text-slate-900 mb-3">Visibility Driven</h4>
                         <p class="text-slate-500 text-sm leading-relaxed font-medium">Built with optimized URLs and metadata structures to ensure you rank higher.</p>
                     </div>
                     <div class="text-center lg:text-left group">
                         <div class="w-16 h-16 bg-white text-slate-600 rounded-2xl shadow-lg flex items-center justify-center mb-6 mx-auto lg:mr-auto lg:ml-0 group-hover:bg-blue-600 group-hover:text-white transition-all border border-slate-200">
                             <i class="fas fa-shield-alt text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-3">Secure Ecosystem</h4>
+                        <h4 class=" font-bold text-slate-900 mb-3">Secure Ecosystem</h4>
                         <p class="text-slate-500 text-sm leading-relaxed font-medium">Regular updates and security patches to keep your business data protected.</p>
                     </div>
                 </div>
@@ -139,13 +139,13 @@ $page_title = "Professional CMS Development Services – Rudratech";
 
 
 
-    <section class="py-24 bg-white overflow-hidden">
-        <div class="w-[80%] mx-auto ">
+    <section class="py-24 max-md:py-12  bg-white overflow-hidden">
+        <div class="w-[85%] mx-auto ">
 
             <div class="mb-16 text-center lg:text-left flex flex-col lg:flex-row justify-between items-end gap-6">
-                <div class="max-w-2xl">
+                <div class="max-md:w-full">
                     <span class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3 inline-block">Full-Stack Control</span>
-                    <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight tracking-tighter">
+                    <h2 class="text-2xl md:text-6xl font-black text-slate-900 leading-tight tracking-tighter">
                         Powerful Frontends. <br /> <span class="text-blue-600">Simplified Backends.</span>
                     </h2>
                 </div>
@@ -156,12 +156,12 @@ $page_title = "Professional CMS Development Services – Rudratech";
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-                <div class="group relative bg-white rounded-[3rem] p-4 shadow-xl border border-slate-100 overflow-hidden">
-                    <h4 class="text-xl font-bold text-slate-900 mb-4 px-4 flex items-center gap-2">
+                <div class="group relative bg-white rounded-[3rem] max-md:rounded-xl max-md:p-2 p-4 shadow-xl border border-slate-100 overflow-hidden">
+                    <h4 class=" font-bold text-slate-900 mb-4 px-4 flex items-center gap-2">
                         <i class="fab fa-wordpress text-blue-600"></i> WordPress Corporate Portal
                     </h4>
 
-                    <div class="relative h-[450px] rounded-[2rem] overflow-hidden cursor-ew-resize">
+                    <div class="relative h-[450px] max-md:h-[200px] rounded-[2rem] max-md:rounded overflow-hidden cursor-ew-resize">
                         <div class="absolute inset-0">
                             <img src="/asset/software/wordpresskesarbaug.png" alt="WordPress Dashboard" class="w-full h-full object-cover object-top">
                         </div>
@@ -180,12 +180,12 @@ $page_title = "Professional CMS Development Services – Rudratech";
                     <p class="mt-6 px-4 text-slate-500 text-sm font-medium italic">Hover over the image to reveal the backend management system.</p>
                 </div>
 
-                <div class="group relative bg-white rounded-[3rem] p-4 shadow-xl border border-slate-100 overflow-hidden">
-                    <h4 class="text-xl font-bold text-slate-900 mb-4 px-4 flex items-center gap-2">
+                <div class="group relative bg-white rounded-[3rem] max-md:rounded-xl max-md:p-2 p-4 shadow-xl border border-slate-100 overflow-hidden">
+                    <h4 class=" font-bold text-slate-900 mb-4 px-4 flex items-center gap-2">
                         <i class="fab fa-shopify text-emerald-600"></i> Shopify E-Commerce Hub
                     </h4>
 
-                    <div class="relative h-[450px] rounded-[2rem] overflow-hidden cursor-ew-resize">
+                    <div class="relative h-[450px] max-md:h-[200px] rounded-[2rem] max-md:rounded overflow-hidden cursor-ew-resize">
                         <div class="absolute inset-0">
                             <img src="/asset/software/shopifypranna.png" alt="Shopify Admin Panel" class="w-full h-full object-cover">
                         </div>
@@ -212,12 +212,12 @@ $page_title = "Professional CMS Development Services – Rudratech";
 
 
 
-    <section class="py-24 bg-slate-50">
+    <section class="py-24 max-md:py-12  bg-slate-50">
         <div class="w-[85%] mx-auto ">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-black text-slate-900">Tailored Solutions for <span class="text-blue-600">Every Business.</span></h3>
+            <div class="text-center mb-16 max-md:mb-6">
+                <h3 class="text-3xl md:text-5xl font-black text-slate-900">Tailored Solutions for <span class="text-blue-600">Every Business.</span></h3>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-md:gap-4">
                 <div class="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500">
                     <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all">
                         <i class="fas fa-code-branch text-2xl"></i>
@@ -246,43 +246,43 @@ $page_title = "Professional CMS Development Services – Rudratech";
         </div>
     </section>
 
-    <section class="py-24 bg-white overflow-hidden">
+    <section class="py-24 max-md:py-12  bg-white overflow-hidden">
         <div class="w-[85%] mx-auto ">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16">
                 <div>
                     <h2 class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4">Recent Projects</h2>
-                    <h3 class="text-4xl font-black text-slate-900">CMS Solutions That <span class="text-blue-600">Deliver Results.</span></h3>
+                    <h3 class="text-4xl max-md:text-2xl font-black text-slate-900">CMS Solutions That <span class="text-blue-600">Deliver Results.</span></h3>
                 </div>
                 <p class="text-slate-500 font-medium max-w-xs leading-relaxed mt-4 md:mt-0">Easy-to-update management for teams with optimized page speed.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px]">
+                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px] max-md:h-[300px]">
                     <img src="/asset/software/cms4.png" alt="Corporate CMS" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent p-10 flex flex-col justify-end">
-                        <h4 class="text-white text-2xl font-bold">Corporate Information Hub</h4>
-                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2">Streamlined Publishing</p>
+                        <h4 class="text-white text-2xl font-bold max-md:text-lg">Corporate Information Hub</h4>
+                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2 max-md:text-xs max-md:mt-0">Streamlined Publishing</p>
                     </div>
                 </div>
-                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px]">
+                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px] max-md:h-[300px]">
                     <img src="/asset/software/cms2.png" alt="E-commerce CMS" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent p-10 flex flex-col justify-end">
-                        <h4 class="text-white text-2xl font-bold">E-commerce Platform</h4>
-                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2">Admin Panel Mastery</p>
+                        <h4 class="text-white text-2xl font-bold max-md:text-lg">E-commerce Platform</h4>
+                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2 max-md:text-xs max-md:mt-0">Admin Panel Mastery</p>
                     </div>
                 </div>
-                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px]">
+                <div class="group relative rounded-[2rem] overflow-hidden shadow-2xl h-[500px] max-md:h-[300px]">
                     <img src="/asset/software/cms3.png" alt="Educational CMS" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent p-10 flex flex-col justify-end">
-                        <h4 class="text-white text-2xl font-bold">Educational Portal</h4>
-                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2">Resource Management</p>
+                        <h4 class="text-white text-2xl font-bold max-md:text-lg">Educational Portal</h4>
+                        <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mt-2 max-md:text-xs max-md:mt-0">Resource Management</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-24 bg-slate-950 text-white">
+    <section class="py-24 max-md:py-12  bg-slate-950 text-white">
         <div class="w-[85%] mx-auto ">
             <div class="text-center mb-16">
                 <h3 class="text-3xl md:text-5xl font-black">How We Build <span class="text-blue-500">CMS That Work.</span></h3>
@@ -291,21 +291,21 @@ $page_title = "Professional CMS Development Services – Rudratech";
                 <div class="flex gap-6">
                     <div class="text-4xl font-black text-white/40">01</div>
                     <div>
-                        <h4 class="text-xl font-bold mb-3">Analysis</h4>
+                        <h4 class=" font-bold mb-3">Analysis</h4>
                         <p class="text-slate-400 text-sm">Requirement gathering to understand business workflow.</p>
                     </div>
                 </div>
                 <div class="flex gap-6">
                     <div class="text-4xl font-black text-white/40">02</div>
                     <div>
-                        <h4 class="text-xl font-bold mb-3">Planning</h4>
+                        <h4 class=" font-bold mb-3">Planning</h4>
                         <p class="text-slate-400 text-sm">Defining content structure and user roles for easy management.</p>
                     </div>
                 </div>
                 <div class="flex gap-6">
                     <div class="text-4xl font-black text-white/40">03</div>
                     <div>
-                        <h4 class="text-xl font-bold mb-3">SEO Focus</h4>
+                        <h4 class=" font-bold mb-3">SEO Focus</h4>
                         <p class="text-slate-400 text-sm">Implementing meta tags, schema, and optimized URLs.</p>
                     </div>
                 </div>
@@ -315,7 +315,7 @@ $page_title = "Professional CMS Development Services – Rudratech";
 
     <section class="py-20 bg-white">
         <div class="w-[80%] mx-auto ">
-            <div class="relative bg-white rounded-[2.5rem] p-10 md:p-14 border border-slate-100 shadow-[0_30px_70px_rgba(0,0,0,0.05)] overflow-hidden">
+            <div class="relative bg-white rounded-[2.5rem] p-0 max-md:shadow-none max-md:border-none md:p-14 border border-slate-100 shadow-[0_30px_70px_rgba(0,0,0,0.05)] overflow-hidden">
 
                 <div class="absolute -top-10 -right-10 w-48 h-48 bg-blue-50 rounded-full blur-3xl opacity-60"></div>
 
@@ -325,17 +325,17 @@ $page_title = "Professional CMS Development Services – Rudratech";
                         <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter leading-tight mb-4">
                             Ready to Build a <br class="hidden md:block" /> <span class="text-blue-600">Powerful CMS Website?</span>
                         </h2>
-                        <p class="text-slate-500 text-lg font-medium leading-relaxed">
+                        <p class="text-slate-500 font-medium leading-relaxed">
                             Partner with Mumbai's experts in responsive and secure content management solutions to take full control of your digital growth.
                         </p>
                     </div>
 
                     <div class="lg:w-1/3 flex flex-col sm:flex-row lg:flex-col gap-4 w-full">
-                        <a href="/get-quote"
+                        <a href="/get-in-touch"
                             class="flex-1 bg-blue-600 text-white text-center font-black px-8 py-5 rounded-2xl shadow-xl shadow-blue-600/20 hover:bg-slate-900 transition-all transform hover:-translate-y-1">
                             GET YOUR FREE QUOTE
                         </a>
-                        <a href="tel:+91XXXXXXXXXX"
+                        <a href="tel:+917208344434"
                             class="flex-1 bg-white text-slate-800 text-center font-bold px-8 py-5 rounded-2xl border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3">
                             <i class="fas fa-phone text-blue-600"></i> Talk to an Expert
                         </a>
