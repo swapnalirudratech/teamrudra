@@ -154,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="flex items-center gap-3">
                             <i class="fa-regular fa-clock text-blue-600"></i>
-                            <p class="font-normal">We’re open Mon–Sat, 10:00 AM – 7:00 PM. Closed on Sundays.</p>
+                            <p class="font-normal">We’re open Mon–Sun, 24 hours </p>
                         </div>
 
                         <div class="flex items-center gap-3">

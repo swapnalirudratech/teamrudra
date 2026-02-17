@@ -50,30 +50,30 @@ $page_title = "Custom CRM Development Services – Rudratech";
 <body class="bg-white font-sans text-slate-900 overflow-x-hidden">
     <?php include "include/navbar.php" ?>
 
-    <section class="relative h-[100vh] flex items-center justify-center hero-gradient pt-40 overflow-hidden">
+    <section class="relative h-[100vh] max-md:h-[80vh] max-md:pt-10 flex items-center justify-center hero-gradient pt-40 overflow-hidden">
         <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-50 rounded-full blur-[120px] opacity-60"></div>
         <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-50 rounded-full blur-[120px] opacity-60"></div>
 
         <div class="container mx-auto w-[85%] relative z-10">
-            <div class="text-center max-w-4xl mx-auto mb-16">
+            <div class="text-center max-w-4xl mx-auto mb-16 max-md:mb-8">
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200 mb-8">
-                    <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+                    <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse max-md:hidden"></span>
                     <span class="text-[10px] font-bold tracking-[0.3em] text-slate-500 uppercase">Enterprise Workflow Engineering</span>
                 </div>
-                <h1 class="text-6xl md:text-6xl font-black tracking-tighter text-reveal leading-[0.9] mb-8">
+                <h1 class="text-3xl md:text-6xl font-black tracking-tighter text-reveal leading-[0.9] mb-8">
                     Transforming Business with <span class="text-blue-600">Custom CRM.</span>
                 </h1>
-                <p class="text-xl text-slate-500 mb-10 leading-relaxed font-medium">
+                <p class="text-xl max-md:text-sm text-slate-500 mb-10 leading-relaxed font-medium">
                     Rudratech develops tailored CRM systems to manage leads, automate workflows, and enhance customer relationships with surgical precision.
                 </p>
                 <div class="flex flex-wrap justify-center gap-6">
-                    <a href="/get-in-touch" class="bg-slate-950 text-white px-12 py-5 rounded-2xl font-bold hover:bg-blue-600 transition-all shadow-2xl shadow-slate-200">Get Free Consultation</a>
+                    <a href="/get-in-touch" class="max-md:text-xs max-md:px-8 max-md:py-2 bg-slate-950 text-white px-12 py-5 rounded-2xl font-bold hover:bg-blue-600 transition-all shadow-2xl shadow-slate-200">Get Free Consultation</a>
                 </div>
             </div>
 
 
             <div class="relative max-w-6xl mx-auto  ">
-                <div class="bg-white rounded-[3rem]  border-[12px] border-white shadow-[0_60px_120px_-20px_rgba(0,0,0,0.12)] overflow-hidden">
+                <div class="max-md:rounded bg-white rounded-[3rem]  border-[12px] border-white shadow-[0_60px_120px_-20px_rgba(0,0,0,0.12)] overflow-hidden">
                     <img src="/asset/software/crm-admin.png" class="w-full " alt="CRM Main Dashboard">
                 </div>
 
@@ -84,11 +84,11 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
 
 
-    <section class="py-32 bg-white">
-        <div class="w-[85%] mx-auto grid lg:grid-cols-2 gap-24 items-center">
+    <section class="py-20 max-md:py-12 bg-white">
+        <div class="w-[85%] mx-auto grid lg:grid-cols-2 gap-24 items-center max-md:gap-8">
             <div>
-                <h2 class="text-4xl md:text-6xl font-black tracking-tighter mb-8 leading-tight">Manage Leads & <br /> Processes <span class="text-blue-600">Efficiently.</span></h2>
-                <p class="text-lg text-slate-500 leading-relaxed mb-10">
+                <h2 class="text-3xl md:text-6xl font-black tracking-tighter mb-8 leading-tight">Manage Leads & <br /> Processes <span class="text-blue-600">Efficiently.</span></h2>
+                <p class=" text-slate-500 leading-relaxed mb-10">
                     A well-built CRM centralizes customer data, tracks interactions, and automates business processes. At Rudratech, we design CRMs that are user-friendly, secure, and scalable, helping you manage your operations efficiently.
                 </p>
                 <div class="space-y-6">
@@ -108,9 +108,9 @@ $page_title = "Custom CRM Development Services – Rudratech";
                     </div>
                 </div>
             </div>
-            <div class="relative mt-4 rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
+            <div class="relative mt-4 rounded-2xl overflow-hidden shadow-2xl border border-slate-100 max-md:shadow-none">
                 <video
-                    class="w-full h-[500px] object-cover"
+                    class="w-full h-[500px] max-md:h-[200px] object-cover"
                     autoplay
                     muted
                     loop
@@ -130,7 +130,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
 
 
-    <section class="relative py-24 bg-white overflow-hidden">
+    <section class="relative py-24 max-md:py-12 bg-white overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-30">
             <svg class="absolute inset-0 h-full w-full stroke-slate-200" fill="none">
                 <defs>
@@ -142,21 +142,21 @@ $page_title = "Custom CRM Development Services – Rudratech";
             </svg>
         </div>
 
-        <div class="relative z-10 w-[85%] mx-auto ">
-            <div class="text-center mb-16">
+        <div class="relative z-10 w-[85%] mx-auto max-md:w-[90%]">
+            <div class="text-center mb-16 max-md:mb-4">
                 <h2 class="text-4xl md:text-7xl font-black text-slate-900 tracking-tighter">
                     Module <span class="text-blue-600">Showcase</span>
                 </h2>
             </div>
 
-            <div class="bg-white rounded-[2rem] p-3 shadow-xl border border-slate-100 mb-12 flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
-                <button onclick="switchCarousel('patients')" id="btn-patients" class="tab-btn active-tab flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all">
+            <div class="bg-white rounded-[2rem] p-3 max-md:p-1 shadow-xl max-md:shadow-none border border-slate-100 mb-12 flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
+                <button onclick="switchCarousel('patients')" id="btn-patients" class="tab-btn max-md:text-xs max-md:px-4 max-md:py-2  active-tab flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all">
                     <i class="fas fa-user-injured"></i> Patients
                 </button>
-                <button onclick="switchCarousel('employees')" id="btn-employees" class="tab-btn flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all text-slate-500 hover:bg-slate-50">
+                <button onclick="switchCarousel('employees')" id="btn-employees" class="tab-btn max-md:text-xs max-md:px-4 max-md:py-2  flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all text-slate-500 hover:bg-slate-50">
                     <i class="fas fa-users-cog"></i> Employees
                 </button>
-                <button onclick="switchCarousel('billing')" id="btn-billing" class="tab-btn flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all text-slate-500 hover:bg-slate-50">
+                <button onclick="switchCarousel('billing')" id="btn-billing" class="tab-btn max-md:text-xs max-md:px-4 max-md:py-2  flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all text-slate-500 hover:bg-slate-50">
                     <i class="fas fa-file-invoice-dollar"></i> Billing
                 </button>
             </div>
@@ -164,7 +164,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
             <div id="carousel-viewport" class="relative min-h-[500px] flex items-center justify-center">
             </div>
 
-            <div id="carousel-dots" class="flex justify-center gap-3 mt-12">
+            <div id="carousel-dots" class="flex justify-center gap-3 mt-12 max-md:hidden">
             </div>
         </div>
     </section>
@@ -177,7 +177,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
         /* Next-level styling for the image container */
         .screenshot-container {
-           
+
             /* Lighter slate background */
             display: flex;
             align-items: center;
@@ -273,9 +273,9 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
             // Updated Render Slide with better image handling
             viewport.innerHTML = `
-            <div class="w-full bg-white rounded-[4rem] border border-slate-100 shadow-2xl overflow-hidden animate-slide">
+            <div class="w-full bg-white rounded-[4rem] border border-slate-100 shadow-2xl overflow-hidden animate-slide max-md:rounded-xl max-md:shadow-md">
                 <div class="flex flex-col lg:flex-row items-stretch min-h-[500px]">
-                    <div class="w-full lg:w-2/5 p-12 md:p-16 flex flex-col justify-center">
+                    <div class="w-full lg:w-2/5 p-8 md:p-16 flex flex-col justify-center">
                         <span class="text-blue-600 font-bold uppercase tracking-[0.2em] text-[10px] mb-4 block">${data.tag}</span>
                         <h3 class="text-3xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">${data.title}</h3>
                         <p class="text-slate-500 text-lg leading-relaxed mb-8">${data.desc}</p>
@@ -311,7 +311,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
 
 
-    <section class="relative py-20 bg-white overflow-hidden border-t border-slate-100">
+    <section class="relative py-20 max-md:py-12 bg-white overflow-hidden border-t border-slate-100">
         <div class="absolute inset-0 z-0">
             <svg class="absolute inset-0 h-full w-full stroke-slate-100 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
                 <defs>
@@ -326,14 +326,14 @@ $page_title = "Custom CRM Development Services – Rudratech";
         </div>
 
         <div class="relative z-10 w-[85%] mx-auto">
-            <div class="mb-20">
+            <div class="mb-20 max-md:mb-10">
                 <h3 class="text-blue-600 font-bold tracking-[0.3em] uppercase text-xs mb-4">Strategic Engineering</h3>
-                <h2 class="text-4xl md:text-7xl font-black text-slate-900 tracking-tighter leading-tight">
+                <h2 class="text-3xl md:text-7xl font-black text-slate-900 tracking-tighter leading-tight">
                     Tailored <span class="text-blue-600">CRM Services</span>
                 </h2>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-md:gap-4">
 
                 <div class="group bg-white rounded-[3rem] p-4 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.05)] border border-slate-100 hover:border-blue-200 transition-all duration-500">
                     <div class="rounded-[2.2rem] overflow-hidden h-64 mb-8 relative bg-slate-50">
@@ -381,10 +381,10 @@ $page_title = "Custom CRM Development Services – Rudratech";
         </div>
     </section>
 
-    <section class="py-20 bg-white">
-        <div class="w-[85%] mx-auto flex flex-col lg:flex-row items-start  gap-16 ">
-            <div class="flex flex-col  items-start   gap-16 ">
-                <h2 class="text-4xl md:text-6xl font-black leading-tight">CRM Solutions That <br /> <span class="text-blue-600">Deliver Real Results.</span></h2>
+    <section class="py-20 bg-white max-md:py-10">
+        <div class="w-[85%] mx-auto flex flex-col lg:flex-row items-start  gap-16  max-md:gap-8">
+            <div class="flex flex-col  items-start   gap-16 max-md:gap-6 ">
+                <h2 class="text-3xl md:text-6xl font-black leading-tight">CRM Solutions That <br /> <span class="text-blue-600">Deliver Real Results.</span></h2>
                 <div class="">
                     <span class="text-xs font-black tracking-widest text-slate-400 uppercase mb-4 block">Logistics Management</span>
                     <h3 class="text-3xl font-black mb-6">Automated Lead Tracking & Shipment Hub</h3>
@@ -395,8 +395,8 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
 
 
-            <div class="lg:w-1/2 overflow-hidden rounded-[3rem] shadow-2xl">
-                <img src="/asset/software/crm2.webp" class="w-full h-[500px] group-hover:scale-110 transition-transform duration-1000" alt="CRM Project">
+            <div class="lg:w-1/2 overflow-hidden rounded-[3rem] shadow-2xl max-md:rounded-xl">
+                <img src="/asset/software/crm2.webp" class="w-full h-[500px] max-md:h-[300px] group-hover:scale-110 transition-transform duration-1000" alt="CRM Project">
             </div>
 
         </div>
@@ -407,12 +407,12 @@ $page_title = "Custom CRM Development Services – Rudratech";
 
 
 
-    <section class="py-24 bg-white">
-        <div class="w-[85%] mx-auto">
+    <section class="py-24 bg-white max-md:py-12">
+        <div class="w-[85%] mx-auto max-md:w-full">
             <div class="grid lg:grid-cols-2 gap-12 items-start">
 
-                <div class="bg-slate-950 rounded-[2.5rem] pt-12 pl-12 pr-12 text-white relative overflow-hidden">
-                    <h2 class="text-4xl font-black mb-6 leading-tight">Build Your CRM <br /> The Rudratech Way</h2>
+                <div class="bg-slate-950 rounded-[2.5rem] pt-12 pl-12 pr-12 text-white relative overflow-hidden max-md:rounded-none">
+                    <h2 class="text-4xl font-black mb-6 leading-tight max-md:text-3xl">Build Your CRM <br /> The Rudratech Way</h2>
                     <p class="text-slate-400 mb-10 leading-relaxed">
                         We don't just "setup" software; we write it. Our architects use raw code to build high-concurrency CRM systems that out-perform and out-scale standard market templates.
                     </p>
@@ -424,10 +424,10 @@ $page_title = "Custom CRM Development Services – Rudratech";
                     </div>
                 </div>
 
-                <div>
+                <div class="max-md:w-[85%] max-md:mx-auto">
                     <div class="mb-10">
                         <span class="px-4 py-1.5 rounded-full border border-blue-400 text-slate-800 text-xs font-bold uppercase tracking-widest bg-white shadow-sm">The Development Advantage</span>
-                        <h2 class="text-4xl font-black text-slate-900 mt-6">Why High-Growth Teams <br> Build With Us</h2>
+                        <h2 class="text-4xl max-md:text-2xl font-black text-slate-900 mt-6">Why High-Growth Teams <br> Build With Us</h2>
                     </div>
 
                     <div class="space-y-4">
@@ -531,7 +531,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
         });
     </script>
 
-    <section class="py-24 bg-white relative overflow-hidden">
+    <section class="py-24  bg-white relative overflow-hidden max-md:py-12">
         <div class="absolute inset-0 pointer-events-none">
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-blue-50/50 rounded-full blur-[120px]"></div>
         </div>
@@ -544,7 +544,7 @@ $page_title = "Custom CRM Development Services – Rudratech";
                     Let's Build Your <span class="text-blue-600">Custom CRM Solution With Rudratech</span>
                 </h2>
 
-                <div class="inline-flex flex-col sm:flex-row p-2 bg-white rounded-[2.5rem] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] border border-slate-100 gap-2">
+                <div class="inline-flex flex-col sm:flex-row p-2 bg-white rounded-[2.5rem] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] border border-slate-100 gap-2 max-md:shadow-none">
                     <a href="/get-in-touch" class="px-10 py-5 bg-blue-600 text-white rounded-[2rem] font-bold text-lg hover:bg-slate-900 transition-all duration-300 shadow-lg shadow-blue-200">
                         Get Free Consultation
                     </a>
