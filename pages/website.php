@@ -10,7 +10,7 @@ $page_title = "website"
 
 
 
-<body >
+<body>
 
     <?php include "include/navbar.php" ?>
 
@@ -19,9 +19,6 @@ $page_title = "website"
 
 
 
-
-
-    
     <div class="w-full flex flex-col items-center justify-center ">
 
         <style>
@@ -507,6 +504,168 @@ $page_title = "website"
         </section>
 
 
+        <section class="relative py-24 max-md:py-12 bg-gradient-to-r from-blue-50 to-blue-100 w-full overflow-hidden max-md:hidden">
+            <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#2563eb 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
+
+            <div class="w-[85%] mx-auto relative z-10">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="inline-block px-4 py-1.5 mb-6 text-[11px] font-bold tracking-[0.2em] text-blue-600 uppercase bg-blue-50 rounded-full border border-blue-100">
+                        Responsive Engineering
+                    </span>
+                    <h2 class="text-4xl lg:text-6xl font-black text-slate-900 tracking-tight">
+                        One Build. <span class="text-blue-600">Total Adaptability.</span>
+                    </h2>
+
+                    <div class="flex justify-center gap-4 mt-10">
+                        <button onclick="toggleView('laptop')" id="laptopBtn" class="max-md:text-xs  max-md:px-3  max-md:py-2  max-md:font-normal flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-xl font-bold transition-all shadow-lg active:scale-95">
+                            <i class="fa-solid fa-laptop text-sm"></i> Laptop View
+                        </button>
+                        <button onclick="toggleView('mobile')" id="mobileBtn" class="max-md:text-xs  max-md:px-3 max-md:py-2   max-md:font-normal flex items-center gap-2 px-6 py-3 bg-white text-slate-600 border border-slate-200 rounded-xl font-bold transition-all shadow-sm hover:bg-slate-50 active:scale-95">
+                            <i class="fa-solid fa-mobile-screen-button text-sm"></i> Mobile View
+                        </button>
+                    </div>
+                </div>
+
+                <div class="relative flex justify-center items-center  max-md:">
+                    <div id="deviceContainer" class="max-md:rounded-xl relative transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] w-full max-w-5xl aspect-video shadow-2xl overflow-hidden border-[8px] border-slate-900 rounded-[2rem] bg-slate-900">
+
+                        <div id="browserBar" class="flex items-center gap-2 px-6 py-1 bg-slate-800 border-b border-slate-700">
+                            <div class="flex gap-1.5">
+                                <div class="w-2.5 h-2.5 max-md:w-1 max-md:h-1 rounded-full bg-red-500/50"></div>
+                                <div class="w-2.5 h-2.5 max-md:w-1 max-md:h-1 rounded-full bg-yellow-500/50"></div>
+                                <div class="w-2.5 h-2.5 max-md:w-1 max-md:h-1 rounded-full bg-green-500/50"></div>
+                            </div>
+                        </div>
+
+                        <div class="relative w-full h-full bg-white overflow-hidden">
+                            <img id="showcaseImage" src="/asset/software/nova.jpg" class="w-full h-full object-fit transition-opacity duration-500" alt="Website Showcase">
+                        </div>
+
+                        <div id="mobileIndicator" class="hidden absolute bottom-2 left-1/2 -translate-x-1/2 w-20 h-1.5 bg-slate-400 rounded-full z-30"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .mobile-frame {
+                max-width: 340px !important;
+                aspect-ratio: 9 / 16 !important;
+                border-width: 14px !important;
+                border-radius: 3.5rem !important;
+            }
+@media screen and (max-width: 768px) {
+    .mobile-frame {
+        max-width: 340px !important;
+        aspect-ratio: 9 / 16 !important;
+        border-width: 14px !important;
+        border-radius: 3.5rem !important;
+    }
+}
+            /* Optional: adds a smooth fade when the image changes */
+            .fade-out {
+                opacity: 0;
+            }
+        </style>
+
+        <script>
+            function toggleView(view) {
+                const container = document.getElementById('deviceContainer');
+                const browserBar = document.getElementById('browserBar');
+                const mobileIndicator = document.getElementById('mobileIndicator');
+                const laptopBtn = document.getElementById('laptopBtn');
+                const mobileBtn = document.getElementById('mobileBtn');
+                const image = document.getElementById('showcaseImage');
+
+                // Define your image paths here
+                const desktopImg = "/asset/software/nova.jpg";
+                const mobileImg = "/asset/software/nova-1.jpg";
+
+                if (view === 'mobile') {
+                    container.classList.add('mobile-frame');
+                    container.classList.remove('aspect-video');
+                    browserBar.classList.add('hidden');
+                    mobileIndicator.classList.remove('hidden');
+
+                    // Switch to Mobile Image
+                    image.src = mobileImg;
+
+                    // Button UI
+                    mobileBtn.className = "flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-bold transition-all shadow-lg active:scale-95";
+                    laptopBtn.className = "flex items-center gap-2 px-6 py-3 bg-white text-slate-600 border border-slate-200 rounded-xl font-bold transition-all shadow-sm hover:bg-slate-50 active:scale-95";
+                } else {
+                    container.classList.remove('mobile-frame');
+                    container.classList.add('aspect-video');
+                    browserBar.classList.remove('hidden');
+                    mobileIndicator.classList.add('hidden');
+
+                    // Switch to Desktop Image
+                    image.src = desktopImg;
+
+                    // Button UI
+                    laptopBtn.className = "flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-xl font-bold transition-all shadow-lg active:scale-95";
+                    mobileBtn.className = "flex items-center gap-2 px-6 py-3 bg-white text-slate-600 border border-slate-200 rounded-xl font-bold transition-all shadow-sm hover:bg-slate-50 active:scale-95";
+                }
+            }
+        </script>
+
+
+
+
+        <section class="py-24 max-md:py-6 bg-white relative overflow-hidden w-full">
+            <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-50/50 rounded-full blur-[120px] -z-10"></div>
+
+            <div class="w-[85%] mx-auto relative z-10">
+                <div class="flex items-center gap-6 mb-20 max-md:mb-12" data-aos="fade-right">
+                    <span class="text-9xl max-md:text-7xl font-black text-blue-600/10 leading-none">08</span>
+                    <div class="-ml-12 max-md:-ml-8">
+                        <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tight leading-none mb-2">Featured Projects</h2>
+                        <p class="text-xl max-md:text-base font-serif italic text-slate-500">
+                            Explore <span class="text-blue-600 font-sans not-italic font-bold border-b-2 border-blue-100">our website work</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
+
+                    <?php
+                    $projects = [
+                        ['name' => 'Kesarbaug', 'slug' => 'kesarbaug', 'img' => 'keserbg.png', 'alt' => 'organic products'],
+                        ['name' => 'Snackita', 'slug' => 'snackita', 'img' => 'snackita.png', 'alt' => 'Sindhi Snacks'],
+                        ['name' => 'Nova Clothing', 'slug' => 'nova', 'img' => 'nova.png', 'alt' => 'clothing brand'],
+                        ['name' => 'Weconnect Beauty', 'slug' => 'weconnect', 'img' => 'weconnect.png', 'alt' => 'beauty services'],
+                        ['name' => 'Anubhuti Infrastructure', 'slug' => 'anubhuti', 'img' => 'anubhuti.png', 'alt' => 'infrastructure'],
+                        ['name' => 'Arma Healthcare', 'slug' => 'armahealthcare', 'img' => 'arma.png', 'alt' => 'healthcare'],
+                        ['name' => 'Laxmi Kamal', 'slug' => 'laxmikamal', 'img' => 'laxmikamal.png', 'alt' => 'luxury brand'],
+                        ['name' => 'Saptam Trail', 'slug' => 'saptam', 'img' => 'saptam-full.png', 'alt' => 'trail travel']
+                    ];
+
+                    foreach ($projects as $p): ?>
+                        <div class="group" data-aos="fade-up">
+                            <a href="preview-page.php?project=<?= $p['slug'] ?>" target="_blank" class="relative block bg-slate-50 rounded-2xl overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:shadow-[0_30px_60px_-15px_rgba(37,99,235,0.2)] hover:-translate-y-3">
+                                <div class="h-[450px] overflow-hidden grayscale-[20%] group-hover:grayscale-0 transition-all duration-700">
+                                    <img src="/asset/software/<?= $p['img'] ?>" class="w-full h-full object-cover object-top transform transition-transform duration-[2000ms] group-hover:scale-110" alt="<?= $p['alt'] ?>">
+                                </div>
+
+                                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            </a>
+
+                            <div class="mt-6 flex items-center justify-between group/text">
+                                <h4 class="text-sm font-black text-slate-800 uppercase tracking-[0.15em] transition-colors group-hover:text-blue-600">
+                                    <?= $p['name'] ?>
+                                </h4>
+                                <div class="h-1 w-0 bg-blue-600 transition-all duration-300 group-hover:w-8 mr-2"></div>
+                                <span class="text-blue-600 transform -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                </div>
+            </div>
+        </section>
+
 
 
         <style>
@@ -833,7 +992,14 @@ $page_title = "website"
     <?php include "include/upperfooter.php"; ?>
     <?php include "include/footer.php" ?>
 
-
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100 // Try reducing this if the section doesn't trigger
+        });
+    </script>
 </body>
 
 </html>
