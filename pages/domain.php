@@ -1,331 +1,371 @@
 <?php
-$page_title = "domain"
+$page_title = "Secure Your Digital Identity | Premium Domain Services - Rudratech";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <?php include "include/header.php"; ?>
 
-
-<body>
+<body class="bg-slate-50 font-sans text-slate-900 selection:bg-blue-600 selection:text-white">
 
     <?php include "include/navbar.php" ?>
 
+    <section class="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-white py-20 md:py-20">
+        <div class="absolute inset-0 w-full h-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50"></div>
 
-    <!-- Hero Section -->
-    <div class="w-full flex h-[90vh] max-lg:h-[40vh] max-md:h-[60vh] relative overflow-hidden">
-        <!-- Left Side (Text Content) -->
-        <div class="w-full relative bg-blue-100 flex flex-col justify-center z-10">
-            <div class="w-[80%] max-lg:w-[85%] mx-auto">
-                <h2 class="max-lg:text-3xl text-5xl lg:text-6xl xl:text8xl font-bold text-blue-900 leading-snug">
-                    Domain Name
-                    <span class="block mt-1">Services</span>
-                </h2>
-                <p class="mt-4 text-base text-gray-700 w-1/2 max-md:w-full">
-                    Find the perfect domain for your brand with seamless registration, transfer, and management options.
+        <div class="absolute top-[-5%] right-[-10%] w-64 h-64 md:w-[500px] md:h-[500px] bg-blue-600/10 rounded-full blur-[60px] md:blur-[100px] animate-pulse-slow"></div>
+        <div class="absolute bottom-[-5%] left-[-10%] w-64 h-64 md:w-[500px] md:h-[500px] bg-indigo-500/10 rounded-full blur-[60px] md:blur-[100px] animate-pulse-slow delay-1000"></div>
+
+        <div class="w-[90%] md:w-[85%] mx-auto relative z-10">
+            <div class="text-center max-w-4xl mx-auto space-y-6 md:space-y-8" data-aos="fade-up">
+
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs md:text-sm font-bold tracking-wide uppercase">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 animate-ping"></span>
+                    Instant Activation Available
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-black text-slate-900 tracking-tight leading-[1.15] md:leading-[1.1]">
+                    Claim Your Slice of the <br class="hidden md:block" />
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600">Digital Future.</span>
+                </h1>
+
+                <p class="text-base md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto px-2">
+                    Your domain is more than a web address; it's the foundation of your brand's authority. Secure top-tier TLDs with enterprise-grade security.
                 </p>
-                <div class="mt-6 flex space-x-4">
-                    <a href="/portfolio"
-                        class="px-5 py-2.5 max-md:text-sm bg-blue-800 text-white font-medium rounded-md hover:bg-blue-600 transition transform hover:-translate-y-1">
-                        View Projects
+
+                <div class="max-w-2xl mx-auto mt-8 md:mt-10 p-2 bg-white rounded-2xl shadow-xl shadow-blue-900/5 border border-slate-200 flex flex-col sm:flex-row items-center gap-2 transform transition-transform hover:scale-[1.01]">
+                    <div class="flex-1 w-full px-4 py-3 md:px-6 md:py-4 flex items-center gap-3">
+                        <i class="fas fa-search text-slate-400 text-lg md:text-xl"></i>
+                        <input type="text" placeholder="Find your perfect brand name..." class="w-full bg-transparent outline-none text-base md:text-lg text-slate-800 placeholder:text-slate-400 font-medium">
+                    </div>
+                    <a href="/get-in-touch" class="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 bg-blue-700 text-white font-bold rounded-xl hover:bg-blue-800 transition-all shadow-lg shadow-blue-600/20 whitespace-nowrap text-center text-sm md:text-base">
+                        Check Availability
                     </a>
-                    <a href="/get-in-touch"
-                        class="px-5 py-2.5 max-md:text-sm border border-blue-800 text-blue-800 font-medium rounded-md hover:bg-blue-800 hover:text-white transition transform hover:-translate-y-1">
-                        Get in Touch
-                    </a>
                 </div>
-            </div>
-        </div>
-
-        <!-- Right Image -->
-        <div class="w-0 md:w-[50%] hidden md:block absolute top-32 right-8 z-50 max-lg:right-0 max-lg:top-10">
-            <img src="/asset/domain.png" alt="Domain Services Illustration"
-                class="w-full h-[50vh] max-lg:h-[30vh] object-contain">
-        </div>
-    </div>
-
-
-    <!-- Domain Registration Section -->
-    <section id="domain-register" class="bg-white py-20 max-lg:py-12">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto grid lg:grid-cols-2 gap-12 items-center">
-            <!-- Text -->
-            <div class="space-y-6">
-                <div
-                    class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium">
-                    <i class="fas fa-globe mr-2"></i> Domain Registration
-                </div>
-                <h2 class="max-lg:text-3xl text-5xl font-bold text-blue-900">Secure Your Online Identity</h2>
-                <p class="text-gray-700 leading-relaxed ">
-                    Start your digital journey by claiming the perfect domain name for your brand. With transparent
-                    pricing, quick activation, and reliable management tools, we make it effortless to establish your online
-                    presence.
-                </p>
-                <p class="text-gray-700 leading-relaxed ">
-                    Whether for startups or large enterprises, our platform ensures your brand stands out globally with
-                    trusted domain extensions and consistent uptime.
-                </p>
+                <p class="text-xs md:text-sm text-slate-400 mt-2">Popular extensions: .com, .in, .net, .org, .co.in</p>
             </div>
 
-            <!-- Image -->
-            <div class="relative rounded-2xl overflow-hidden shadow-xl">
-                <img src="/asset/dom1.jpg" alt="Domain Registration"
-                    class="w-full h-[50vh] max-lg:h-[30vh] max-md:h-[20vh] object-cover">
+            <div class="mt-12 md:mt-20 pt-8 md:pt-10 border-t border-slate-100 flex flex-wrap justify-center gap-4 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                <div class="flex items-center gap-2 font-bold text-sm md:text-xl text-slate-600"><i class="fas fa-shield-alt text-blue-600"></i> SSL Secured</div>
+                <div class="flex items-center gap-2 font-bold text-sm md:text-xl text-slate-600"><i class="fas fa-globe text-blue-600"></i> Global DNS</div>
+                <div class="flex items-center gap-2 font-bold text-sm md:text-xl text-slate-600"><i class="fas fa-lock text-blue-600"></i> Privacy First</div>
+                <div class="flex items-center gap-2 font-bold text-sm md:text-xl text-slate-600"><i class="fas fa-headset text-blue-600"></i> 24/7 Support</div>
             </div>
         </div>
     </section>
 
+    <section class="py-12 md:py-24 bg-slate-50">
+        <div class="w-[90%] md:w-[85%] mx-auto">
 
-    <!-- Domain Transfer Section -->
-    <section id="domain-transfer" class="bg-gray-50 py-20 max-lg:py-12">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto grid lg:grid-cols-2 gap-12 items-center">
-            <!-- Image -->
-            <div class="relative rounded-2xl overflow-hidden shadow-xl order-1 max-lg:order-2 ">
-                <img src="/asset/dom2.png" alt="Domain Transfer"
-                    class="w-full h-[50vh] max-lg:h-[30vh] max-md:h-[20vh] object-cover">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-16 gap-6">
+                <div class="max-w-2xl">
+                    <h2 class="text-blue-600 font-bold tracking-widest uppercase text-xs mb-3">Technical Superiority</h2>
+                    <h3 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">Engineered for <span class="text-blue-700">Performance.</span></h3>
+                    <p class="mt-4 text-slate-600 text-base md:text-lg leading-relaxed">We don't just sell names; we provide the infrastructure that keeps your business online, secure, and visible to the world.</p>
+                </div>
+                <a href="/get-in-touch" class="group flex items-center gap-2 text-blue-700 font-bold hover:gap-4 transition-all text-sm md:text-base whitespace-nowrap">
+                    View Pricing Plans <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
 
-            <!-- Text -->
-            <div class="space-y-6 order-2 max-lg:order-1">
-                <div
-                    class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium">
-                    <i class="fas fa-random mr-2"></i> Domain Transfer
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="col-span-1 md:col-span-2 bg-white rounded-[2rem] p-8 md:p-10 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden relative">
+                    <div class="relative z-10">
+                        <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-xl md:text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4 class="text-xl md:text-2xl font-bold text-slate-900 mb-3">Ultra-Low Latency DNS</h4>
+                        <p class="text-slate-600 leading-relaxed max-w-md text-sm md:text-base">Our Anycast DNS network distributes your domain information across dozens of global servers. This ensures your website loads instantly for users, regardless of their physical location.</p>
+                    </div>
+                    <div class="absolute right-[-20px] bottom-[-20px] opacity-10 text-[10rem] md:text-[15rem] text-blue-900 pointer-events-none select-none">
+                        <i class="fas fa-globe"></i>
+                    </div>
                 </div>
-                <h2 class="max-lg:text-3xl text-5xl font-bold text-blue-900">Effortless Domain Migration</h2>
-                <p class="text-gray-700 leading-relaxed ">
-                    Move your existing domains to our secure and reliable platform without downtime. Our expert team
-                    simplifies every step of the migration to ensure smooth transitions.
-                </p>
-                <p class="text-gray-700 leading-relaxed ">
-                    Experience uninterrupted service, full DNS control, and round-the-clock technical support as you bring
-                    your domains under one unified management system.
-                </p>
+
+                <div class="col-span-1 md:row-span-2 bg-slate-900 text-white rounded-[2rem] p-8 md:p-10 shadow-xl flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 z-0"></div>
+                    <div class="relative z-10">
+                        <div class="w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-md rounded-2xl flex items-center justify-center mb-6 text-xl md:text-2xl border border-white/20">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <h4 class="text-xl md:text-2xl font-bold mb-3">Whois Privacy Shield</h4>
+                        <p class="text-slate-300 leading-relaxed mb-6 text-sm md:text-base">Stop spammers, data miners, and telemarketers. We mask your personal details in the public registry for free.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-sm text-slate-300"><i class="fas fa-check text-blue-400"></i> Identity Protection</li>
+                            <li class="flex items-center gap-3 text-sm text-slate-300"><i class="fas fa-check text-blue-400"></i> Spam Reduction</li>
+                            <li class="flex items-center gap-3 text-sm text-slate-300"><i class="fas fa-check text-blue-400"></i> Data Security</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-span-1 bg-white rounded-[2rem] p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-2">Auto-Renewal Safety</h4>
+                    <p class="text-slate-600 text-sm">Never lose your valuable asset due to an expired card or missed email.</p>
+                </div>
+
+                <div class="col-span-1 bg-white rounded-[2rem] p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-envelope-open"></i>
+                    </div>
+                    <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-2">Professional Email</h4>
+                    <p class="text-slate-600 text-sm">Look professional with @yourbrand.com aliases that forward to your inbox.</p>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <section class="py-12 md:py-24 bg-white overflow-hidden">
+        <div class="w-[90%] md:w-[85%] mx-auto flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
 
-    <!-- DNS Management Section -->
-    <section id="dns" class="bg-white py-20 max-lg:py-12">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto grid lg:grid-cols-2 gap-12 items-center">
-            <!-- Text -->
-            <div class="space-y-6">
-                <div
-                    class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium">
-                    <i class="fas fa-network-wired mr-2"></i> DNS Management
-                </div>
-                <h2 class="max-lg:text-3xl text-5xl font-bold text-blue-900">Powerful & Reliable DNS Tools</h2>
-                <p class="text-gray-700 leading-relaxed ">
-                    Manage your DNS settings effortlessly through our intuitive control panel. Achieve faster load times,
-                    better performance, and seamless integration with websites, email servers, and apps.
-                </p>
-                <p class="text-gray-700 leading-relaxed ">
-                    Our secure infrastructure ensures zero lag and maximum uptime, giving you total control and
-                    peace of mind.
-                </p>
-            </div>
+            <div class="w-full lg:w-1/2 space-y-8 md:space-y-10">
+                <div data-aos="fade-right">
+                    <h2 class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-3">The Journey</h2>
 
-            <!-- Image -->
-            <div class="relative rounded-2xl overflow-hidden shadow-xl">
-                <img src="/asset/dom3.jpg" alt="DNS Management"
-                    class="w-full h-[50vh] max-lg:h-[30vh] max-md:h-[20vh] object-cover">
-            </div>
-        </div>
-    </section>
+                    <h3 class="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-4 md:mb-6 leading-tight">
+                        From Idea to <br>
+                        <span class="text-blue-700">Online Reality.</span>
+                    </h3>
 
-
-    <!-- WHOIS Privacy Protection Section -->
-    <section id="whois" class="bg-gray-50 py-20 max-lg:py-12">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto grid lg:grid-cols-2 gap-12 items-center">
-            <!-- Image -->
-            <div class="relative rounded-2xl overflow-hidden shadow-xl max-lg:order-2">
-                <img src="/asset/dom4.jpg" alt="Privacy Protection"
-                    class="w-full h-[50vh] max-lg:h-[30vh] max-md:h-[20vh] object-cover">
-            </div>
-
-            <!-- Text -->
-            <div class="space-y-6 max-lg:order-1">
-                <div
-                    class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium">
-                    <i class="fas fa-user-secret mr-2"></i> WHOIS Privacy Protection
-                </div>
-                <h2 class="max-lg:text-3xl text-5xl font-bold text-blue-900">Protect Your Personal Information</h2>
-                <p class="text-gray-700 leading-relaxed ">
-                    Keep your identity and data secure from spammers and cyber threats with WHOIS privacy protection. We
-                    mask your personal details in public records while keeping your domain accessible and secure.
-                </p>
-                <p class="text-gray-700 leading-relaxed ">
-                    Enjoy total control with built-in security layers designed to maintain compliance and privacy at every
-                    level.
-                </p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Final CTA Banner -->
-    <section class="bg-blue-900 py-14">
-        <div class="max-w-6xl mx-auto px-6  flex flex-col md:flex-row items-center justify-between text-white">
-            <h2 class="max-lg:text-2xl text-3xl font-bold mb-4 md:mb-0">
-                Ready to Secure Your Perfect Domain?
-            </h2>
-            <a href="/get-in-touch"
-                class="bg-white text-blue-900 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
-                Get in Touch
-            </a>
-        </div>
-    </section>
-
-
-
-    <section class="bg-gray-50 text-gray-800 py-20   max-lg:py-12">
-        <div class="w-[80%] mx-auto flex flex-col lg:flex-row gap-10 items-start">
-            <!-- Step List -->
-            <div class="w-full lg:w-1/2">
-                <h2 class="text-3xl font-semibold mb-2">
-                    Why <span class="text-blue-600">Domains</span> Matter
-                </h2>
-                <p class="text-gray-600 text-sm mb-8">
-                    Establish your brand identity and make your business discoverable online with the right domain.
-                </p>
-
-                <div id="step-list" class="space-y-2">
-                    <!-- Steps will be injected here -->
-                </div>
-            </div>
-
-            <!-- Step Content -->
-            <div class="relative w-full lg:w-1/2">
-                <img id="step-image"
-                    src="/asset/domaindes.jpg"
-                    alt="Step Visual"
-                    class="rounded-xl  w-full h-[60vh] max-md:h-[50vh] max-lg:h-[30vh] object-cover transition duration-500" />
-
-                <div class=" w-1/2 max-md:w-full absolute bottom-0 right-0 bg-black/80 p-6 rounded-lg max-w-md transition-all duration-300">
-                    <p class="text-sm text-blue-400 font-bold mb-1" id="step-number">STEP 01</p>
-                    <h3 class="text-lg font-semibold mb-2 text-white " id="step-title">Domain Discovery</h3>
-                    <p class="text-sm text-gray-300 mb-4 " id="step-description">
-                        Find the perfect domain that fits your brand identity and business goals.
+                    <p class="text-slate-600 text-base md:text-lg leading-relaxed">
+                        Navigating the digital landscape shouldn't be complex. We've streamlined the domain acquisition process into three powerful steps.
                     </p>
+                </div>
 
+                <div id="step-list" class="space-y-4 relative">
+                    <div class="absolute left-[27px] top-6 bottom-6 w-0.5 bg-slate-100 -z-10"></div>
+                </div>
+            </div>
+
+            <div class="relative w-full lg:w-1/2 mt-4 lg:mt-0" data-aos="zoom-in">
+                <div class="relative rounded-3xl bg-slate-900 p-2 shadow-2xl transform rotate-0 md:rotate-1 hover:rotate-0 transition-all duration-700 border border-slate-800">
+
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-16 md:w-20 h-1 bg-slate-800 rounded-b-lg z-20"></div>
+
+                    <div class="relative overflow-hidden rounded-2xl bg-slate-800 aspect-[4/3] group">
+                        <img id="step-image" src="/asset/domaindes.jpg" class="w-full h-full object-cover transition-all duration-700 opacity-90 group-hover:scale-105 group-hover:opacity-100">
+
+                        <div class="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 bg-white/95 backdrop-blur-xl p-4 md:p-6 rounded-xl shadow-lg border border-white/20">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-[10px] md:text-xs font-bold bg-blue-100 text-blue-700 px-2 py-1 rounded" id="step-number">STEP 01</span>
+                                <div class="flex gap-1">
+                                    <div class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-red-400"></div>
+                                    <div class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-yellow-400"></div>
+                                    <div class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-blue-400"></div>
+                                </div>
+                            </div>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-900 line-clamp-1" id="step-title">Domain Discovery</h3>
+                            <p class="text-slate-600 text-xs md:text-sm mt-1 line-clamp-2" id="step-description">Strategize and find a name that resonates with your audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-24 max-md:py-12  bg-slate-50">
+        <div class="w-[90%] max-w-4xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-blue-600 font-bold uppercase tracking-widest text-xs mb-3">Support Center</h2>
+                <h3 class="text-2xl md:text-6xl font-black text-slate-900">Expert <span class="text-slate-400">Answers</span></h3>
+            </div>
+
+            <div class="space-y-4">
+                <div class="faq-item bg-white border border-slate-200 rounded-2xl transition-all duration-300 hover:shadow-md">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 text-left focus:outline-none">
+                        <span class="text-lg font-bold text-slate-800">Is domain ownership permanent?</span>
+                        <span class="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-blue-600 transition-transform duration-300">
+                            <i class="fas fa-plus text-sm"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="p-6 pt-0 text-slate-600 leading-relaxed border-t border-slate-50 mt-2">
+                            Domain names are leased on an annual basis. However, as long as you continue to renew your registration with Rudratech, you retain full legal rights and ownership of that digital asset indefinitely.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item bg-white border border-slate-200 rounded-2xl transition-all duration-300 hover:shadow-md">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 text-left focus:outline-none">
+                        <span class="text-lg font-bold text-slate-800">How fast does a new domain propagate?</span>
+                        <span class="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-blue-600 transition-transform duration-300">
+                            <i class="fas fa-plus text-sm"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="p-6 pt-0 text-slate-600 leading-relaxed border-t border-slate-50 mt-2">
+                            Thanks to our advanced DNS infrastructure, local resolution is often instant. Global propagation across the entire internet typically completes within 2 to 24 hours.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item bg-white border border-slate-200 rounded-2xl transition-all duration-300 hover:shadow-md">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 text-left focus:outline-none">
+                        <span class="text-lg font-bold text-slate-800">Do you support domain transfers?</span>
+                        <span class="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-blue-600 transition-transform duration-300">
+                            <i class="fas fa-plus text-sm"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="p-6 pt-0 text-slate-600 leading-relaxed border-t border-slate-50 mt-2">
+                            Absolutely. You can consolidate your portfolio by transferring existing domains to us. We handle the EPP transfer codes and locking status to ensure a zero-downtime migration.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="py-20 bg-white">
+        <div class="w-[85%] mx-auto ">
+            <div class="bg-blue-900 rounded-[3rem] p-10 md:p-20 relative overflow-hidden text-center">
+                <div class="absolute top-0 left-0 w-full h-full bg-[url('/asset/grid-pattern.png')] opacity-10"></div>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500 rounded-full blur-[120px] opacity-30"></div>
 
-
-
-    <!-- CTA / FINAL BANNER -->
-    <section class="relative bg-gradient-to-r from-blue-900 to-blue-700 py-20 max-lg:py-12 text-white text-center overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[url('/asset/pattern.svg')] bg-cover bg-center"></div>
-        <div class="relative w-[85%] mx-auto space-y-6">
-            <h2 class="text-4xl font-bold leading-tight">Ready to Secure Your Perfect Domain?</h2>
-            <p class="text-gray-200 max-w-2xl mx-auto">
-                Start building your online identity today with RudraTech — where innovation meets reliability.
-            </p>
-            <div class="mt-6 flex flex-wrap justify-center gap-4">
-                <a href="/get-in-touch" class="px-6 py-3 bg-white text-blue-900 font-semibold rounded-md hover:bg-blue-100 transition">
-                    Get Started
-                </a>
-                <a href="/portfolio" class="px-6 py-3 border border-white font-semibold rounded-md hover:bg-white hover:text-blue-900 transition">
-                    Explore More
-                </a>
+                <div class="relative z-10 max-w-3xl mx-auto space-y-8">
+                    <h2 class="text-2xl md:text-6xl font-black text-white leading-tight">
+                        Your Brand Deserves <br> <span class="text-blue-400">The Best Address.</span>
+                    </h2>
+                    <p class="text-slate-300 text-lg max-md:text-base">
+                        Don't let your perfect name get taken. Secure your custom domain with Rudratech IT Services today.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                        <a href="/get-in-touch" class="px-10 py-5 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-xl hover:-translate-y-1">
+                            Register Now
+                        </a>
+                        <a href="/get-in-touch" class="px-10 py-5 bg-transparent border border-blue-400 text-blue-100 font-bold rounded-xl hover:bg-blue-800/50 transition-all">
+                            Talk to an Expert
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Step Navigation JS -->
     <script>
+        // FAQ Toggle Logic
+        document.querySelectorAll('.faq-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+                // Close others
+                document.querySelectorAll('.faq-answer').forEach(el => {
+                    if (el !== answer) {
+                        el.style.maxHeight = null;
+                        el.parentElement.querySelector('i').classList.remove('rotate-45');
+                    }
+                });
+
+                // Toggle current
+                if (answer.style.maxHeight) {
+                    answer.style.maxHeight = null;
+                    icon.classList.remove('rotate-45');
+                    icon.style.transform = "rotate(0deg)";
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                    icon.classList.add('rotate-45');
+                    icon.style.transform = "rotate(45deg)";
+                }
+            });
+        });
+
+        // Steps Logic
         const steps = [{
                 number: "01",
-                title: "Domain Discovery",
-                description: "Find the perfect domain that fits your brand identity and business goals.",
+                title: "Discovery & Strategy",
+                description: "We help you identify high-value keywords and brandable names that stick in your customers' minds.",
                 image: "/asset/domaindes.jpg",
             },
             {
                 number: "02",
-                title: "Domain Registration",
-                description: "Secure your domain name easily and start building your online presence.",
+                title: "Instant Registration",
+                description: "Lock in your choice immediately. Our direct registrar connection secures your asset in milliseconds.",
                 image: "/asset/dom1.jpg",
             },
             {
                 number: "03",
-                title: "Domain Transfer",
-                description: "Move your existing domain to our secure and reliable platform effortlessly.",
+                title: "DNS Configuration",
+                description: "We set up your A records, MX records for email, and CNAMEs to get your site live without technical headaches.",
                 image: "/asset/dom2.png",
             },
             {
                 number: "04",
-                title: "DNS Configuration",
-                description: "Configure DNS settings for email, website, and other services with ease.",
+                title: "Security Hardening",
+                description: "Auto-renewal locks, theft protection, and SSL certificates are applied to safeguard your digital property.",
                 image: "/asset/dom3.jpg",
-            },
-            {
-                number: "05",
-                title: "Privacy Protection",
-                description: "Shield your personal info and protect your brand with domain privacy tools.",
-                image: "/asset/dom4.jpg",
             }
         ];
 
         const stepList = document.getElementById("step-list");
-        const stepImage = document.getElementById("step-image");
-        const stepTitle = document.getElementById("step-title");
-        const stepDesc = document.getElementById("step-description");
-        const stepNum = document.getElementById("step-number");
-
-        let activeStepIndex = 0;
+        let activeStep = 0;
 
         function renderSteps() {
-            stepList.innerHTML = "";
+            // Keep the vertical line
+            stepList.innerHTML = '<div class="absolute left-[27px] top-6 bottom-6 w-0.5 bg-slate-200 -z-10"></div>';
+
             steps.forEach((step, index) => {
-                const stepItem = document.createElement("div");
-                stepItem.className =
-                    `flex items-center justify-between px-4 py-3 rounded-l-full transition-all cursor-pointer
-        ${index === activeStepIndex ? "bg-blue-600 text-white" : "text-gray-400 "}`;
-                stepItem.innerHTML = `
-        <div class="flex items-center gap-3 font-medium">
-          <i class="fas fa-circle text-xs"></i>
-          <span>${step.title}</span>
-        </div>
-        <span class="font-semibold">${step.number}</span>
-      `;
-                stepItem.onclick = () => setStep(index);
-                stepList.appendChild(stepItem);
+                const isActive = index === activeStep;
+                const div = document.createElement("div");
+                div.className = `max-md:p-2 group flex items-center gap-6 p-4 rounded-xl cursor-pointer transition-all duration-300 ${isActive ? 'bg-white shadow-lg border border-slate-100 scale-105' : 'hover:bg-slate-50 opacity-60 hover:opacity-100'}`;
+
+                div.innerHTML = `
+                    <div class="w-14 h-14 max-md:w-10 max-md:h-10 rounded-full flex items-center justify-center font-bold text-lg border-4 transition-all ${isActive ? 'bg-blue-600 text-white border-blue-100' : 'bg-white text-slate-400 border-slate-200'}">
+                        ${step.number}
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg max-md:text-sm ${isActive ? 'text-slate-900' : 'text-slate-500'}">${step.title}</h4>
+                    </div>
+                `;
+
+                div.onclick = () => updateStep(index);
+                stepList.appendChild(div);
             });
         }
 
-        function setStep(index) {
-            activeStepIndex = index;
-            const step = steps[index];
-
-            // Update image with fade effect
-            stepImage.classList.add("opacity-0");
-            setTimeout(() => {
-                stepImage.src = step.image;
-                stepImage.classList.remove("opacity-0");
-            }, 200);
-
-            // Update text content
-            stepTitle.textContent = step.title;
-            stepDesc.textContent = step.description;
-            stepNum.textContent = `STEP ${step.number}`;
-
+        function updateStep(index) {
+            activeStep = index;
             renderSteps();
+
+            const img = document.getElementById("step-image");
+            const title = document.getElementById("step-title");
+            const desc = document.getElementById("step-description");
+            const num = document.getElementById("step-number");
+
+            // Animation out
+            img.style.opacity = 0;
+            img.style.transform = "scale(1.05)";
+
+            setTimeout(() => {
+                // Update content
+                img.src = steps[index].image;
+                title.innerText = steps[index].title;
+                desc.innerText = steps[index].description;
+                num.innerText = `STEP ${steps[index].number}`;
+
+                // Animation in
+                img.style.opacity = 1;
+                img.style.transform = "scale(1)";
+            }, 300);
         }
 
-        // Initialize
         renderSteps();
     </script>
 
-
-
-    <!-- Add before </body> -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
     </script>
+
     <?php include 'include/marquee.php' ?>
     <?php include "include/upperfooter.php"; ?>
     <?php include "include/footer.php" ?>

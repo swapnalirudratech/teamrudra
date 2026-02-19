@@ -167,7 +167,7 @@ $page_title = "website"
             <div class="flex flex-col md:flex-row relative overflow-hidden">
 
                 <!-- Linked Banner Image -->
-                <a href="/customizewebsite" class="w-full h-[90vh] max-lg:h-full max-md:h-full relative overflow-hidden block">
+                <a href="/customize-website" class="w-full h-[90vh] max-lg:h-full max-md:h-full relative overflow-hidden block">
                     <img src="/asset/banner2.png" alt="Banner Image" class="w-full h-full object-cover">
                 </a>
 
@@ -554,14 +554,16 @@ $page_title = "website"
                 border-width: 14px !important;
                 border-radius: 3.5rem !important;
             }
-@media screen and (max-width: 768px) {
-    .mobile-frame {
-        max-width: 340px !important;
-        aspect-ratio: 9 / 16 !important;
-        border-width: 14px !important;
-        border-radius: 3.5rem !important;
-    }
-}
+
+            @media screen and (max-width: 768px) {
+                .mobile-frame {
+                    max-width: 340px !important;
+                    aspect-ratio: 9 / 16 !important;
+                    border-width: 14px !important;
+                    border-radius: 3.5rem !important;
+                }
+            }
+
             /* Optional: adds a smooth fade when the image changes */
             .fade-out {
                 opacity: 0;

@@ -10,101 +10,102 @@ $page_title = "email_hosting"
 
     <?php include "include/navbar.php" ?>
 
-    <section class="relative h-[90vh] flex items-center overflow-hidden bg-white ">
-        <div class="absolute inset-0 pointer-events-none">
-            <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-blue-50 rounded-full blur-[120px] opacity-70"></div>
-            <div class="absolute bottom-[5%] left-[-10%] w-[600px] h-[600px] bg-indigo-50 rounded-full blur-[130px] opacity-60"></div>
-            <div class="absolute inset-0 opacity-[0.04]" style="background-image: radial-gradient(#2563eb 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
-        </div>
+  <section class="relative min-h-[85vh] md:h-[90vh] flex items-center overflow-hidden bg-white py-12 md:py-0">
+    <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-[-10%] right-[-5%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-blue-50 rounded-full blur-[80px] md:blur-[120px] opacity-70"></div>
+        <div class="absolute bottom-[5%] left-[-10%] w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-indigo-50 rounded-full blur-[90px] md:blur-[130px] opacity-60"></div>
+        <div class="absolute inset-0 opacity-[0.04]" style="background-image: radial-gradient(#2563eb 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
+    </div>
 
-        <div class="w-[85%] mx-auto relative z-10">
-            <div class="grid lg:grid-cols-12 gap-16 items-center">
-                <div class="lg:col-span-7 space-y-8 text-center lg:text-left" data-aos="fade-right">
-                    <div class="inline-flex items-center space-x-2 bg-blue-50 border border-blue-100 px-4 py-2 rounded-full shadow-sm">
-                        <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
-                        <span class="text-blue-700 text-xs font-black tracking-[0.15em] uppercase">Top Rated Email Infrastructure</span>
-                    </div>
-
-                    <h1 class="text-2xl lg:text-6xl font-black text-slate-900 leading-[1.05] tracking-tight">
-                        Professional <span class="text-blue-600">Business Email</span> <br>
-                        for Modern Teams.
-                    </h1>
-
-                    <p class="text-slate-600 text-lg lg:text-xl max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
-                        Build trust with every send. RudraTech provides <span class="text-slate-900 font-bold">secure email hosting</span> with custom domains, advanced spam protection, and 100% privacy—no ads, just professional communication.
-                    </p>
-
-                    <div class="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-4">
-                        <a href="/get-started" class="group px-10 py-4 bg-blue-600 text-white font-bold rounded-2xl transition-all hover:bg-blue-700 shadow-xl shadow-blue-200 active:scale-95 flex items-center justify-center gap-2">
-                            Get Started Now <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-                        <a href="#features" class="px-10 py-4 border-2 border-slate-100 text-slate-700 font-bold rounded-2xl hover:bg-slate-50 transition-all text-center">
-                            View Pricing
-                        </a>
-                    </div>
-
-                    <div class="pt-8 flex flex-wrap justify-center lg:justify-start items-center gap-8 opacity-60">
-                        <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-shield-halved text-blue-600"></i>
-                            <span class="text-xs font-bold text-slate-500 uppercase">99.9% Uptime</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-lock text-blue-600"></i>
-                            <span class="text-xs font-bold text-slate-500 uppercase">End-to-End Encrypted</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-headset text-blue-600"></i>
-                            <span class="text-xs font-bold text-slate-500 uppercase">24/7 Priority Support</span>
-                        </div>
-                    </div>
+    <div class="w-[90%] md:w-[85%] mx-auto relative z-10">
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 md:space-y-8 text-center lg:text-left" data-aos="fade-right">
+                
+                <div class="inline-flex items-center justify-center lg:justify-start space-x-2 bg-blue-50 border border-blue-100 px-3 py-1.5 md:px-4 md:py-2 rounded-full shadow-sm">
+                    <span class="flex h-1.5 w-1.5 md:h-2 md:w-2 rounded-full bg-blue-600 animate-pulse"></span>
+                    <span class="text-blue-700 text-[10px] md:text-xs font-black tracking-[0.15em] uppercase">Top Rated Email Infrastructure</span>
                 </div>
 
-                <div class="lg:col-span-5 relative" data-aos="zoom-in">
-                    <div class="relative z-20 group">
-                        <div class="absolute -inset-4 bg-blue-100 rounded-[3rem] blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>
-                        <div class="relative rounded-[2.5rem] border-[12px] border-white shadow-2xl overflow-hidden bg-white">
-                            <img src="/asset/software/email-host.png"
-                                alt="Business Email Interface"
-                                class="w-full h-auto transition-transform duration-700 group-hover:scale-105">
-                        </div>
+                <h1 class="text-3xl sm:text-4xl lg:text-6xl font-black text-slate-900 leading-[1.1] tracking-tight">
+                    Professional <span class="text-blue-600">Business Email</span> <br>
+                    for Modern Teams.
+                </h1>
 
-                        <div class="absolute -top-8 -left-8 bg-white/80 backdrop-blur-xl border border-blue-50 p-5 rounded-3xl shadow-xl animate-float">
-                            <div class="flex items-center gap-4">
-                                <div class="h-12 w-12 bg-blue-600 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-200">
-                                    <i class="fa-solid fa-user-shield text-white text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-slate-900 font-bold text-sm">Anti-Spam AI</p>
-                                    <p class="text-slate-500 text-[10px] font-bold uppercase tracking-tighter">Blocking 99% Threats</p>
-                                </div>
+                <p class="text-slate-600 text-sm md:text-base lg:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
+                    Build trust with every send. RudraTech provides <span class="text-slate-900 font-bold">secure email hosting</span> with custom domains, advanced spam protection, and 100% privacy—no ads, just professional communication.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2 md:pt-4">
+                    <a href="/get-in-touch" class="group px-8 py-4 bg-blue-600 text-white font-bold rounded-xl md:rounded-2xl transition-all hover:bg-blue-700 shadow-xl shadow-blue-200 active:scale-95 flex items-center justify-center gap-2 w-full sm:w-auto">
+                        Get Started Now <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <div class="pt-4 md:pt-8 flex flex-wrap justify-center lg:justify-start items-center gap-4 md:gap-8 opacity-70">
+                    <div class="flex items-center gap-2 bg-white/50 px-3 py-2 rounded-lg border border-slate-100 md:border-0 md:bg-transparent">
+                        <i class="fa-solid fa-shield-halved text-blue-600"></i>
+                        <span class="text-xs font-bold text-slate-500 uppercase">99.9% Uptime</span>
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/50 px-3 py-2 rounded-lg border border-slate-100 md:border-0 md:bg-transparent">
+                        <i class="fa-solid fa-lock text-blue-600"></i>
+                        <span class="text-xs font-bold text-slate-500 uppercase">Encrypted</span>
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/50 px-3 py-2 rounded-lg border border-slate-100 md:border-0 md:bg-transparent">
+                        <i class="fa-solid fa-headset text-blue-600"></i>
+                        <span class="text-xs font-bold text-slate-500 uppercase">24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 relative mt-8 lg:mt-0" data-aos="zoom-in">
+                <div class="relative z-20 group">
+                    <div class="absolute -inset-4 bg-blue-100 rounded-[3rem] blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                    
+                    <div class="relative rounded-[2rem] md:rounded-[2.5rem] border-4 md:border-[12px] border-white shadow-2xl overflow-hidden bg-white">
+                        <img src="/asset/software/email-host.png"
+                            alt="Business Email Interface"
+                            class="w-full h-auto transition-transform duration-700 group-hover:scale-105">
+                    </div>
+
+                    <div class="hidden sm:block absolute -top-6 -left-6 md:-top-8 md:-left-8 bg-white/90 backdrop-blur-xl border border-blue-50 p-3 md:p-5 rounded-2xl md:rounded-3xl shadow-xl animate-float">
+                        <div class="flex items-center gap-3 md:gap-4">
+                            <div class="h-10 w-10 md:h-12 md:w-12 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-200">
+                                <i class="fa-solid fa-user-shield text-white text-base md:text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-slate-900 font-bold text-xs md:text-sm">Anti-Spam AI</p>
+                                <p class="text-slate-500 text-[9px] md:text-[10px] font-bold uppercase tracking-tighter">Blocking 99% Threats</p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="absolute -bottom-8 -right-8 bg-slate-900 p-6 rounded-3xl shadow-2xl animate-float-delayed">
-                            <div class="flex flex-col gap-1">
-                                <p class="text-blue-400 text-xs font-black uppercase tracking-widest">Premium Feature</p>
-                                <p class="text-white font-bold text-lg">you@yourcompany.com</p>
-                                <div class="h-1.5 w-full bg-blue-600/30 rounded-full mt-2 overflow-hidden">
-                                    <div class="h-full bg-blue-400 w-[80%]"></div>
-                                </div>
+                    <div class="absolute -bottom-6 -right-2 md:-bottom-8 md:-right-8 bg-slate-900 p-4 md:p-6 rounded-2xl md:rounded-3xl shadow-2xl animate-float-delayed scale-90 md:scale-100">
+                        <div class="flex flex-col gap-1">
+                            <p class="text-blue-400 text-[10px] md:text-xs font-black uppercase tracking-widest">Premium Feature</p>
+                            <p class="text-white font-bold text-sm md:text-base">you@yourcompany.com</p>
+                            <div class="h-1.5 w-full bg-blue-600/30 rounded-full mt-2 overflow-hidden">
+                                <div class="h-full bg-blue-400 w-[80%]"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="services" class="py-20 bg-white relative overflow-hidden border-t border-slate-100">
+        </div>
+    </div>
+</section>
+
+    <section id="services" class="py-20 max-md:py-12 bg-white relative overflow-hidden border-t border-slate-100">
         <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#2563eb 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
 
         <div class="w-[85%] mx-auto relative z-10">
             <div class="text-center mb-20" data-aos="fade-up">
                 <h2 class="text-blue-600 font-black uppercase tracking-widest text-[11px] mb-4">Enterprise Infrastructure</h2>
-                <h3 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight">
+                <h3 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
                     Our Email Hosting <span class="text-blue-600">Services</span>
                 </h3>
-                <p class="text-slate-500 max-w-2xl mx-auto mt-6 text-lg font-medium">
+                <p class="text-slate-500 max-w-2xl mx-auto mt-6  font-medium">
                     Reliable, secure, and professional email hosting solutions tailored for businesses of all sizes.
                 </p>
             </div>
@@ -152,7 +153,7 @@ $page_title = "email_hosting"
                 <div class="relative order-2 lg:order-1" data-aos="fade-right">
                     <div class="relative  rounded-[2.5rem]">
                         <div class="rounded-[2rem] overflow-hidden ">
-                            <video class="w-full h-[500px] object-contain display-block" autoplay muted loop playsinline>
+                            <video class="w-full h-[500px] max-md:h-[200px] object-contain display-block" autoplay muted loop playsinline>
                                 <source src="/asset/software/custom-domian.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -166,7 +167,7 @@ $page_title = "email_hosting"
                             Stay professional with <br>
                             <span class="text-blue-600">email@yourdomain.com</span>
                         </h2>
-                        <p class="text-slate-500 text-lg lg:text-xl leading-relaxed font-medium max-w-lg">
+                        <p class="text-slate-500  leading-relaxed font-medium max-w-lg">
                             Create a domain for your business and set up custom email addresses. Unique branding gives your company the <span class="text-slate-900">visibility and authenticity</span> it deserves.
                         </p>
                     </div>
@@ -187,13 +188,13 @@ $page_title = "email_hosting"
 
         <div class="w-[85%] mx-auto relative z-10">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
-                <div class="space-y-8 order-2 lg:order-1" data-aos="fade-right">
+                <div class="space-y-8 order-1" data-aos="fade-right">
                     <h2 class="text-4xl lg:text-6xl font-black text-slate-900 leading-[1.1] tracking-tight">
                         Extensive <br>
                         <span class="text-blue-600">Admin Console</span>
                     </h2>
 
-                    <p class="text-slate-600 text-lg lg:text-xl leading-relaxed font-medium">
+                    <p class="text-slate-600  leading-relaxed font-medium">
                         RudraTech’s powerful Admin Console is the go-to place for all settings, configuration, and customization. Add users, manage group aliases, and set up security policies to moderate business content instantly.
                     </p>
 
@@ -207,7 +208,7 @@ $page_title = "email_hosting"
                     </div>
                 </div>
 
-                <div class="relative order-1 lg:order-2" data-aos="fade-left">
+                <div class="relative order-2" data-aos="fade-left">
                     <div class="relative bg-white rounded-[2rem]  overflow-hidden group">
                         <div class="relative bg-white p-2">
                             <img src="/asset/software/email-admin.png" class="w-full h-auto rounded-xl shadow-inner transition-transform duration-700 group-hover:scale-[1.02]" alt="Admin Console Interface">
@@ -219,49 +220,50 @@ $page_title = "email_hosting"
     </section>
 
 
-    <section class="relative py-12 bg-white overflow-hidden font-sans border-t border-slate-100">
+    <section class="relative py-12 md:py-24 bg-white overflow-hidden font-sans border-t border-slate-100">
         <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#2563eb 0.5px, transparent 0.5px); background-size: 40px 40px;"></div>
 
         <div class="w-[85%] mx-auto relative z-10">
-            <div class="flex flex-col md:flex-row items-end justify-between gap-8 mb-20" data-aos="fade-up">
-                <div class="max-w-2xl">
-                    <h2 class="text-blue-600 font-black uppercase tracking-[0.2em] text-xs mb-4">Why RudraTech?</h2>
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight">
+
+            <div class="flex flex-col md:flex-row items-end justify-between gap-6 md:gap-8 mb-12 md:mb-20 text-center md:text-left" data-aos="fade-up">
+                <div class="max-w-2xl w-full">
+                    <h2 class="text-blue-600 font-black uppercase tracking-[0.2em] text-xs mb-3 md:mb-4">Why RudraTech?</h2>
+                    <h3 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
                         We don't just build websites; we <span class="text-blue-600">engineer success.</span>
                     </h3>
                 </div>
-                <p class="text-slate-500 text-lg font-medium max-w-sm border-l-2 border-blue-600 pl-6">
+                <p class="text-slate-500 text-base md: font-medium max-w-sm md:border-l-2 md:border-blue-600 md:pl-6 w-full md:w-auto">
                     Specializing in robust backends and fluid interfaces for modern brands.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="flex flex-nowrap md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible snap-x snap-mandatory gap-4 md:gap-8 pb-8 md:pb-0 -mx-6 px-6 md:mx-0 md:px-0 hide-scrollbar">
 
-                <div class="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2">
-                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-all">
+                <div class="group min-w-[85vw] md:min-w-0 snap-center p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-white rounded-2xl flex items-center justify-center mb-6 md:mb-8 shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-all">
                         <i class="fa-solid fa-server"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-slate-900 mb-4">Robust Core Logic</h4>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3 md:mb-4">Robust Core Logic</h4>
                     <p class="text-slate-500 text-sm leading-relaxed">
                         Expert PHP and SQL development to ensure your infrastructure is secure, scalable, and built for heavy performance.
                     </p>
                 </div>
 
-                <div class="group p-10 rounded-[2.5rem] bg-blue-600 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-600/20 hover:-translate-y-2">
-                    <div class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mb-8 text-white">
+                <div class="group min-w-[85vw] md:min-w-0 snap-center p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] bg-blue-600 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-600/20 hover:-translate-y-2">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-white/20 rounded-2xl flex items-center justify-center mb-6 md:mb-8 text-white">
                         <i class="fa-solid fa-bolt"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-white mb-4">Dynamic Experience</h4>
+                    <h4 class="text-xl font-bold text-white mb-3 md:mb-4">Dynamic Experience</h4>
                     <p class="text-blue-50 text-sm leading-relaxed">
                         Crafting interactive JavaScript interfaces that provide a seamless, high-speed user experience for your customers.
                     </p>
                 </div>
 
-                <div class="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2">
-                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-all">
+                <div class="group min-w-[85vw] md:min-w-0 snap-center p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-blue-900/5 hover:-translate-y-2">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-white rounded-2xl flex items-center justify-center mb-6 md:mb-8 shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-all">
                         <i class="fa-solid fa-chart-pie"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-slate-900 mb-4">Strategic Growth</h4>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3 md:mb-4">Strategic Growth</h4>
                     <p class="text-slate-500 text-sm leading-relaxed">
                         Trusted by clients like Iris and NK for ongoing development and reliable technical support.
                     </p>
@@ -269,40 +271,51 @@ $page_title = "email_hosting"
 
             </div>
 
-            <div class="mt-20 flex flex-wrap items-center justify-between gap-10 py-10 border-t border-slate-100">
-                <div class="flex items-center gap-4">
-                    <span class="text-3xl font-black text-slate-900">50+</span>
-                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Global<br>Projects</span>
+            <div class="mt-12 md:mt-20 grid grid-cols-2 md:flex md:flex-wrap items-center justify-between gap-y-10 gap-x-4 py-10 border-t border-slate-100">
+                <div class="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4">
+                    <span class="text-3xl md:text-3xl font-black text-slate-900">50+</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-tight">Global<br>Projects</span>
                 </div>
-                <div class="flex items-center gap-4">
-                    <span class="text-3xl font-black text-slate-900">100%</span>
-                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Uptime<br>Guarantee</span>
+                <div class="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4">
+                    <span class="text-3xl md:text-3xl font-black text-slate-900">100%</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-tight">Uptime<br>Guarantee</span>
                 </div>
-                <div class="flex items-center gap-4">
-                    <span class="text-3xl font-black text-slate-900">24/7</span>
-                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Expert<br>Support</span>
+                <div class="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-4">
+                    <span class="text-3xl md:text-3xl font-black text-slate-900">24/7</span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-tight">Expert<br>Support</span>
                 </div>
-                <a href="/get-in-touch" class="px-8 py-3 bg-slate-900 text-white font-bold rounded-xl text-sm transition hover:bg-blue-600">
+
+                <a href="/get-in-touch" class="col-span-2 md:col-span-auto w-full md:w-auto text-center px-8 py-3 bg-slate-900 text-white font-bold rounded-xl text-sm transition hover:bg-blue-600 shadow-lg shadow-slate-900/20">
                     Work With Us
                 </a>
             </div>
         </div>
     </section>
 
+    <style>
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
 
-    <section class="relative bg-gray-50 py-24 px-6 overflow-hidden font-sans">
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+
+    <section class="relative bg-gray-50 py-24 max-md:py-12  px-6 overflow-hidden font-sans">
         <div class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/4 w-[500px] h-[500px] bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
         <div class="absolute bottom-0 right-20 w-[300px] h-[300px] bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
 
         <div class="w-[85%] mx-auto flex flex-col md:flex-row items-center justify-between relative z-10">
-            <div class="md:w-1/2 space-y-6">
+            <div class="md:w-1/2 space-y-6 max-md:text-center">
                 <div class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-600 text-xs font-bold uppercase tracking-wider">
                     RudraTech Mobile
                 </div>
-                <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                <h2 class="text-2xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                     Manage RudraTech <br>on the Move
                 </h2>
-                <p class="text-lg text-gray-600 max-w-lg leading-relaxed">
+                <p class=" text-gray-600 max-w-lg leading-relaxed">
                     The interface replicates the exact nested folder design from your reference. Every sub-folder and navigation icon is live and branded for Rudra Tech IT Services.
                 </p>
             </div>
@@ -339,19 +352,19 @@ $page_title = "email_hosting"
 
                         <div id="phone-nav" class="bg-[#0f0f0f] border-t border-white/5 px-2 py-4 pb-8 flex justify-around items-center transition-colors">
                             <button onclick="switchTab('mail', this)" class="tab-btn flex flex-col items-center gap-1 text-orange-500">
-                                <span class="text-lg"><i class="fa-solid fa-envelope"></i></span>
+                                <span class=""><i class="fa-solid fa-envelope"></i></span>
                                 <span class="text-[9px] font-bold">Mail</span>
                             </button>
                             <button onclick="switchTab('cal', this)" class="tab-btn flex flex-col items-center gap-1 text-gray-500">
-                                <span class="text-lg"><i class="fa-regular fa-calendar"></i></span>
+                                <span class=""><i class="fa-regular fa-calendar"></i></span>
                                 <span class="text-[9px]">Calendar</span>
                             </button>
                             <button onclick="switchTab('users', this)" class="tab-btn flex flex-col items-center gap-1 text-gray-500">
-                                <span class="text-lg"><i class="fa-regular fa-user"></i></span>
+                                <span class=""><i class="fa-regular fa-user"></i></span>
                                 <span class="text-[9px]">Contacts</span>
                             </button>
                             <button onclick="switchTab('settings', this)" class="tab-btn flex flex-col items-center gap-1 text-gray-500">
-                                <span class="text-lg"><i class="fa-solid fa-gear"></i></span>
+                                <span class=""><i class="fa-solid fa-gear"></i></span>
                                 <span class="text-[9px]">Settings</span>
                             </button>
                         </div>
@@ -371,41 +384,41 @@ $page_title = "email_hosting"
 
 
     <section class="py-16 bg-white overflow-hidden font-sans">
-    <div class="w-[85%] mx-auto">
-        <div class="relative rounded-[3rem] bg-slate-50 border border-slate-100 p-8 md:p-12 overflow-hidden shadow-sm group">
-            
-            <div class="absolute -right-20 -top-20 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-40 transition-all duration-700 group-hover:scale-110"></div>
-            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-indigo-50 rounded-full blur-3xl opacity-40"></div>
+        <div class="w-[85%] mx-auto">
+            <div class="relative rounded-[3rem] bg-slate-50 border border-slate-100 p-8 md:p-12 overflow-hidden shadow-sm group">
 
-            <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-                
-                <div class="text-center lg:text-left space-y-4 max-w-xl">
-                    <h3 class="text-3xl md:text-4xl font-black text-slate-900 leading-tight">
-                        Ready to scale your <br>
-                        <span class="text-blue-600">Digital Infrastructure?</span>
-                    </h3>
-                    <p class="text-slate-500 font-medium text-lg leading-relaxed">
-                        Join modern teams using RudraTech for secure, professional, and high-performance email hosting.
-                    </p>
+                <div class="absolute -right-20 -top-20 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-40 transition-all duration-700 group-hover:scale-110"></div>
+                <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-indigo-50 rounded-full blur-3xl opacity-40"></div>
+
+                <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+
+                    <div class="text-center lg:text-left space-y-4 max-w-xl">
+                        <h3 class="text-2xl md:text-4xl font-black text-slate-900 leading-tight">
+                            Ready to scale your <br>
+                            <span class="text-blue-600">Digital Infrastructure?</span>
+                        </h3>
+                        <p class="text-slate-500 font-medium  leading-relaxed">
+                            Join modern teams using RudraTech for secure, professional, and high-performance email hosting.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-4">
+                        <a href="/get-in-touch" class="px-10 py-4 bg-blue-600 text-white font-bold rounded-2xl shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-95 whitespace-nowrap">
+                            Get Started Now
+                        </a>
+
+                    </div>
+
                 </div>
+            </div>
 
-                <div class="flex flex-col sm:flex-row items-center gap-4">
-                    <a href="/get-in-touch" class="px-10 py-4 bg-blue-600 text-white font-bold rounded-2xl shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-95 whitespace-nowrap">
-                        Get Started Now
-                    </a>
-                  
-                </div>
-
+            <div class="mt-8 flex flex-wrap justify-center gap-8 opacity-40 grayscale pointer-events-none">
+                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">Enterprise Security</span>
+                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">99.9% Reliability</span>
+                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">Priority Support</span>
             </div>
         </div>
-
-        <div class="mt-8 flex flex-wrap justify-center gap-8 opacity-40 grayscale pointer-events-none">
-            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">Enterprise Security</span>
-            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">99.9% Reliability</span>
-            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900">Priority Support</span>
-        </div>
-    </div>
-</section>
+    </section>
 
     <style>
         @keyframes float {
@@ -501,7 +514,7 @@ $page_title = "email_hosting"
                             <span><i class="fa-solid fa-magnifying-glass"></i></span>Search
                         </div>
                         <div class="flex items-center gap-3 py-2 border-b ${borderCol}">
-                            <span class="text-lg"><i class="fa-solid fa-envelope"></i></span>
+                            <span class=""><i class="fa-solid fa-envelope"></i></span>
                             <span class="font-bold flex-1">All Inboxes</span>
                         </div>
                         <div class="space-y-1">
@@ -518,31 +531,48 @@ $page_title = "email_hosting"
                     </div>`;
             } else if (tab.includes('cal')) {
                 container.innerHTML = `
-                    <div class="space-y-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
-                        <h3 class="font-bold text-lg">Calendar</h3>
-                        <div class="grid grid-cols-7 gap-1 text-[10px] text-center opacity-50 mb-2">
-                            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
-                        </div>
-                        <div class="grid grid-cols-7 gap-1 text-center">
-                            ${Array.from({length: 31}, (_, i) => ` < div class = "p-1 text-xs ${i === 17 ? 'bg-blue-600 text-white rounded-full' : ''}" > $ {
-                        i + 1
-                    } < /div>`).join('')} <
-                    /div> <
-                    div class = "mt-4 space-y-3" >
-                    <
-                    p class = "text-[10px] font-bold opacity-40 uppercase" > Upcoming Meetings < /p> <
-                    div class = "p-3 rounded-xl ${itemBg} border-l-4 border-blue-500" >
-                    <
-                    p class = "font-bold text-xs" > Project Rudra Sync < /p> <
-                    p class = "text-[10px] opacity-50" > 10: 30 AM - 11: 30 AM < /p> <
-                    /div> <
-                    /div> <
+        <div class="space-y-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
+            <h3 class="font-bold ">Calendar</h3>
+            
+            <div class="grid grid-cols-7 gap-1 text-[10px] text-center opacity-50 mb-2">
+                <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+            </div>
+            
+            <div class="grid grid-cols-7 gap-1 text-center">
+                ${Array.from({ length: 31 }, (_, i) => {
+                    const day = i + 1;
+                    // Highlight day 18 to match the "Project Rudra Sync" event
+                    const isSelected = day === 18; 
+                    return ` <
+                    div class = "p-1 text-xs ${isSelected ? 'bg-blue-600 text-white rounded-full font-bold' : ''}" >
+                    $ {
+                        day
+                    } <
                     /div>`;
-            } else if (tab.includes('user') || tab.includes('contact')) {
-                container.innerHTML = `
+            }).join('')
+        } <
+        /div>
+
+        <
+        div class = "mt-4 space-y-3" >
+        <
+        p class = "text-[10px] font-bold opacity-40 uppercase tracking-wider" > Upcoming Meetings < /p> <
+        div class = "p-3 rounded-xl ${itemBg} border-l-4 border-blue-500 shadow-sm" >
+        <
+        p class = "font-bold text-xs text-blue-600" > Project Rudra Sync < /p> <
+        p class = "text-[10px] opacity-60 mt-1" >
+        <
+        i class = "fa-regular fa-clock mr-1" > < /i> 10:30 AM - 11:30 AM < /
+        p > <
+            /div> < /
+        div > <
+            /div>`;
+        }
+        else if (tab.includes('user') || tab.includes('contact')) {
+            container.innerHTML = `
                     <div class="space-y-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
                         <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg">Contacts</h3>
+                            <h3 class="font-bold ">Contacts</h3>
                             <span class="text-blue-500 text-sm"><i class="fa-solid fa-plus"></i></span>
                         </div>
                         <div class="space-y-3">
@@ -560,10 +590,10 @@ $page_title = "email_hosting"
                             `).join('')}
                         </div>
                     </div>`;
-            } else if (tab.includes('sett')) {
-                container.innerHTML = `
+        } else if (tab.includes('sett')) {
+            container.innerHTML = `
                     <div class="space-y-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
-                        <h3 class="font-bold text-lg">Settings</h3>
+                        <h3 class="font-bold ">Settings</h3>
                         <div class="space-y-2">
                             <div class="flex items-center justify-between p-4 ${itemBg} rounded-2xl">
                                 <div class="flex items-center gap-3 text-sm"><span>🔔</span> Notifications</div>
@@ -582,7 +612,7 @@ $page_title = "email_hosting"
                             </div>
                         </div>
                     </div>`;
-            }
+        }
         }
     </script>
 

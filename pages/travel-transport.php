@@ -1,386 +1,296 @@
 <?php
-$page_title = "travel-transport";
+$page_title = "Travel & Transport Software Solutions | Rudratech";
 include "include/header.php";
 ?>
 
 <!Doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
-<body>
+<?php include "include/header.php" ?>
+<style>
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    /* Subtle background pattern */
+    .bg-dots {
+        background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+        background-size: 24px 24px;
+    }
+</style>
+
+
+<body class="bg-white text-slate-800">
 
     <?php include "include/navbar.php"; ?>
 
-    <section class="relative w-full h-[90vh] max-lg:h-[40vh] max-md:h-[60vh]  bg-gradient-to-r from-blue-50 to-white overflow-hidden">
-        <!-- Background Image -->
-        <div class="absolute inset-0">
-            <img src="/asset/image/BGTRAVEL.jpg" alt="Tours and Travel" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 bg-black/40"></div> <!-- Dark Overlay -->
-        </div>
+    <section class="bg-white py-16 lg:py-24 relative overflow-hidden">
+        <div class="w-[85%] mx-auto  relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 
-        <!-- Content -->
-        <div class="relative container mx-auto h-full flex flex-col justify-center w-[80%] max-lg:w-[85%] text-white z-10">
-            <div class="max-w-2xl">
-                <!-- Main Heading -->
-                <h1 class="max-lg:text-3xl text-6xl font-bold leading-snug">
-                    Explore the World with Confidence
-                </h1>
+                <div class="text-center lg:text-left">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6 tracking-tight">
+                        #1 Custom <br class="hidden lg:block">
+                        <span class="text-blue-600">Travel and Transport </span><br class="hidden lg:block">
+                        Solutions in India
+                    </h1>
 
-                <!-- Sub Text -->
-                <p class="mt-4 max-lg:text-base text-xl text-white">
-                    We provide end-to-end tours & travel solutions. Plus, we create professional websites & custom software tailored for travel businesses.
-                </p>
+                    <p class="text-lg sm:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        We offer a wide range of travel and transport solutions, including booking engines, cab booking, and itinerary generators.
+                    </p>
 
-                <!-- Call to Action Buttons -->
-                <div class="mt-6 flex flex-wrap gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10 border-t border-b border-gray-100 py-8">
+                        <div>
+                            <strong class="block text-2xl font-extrabold text-gray-900">Quick</strong>
+                            <span class="text-base text-gray-600">Travel Bookings</span>
+                        </div>
+                        <div>
+                            <strong class="block text-2xl font-extrabold text-gray-900">Itinerary</strong>
+                            <span class="text-base text-gray-600">Generator</span>
+                        </div>
+                        <div>
+                            <strong class="block text-2xl font-extrabold text-gray-900">In-App</strong>
+                            <span class="text-base text-gray-600">Cab Booking</span>
+                        </div>
+                    </div>
 
-                    <a href="/get-in-touch" class="px-6 py-3 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-black transition">
-                        Build My Travel Website
+                    <a href="/get-in-touch" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                        Discuss Your Project
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-white py-12 flex justify-center w-full">
-        <div class="flex items-center gap-6 w-full justify-center max-md:flex-col max-lg:gap-0 max-lg:w-[80%]">
 
-            <!-- Location Pin with Image -->
-            <div class="relative w-32 h-32 flex-shrink-0">
-                <img src="/asset/image/LOCATION.webp"
-                    class="absolute inset-0 w-full h-full object-contain"
-                    alt="Location Icon">
-            </div>
-
-            <!-- White Feature Box -->
-            <div id="featureSlider"
-                class="flex bg-white rounded-2xl shadow-xl max-md:shadow-none overflow-hidden lg:overflow-hidden w-[80%] max-lg:w-[90%]
-                   max-lg:overflow-x-auto max-lg:space-x-4 max-lg:divide-x-0 max-lg:scroll-smooth max-lg:snap-x max-lg:snap-mandatory">
-
-                <!-- Feature 1 -->
-                <div class="px-6 py-4 flex flex-col items-center justify-center text-center 
-                        w-1/5 min-w-[150px] hover:bg-blue-50 transition-all
-                        max-lg:min-w-full max-lg:flex-shrink-0 max-lg:snap-center">
-                    <h3 class="font-semibold text-gray-800 text-lg max-md:text-4xl">Travel Websites</h3>
-                    <p class="text-gray-500 text-sm mt-1">Beautiful, responsive designs for agencies.</p>
-                </div>
-
-                <!-- Feature 2 -->
-                <div class="px-6 py-4 flex flex-col items-center justify-center text-center 
-                        w-1/5 min-w-[150px] hover:bg-blue-50 transition-all
-                        max-lg:min-w-full max-lg:flex-shrink-0 max-lg:snap-center">
-                    <h3 class="font-semibold text-gray-800 text-lg max-md:text-4xl">Booking Apps</h3>
-                    <p class="text-gray-500 text-sm mt-1">Custom Android & iOS booking solutions.</p>
-                </div>
-
-                <!-- Feature 3 -->
-                <div class="px-6 py-4 flex flex-col items-center justify-center text-center 
-                        w-1/5 min-w-[150px] hover:bg-blue-50 transition-all
-                        max-lg:min-w-full max-lg:flex-shrink-0 max-lg:snap-center">
-                    <h3 class="font-semibold text-gray-800 text-lg max-md:text-4xl">Itinerary Tools</h3>
-                    <p class="text-gray-500 text-sm mt-1">Plan & share trips with ease.</p>
-                </div>
-
-                <!-- Feature 4 -->
-                <div class="px-6 py-4 flex flex-col items-center justify-center text-center 
-                        w-1/5 min-w-[150px] hover:bg-blue-50 transition-all
-                        max-lg:min-w-full max-lg:flex-shrink-0 max-lg:snap-center">
-                    <h3 class="font-semibold text-gray-800 text-lg max-md:text-4xl">Cab Integrations</h3>
-                    <p class="text-gray-500 text-sm mt-1">Built-in taxi & transport booking features.</p>
-                </div>
-
-                <!-- Feature 5 -->
-                <div class="px-6 py-4 flex flex-col items-center justify-center text-center 
-                        w-1/5 min-w-[150px] hover:bg-blue-50 transition-all
-                        max-lg:min-w-full max-lg:flex-shrink-0 max-lg:snap-center">
-                    <h3 class="font-semibold text-gray-800 text-lg max-md:text-4xl">Custom Solutions</h3>
-                    <p class="text-gray-500 text-sm mt-1">Tailored software for your travel business.</p>
+                <div class="relative w-full z-20 mx-auto mt-10 lg:mt-0">
+                    <img src="/asset/bnr/10.png" alt="Travel App Booking View" class="relative w-full max-w-lg lg:max-w-full h-auto mx-auto object-contain ">
                 </div>
 
             </div>
         </div>
     </section>
 
+    <section class="relative py-16 bg-white z-20 -mt-10 rounded-t-[3rem] shadow-[0_-10px_40px_rgba(0,0,0,0.03)]">
+        <div class="w-[85%]  mx-auto">
 
-
-
-    <section class="py-16 bg-white max-lg:pb-10 max-lg:pt-0">
-        <div class="  grid lg:grid-cols-2 gap-12 items-center max-lg:gap-4">
-
-            <!-- Left Image (Full Height, Clean) -->
-            <div class="w-full h-full">
-                <img src="/asset/image/travel2.jpg"
-                    alt="Travel App Mockup"
-                    class="w-full h-full max-lg:hidden object-cover ">
-            </div>
-
-            <!-- Right Content -->
-            <div class="px-12 max-md:px-8">
-                <h2 class="max-lg:text-3xl max-md:text-center  text-4xl font-bold text-gray-800 leading-snug">
-                    Build Your Travel Website & App<br>
-                    <span class="text-blue-600">With Powerful Features</span>
-                </h2>
-                <p class="mt-4 text-gray-600 max-md:text-center">
-                    We design and develop feature-rich, high-performance travel portals and apps — integrating booking engines,
-                    payment systems, and customer-friendly tools that streamline your travel business.
-                </p>
-
-                <!-- Features -->
-                <div class="mt-8 space-y-6">
-                    <div class="pb-4 border-b border-gray-200">
-                        <h3 class="text-lg font-semibold text-gray-800">01. Custom Travel Portals</h3>
-                        <p class="text-gray-500 text-sm mt-1">
-                            Personalized websites for travel agencies, tour operators, and booking companies with your branding.
-                        </p>
-                    </div>
-                    <div class="pb-4 border-b border-gray-200">
-                        <h3 class="text-lg font-semibold text-gray-800">02. Online Booking & Payments</h3>
-                        <p class="text-gray-500 text-sm mt-1">
-                            Integrated booking systems with secure payment gateways for flights, hotels, and tours.
-                        </p>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="flex items-center gap-4 shrink-0 md:w-1/4" data-aos="fade-right">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-3xl">
+                        <i class="fa-solid fa-map-location-dot"></i>
                     </div>
                     <div>
-                        <h3 class="text-lg font-semibold text-gray-800">03. Customer Management Tools</h3>
-                        <p class="text-gray-500 text-sm mt-1">
-                            Manage clients, reservations, and itineraries with an intuitive, easy-to-use backend dashboard.
-                        </p>
+                        <h3 class="font-bold text-slate-900">What We Build</h3>
+                        <p class="text-sm text-slate-500">For Travel Agencies</p>
                     </div>
+                </div>
+
+                <div class="flex overflow-x-auto gap-4 pb-4 md:pb-0 hide-scrollbar w-full md:w-3/4 snap-x snap-mandatory" data-aos="fade-left">
+
+                    <div class="snap-start shrink-0 w-60 bg-slate-50 border border-slate-100 p-6 rounded-2xl hover:bg-blue-600 hover:text-white transition-colors duration-300 group">
+                        <h4 class="font-bold text-lg mb-2">Travel Websites</h4>
+                        <p class="text-sm text-slate-500 group-hover:text-blue-100">Beautiful, responsive designs for agencies and operators.</p>
+                    </div>
+                    <div class="snap-start shrink-0 w-60 bg-slate-50 border border-slate-100 p-6 rounded-2xl hover:bg-blue-600 hover:text-white transition-colors duration-300 group">
+                        <h4 class="font-bold text-lg mb-2">Booking Apps</h4>
+                        <p class="text-sm text-slate-500 group-hover:text-blue-100">Custom Android & iOS ticket and booking solutions.</p>
+                    </div>
+                    <div class="snap-start shrink-0 w-60 bg-slate-50 border border-slate-100 p-6 rounded-2xl hover:bg-blue-600 hover:text-white transition-colors duration-300 group">
+                        <h4 class="font-bold text-lg mb-2">Itinerary Tools</h4>
+                        <p class="text-sm text-slate-500 group-hover:text-blue-100">Dynamic dashboards to plan & share trips with ease.</p>
+                    </div>
+                    <div class="snap-start shrink-0 w-60 bg-slate-50 border border-slate-100 p-6 rounded-2xl hover:bg-blue-600 hover:text-white transition-colors duration-300 group">
+                        <h4 class="font-bold text-lg mb-2">Cab Integrations</h4>
+                        <p class="text-sm text-slate-500 group-hover:text-blue-100">Built-in taxi, transport & API routing features.</p>
+                    </div>
+
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="py-8 bg-white max-lg:py-0">
-        <div class="w-[80%]  max-lg:w-[85%]  mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-
-                <!-- Stat Item -->
-                <div class="relative flex flex-col items-center">
-                    <div class="w-32 h-28 bg-[url('/asset/image/trvelbg.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center">
-                        <h3 class="text-5xl font-medium text-gray-800">200+</h3>
-                    </div>
-                    <p class="mt-2 text-gray-500">Travel Websites Created</p>
-                </div>
-
-                <!-- Stat Item -->
-                <div class="relative flex flex-col items-center">
-                    <div class="w-32 h-28 bg-[url('/asset/image/trvelbg.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center">
-                        <h3 class="text-5xl font-medium text-gray-800">50+</h3>
-                    </div>
-                    <p class="mt-2 text-gray-500">Destinations Covered</p>
-                </div>
-
-                <!-- Stat Item -->
-                <div class="relative flex flex-col items-center">
-                    <div class="w-32 h-28 bg-[url('/asset/image/trvelbg.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center">
-                        <h3 class="text-5xl font-medium text-gray-800">100%</h3>
-                    </div>
-                    <p class="mt-2 text-gray-500">Client Satisfaction</p>
-                </div>
-
-                <!-- Stat Item -->
-                <div class="relative flex flex-col items-center">
-                    <div class="w-32 h-28 bg-[url('/asset/image/trvelbg.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center">
-                        <h3 class="text-5xl font-medium text-gray-800">10+</h3>
-                    </div>
-                    <p class="mt-2 text-gray-500">Years Experience</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="grid grid-cols-1 md:grid-cols-2 pt-8">
-        <!-- Block 1: Parallax Image -->
-        <div class="h-[80vh] max-lg:h-[50vh] bg-[url('/asset/image/ballon.jpg')] bg-fixed bg-center bg-cover"></div>
-
-        <!-- Block 2: Service Intro -->
-        <div class="bg-white px-20 flex flex-col justify-center max-lg:px-6 max-lg:py-4">
-            <h2 class="max-lg:text-3xl text-4xl font-bold text-gray-800 leading-snug mb-4">
-                Build Stunning Travel Websites & Apps
-            </h2>
-            <p class="text-gray-600 leading-relaxed mb-6 sm:mb-8">
-                From captivating visuals to seamless booking experiences, we create travel platforms
-                that inspire exploration and simplify your customer’s journey. Every feature is designed
-                for performance, security, and scalability.
-            </p>
-            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-gray-700 text-sm sm:text-base">
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> Custom Website Design</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> Mobile App Development</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> Secure Payment Gateways</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> Live Itinerary Tools</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> Multi-language Support</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">✔</span> API Integrations</li>
-            </ul>
-        </div>
-
-        <!-- Block 3: About Services -->
-        <!-- Block 3: Our Process -->
-        <div class="bg-white p-6 max-lg:px-6 px-20 flex flex-col justify-center">
-            <h3 class="text-xl sm:text-4xl font-semibold text-gray-800 mb-4">Our Process</h3>
-            <p class="text-gray-600 leading-relaxed mb-6 sm:mb-8">
-                We follow a structured yet flexible process to bring your travel platform to life —
-                ensuring every stage from idea to launch runs smoothly and meets your expectations.
-            </p>
-            <ul class="space-y-3 text-gray-700 text-sm sm:text-base">
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">-</span> Discovery & Strategy Planning</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">-</span> Design & Prototype Creation</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">-</span> Development & Testing</li>
-                <li class="flex items-center"><span class="text-blue-600 text-lg mr-2">-</span> Launch & Ongoing Support</li>
-            </ul>
-        </div>
 
 
-        <!-- Block 4: Parallax Image -->
-        <div class="h-[80vh] max-lg:h-[50vh] bg-[url('/asset/image/ballon.jpg')] bg-fixed bg-center bg-cover max-md:hidden"></div>
-    </section>
+    <section class="py-24 bg-slate-50 overflow-hidden">
+        <div class="w-[85%]  mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-    <section class="relative w-full py-32 bg-center bg-cover max-md:py-10 max-lg:py-16 max-md:border-t border-gray-200"
-        style="background-image: url('/asset/image/travel1.jpg');">
+            <div class="relative" data-aos="fade-right">
 
-        <!-- Content -->
-        <div class="relative container mx-auto px-6 lg:px-20 text-black">
-            <div class="w-full">
-                <div class="max-w-3xl max-md:text-center">
-                    <!-- Heading -->
-                    <h2 class="text-5xl max-lg:text-3xl font-bold leading-tight">
-                        Power Your Travel Business<br>
-                        <span class="text-blue-600">With Websites & Apps That Convert</span>
-                    </h2>
-                    <p class="mt-4 text-lg text-gray-800 max-w-2xl">
-                        Modern solutions to boost bookings, manage tours, and grow your travel brand.
-                    </p>
-                </div>
-
-                <!-- Features -->
-                <div class="mt-10 grid grid-cols-1 sm:grid-cols-4 gap-6">
-                    <div class="bg-black/10 p-5 rounded-lg backdrop-blur-sm hover:bg-blue-600 hover:text-white transition">
-                        <h3 class="font-semibold text-lg">Travel Websites</h3>
-                    </div>
-                    <div class="bg-black/10 p-5 rounded-lg backdrop-blur-sm hover:bg-blue-600 hover:text-white transition">
-                        <h3 class="font-semibold text-lg">Booking Apps</h3>
-                    </div>
-                    <div class="bg-black/10 p-5 rounded-lg backdrop-blur-sm hover:bg-blue-600 hover:text-white transition">
-                        <h3 class="font-semibold text-lg">Itinerary Tools</h3>
-                    </div>
-                    <div class="bg-black/10 p-5 rounded-lg backdrop-blur-sm hover:bg-blue-600 hover:text-white transition">
-                        <h3 class="font-semibold text-lg">API Integrations</h3>
-                    </div>
-                </div>
-
-                <!-- CTA -->
-                <div class="mt-10 flex max-md:justify-center max-md:pb-4">
-                    <a href="/get-in-touch"
-                        class="bg-blue-600 hover:bg-blue-500  text-white px-6 py-3 rounded-lg font-semibold shadow-lg">
-                        Get Started
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="relative py-16 bg-white max-lg:py-10">
-        <div class="container mx-auto px-6">
-            <!-- Heading -->
-            <div class="text-center mb-12">
-                <h2 class="text-4xl max-lg:text-3xl font-bold text-gray-800">Our Tours & Travel Project</h2>
-                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                    Discover our premium travel website designed to inspire and connect travelers worldwide.
-                </p>
+                <img src="/asset/software/tours-admin.jpeg" alt="Travel App Mockup" class="relative z-10 rounded-3xl shadow-xl w-full h-[500px] object-cover">
             </div>
 
-            <!-- Single Project Card -->
-            <div class="group relative overflow-hidden  max-w-4xl mx-auto">
-                <img src="/asset/bnr/10.png" alt="Travel Website"
-                    class="w-full h-full object-fit ">
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="py-32 bg-cover bg-center bg-no-repeat" style="background-image: url('/asset/image/travel3.jpg');">
-        <div class="container mx-auto px-6 lg:px-20">
-
-            <!-- Heading -->
-            <div class="text-center mb-12">
-                <h2 class="max-lg:text-3xl text-4xl font-bold text-gray-800">
-                    Why Choose Our Travel Website & App Solutions
+            <div data-aos="fade-left">
+                <span class="text-blue-600 font-bold tracking-widest text-sm uppercase">End-to-End Development</span>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-6">
+                    Build Your Travel Platform <br>
+                    <span class="text-blue-600">With Powerful Features</span>
                 </h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
-                    We craft innovative, user-friendly, and high-performance platforms for the travel industry.
-                    Here’s what sets our services apart.
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    We design and develop feature-rich, high-performance travel portals and apps — integrating booking engines, payment systems, and customer-friendly tools that streamline your business.
+                </p>
+
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-blue-600 text-xl flex-shrink-0">01</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Custom Travel Portals</h3>
+                            <p class="text-slate-500 mt-1">Personalized websites for travel agencies, tour operators, and booking companies with your exact branding.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-blue-600 text-xl flex-shrink-0">02</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Online Booking & Payments</h3>
+                            <p class="text-slate-500 mt-1">Integrated booking systems with secure payment gateways for flights, hotels, and tours.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-blue-600 text-xl flex-shrink-0">03</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Customer Management Tools</h3>
+                            <p class="text-slate-500 mt-1">Manage clients, reservations, and itineraries with an intuitive, easy-to-use backend dashboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="w-[85%]  mx-auto">
+
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-blue-600 font-bold tracking-widest text-sm uppercase">Portfolio</span>
+                <h2 class="mt-4 text-4xl md:text-5xl font-bold text-slate-900">Our Tours & Travel Project</h2>
+                <p class="mt-4 text-lg text-slate-500 max-w-2xl mx-auto">
+                    Discover our premium travel websites designed to inspire and connect travelers worldwide, built for conversions.
                 </p>
             </div>
 
-            <!-- Feature Grid -->
-            <div class="grid grid-cols-4 max-md:grid-cols-1 max-lg:grid-cols-2 gap-8 text-center">
-
-                <!-- Feature 1 -->
-                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                    <i class="fa-solid fa-laptop-code text-blue-600 text-5xl"></i>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Custom Travel Portals</h3>
-                    <p class="text-gray-600 text-sm">
-                        Fully tailored websites and apps designed to match your brand and meet your business goals.
-                    </p>
+            <div class="relative max-w-5xl mx-auto" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="w-full h-[300px] md:h-[550px] bg-slate-100 rounded-lg overflow-hidden relative">
+                    <img src="/asset/bnr/10.png" alt="Travel Website Portfolio" class="w-full h-full object-cover object-top ">
                 </div>
+            </div>
 
-                <!-- Feature 2 -->
-                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                    <i class="fa-solid fa-calendar-check text-blue-600 text-5xl text-light mb-6"></i>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Integrated Booking Systems</h3>
-                    <p class="text-gray-600 text-sm">
-                        Real-time booking for flights, hotels, tours, and activities with secure payment gateways.
-                    </p>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-900 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-600 rounded-full blur-[150px] opacity-30"></div>
+
+        <div class="w-[85%]  mx-auto relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Development Process</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+                    We follow a structured yet flexible process to bring your travel platform to life — ensuring every stage from idea to launch runs smoothly.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-colors duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold mb-6">1</div>
+                    <h3 class="text-xl font-bold mb-2">Discovery & Strategy</h3>
+                    <p class="text-slate-400 text-sm">We analyze your travel business needs, target audience, and required API integrations.</p>
                 </div>
-
-                <!-- Feature 3 -->
-                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                    <i class="fa-solid fa-network-wired text-blue-600 text-5xl text-light mb-6"></i>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">API & Travel Data Integration</h3>
-                    <p class="text-gray-600 text-sm">
-                        Connect with global travel suppliers for live prices, availability, and itinerary management.
-                    </p>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-colors duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold mb-6">2</div>
+                    <h3 class="text-xl font-bold mb-2">Design & Prototyping</h3>
+                    <p class="text-slate-400 text-sm">Creating stunning UI/UX layouts tailored to inspire travelers and drive bookings.</p>
                 </div>
-
-                <!-- Feature 4 -->
-                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                    <i class="fa-solid fa-mobile-screen text-blue-600 text-5xl text-light mb-6"></i>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Mobile-Friendly & Scalable</h3>
-                    <p class="text-gray-600 text-sm">
-                        Fully responsive design that looks stunning on every device, ready to grow with your business.
-                    </p>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-colors duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold mb-6">3</div>
+                    <h3 class="text-xl font-bold mb-2">Development & Testing</h3>
+                    <p class="text-slate-400 text-sm">Building the platform with robust code, secure payment gateways, and rigorous QA testing.</p>
                 </div>
-
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-colors duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold mb-6">4</div>
+                    <h3 class="text-xl font-bold mb-2">Launch & Support</h3>
+                    <p class="text-slate-400 text-sm">Deploying your platform securely to the cloud with ongoing AMC support and maintenance.</p>
+                </div>
             </div>
         </div>
     </section>
 
+    <section class="py-24 bg-white relative">
+        <div class="absolute inset-0 bg-dots opacity-30"></div>
+        <div class="w-[85%]  mx-auto relative z-10">
 
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Why Choose Our Solutions</h2>
+                <p class="text-lg text-slate-500 max-w-2xl mx-auto">
+                    We craft innovative, user-friendly, and high-performance platforms for the travel industry. Here’s what sets our services apart.
+                </p>
+            </div>
 
-  
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-3xl mb-6">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-3">Custom Portals</h3>
+                    <p class="text-slate-600 text-sm">Fully tailored websites and apps designed to match your brand and business goals.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-3xl mb-6">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-3">Integrated Booking</h3>
+                    <p class="text-slate-600 text-sm">Real-time booking for flights, hotels, tours, and activities with secure payment gateways.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-3xl mb-6">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-3">API Integration</h3>
+                    <p class="text-slate-600 text-sm">Connect with global travel suppliers for live prices, availability, and management.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-3xl mb-6">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-3">Mobile Scalable</h3>
+                    <p class="text-slate-600 text-sm">Fully responsive design that looks stunning on every device, ready to grow with you.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-20 bg-gradient-to-br from-blue-600 to-indigo-800 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2"></div>
+
+        <div class="w-[90%] max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Power Your Travel Business With Tech That Converts</h2>
+            <p class="text-lg text-blue-100 mb-10">
+                Stop relying on outdated systems. Start boosting bookings, managing tours, and growing your travel brand today.
+            </p>
+            <a href="/get-in-touch" class="inline-block px-10 py-4 bg-white text-blue-700 font-extrabold rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300">
+                Let's Get Started
+            </a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const slider = document.getElementById("featureSlider");
-            const slides = slider.children;
-            let index = 0;
-
-            function autoScroll() {
-                if (window.innerWidth <= 1024) { // Only on mobile/tablet
-                    index = (index + 1) % slides.length;
-                    slider.scrollTo({
-                        left: slides[index].offsetLeft,
-                        behavior: 'smooth'
-                    });
-                }
-            }
-
-            setInterval(autoScroll, 3000); // Change every 3 seconds
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
         });
     </script>
 
-<?php include 'include/marquee.php' ?>
+    <?php include 'include/marquee.php'; ?>
     <?php include "include/upperfooter.php"; ?>
-    <?php include "./include/footer.php" ?>
+    <?php include "include/footer.php"; ?>
+
 </body>
 
 </html>

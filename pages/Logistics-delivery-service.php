@@ -1,220 +1,540 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
 <?php
-$page_title = "Logistics-delivery-service"
+$page_title = "Logistics & Delivery IT Solutions | Rudratech";
+$meta_description = "Rudratech provides smart digital solutions for logistics & delivery businesses including websites, CRM, cloud platforms, automation, and AMC services to streamline operations and scale faster.";
 ?>
 
-<?php include "include/header.php" ?>
-<?php include "include/navbar.php" ?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 
+<?php include "include/header.php"; ?>
 
+<style>
+    /* Apexus Signature Bottom Border Hover Effect */
+    .service-card {
+        position: relative;
+        transition: all 0.3s ease;
+    }
 
+    .service-card::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px;
+        background-color: #0b5df5;
+        /* Accent Color */
+        transition: width 0.4s ease;
+    }
 
-<body>
+    .service-card:hover::after {
+        width: 100%;
+    }
 
-    <div class="relative w-full h-[90vh] max-lg:h-[40vh] max-md:h-[60vh]  flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat"
-        style="background-image: url('/asset/bg.jpg');">
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+</style>
 
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/30 z-0"></div>
+<body class="text-slate-700 bg-slate-50">
 
-        <!-- Content Wrapper -->
-        <div class="relative z-10 container mx-auto w-[85%]">
-            <div class="flex flex-col lg:flex-row gap-8 items-center justify-between w-full">
+    <?php include "include/navbar.php" ?>
 
-                <!-- Left Content Column -->
-                <div class="w-full lg:w-2/3 space-y-6">
+    <div class="relative w-full min-h-[85vh] flex items-center justify-center bg-secondary ">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2940&auto=format&fit=crop"
+                alt="Logistics Digital Transformation"
+                class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/70"></div>
+        </div>
 
+        <div class="relative z-10 w-[85%] mx-auto py-20 flex flex-col items-center justify-center">
 
-                    <div class="space-y-1 ">
-                        <h2 class="text-5xl max-md:text-3xl font-bold lg:text-6xl text-white">
-                            Smart Logistics Software for Seamless Deliveries
-                        </h2>
+            <div class="w-full text-center flex flex-col items-center" data-aos="fade-up" data-aos-duration="1000">
 
-                    </div>
+                <div class="flex items-center justify-center gap-4 mb-6">
+                    <div class="h-[2px] w-8 md:w-12 bg-blue-500 "></div>
+                    <span class="text-white font-bold tracking-widest text-sm uppercase">Smart Digital Solutions</span>
+                    <div class="h-[2px] w-8 md:w-12 bg-blue-500 "></div>
+                </div>
 
-                    <div class="h-1 w-32 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-6">
+                    Digital Transformation for <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">Logistics & Delivery</span>
+                </h1>
+
+                <p class="text-lg md:text-xl text-slate-300 leading-relaxed mb-10 font-sans max-w-3xl px-4">
+                    Rudratech empowers logistics and delivery companies with custom web platforms, CRM systems, cloud infrastructure, and automation tools to improve visibility, efficiency, and customer experience.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="/get-in-touch" class="px-8 py-4 bg-blue-600 hover:bg-blue-400 text-white font-bold uppercase tracking-wide transition-all duration-300 flex items-center gap-2">
+                        Get Free Consultation <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="px-8 py-4 bg-transparent border border-white hover:bg-white hover:text-black text-white font-bold uppercase tracking-wide transition-all duration-300">
+                        Explore Solutions
+                    </a>
                 </div>
 
             </div>
         </div>
     </div>
 
-    <!-- Section Header -->
-    <section class="py-20  max-lg:py-12  text-center">
-        <div class="w-[80%] max-lg:w-[85%] mx-auto mb-16  max-lg:mb-8">
-            <h2 class="text-4xl max-md:text-2xl font-bold mb-4">Why Choose Rudratech's<br>Logistics & Delivery Solutions?</h2>
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto max-md:text-sm max-md:w-full ">
-                The logistics industry is growing rapidly. Our modern solutions ensure you stay ahead with optimized delivery, real-time tracking, and scalable apps tailored to your business needs.
-            </p>
-        </div>
+    <section class="py-20 bg-white">
+        <div class="w-[85%] mx-auto">
 
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center">
 
-        <!-- Feature Blocks -->
-        <div class="w-[80%]  max-md:w-[85%]  mx-auto  grid grid-cols-3 max-md:grid-cols-1 gap-6 max-lg:gap-4">
-
-            <!-- Feature 1 -->
-            <div class="relative rounded-lg overflow-hidden shadow-md group">
-                <img src="/asset/imgi_160_opt1.png" alt="Market Share" class="w-full h-[50vh] max-lg:h-[20vh] max-md:h-[30vh] object-cover transition-transform duration-300 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-end p-4">
-                    <h4 class="text-cyan-300 text-sm font-semibold">GREATER MARKET SHARE</h4>
-                    <p class="text-white text-sm">Logistics & delivery holds the <strong>highest market share of 35%</strong>.</p>
+                <div class="flex flex-col items-center group">
+                    <div class="w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center text-white text-3xl mb-6 shadow-lg shadow-orange-500/30 transform group-hover:-translate-y-2 transition-all duration-300">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Fast & Reliable Shipping</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed max-w-xs">
+                        Ensure timely deliveries with optimized routes and real-time tracking.
+                    </p>
                 </div>
-            </div>
 
-            <!-- Feature 2 -->
-            <div class="relative rounded-lg overflow-hidden shadow-md group">
-                <img src="/asset/image/funding.webp" alt="Funding" class="w-full h-[50vh] max-lg:h-[20vh] max-md:h-[30vh] object-cover transition-transform duration-300 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-end p-4">
-                    <h4 class="text-cyan-300 text-sm font-semibold">HIGHER FUNDING CHANCES</h4>
-                    <p class="text-white text-sm">Startups raised <strong>$20 million+</strong> in logistics funding in <strong>2020</strong>.</p>
+                <div class="flex flex-col items-center group">
+                    <div class="w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center text-white text-3xl mb-6 shadow-lg shadow-orange-500/30 transform group-hover:-translate-y-2 transition-all duration-300">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Global Reach</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed max-w-xs">
+                        Seamlessly connect to a worldwide network for international logistics.
+                    </p>
                 </div>
-            </div>
 
-            <!-- Feature 3 -->
-            <div class="relative rounded-lg overflow-hidden shadow-md group">
-                <img src="/asset/imgi_161_opt3.png" alt="Growth" class="w-full h-[50vh] max-lg:h-[20vh] max-md:h-[30vh] object-cover transition-transform duration-300 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-end p-4">
-                    <h4 class="text-cyan-300 text-sm font-semibold">EXPONENTIAL GROWTH</h4>
-                    <p class="text-white text-sm">Logistics market to grow by <strong>$287.1 billion by <br> 2024</strong>.</p>
+                <div class="flex flex-col items-center group">
+                    <div class="w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center text-white text-3xl mb-6 shadow-lg shadow-orange-500/30 transform group-hover:-translate-y-2 transition-all duration-300">
+                        <i class="fa-solid fa-box-archive"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Secure Handling</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed max-w-xs">
+                        Guaranteed safe transport for all your packages, big or small.
+                    </p>
                 </div>
+
+                <div class="flex flex-col items-center group">
+                    <div class="w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center text-white text-3xl mb-6 shadow-lg shadow-orange-500/30 transform group-hover:-translate-y-2 transition-all duration-300">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Efficient Operations</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed max-w-xs">
+                        Streamline your supply chain with our advanced logistics solutions.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <section class=" bg-gradient-to-r from-blue-400 to-blue-100 flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20  relative overflow-hidden">
-        <!-- Left: Image -->
-        <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
-            <img src="/asset/imgi_17_truck.png" alt="Logistics App" class="max-w-xs w-full h-auto max-lg:h-52 max-lg:object-contain" />
+
+    <section class="relative pt-24 pb-12 bg-white  overflow-hidden font-sans">
+
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-full text-center z-0 pointer-events-none select-none overflow-hidden">
+            <span class="text-[12rem] md:text-[18rem] font-black text-slate-200/60 leading-none tracking-tighter">
+                PORTFOLIO
+            </span>
         </div>
 
-        <!-- Right: Content -->
-        <div class="w-full md:w-1/2 text-center md:text-left space-y-6 py-12">
-            <h2 class="text-2xl md:text-2xl font-semibold leading-snug">
-                <span class="font-semibold">Launch Your On-Demand Logistics App</span><br>
-                To Keep Pace With The Growing Logistics Industry
+        <div class="relative w-[85%] mx-auto z-10">
+
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
+                    Our Pre-Built Logistics Solutions
+                </h2>
+                <p class="text-lg text-slate-500 max-w-2xl mx-auto">
+                    Deploy powerful, ready-to-use logistics websites and software dashboards with a single click. Customize everything to match your brand.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
+
+                <div class="flex flex-col items-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative w-full aspect-[4/2] bg-slate-800 rounded-[2rem] p-3  shadow-2xl transition-transform duration-500 group-hover:-translate-y-2">
+                        <div class="absolute top-1/2 left-2 md:left-3 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-slate-600 hidden md:block"></div>
+                        <div class="w-full h-full bg-white rounded-xl overflow-hidden relative border border-slate-700">
+                            <img src="/asset/software/animocare.jpg"
+                                alt="Logistics Website Template"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+
+                            <div class="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent pointer-events-none"></div>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-2">Corporate Website</h3>
+                    <p class="text-slate-500 text-center text-sm px-4">Informative portals with tracking integrations and quote request forms.</p>
+                </div>
+
+                <div class="flex flex-col items-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative w-full aspect-[4/2] bg-slate-800 rounded-[2rem] p-3  shadow-2xl transition-transform duration-500 group-hover:-translate-y-2">
+                        <div class="absolute top-1/2 left-2 md:left-3 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-slate-600 hidden md:block"></div>
+                        <div class="w-full h-full bg-slate-100 rounded-xl overflow-hidden relative border border-slate-700">
+                            <img src="/asset/software/nk.jpg"
+                                alt="Logistics Software Dashboard"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+
+
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-2">Admin Login</h3>
+                    <p class="text-slate-500 text-center text-sm px-4">Powerful CRM and dispatch management software for your internal team.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        /* Custom utility to hide scrollbar for the horizontal showcase */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Light theme vertical stripes background (mimicking the dark theme stripes from your image) */
+        .bg-vertical-stripes-light {
+            background-color: #ffffff;
+            background-image: linear-gradient(to right, #f1f5f9 1px, transparent 1px);
+            background-size: 80px 100%;
+        }
+    </style>
+
+    <section class="relative w-full py-32 md:py-40 bg-fixed bg-center bg-cover bg-no-repeat"
+        style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2940&auto=format&fit=crop');">
+
+        <div class="absolute inset-0 bg-slate-900/70 z-0"></div>
+
+        <div class="relative z-10 w-[90%] max-w-4xl mx-auto text-center" data-aos="fade-up">
+            <span class="inline-block py-1 px-4 mb-6 text-sm font-bold tracking-widest text-blue-500  uppercase bg-white/10 backdrop-blur-sm border border-white/20 rounded-full">
+                Enterprise Grade Infrastructure
+            </span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                Scale Your Logistics Operations With Absolute Confidence.
             </h2>
-            <a href="#get-started" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition">
-
-                Get Started
+            <p class="text-lg md:text-xl text-slate-300 leading-relaxed mb-10">
+                From warehouse floors to last-mile delivery, our digital systems are engineered to handle the complexities of modern supply chains. Minimize downtime, maximize transparency.
+            </p>
+            <a href="/get-in-touch" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 hover:bg-slate-100 font-bold uppercase tracking-wide rounded shadow-xl transition-transform hover:-translate-y-1">
+                Talk To A Solutions Architect <i class="fa-solid fa-arrow-right text-blue-500 "></i>
             </a>
         </div>
-
-    </section>
-    <!-- Services Section -->
-    <section class="w-[80%]  max-md:w-[85%]  mx-auto py-20  text-center  max-lg:py-12 ">
-        <h2 class="text-3xl md:text-4xl font-semibold mb-4">End-to-End Logistics Service Offerings</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
-            With our logistics app development services, we help businesses simplify their processes & minimize operational hurdles.
-        </p>
-
-        <div class="grid md:grid-cols-3 gap-6">
-
-            <!-- Supply Chain -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up">
-                <div class="mb-4 text-blue-600">
-                    <!-- Truck Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M9 17a3 3 0 11-6 0 3 3 0 016 0zm12 0a3 3 0 11-6 0 3 3 0 016 0z" />
-                        <path d="M13 17V6a1 1 0 00-1-1H3a1 1 0 00-1 1v11h1.18a3 3 0 005.64 0h6.36a3 3 0 005.64 0H21a1 1 0 001-1v-4a1 1 0 00-.293-.707l-3-3A1 1 0 0018 8h-5" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Supply Chain Management</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Get control over your production process, demand & supplies to serve your customers efficiently.</p>
-            </div>
-
-            <!-- Fleet & Driver -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up" data-aos-delay="100">
-                <div class="mb-4 text-blue-600">
-                    <!-- User Group Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M17 20h5v-2a4 4 0 00-5-3.87M9 20H4v-2a4 4 0 015-3.87M12 12a4 4 0 100-8 4 4 0 000 8zm6 0a4 4 0 100-8 4 4 0 000 8zM6 12a4 4 0 100-8 4 4 0 000 8z" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Fleet & Driver Management</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Manage your fleet & drivers & boost productivity with live tracking, alerts, route details & optimization.</p>
-            </div>
-
-            <!-- Last-Mile -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up" data-aos-delay="200">
-                <div class="mb-4 text-blue-600">
-                    <!-- Location Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M12 11c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z" />
-                        <path d="M12 22s8-5.5 8-12a8 8 0 10-16 0c0 6.5 8 12 8 12z" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Last-Mile Delivery</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Empower your last mile deliveries with efficiency & enhanced customer experience.</p>
-            </div>
-
-            <!-- Inventory -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up" data-aos-delay="300">
-                <div class="mb-4 text-blue-600">
-                    <!-- Chart Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M4 6h16M4 10h16M4 14h10M4 18h10" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Inventory Management</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Improve transparency by aligning inventory-related data into a unified platform.</p>
-            </div>
-
-            <!-- Shipment -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up" data-aos-delay="400">
-                <div class="mb-4 text-blue-600">
-                    <!-- Send Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M3 10l18-6-6 18-2-8-8-4z" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Shipment & Transportation</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Streamline shipments & reduce costs using AI-powered insights and automation.</p>
-            </div>
-
-            <!-- Warehouse -->
-            <div class="bg-white border border-blue-200 rounded-lg p-6 text-left shadow-md" data-aos="fade-up" data-aos-delay="500">
-                <div class="mb-4 text-blue-600">
-                    <!-- Home Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M3 9l9-6 9 6v9a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-                        <path d="M9 22V12h6v10" />
-                    </svg>
-                </div>
-                <h4 class="font-bold text-lg mb-2">Warehouse Management</h4>
-                <p class="text-sm text-gray-600 max-lg:text-xs ">Track & manage goods throughout your warehouse without manual dependency.</p>
-            </div>
-        </div>
-
-        <!-- CTA -->
-        <div class="mt-16 text-center" data-aos="fade-up" data-aos-delay="600">
-            <h3 class="text-xl md:text-2xl font-semibold mb-2">Need To Digitize Some Other Transportation & Logistics Operations?</h3>
-            <p class="text-sm text-gray-600 mb-4">Rudratech offers custom tech solutions to streamline your logistics journey.</p>
-            <a href="/get-in-touch" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition">
-                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 10.882l7.997-4.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                    <path d="M18 8.118l-8 5-8-5V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
-                Let’s Discuss
-            </a>
-        </div>
-
     </section>
 
 
 
-    <!-- Add before </body> -->
+    <style>
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #2294ff !important;
+        }
+    </style>
+
+    <section class="relative py-24 bg-vertical-stripes-light overflow-hidden border-t border-slate-200">
+        <div class="w-[85%] mx-auto">
+
+            <div class="text-center mb-10" data-aos="fade-up">
+                <div class="flex items-center justify-center gap-2 mb-4">
+                    <div class="w-2 h-2 bg-blue-500"></div>
+                    <span class="text-sm font-bold text-slate-500 uppercase tracking-widest">Inside The Platform</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+                    Explore Our Powerful <br> Logistics Dashboard
+                </h2>
+                <p class="text-slate-500 max-w-3xl mx-auto text-lg leading-relaxed">
+                    Get a glimpse into the software that powers modern supply chains. Our intuitive interface gives your team complete control over fleet management, route optimization, and real-time delivery tracking—all from one centralized hub.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-16" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center gap-2 text-slate-700 font-semibold text-sm md:text-base">
+                    <i class="fa-solid fa-circle-check text-blue-500 text-xl"></i> Live Fleet Tracking
+                </div>
+                <div class="flex items-center gap-2 text-slate-700 font-semibold text-sm md:text-base">
+                    <i class="fa-solid fa-circle-check text-blue-500 text-xl"></i> Smart Route Optimization
+                </div>
+                <div class="flex items-center gap-2 text-slate-700 font-semibold text-sm md:text-base">
+                    <i class="fa-solid fa-circle-check text-blue-500 text-xl"></i> Automated Dispatching
+                </div>
+                <div class="flex items-center gap-2 text-slate-700 font-semibold text-sm md:text-base">
+                    <i class="fa-solid fa-circle-check text-blue-500 text-xl"></i> Comprehensive Analytics
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme pb-8" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="item bg-white rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] border border-slate-200 overflow-hidden group hover:-translate-y-2 transition-transform duration-300 mx-2 my-4">
+                    <div class="h-[250px] w-full overflow-hidden bg-slate-100">
+                        <img src="/asset/software/nk (4).jpg"
+                            alt="Live Dispatch Board" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+                <div class="item bg-white rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] border border-slate-200 overflow-hidden group hover:-translate-y-2 transition-transform duration-300 mx-2 my-4">
+                    <div class="h-[250px] w-full overflow-hidden bg-slate-100">
+                        <img src="/asset/software/nk.jpg"
+                            alt="Fleet Management View" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+                <div class="item bg-white rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] border border-slate-200 overflow-hidden group hover:-translate-y-2 transition-transform duration-300 mx-2 my-4">
+                    <div class="h-[250px] w-full overflow-hidden bg-slate-100">
+                        <img src="/asset/software/nk (1).jpg"
+                            alt="Live Tracking Map" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+                <div class="item bg-white rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] border border-slate-200 overflow-hidden group hover:-translate-y-2 transition-transform duration-300 mx-2 my-4">
+                    <div class="h-[250px] w-full overflow-hidden bg-slate-100">
+                        <img src="/asset/software/nk (2).jpg"
+                            alt="Analytics and Reports" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+                <div class="item bg-white rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] border border-slate-200 overflow-hidden group hover:-translate-y-2 transition-transform duration-300 mx-2 my-4">
+                    <div class="h-[250px] w-full overflow-hidden bg-slate-100">
+                        <img src="/asset/software/nk (3).jpg"
+                            alt="Order Management Module" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-8 text-center" data-aos="fade-up">
+                <a href="/get-in-touch" class="inline-block px-10 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded shadow-lg shadow-blue-600/30 transition-all duration-300 transform hover:-translate-y-1">
+                    Request a Live Demo
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <style>
+        /* FAQ Accordion Styles */
+        details>summary {
+            list-style: none;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+
+    <section class="py-24 bg-white overflow-hidden border-t border-gray-100">
+        <div class="w-[85%] mx-auto">
+
+            <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+                <div class="flex items-center justify-center gap-2 mb-4 text-sm font-semibold text-slate-500">
+                    <div class="w-2 h-2 bg-blue-500"></div>
+                    <span class="uppercase tracking-widest">End-to-End ERP</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight leading-tight">
+                    Complete Control Over Freight, Customs & Finances
+                </h2>
+                <p class="text-lg text-slate-500 leading-relaxed">
+                    A unified logistics ERP designed to manage everything from Port Transit and Transport dispatch to advanced P&L and Cashbook accounting.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+                <div data-aos="fade-right">
+                    <div class="flex items-center gap-2 mb-4 text-sm font-semibold text-slate-500">
+                        <div class="w-2 h-2 bg-blue-500"></div>
+                        <span class="uppercase tracking-widest">Intelligent Operations</span>
+                    </div>
+
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+                        Streamline Transport & Operational Accounting
+                    </h3>
+
+                    <p class="text-slate-600 mb-10 leading-relaxed text-lg">
+                        Stop using separate software for dispatch and accounting. Our platform seamlessly connects your ETD tracking, Custom Transitor workflows, Purchases, and Sales into one automated system, giving you real-time visibility into your Profit & Loss.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-4 text-slate-800 font-medium">
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Transport & Dispatch
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Customs & Port Transit
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Purchase & Sales Orders
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Automated P&L Reports
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Cashbook & Expense Tracking
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-white text-xs"></i>
+                            </div>
+                            Payment & Capital Management
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative w-full h-[500px] lg:h-[600px]" data-aos="fade-left">
+                    <div class="absolute top-10 right-0 w-4/5 h-auto bg-white rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-slate-100 overflow-hidden z-10">
+                        <div class="h-6 bg-slate-100 flex items-center px-3 gap-1.5 border-b border-slate-200">
+                            <div class="w-2 h-2 rounded-full bg-red-400"></div>
+                            <div class="w-2 h-2 rounded-full bg-amber-400"></div>
+                            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                        </div>
+                        <img src="/asset/software/nk.jpg" alt="Logistics ERP Dashboard" class="w-full h-full object-cover">
+                    </div>
+
+                    <div class="absolute bottom-10 left-0 w-2/5 md:w-1/2 bg-white rounded-xl shadow-[0_30px_60px_rgba(0,0,0,0.15)] border border-slate-100 overflow-hidden z-20 transform -translate-y-4">
+                        <img src="/asset/software/nk (3).jpg" alt="Financial Reports View" class="w-full h-48 object-cover object-left-top">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-50 border-t border-slate-200 font-sans">
+        <div class="w-[85%] md:w-[60%]  mx-auto">
+
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-slate-500">
+                    Everything you need to know about our logistics solutions and software implementation.
+                </p>
+            </div>
+
+            <div class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+
+                <details class="group bg-white border border-slate-200 rounded-xl shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-slate-900 text-lg">
+                        <span>What is included in your custom logistics software?</span>
+                        <span class="transition group-open:rotate-180 text-blue-500 ">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                        Our software is modular. A standard build includes a central admin dashboard, order ingestion & management, automated dispatch, live fleet tracking, and an electronic Proof of Delivery (ePOD) system. We also provide dedicated driver mobile apps and a customer tracking portal.
+                    </div>
+                </details>
+
+                <details class="group bg-white border border-slate-200 rounded-xl shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-slate-900 text-lg">
+                        <span>Can the platform integrate with our existing ERP or accounting tools?</span>
+                        <span class="transition group-open:rotate-180 text-blue-500 ">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                        Yes, absolutely. We build our solutions with modern API architectures, allowing seamless integration with popular tools like SAP, Oracle, QuickBooks, Shopify, and other third-party CRM or warehouse management systems (WMS).
+                    </div>
+                </details>
+
+                <details class="group bg-white border border-slate-200 rounded-xl shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-slate-900 text-lg">
+                        <span>Do you provide a mobile app for drivers?</span>
+                        <span class="transition group-open:rotate-180 text-blue-500 ">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                        Yes. We develop native or cross-platform mobile apps for your delivery agents. The app allows them to receive route assignments, navigate using GPS, collect digital signatures, take photos of delivered items, and communicate with dispatch.
+                    </div>
+                </details>
+
+                <details class="group bg-white border border-slate-200 rounded-xl shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-slate-900 text-lg">
+                        <span>Is the platform scalable as our fleet grows?</span>
+                        <span class="transition group-open:rotate-180 text-blue-500 ">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                        We host our logistics software on highly scalable cloud infrastructure (like AWS or Google Cloud). Whether you are managing 10 vehicles or scaling up to 1,000+, the system will automatically handle the increased data load without performance drops.
+                    </div>
+                </details>
+
+                <details class="group bg-white border border-slate-200 rounded-xl shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-slate-900 text-lg">
+                        <span>Do you provide ongoing support and maintenance (AMC)?</span>
+                        <span class="transition group-open:rotate-180 text-blue-500 ">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                        Yes, we offer comprehensive Annual Maintenance Contracts (AMC). This includes 24/7 server monitoring, security patching, regular database backups, bug fixes, and continuous technical support to ensure your business experiences zero downtime.
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false, // Turn off prev/next buttons
+                dots: true, // Turn on dots pagination
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1 // 1 item on mobile
+                    },
+                    600: {
+                        items: 2 // 2 items on tablets
+                    },
+                    1000: {
+                        items: 3 // 4 items on desktop
+                    }
+                }
+            });
+        });
+    </script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 50
+        });
     </script>
+
     <?php include 'include/marquee.php' ?>
     <?php include "include/upperfooter.php"; ?>
     <?php include "include/footer.php" ?>
-
-
 
 </body>
 

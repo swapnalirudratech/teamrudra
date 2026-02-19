@@ -1,220 +1,229 @@
 <?php
-$page_title = "amc"
+$page_title = "AMC Services | RudraTech";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <?php include "include/header.php" ?>
 
+<body class="bg-white font-sans text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900">
 
-
-<body>
     <?php include "include/navbar.php" ?>
 
-    <section class="bg-white">
-        <!-- HERO -->
-        <section class="relative  flex items-center justify-center text-center bg-black overflow-hidden">
-            <img src="/asset/amc.png" alt="Annual Maintenance Contract" class=" inset-0 w-full h-full  max-md:h-[30vh] max-md:object-left  object-cover">
-            <!-- <div class="relative z-10 w-[80%] max-lg:w-[85%] mx-auto">
-                <h1 class="text-4xl md:text-5xl font-bold text-white tracking-wide">
-                    Annual Maintenance Contract (AMC)
+    <section class="relative w-full min-h-[85vh] flex items-center bg-white overflow-hidden py-16 md:py-0">
+        <div class="absolute right-0 top-0 w-[40%] h-full bg-slate-50/50 clip-path-slant hidden lg:block"></div>
+
+        <div class="w-[90%] md:w-[85%] mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center relative z-10">
+
+            <div class="space-y-6 md:space-y-8" data-aos="fade-up" data-aos-duration="1000">
+                <div class="inline-flex items-center space-x-2 border border-slate-200 rounded-full px-3 py-1.5 md:px-4 md:py-1.5 bg-white shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                    <span class="text-[10px] md:text-xs font-bold tracking-widest uppercase text-slate-500">Annual Maintenance Contract</span>
+                </div>
+
+                <h1 class="text-4xl md:text-5xl lg:text-7xl font-light text-slate-900 leading-[1.15] lg:leading-[1.1] tracking-tight">
+                    Uninterrupted <br>
+                    <span class="font-bold">Business Continuity.</span>
                 </h1>
-                <div class="w-24 h-0.5 bg-blue-500 mx-auto mb-8 mt-4"></div>
-                <nav class="text-sm text-gray-400">
-                    <ol class="flex justify-center space-x-2">
-                        <li><a href="/" class="hover:text-white transition">Home</a></li>
-                        <li>/</li>
-                        <li>Annual Maintenance Contract</li>
-                    </ol>
-                </nav>
-            </div> -->
-        </section>
 
-        <!-- Reliable & Proactive AMC Services -->
-        <section id="amc-intro" class="bg-white py-20 scroll-mt-24 max-lg:py-12">
-            <div class="w-[80%] max-lg:w-[85%] mx-auto">
-                <div class="grid lg:grid-cols-2 gap-8 items-start">
-                    <div class="space-y-4">
-                        <div class="inline-flex items-center bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium text-blue-700">
-                            <i class="fas fa-cogs mr-2"></i>
-                            Trusted AMC Service Provider
-                        </div>
-
-                        <h1 class="max-lg:text-3xl text-5xl font-medium mt-2 mb-6">
-                            Reliable & Proactive <span class="text-blue-600">Maintenance Services</span>
-                        </h1>
-
-                        <div class="space-y-4 text-gray-600 leading-relaxed ">
-                            <p>
-                                RudraTech offers proactive and end-to-end Annual Maintenance Contracts (AMC) to ensure the reliability, uptime, and performance of your IT infrastructure.
-                            </p>
-                            <p>
-                                With our experienced professionals, advanced tools, and SLA-driven approach, we ensure your systems stay optimized and downtime stays minimal.
-                                Our comprehensive AMC covers hardware, software, networking, and cloud maintenance.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="space-y-12 flex flex-col items-center max-lg:w-full ">
-                        <div class="relative overflow-hidden rounded-2xl shadow-xl max-lg:w-full">
-                            <img src="/asset/amc1.webp" class="w-full h-[60vh] max-lg:h-[30vh]  object-cover" alt="AMC Services">
-                        </div>
-                        <a href="/get-in-touch" class="bg-blue-700 group text-center text-white px-8 py-4 w-80 rounded-lg font-semibold hover:bg-blue-800 transition">
-                            Get Started Today <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Preventive Maintenance Process -->
-        <section id="preventive" class="bg-gray-50 py-20 scroll-mt-24 max-lg:py-12">
-            <div class="w-[80%] max-lg:w-[85%] mx-auto">
-                <div class="grid lg:grid-cols-2 gap-16 max-md:gap-8 items-start">
-                    <div class="relative overflow-hidden rounded-2xl shadow-xl max-lg:order-2">
-                        <img src="/asset/amc2.jpeg" class="w-full h-[60vh] max-lg:h-[30vh] object-cover" alt="Maintenance Process">
-                    </div>
-
-                    <div class="space-y-8">
-                        <div class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium">
-                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
-                            1. Preventive Maintenance
-                        </div>
-
-                        <h2 class="max-lg:text-3xl text-5xl font-medium mt-2 mb-6">
-                            Proactive Care for Maximum Uptime
-                        </h2>
-
-                        <div class="space-y-4 text-gray-600 leading-relaxed ">
-                            <p>
-                                We perform regular health checks, updates, and optimizations to detect potential failures before they occur, ensuring your systems run smoothly.
-                            </p>
-
-                            <p>
-                                Our preventive maintenance approach reduces downtime, extends equipment life, and optimizes performance — delivering consistent results across your IT infrastructure.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gap-2 mt-12 grid md:grid-cols-2 lg:grid-cols-3 text-sm">
-                    <div class="flex items-center space-x-3 p-4 bg-white rounded-lg border border-gray-200">
-                        <div class="w-2 h-2 bg-blue-700 rounded-full"></div>
-                        <span class="font-medium text-gray-800">Scheduled System Checkups</span>
-                    </div>
-                    <div class="flex items-center space-x-3 p-4 bg-white rounded-lg border border-gray-200">
-                        <div class="w-2 h-2 bg-blue-700 rounded-full"></div>
-                        <span class="font-medium text-gray-800">Early Issue Detection</span>
-                    </div>
-                    <div class="flex items-center space-x-3 p-4 bg-white rounded-lg border border-gray-200">
-                        <div class="w-2 h-2 bg-blue-700 rounded-full"></div>
-                        <span class="font-medium text-gray-800">Performance Optimization</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Comprehensive AMC Support -->
-        <section id="support" class="bg-white py-20 max-lg:py-12 scroll-mt-24">
-            <div class="w-[80%] max-lg:w-[85%] mx-auto">
-                <div class="text-center space-y-8 mb-16 max-md:mb-8">
-                    <div class="inline-flex items-center bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium text-blue-700">
-                        <span class="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
-                        2. Comprehensive AMC Support
-                    </div>
-
-                    <h2 class="max-lg:text-3xl text-5xl font-medium mt-2 mb-6">
-                        Complete Maintenance & Support
-                    </h2>
-
-                    <p class="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                        We deliver round-the-clock support through preventive, corrective, and on-demand services — keeping your operations running without interruption.
-                    </p>
-                </div>
-
-                <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-3">
-                    <div class="bg-white p-2 rounded-xl border border-gray-200 hover:shadow-lg transition">
-                        <img src="/asset/amc3.jpg" class="w-full h-[40vh] max-lg:h-[30vh]  object-cover rounded-lg">
-                        <div class="p-3 text-center">
-                            <h3 class="font-semibold text-gray-900">Remote & Onsite Support</h3>
-                            <p class="text-gray-600 text-sm">Flexible support for all devices and networks.</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white p-2 rounded-xl border border-gray-200 hover:shadow-lg transition">
-                        <img src="/asset/amc4.jpg" class="w-full h-[40vh] max-lg:h-[30vh]  object-cover rounded-lg">
-                        <div class="p-3 text-center">
-                            <h3 class="font-semibold text-gray-900">Hardware & Software Maintenance</h3>
-                            <p class="text-gray-600 text-sm">End-to-end hardware repairs and software updates.</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white p-2 rounded-xl border border-gray-200 hover:shadow-lg transition">
-                        <img src="/asset/amc5.jpg" class="w-full h-[40vh] max-lg:h-[30vh]  object-cover rounded-lg">
-                        <div class="p-3 text-center">
-                            <h3 class="font-semibold text-gray-900">Network Management</h3>
-                            <p class="text-gray-600 text-sm">Ensure uninterrupted connectivity and performance.</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white p-2 rounded-xl border border-gray-200 hover:shadow-lg transition">
-                        <img src="/asset/amc6.jpg" class="w-full h-[40vh] max-lg:h-[30vh]  object-cover rounded-lg">
-                        <div class="p-3 text-center">
-                            <h3 class="font-semibold text-gray-900">SLA-Based Response</h3>
-                            <p class="text-gray-600 text-sm">Guaranteed resolution time with transparent SLAs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Monitoring & Reporting -->
-        <section id="monitoring" class="bg-gray-50 py-20 max-lg:py-12 scroll-mt-24">
-            <div class="w-[80%] max-lg:w-[85%] mx-auto text-center">
-                <div class="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium mb-6">
-                    <span class="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
-                    3. Monitoring & Reporting
-                </div>
-                <h2 class="max-lg:text-3xl text-5xl font-medium mb-6">Performance Tracking & Insightful Reports</h2>
-                <p class="text-gray-600 max-w-4xl mx-auto leading-relaxed mb-16 max-md:mb-8">
-                    RudraTech’s monitoring system ensures real-time tracking, incident alerts, and performance analytics — helping you make data-driven decisions for your IT assets.
+                <p class="text-base md:text-lg text-slate-500 max-w-lg leading-relaxed font-light">
+                    We don't just fix problems; we prevent them. Secure your IT infrastructure with RudraTech's proactive, SLA-driven maintenance ecosystem.
                 </p>
 
-                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 max-lg:gap-2">
-                    <div class="bg-white p-8 rounded-xl border hover:shadow-lg transition">
-                        <h3 class="font-semibold text-gray-900 mb-2">24/7 Monitoring</h3>
-                        <p class="text-gray-600">Constant surveillance for system uptime and threats.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-xl border hover:shadow-lg transition">
-                        <h3 class="font-semibold text-gray-900 mb-2">Automated Alerts</h3>
-                        <p class="text-gray-600">Instant notifications for potential risks and failures.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-xl border hover:shadow-lg transition">
-                        <h3 class="font-semibold text-gray-900 mb-2">Detailed Reports</h3>
-                        <p class="text-gray-600">Monthly insights on performance, uptime, and recommendations.</p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4">
+                    <a href="/get-in-touch" class="w-full sm:w-auto text-center px-8 py-4 bg-slate-900 text-white font-medium rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-xl hover:shadow-blue-200">
+                        Get Started
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="relative h-full flex items-center justify-center mt-6 lg:mt-0" data-aos="fade-left" data-aos-duration="1200">
+                <div class="relative w-full aspect-[4/3] bg-slate-100 rounded-2xl overflow-hidden shadow-2xl">
+
+                    <img src="/asset/software/amc.jpeg" alt="IT Infrastructure Maintenance" class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-1000 transform hover:scale-105">
+
+                    <div class="absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-auto md:w-auto bg-white/95 md:bg-white/90 backdrop-blur-md p-4 md:p-6 rounded-xl shadow-lg border border-slate-100 max-w-xs mx-auto md:mx-0">
+                        <div class="flex items-center gap-4 mb-0 md:mb-2">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-lg flex-shrink-0">
+                                <i class="fas fa-shield-alt text-lg md:text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm md:text-base">99.9% Uptime</h4>
+                                <p class="text-[10px] md:text-xs text-slate-500">Guaranteed reliability</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </section>
 
-    <!-- Final CTA -->
-    <section class="bg-blue-700 py-10">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-white">
-            <h2 class="max-md:text-lg max-lg:text-2xl text-3xl font-bold mb-4 md:mb-0 max-md:text-center">
-                Ready to Strengthen Your IT Infrastructure?
-            </h2>
-            <a href="/get-in-touch" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
-                Get in Touch
-            </a>
         </div>
     </section>
 
+    <section class="py-24 max-md:py-12  bg-white border-t border-slate-100">
+        <div class="w-[85%] mx-auto">
+            <div class="grid lg:grid-cols-2 gap-20 items-center max-md:gap-10">
+                <div class="order-2 lg:order-1 relative">
+                    <div class="grid grid-cols-2 gap-4 max-md:grid-cols-1">
+                        <img src="/asset/amc3.jpg" class="rounded-2xl object-cover h-[500px] max-md:h-[300px] w-full shadow-lg " data-aos="fade-up">
+                        <img src="/asset/amc5.jpg" class="rounded-2xl object-cover h-[500px] max-md:h-[300px] w-full shadow-lg  mt-8 max-md:mt-0" data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                </div>
 
-    <!-- Add before </body> -->
+                <div class="order-1 lg:order-2 space-y-8" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-6xl font-light text-slate-900">
+                        Beyond <span class="font-bold border-b-2 border-blue-600 pb-1">Fixing.</span> <br>We Optimize.
+                    </h2>
+                    <div class="space-y-6 text-slate-600 font-light leading-relaxed text-lg">
+                        <p>
+                            Traditional support reacts to failures. <strong class="text-slate-900 font-medium">RudraTech proactive AMC</strong> anticipates them. We combine advanced monitoring tools with expert human analysis to ensure your hardware, software, and networks operate at peak efficiency.
+                        </p>
+                    </div>
+
+                    <ul class="space-y-4 mt-6">
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Priority On-site Support</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Asset Lifecycle Management</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Dedicated IT Manager</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 max-md:py-12  bg-slate-50">
+        <div class="w-[85%] mx-auto">
+            <div class="mb-16 max-w-2xl max-md:mb-8">
+                <h2 class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-3">Scope of Work</h2>
+                <h3 class="text-3xl md:text-6xl font-light text-slate-900">Comprehensive <span class="font-bold">Coverage</span></h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-md:gap-4">
+                <div class="md:col-span-1 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center text-slate-900 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-server text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Hardware Maintenance</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Complete diagnostic, repair, and parts replacement for servers, workstations, printers, and storage units. We handle the physical layer so you don't have to.
+                    </p>
+                </div>
+
+                <div class="md:col-span-1 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center text-slate-900 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-code-branch text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Network Optimization</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Router configuration, switch management, and firewall updates. We ensure data flows securely and swiftly across your entire organization.
+                    </p>
+                </div>
+
+                <div class="md:col-span-1 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center text-slate-900 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-laptop-code text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Software Support</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        OS patching, anti-virus updates, and software troubleshooting. We keep your digital environment secure and up-to-date.
+                    </p>
+                </div>
+
+                <div class="md:col-span-3 bg-white p-10 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="md:w-2/3">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-2">Remote & On-Site Hybrid Support</h4>
+                        <p class="text-slate-500">
+                            We solve 80% of issues remotely within minutes. For everything else, our engineers are dispatched immediately to your location.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 flex justify-end">
+                        <div class="flex items-center gap-4 text-sm font-bold text-slate-900">
+                            <span class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div> Remote Desk
+                            </span>
+                            <span class="h-4 w-px bg-slate-300"></span>
+                            <span class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div> Field Engineers
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 max-md:py-12  bg-white">
+        <div class="w-[85%] mx-auto">
+            <div class="text-center mb-16 max-md:mb-8 ">
+                <h2 class="text-3xl lg:text-5xl font-light text-slate-900">The <span class="font-bold">Protocol</span></h2>
+            </div>
+
+            <div class="relative">
+                <div class="absolute top-1/2 left-0 w-full h-px bg-slate-100 -z-10 hidden md:block"></div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-md:gap-4">
+                    <div class="bg-white p-6 border border-slate-100 rounded-xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-16 h-16 mx-auto bg-slate-50 rounded-full flex items-center justify-center font-bold text-xl text-slate-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors border-4 border-white">01</div>
+                        <h3 class="font-bold text-lg mb-2">Audit</h3>
+                        <p class="text-xs text-slate-500">Full infrastructure health check and inventory.</p>
+                    </div>
+
+                    <div class="bg-white p-6 border border-slate-100 rounded-xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-16 h-16 mx-auto bg-slate-50 rounded-full flex items-center justify-center font-bold text-xl text-slate-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors border-4 border-white">02</div>
+                        <h3 class="font-bold text-lg mb-2">Optimize</h3>
+                        <p class="text-xs text-slate-500">Patching, cleaning, and performance tuning.</p>
+                    </div>
+
+                    <div class="bg-white p-6 border border-slate-100 rounded-xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-16 h-16 mx-auto bg-slate-50 rounded-full flex items-center justify-center font-bold text-xl text-slate-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors border-4 border-white">03</div>
+                        <h3 class="font-bold text-lg mb-2">Monitor</h3>
+                        <p class="text-xs text-slate-500">24/7 real-time tracking of critical assets.</p>
+                    </div>
+
+                    <div class="bg-white p-6 border border-slate-100 rounded-xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-16 h-16 mx-auto bg-slate-50 rounded-full flex items-center justify-center font-bold text-xl text-slate-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors border-4 border-white">04</div>
+                        <h3 class="font-bold text-lg mb-2">Report</h3>
+                        <p class="text-xs text-slate-500">Transparent monthly logs and future insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="w-[85%] mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Stop worrying about downtime.</h2>
+            <p class="text-slate-500 mb-10 max-w-xl mx-auto">
+                Join the businesses that trust RudraTech for their critical IT maintenance.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="/get-in-touch" class="px-10 py-4 bg-blue-600 text-white font-bold rounded-full shadow-lg shadow-blue-200 hover:bg-blue-700 hover:-translate-y-1 transition-all">
+                    Get an AMC Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .clip-path-slant {
+            clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+        }
+    </style>
+
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true,
+            offset: 50
+        });
     </script>
 
     <?php include 'include/marquee.php' ?>
